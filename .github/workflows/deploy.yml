@@ -44,10 +44,10 @@ jobs:
             BRANCH="${GITHUB_REF##*/}"
             echo "Push to branch: $BRANCH"
             if [[ "$BRANCH" == "orchid_dev" ]]; then
-              REMOTE_DIR_VAL="/public_html/staging"
+              REMOTE_DIR_VAL="/public_html/staging/"
             else
               # any push to master
-              REMOTE_DIR_VAL="/public_html"
+              REMOTE_DIR_VAL="/public_html/"
             fi
           fi
 
