@@ -1,6 +1,6 @@
 <?php
 $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING'] : '';
-// Extract the 'id2' parameter value test
+// Extract the 'id2' parameter value test848484addjd
 //$id2 = $_REQUEST['id2'] ?? '';
 // Split the id2 string into parts
 //$parts = explode('--', $id2);
