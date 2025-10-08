@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - orchid_dev
-      - main
 
   pull_request:
     types: [closed]
@@ -13,22 +12,24 @@ on:
 
 jobs:
   build-and-deploy:
-    # Skip non-merged PRs
+    # Only run on push to orchid_dev or merged PR into main
     if: >
-      github.event_name == 'push' ||
-      (github.event_name == github.event.pull_request.merged == true)
+      (github.event_name == 'push' && github.ref == 'refs/heads/orchid_dev') ||
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     env:
       LOCAL_SRC: ./
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
 
       - name: Restore file mtimes from Git history
-        uses: chetan/git-restore-mtime-action@v2
+        uses: chetan/git-restore-mtime-action@v2.2
 
       - name: Determine remote directory
         id: set_remote
@@ -39,15 +40,15 @@ jobs:
           echo "Event: $GITHUB_EVENT_NAME"
           if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
             echo "Merged PR into main → deploying to live folder"
-            REMOTE_DIR_VAL="/public_html/"
+            REMOTE_DIR_VAL="/public_html/test-data/"
           else
             BRANCH="${GITHUB_REF##*/}"
             echo "Push to branch: $BRANCH"
             if [[ "$BRANCH" == "orchid_dev" ]]; then
-              REMOTE_DIR_VAL="/public_html/staging/"
+              REMOTE_DIR_VAL="/public_html/staging/data-api/"
             else
-              # any push to master
-              REMOTE_DIR_VAL="/public_html/"
+              # any push to main
+              REMOTE_DIR_VAL="/public_html/test-data/"
             fi
           fi
 
@@ -61,10 +62,12 @@ jobs:
         run: |
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
-          if [ -z "${{ secrets.SSH_PORT }}" ]; then
-            ssh-keyscan -H "${{ secrets.FTP_HOST }}" >> ~/.ssh/known_hosts
+          FTP_HOST="${{ secrets.FTP_HOST }}"
+          SSH_PORT="${{ secrets.SSH_PORT }}"
+          if [ -z "$SSH_PORT" ]; then
+            ssh-keyscan -H "$FTP_HOST" >> ~/.ssh/known_hosts
           else
-            ssh-keyscan -H -p "${{ secrets.SSH_PORT }}" "${{ secrets.FTP_HOST }}" >> ~/.ssh/known_hosts
+            ssh-keyscan -H -p "$SSH_PORT" "$FTP_HOST" >> ~/.ssh/known_hosts
           fi
           chmod 644 ~/.ssh/known_hosts
         env:
@@ -81,17 +84,24 @@ jobs:
         run: |
           set -euo pipefail
 
+          # Store secrets in variables to avoid command injection
+          FTP_HOST="${{ secrets.FTP_HOST }}"
+          FTP_USER="${{ secrets.FTP_USER }}"
+          FTP_PASS="${{ secrets.FTP_PASS }}"
+          SSH_PORT="${{ secrets.SSH_PORT }}"
+          SFTP_PROTOCOL="${{ secrets.SFTP_PROTOCOL }}"
+
           # Build target URL
-          if [[ -z "${{ secrets.SFTP_PROTOCOL }}" ]] || [[ "${{ secrets.SFTP_PROTOCOL }}" == "sftp" ]]; then
+          if [[ -z "$SFTP_PROTOCOL" ]] || [[ "$SFTP_PROTOCOL" == "sftp" ]]; then
             PROTO="sftp"
           else
-            PROTO="${{ secrets.SFTP_PROTOCOL }}"
+            PROTO="$SFTP_PROTOCOL"
           fi
 
-          if [[ -z "${{ secrets.SSH_PORT }}" ]]; then
-            TARGET="${PROTO}://${{ secrets.FTP_HOST }}"
+          if [[ -z "$SSH_PORT" ]]; then
+            TARGET="${PROTO}://${FTP_HOST}"
           else
-            TARGET="${PROTO}://${{ secrets.FTP_HOST }}:${{ secrets.SSH_PORT }}"
+            TARGET="${PROTO}://${FTP_HOST}:${SSH_PORT}"
           fi
 
           # Ensure we have our directory
@@ -102,8 +112,9 @@ jobs:
 
           echo "Uploading to: ${TARGET}${REMOTE_DIR}"
 
-          lftp -u "${{ secrets.FTP_USER }}","${{ secrets.FTP_PASS }}" \
-            -e "set ssl:verify-certificate no; \
+          lftp -u "$FTP_USER","$FTP_PASS" \
+            -e "set ssl:verify-certificate yes; \
+                set ssl:ca-file /etc/ssl/certs/ca-certificates.crt; \
                 set sftp:connect-program 'ssh -a -x -o UserKnownHostsFile=~/.ssh/known_hosts -o StrictHostKeyChecking=yes'; \
                 lcd ${LOCAL_SRC}; \
                 cd ${REMOTE_DIR}; \
@@ -113,6 +124,7 @@ jobs:
                   --exclude node_modules/ \
                   --exclude tests/ \
                   --exclude .env \
+                  --exclude .env.example \
                   --exclude 'storage/logs/*' \
                 . .; \
                 bye" "$TARGET"
