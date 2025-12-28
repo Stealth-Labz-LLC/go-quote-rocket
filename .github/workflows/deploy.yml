@@ -39,16 +39,16 @@ jobs:
 
           echo "Event: $GITHUB_EVENT_NAME"
           if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
-            echo "Merged PR into main → deploying to live folder"
-            REMOTE_DIR_VAL="/public_html/"
+            echo "Merged PR into main → deploying to production"
+            REMOTE_DIR_VAL="/production/"
           else
             BRANCH="${GITHUB_REF##*/}"
             echo "Push to branch: $BRANCH"
             if [[ "$BRANCH" == "dev" ]]; then
-              REMOTE_DIR_VAL="/public_html/staging/"
+              REMOTE_DIR_VAL="/staging/"
             else
               # any push to main
-              REMOTE_DIR_VAL="/public_html/"
+              REMOTE_DIR_VAL="/production/"
             fi
           fi
 
