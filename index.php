@@ -11,9 +11,9 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Affordable Insurance Quotes in South Africa | Quote Rocket</title>
+    <title>Affordable Insurance Quotes in the USA | Go Quote Rocket</title>
 
-    <meta name="description" content="Discover the easiest way to compare and secure affordable insurance quotes in South Africa. Quote Rocket helps you find the best deals on car, medical, funeral, life insurance, and more.">
+    <meta name="description" content="Compare insurance quotes from top US providers. Car, life, health, pet insurance and more. Save time and money with Go Quote Rocket.">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -52,15 +52,15 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What is Quote Rocket?",
+                    "name": "What is Go Quote Rocket?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Quote Rocket is a free service that helps South Africans compare insurance quotes for auto, life, pet, medical coverage, and much more. We make it simple to find the best policies at the most affordable insurance rates."
+                        "text": "Go Quote Rocket is a free service that helps Americans compare insurance quotes for auto, life, pet, medical coverage, and much more. We make it simple to find the best policies at the most affordable insurance rates."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How does Quote Rocket work?",
+                    "name": "How does Go Quote Rocket work?",
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "Choose the type of insurance you’re looking for, complete our secure form in under a minute, and receive a call from a trusted expert to help you review your options and find the best deal."
@@ -68,7 +68,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                 },
                 {
                     "@type": "Question",
-                    "name": "Is my personal information protected and secure with Quote Rocket?",
+                    "name": "Is my personal information protected and secure with Go Quote Rocket?",
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "Absolutely. We use advanced encryption to safeguard your details and only share them with trusted insurance providers to generate your quotes."
@@ -76,15 +76,15 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                 },
                 {
                     "@type": "Question",
-                    "name": "How does Quote Rocket make money if it’s free for customers?",
+                    "name": "How does Go Quote Rocket make money if it’s free for customers?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Quote Rocket partners with trusted insurance providers who compensate us for connecting them with amazing customers. This allows us to offer our service completely free to you."
+                        "text": "Go Quote Rocket partners with trusted insurance providers who compensate us for connecting them with amazing customers. This allows us to offer our service completely free to you."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What types of insurance can I find with Quote Rocket?",
+                    "name": "What types of insurance can I find with Go Quote Rocket?",
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "We provide quotes for car, life, pet, medical insurance, debt relief, and more. Whatever your needs, we help you find the right coverage."
@@ -92,10 +92,10 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                 },
                 {
                     "@type": "Question",
-                    "name": "What affects insurance rates, and how does Quote Rocket help?",
+                    "name": "What affects insurance rates, and how does Go Quote Rocket help?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Insurance rates are influenced by factors such as age, location, and coverage type. Quote Rocket compares multiple providers to ensure you get the best price for the coverage you need."
+                        "text": "Insurance rates are influenced by factors such as age, location, and coverage type. Go Quote Rocket compares multiple providers to ensure you get the best price for the coverage you need."
                     }
                 },
                 {
@@ -103,12 +103,12 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     "name": "Why is it important to compare insurance quotes?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Comparing quotes ensures you’re not overpaying and helps you find the best coverage for your budget and needs. Quote Rocket simplifies this process by providing multiple quotes in one place."
+                        "text": "Comparing quotes ensures you’re not overpaying and helps you find the best coverage for your budget and needs. Go Quote Rocket simplifies this process by providing multiple quotes in one place."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do I have to buy insurance through Quote Rocket?",
+                    "name": "Do I have to buy insurance through Go Quote Rocket?",
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "No, there’s no obligation to purchase. We provide you with quotes and expert advice, and the decision is entirely up to you."
@@ -119,15 +119,15 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     "name": "What do I need to know when comparing insurance quotes?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "When comparing, look at both the price and the coverage details. Quote Rocket helps by providing all the information you need to make an informed decision."
+                        "text": "When comparing, look at both the price and the coverage details. Go Quote Rocket helps by providing all the information you need to make an informed decision."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Why should I trust Quote Rocket?",
+                    "name": "Why should I trust Go Quote Rocket?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "We’re dedicated to helping South Africans save on insurance. Our process is secure, transparent, and backed by trusted insurance providers, ensuring you get the best options every time."
+                        "text": "We’re dedicated to helping Americans save on insurance. Our process is secure, transparent, and backed by trusted insurance providers, ensuring you get the best options every time."
                     }
                 }
             ]
@@ -168,7 +168,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
             <div class="sec1-inr">
 
-                <p class="sec1-rat-txt"><img src="images/sec1-star.png" alt="Quote Rocket Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
+                <p class="sec1-rat-txt"><img src="images/sec1-star.png" alt="Go Quote Rocket Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
 
 
@@ -260,9 +260,9 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                 <div class="sec1-mob">
 
-                    <img src="images/sec1-img.png" alt="Girl Using Quote Rocket Smiling" class="sec1_img" width="474" height="689">
+                    <img src="images/sec1-img.png" alt="Girl Using Go Quote Rocket Smiling" class="sec1_img" width="474" height="689">
 
-                    <img src="images/sec-1-phone.png" alt="Quote Rocket Photo" class="sec1_phone" width="188" height="283">
+                    <img src="images/sec-1-phone.png" alt="Go Quote Rocket Photo" class="sec1_phone" width="188" height="283">
 
                 </div>
 
@@ -278,7 +278,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
         <div class="container">
 
-            <p class="as-seen__heading">Quotes by South Africa's top providers, including:</p>
+            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
 
         </div>
 
@@ -484,9 +484,9 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
         <div class="container">
 
-            <p class="heading">Why Quote Rocket Is<br class="showMob"> The Best Choice</p>
+            <p class="heading">Why Go Quote Rocket Is<br class="showMob"> The Best Choice</p>
 
-            <p class="comn_text">Whether you prefer to buy online or want expert guidance, Quote Rocket makes it easy to find your perfect policy.<br class="showDesk"> No spam. No fees. Just better <a href="car-insurance.php<?= $queryParams ?>" alt="Car Insurance Quotes">insurance</a> and bigger savings.</p>
+            <p class="comn_text">Whether you prefer to buy online or want expert guidance, Go Quote Rocket makes it easy to find your perfect policy.<br class="showDesk"> No spam. No fees. Just better <a href="car-insurance.php<?= $queryParams ?>" alt="Car Insurance Quotes">insurance</a> and bigger savings.</p>
 
 
 
@@ -545,7 +545,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
         <div class="container">
 
-            <p class="heading">Over 744 409<br class="showMob"> South Africans Trust Us.</p>
+            <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
             <div class="feefo_box">
 
@@ -573,7 +573,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I couldn’t believe how quickly Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
+                    <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
                         <p><span>Loren</span><br> Port Elizabeth</p>
@@ -593,7 +593,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
                         <p><span>Themba</span><br> Bloemfontein</p>
@@ -613,7 +613,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I’m so glad I used Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
+                    <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
                         <p><span>Mike</span><br> East London</p>
@@ -633,7 +633,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
                         <p><span>Marthinus</span><br> Johannesburg</p>
@@ -653,7 +653,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Finding the right insurance was so easy with Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
+                    <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
                         <p><span>Thandi</span><br> Durban</p>
@@ -673,7 +673,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Excellent service! Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
+                    <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
                         <p><span>Sipho</span><br> Cape Town</p>
@@ -693,7 +693,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
+                    <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
                         <p><span>Zanele</span><br> Pretoria</p>
@@ -713,7 +713,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
+                    <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
                         <p><span>Loraine</span><br> Cape Town</p>
@@ -735,7 +735,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
         <div class="container">
 
-            <p class="heading">How To Use Quote Rocket</p>
+            <p class="heading">How To Use Go Quote Rocket</p>
 
             <p class="comn_text">We empower you to take control and choose the insurance quote<br class="hideMob"> that fits your needs perfectly.</p>
 
@@ -769,13 +769,13 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                             </ul>
 
-                            <img src="images/work-box1-image.png" class="work-box1_image showMob" alt="Quote Rocket Insurance Options" width="238" height="340">
+                            <img src="images/work-box1-image.png" class="work-box1_image showMob" alt="Go Quote Rocket Insurance Options" width="238" height="340">
 
                         </div>
 
                     </div>
 
-                    <img src="images/work-box1-image.png" class="work-box1_image hideMob" alt="Quote Rocket Insurance Options" width="238" height="340">
+                    <img src="images/work-box1-image.png" class="work-box1_image hideMob" alt="Go Quote Rocket Insurance Options" width="238" height="340">
 
                 </div>
 
@@ -793,7 +793,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     </div>
 
-                    <img src="images/work-box2-image.png" alt="Insurance Form Quote Rocket" class="work-box2_image" width="480" height="371">
+                    <img src="images/work-box2-image.png" alt="Insurance Form Go Quote Rocket" class="work-box2_image" width="480" height="371">
 
                 </div>
 
@@ -926,9 +926,9 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
         <div class="container">
 
-            <p class="heading">Where Quote Rocket<br class="showMob"> Helps You Save</p>
+            <p class="heading">Where Go Quote Rocket<br class="showMob"> Helps You Save</p>
 
-            <p class="comn_text">Discover how Quote Rocket can help you save on <a href="car-insurance.php<?= $queryParams ?>" alt="Car Insurance Quotes">car</a>, <a href="life-insurance.php<?= $queryParams ?>" alt="Life Insurance Quotes">life</a>, <a href="medical-insurance.php<?= $queryParams ?>" alt="Medical Insurance Quotes">medical insurance</a>, and much more. <br class="hideMob">We'll give you the best deals to secure your future and financial peace of mind.
+            <p class="comn_text">Discover how Go Quote Rocket can help you save on <a href="car-insurance.php<?= $queryParams ?>" alt="Car Insurance Quotes">car</a>, <a href="life-insurance.php<?= $queryParams ?>" alt="Life Insurance Quotes">life</a>, <a href="medical-insurance.php<?= $queryParams ?>" alt="Medical Insurance Quotes">medical insurance</a>, and much more. <br class="hideMob">We'll give you the best deals to secure your future and financial peace of mind.
             </p>
 
             <ul class="sec6_lst">
@@ -987,11 +987,11 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-open" id="hd-one">What is Quote Rocket?</div>
+                        <div class="accordion acdn-heading accordion-open" id="hd-one">What is Go Quote Rocket?</div>
 
                         <div class="acdn-content">
 
-                            <p class="acdn-para">Quote Rocket is a free service that helps South Africans compare insurance quotes for auto, life, pet, medical coverage, and much more. We make it simple to find the best policies at the most affordable <a href="car-insurance.php<?= $queryParams ?>" alt="Car Insurance Rates">insurance rates</a>.</p>
+                            <p class="acdn-para">Go Quote Rocket is a free service that helps Americans compare insurance quotes for auto, life, pet, medical coverage, and much more. We make it simple to find the best policies at the most affordable <a href="car-insurance.php<?= $queryParams ?>" alt="Car Insurance Rates">insurance rates</a>.</p>
 
                         </div>
 
@@ -1005,7 +1005,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">How does Quote Rocket work?</div>
+                        <div class="accordion acdn-heading accordion-close">How does Go Quote Rocket work?</div>
 
                         <div class="acdn-content" style="display: none;">
 
@@ -1023,7 +1023,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">Is my personal information protected and secure with Quote Rocket?</div>
+                        <div class="accordion acdn-heading accordion-close">Is my personal information protected and secure with Go Quote Rocket?</div>
 
                         <div class="acdn-content" style="display: none;">
 
@@ -1041,11 +1041,11 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">How does Quote Rocket make money if it’s free for customers?</div>
+                        <div class="accordion acdn-heading accordion-close">How does Go Quote Rocket make money if it’s free for customers?</div>
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">Quote Rocket partners with trusted insurance providers who compensate us for connecting them with amazing customers. This allows us to offer our service completely free to you.</p>
+                            <p class="acdn-para">Go Quote Rocket partners with trusted insurance providers who compensate us for connecting them with amazing customers. This allows us to offer our service completely free to you.</p>
 
                         </div>
 
@@ -1059,7 +1059,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">What types of insurance can I find with Quote Rocket?</div>
+                        <div class="accordion acdn-heading accordion-close">What types of insurance can I find with Go Quote Rocket?</div>
 
                         <div class="acdn-content" style="display: none;">
 
@@ -1077,11 +1077,11 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">What affects insurance rates, and how does Quote Rocket help?</div>
+                        <div class="accordion acdn-heading accordion-close">What affects insurance rates, and how does Go Quote Rocket help?</div>
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">Insurance rates are influenced by factors such as age, location, and coverage type. Quote Rocket compares multiple providers to ensure you get the best price for the coverage you need.</p>
+                            <p class="acdn-para">Insurance rates are influenced by factors such as age, location, and coverage type. Go Quote Rocket compares multiple providers to ensure you get the best price for the coverage you need.</p>
 
                         </div>
 
@@ -1099,7 +1099,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">Comparing quotes ensures you’re not overpaying and helps you find the best coverage for your budget and needs. Quote Rocket simplifies this process by providing multiple quotes in one place.</p>
+                            <p class="acdn-para">Comparing quotes ensures you’re not overpaying and helps you find the best coverage for your budget and needs. Go Quote Rocket simplifies this process by providing multiple quotes in one place.</p>
 
                         </div>
 
@@ -1117,7 +1117,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">Do I have to buy insurance through Quote Rocket?</div>
+                        <div class="accordion acdn-heading accordion-close">Do I have to buy insurance through Go Quote Rocket?</div>
 
                         <div class="acdn-content" style="display: none;">
 
@@ -1139,7 +1139,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">When comparing, look at both the price and the coverage details. Quote Rocket helps by providing all the information you need to make an informed decision.</p>
+                            <p class="acdn-para">When comparing, look at both the price and the coverage details. Go Quote Rocket helps by providing all the information you need to make an informed decision.</p>
 
                         </div>
 
@@ -1153,11 +1153,11 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">Why should I trust Quote Rocket?</div>
+                        <div class="accordion acdn-heading accordion-close">Why should I trust Go Quote Rocket?</div>
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">We’re dedicated to helping South Africans save on insurance. Our process is secure, transparent, and backed by trusted insurance providers, ensuring you get the best options every time.</p>
+                            <p class="acdn-para">We’re dedicated to helping Americans save on insurance. Our process is secure, transparent, and backed by trusted insurance providers, ensuring you get the best options every time.</p>
 
                         </div>
 

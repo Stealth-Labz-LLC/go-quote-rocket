@@ -9,4 +9,4 @@ Disallow: /lead-import/
 Disallow: /lead-log/
 
 # XML sitemap
-Sitemap: https://quoterocket.co.za/sitemap.xml
+Sitemap: https://goquoterocket.com/sitemap.xml

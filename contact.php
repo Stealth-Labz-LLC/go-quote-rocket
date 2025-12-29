@@ -8,9 +8,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Contact Quote Rocket | Get in Touch Today</title>
+    <title>Contact Go Quote Rocket | Get in Touch Today</title>
 
-    <meta name="description" content="Need help with insurance quotes? Contact the Quote Rocket team today for assistance and support. We’re here to make insurance simple for you.">
+    <meta name="description" content="Need help with insurance quotes? Contact the Go Quote Rocket team today for assistance and support. We’re here to make insurance simple for you.">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
 
@@ -85,7 +85,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <p>Call Us</p>
 
-                            <h3>(087) 550-1158</h3>
+                            <h3>(800) 555-1234</h3>
 
                         </li>
 
@@ -95,7 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <p>Email</p>
 
-                            <h3><a href="mailto:support@quoterocket.co.za">support@quoterocket.co.za</a></h3>
+                            <h3><a href="mailto:support@goquoterocket.com">support@goquoterocket.com</a></h3>
 
                         </li>
 
@@ -266,7 +266,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://quoterocket.co.za/mail-action.php?' + formData,
+                    url: 'https://goquoterocket.com/mail-action.php?' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {

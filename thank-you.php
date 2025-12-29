@@ -22,9 +22,9 @@ $data = $_SESSION;
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Thank You for Using Quote Rocket</title>
+    <title>Thank You for Using Go Quote Rocket</title>
 
-    <meta name="description" content="Thank you for trusting Quote Rocket for your insurance quote needs. Explore more affordable options on car, medical, and life insurance today.">
+    <meta name="description" content="Thank you for trusting Go Quote Rocket for your insurance quote needs. Explore more affordable options on car, medical, and life insurance today.">
 
 
 
@@ -75,7 +75,7 @@ $data = $_SESSION;
 
             <p class="thankyou_heading">Congratulations!</p>
 
-            <p class="thankyou_text">You're about to save big <strong><?= $data['prevFormData']['given-name']; ?></strong> with Quote Rocket. One of our<br class="showDesk"> agents will be calling you momentarily to discuss your options.</p>
+            <p class="thankyou_text">You're about to save big <strong><?= $data['prevFormData']['given-name']; ?></strong> with Go Quote Rocket. One of our<br class="showDesk"> agents will be calling you momentarily to discuss your options.</p>
 
 
 

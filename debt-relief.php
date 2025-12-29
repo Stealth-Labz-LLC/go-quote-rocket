@@ -17,9 +17,9 @@ $funnelId = "Debt";
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Get Debt Relief Quotes in South Africa | Quote Rocket</title>
+    <title>Get Debt Relief Quotes in the USA | Go Quote Rocket</title>
 
-    <meta name="description" content="Debt is crippling and getting out of debt is difficult. Compare quotes and find the best coverage in South Africa with Quote Rocket.">
+    <meta name="description" content="Debt is crippling and getting out of debt is difficult. Compare quotes and find the best coverage in the USA with Go Quote Rocket.">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
     <!--PreloadFile -->
@@ -295,7 +295,7 @@ $funnelId = "Debt";
 
         <div class="container">
 
-            <p class="as-seen__heading">Quotes by South Africa's top providers, including:</p>
+            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
 
         </div>
         <div class="hideMob">
@@ -376,7 +376,7 @@ $funnelId = "Debt";
 
                 <div class="sec2_inr_bx">
 
-                    <img src="images/inner-sec2-img1.webp" alt="Guy Using Quote Rocket on Computer for Debt Relief" width="381" height="291">
+                    <img src="images/inner-sec2-img1.webp" alt="Guy Using Go Quote Rocket on Computer for Debt Relief" width="381" height="291">
 
                     <div class="sec2_bx_content">
 
@@ -464,7 +464,7 @@ $funnelId = "Debt";
                                 <img src="images/inner_sec3-debt-tab1.webp" alt="Debt Relief" width="500" height="450">
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">Debt relief in South Africa involves negotiating with creditors to reduce the total amount owed or arranging for more manageable repayment terms. It’s a viable solution for individuals facing mounting debts and struggling to keep up with payments. Debt relief is often handled through professional debt counselors registered with the National Credit Regulator (NCR).</p>
+                            <p class="inner_sec3_tab_content_tx">Debt relief in the USA involves negotiating with creditors to reduce the total amount owed or arranging for more manageable repayment terms. It’s a viable solution for individuals facing mounting debts and struggling to keep up with payments. Debt relief is often handled through professional debt counselors registered with the National Credit Regulator (NCR).</p>
                             <p class="inner_sec3-content-sub_hd">Benefits of Debt Relief</p>
 
                             <ul class="inner_sec3_tab-lst">
@@ -472,7 +472,7 @@ $funnelId = "Debt";
                                 <li><strong>Legal Protection:</strong> Stop creditor harassment, judgments, and garnishments immediately.</li>
                                 <li><strong>Fresh Start:</strong> Begin anew with a clean financial slate.</li>
                                 <li><strong>Court Supervision:</strong> The process is regulated and managed by the legal system.</li>
-                                <li><strong>Asset Retention:</strong> Retain exempt assets as per South African insolvency laws.</li>
+                                <li><strong>Asset Retention:</strong> Retain exempt assets as per the USAn insolvency laws.</li>
                             </ul>
 
                         </div>
@@ -509,7 +509,7 @@ $funnelId = "Debt";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">Debt consolidation in South Africa combines multiple debts into a single payment plan or loan, simplifying financial management and potentially reducing monthly payments. This option is particularly helpful for managing credit card debt, personal loans, or store accounts. Many South Africans choose this option to streamline their repayments and reduce interest costs.</p>
+                            <p class="inner_sec3_tab_content_tx">Debt consolidation in the USA combines multiple debts into a single payment plan or loan, simplifying financial management and potentially reducing monthly payments. This option is particularly helpful for managing credit card debt, personal loans, or store accounts. Many Americans choose this option to streamline their repayments and reduce interest costs.</p>
                             <p class="inner_sec3-content-sub_hd">Benefits of Debt Consolidation</p>
 
                             <ul class="inner_sec3_tab-lst">
@@ -552,7 +552,7 @@ $funnelId = "Debt";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">Voluntary sequestration is a legal process in South Africa where individuals declare insolvency and hand over their assets to a court-appointed trustee. The trustee sells these assets to repay creditors, providing a fresh financial start by erasing most debts. This is a last-resort option for those with debts exceeding their assets and income.</p>
+                            <p class="inner_sec3_tab_content_tx">Voluntary sequestration is a legal process in the USA where individuals declare insolvency and hand over their assets to a court-appointed trustee. The trustee sells these assets to repay creditors, providing a fresh financial start by erasing most debts. This is a last-resort option for those with debts exceeding their assets and income.</p>
                             <p class="inner_sec3-content-sub_hd">Benefits of Voluntary Sequestration</p>
 
                             <ul class="inner_sec3_tab-lst">
@@ -596,9 +596,9 @@ $funnelId = "Debt";
 
             <div class="why_choose_left">
 
-                <p class="heading">Why Choose<br class="hideMob"> Quote Rocket</p>
+                <p class="heading">Why Choose<br class="hideMob"> Go Quote Rocket</p>
 
-                <p class="comn_text">Dealing with debt is overwhelming, but we’re here to make your debt consolidation simple. At <a href="/" alt="Affordable Insurance Options">Quote Rocket</a>, we connect you with debt counselors who can guide you through the process of selecting the right debt relief option for you.</p>
+                <p class="comn_text">Dealing with debt is overwhelming, but we’re here to make your debt consolidation simple. At <a href="/" alt="Affordable Insurance Options">Go Quote Rocket</a>, we connect you with debt counselors who can guide you through the process of selecting the right debt relief option for you.</p>
 
             </div>
 
@@ -742,7 +742,7 @@ $funnelId = "Debt";
 
         <div class="container">
 
-            <p class="heading">Over 744 409<br class="showMob"> South Africans Trust Us.</p>
+            <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
             <div class="feefo_box">
 
@@ -770,7 +770,7 @@ $funnelId = "Debt";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I couldn’t believe how quickly Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
+                    <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
                         <p><span>Loren</span><br> Port Elizabeth</p>
@@ -790,7 +790,7 @@ $funnelId = "Debt";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
                         <p><span>Themba</span><br> Bloemfontein</p>
@@ -810,7 +810,7 @@ $funnelId = "Debt";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I’m so glad I used Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
+                    <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
                         <p><span>Mike</span><br> East London</p>
@@ -830,7 +830,7 @@ $funnelId = "Debt";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
                         <p><span>Marthinus</span><br> Johannesburg</p>
@@ -850,7 +850,7 @@ $funnelId = "Debt";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Finding the right insurance was so easy with Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
+                    <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
                         <p><span>Thandi</span><br> Durban</p>
@@ -870,7 +870,7 @@ $funnelId = "Debt";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Excellent service! Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
+                    <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
                         <p><span>Sipho</span><br> Cape Town</p>
@@ -890,7 +890,7 @@ $funnelId = "Debt";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
+                    <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
                         <p><span>Zanele</span><br> Pretoria</p>
@@ -910,7 +910,7 @@ $funnelId = "Debt";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
+                    <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
                         <p><span>Loraine</span><br> Cape Town</p>
@@ -1176,7 +1176,7 @@ $funnelId = "Debt";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://quoterocket.co.za/leads-api/debt-api-call.php?' + formData,
+                    url: 'https://goquoterocket.com/leads-api/debt-api-call.php?' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1184,7 +1184,7 @@ $funnelId = "Debt";
                         console.log(resultData)
 
                         if (resultData.code === 1) {
-                            window.location.href = "https://quoterocket.co.za/thank-you.php" + queryStringValue;
+                            window.location.href = "https://goquoterocket.com/thank-you.php" + queryStringValue;
                         } else {
                             $('#loading-indicator').hide();
                             $('#error_handler_overlay').show();
@@ -1268,7 +1268,7 @@ $funnelId = "Debt";
                 }
 
                 $.ajax({
-                    url: 'https://quoterocket.co.za/logger/logger.php',
+                    url: 'https://goquoterocket.com/logger/logger.php',
                     method: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify(formDataObj),

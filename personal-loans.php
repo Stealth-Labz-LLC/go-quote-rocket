@@ -17,9 +17,9 @@ $funnelId = "Loans";
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Find Affordable Personal Loans in South Africa | Quote Rocket</title>
+    <title>Find Affordable Personal Loans in the USA | Go Quote Rocket</title>
 
-    <meta name="description" content="Need financial assistance? Compare personal loan options in South Africa and get the best rates with Quote Rocket.">
+    <meta name="description" content="Need financial assistance? Compare personal loan options in the USA and get the best rates with Go Quote Rocket.">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -64,7 +64,7 @@ $funnelId = "Loans";
                     "name": "How much can I borrow with a personal loan?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The amount you can borrow depends on factors like your income, credit score, and the lender’s policies. In South Africa, personal loans typically range from R1,000 to R300,000 or more."
+                        "text": "The amount you can borrow depends on factors like your income, credit score, and the lender’s policies. In the USA, personal loans typically range from R1,000 to R300,000 or more."
                     }
                 },
                 {
@@ -72,7 +72,7 @@ $funnelId = "Loans";
                     "name": "What is the interest rate for a personal loan?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Interest rates vary based on your credit profile, the loan amount, and the lender. Rates in South Africa can range from 9% to 27%, depending on your financial circumstances."
+                        "text": "Interest rates vary based on your credit profile, the loan amount, and the lender. Rates in the USA can range from 9% to 27%, depending on your financial circumstances."
                     }
                 },
                 {
@@ -88,7 +88,7 @@ $funnelId = "Loans";
                     "name": "How long does it take to get approved for a personal loan?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Approval times vary, but many lenders in South Africa offer quick approvals, with funds often disbursed within 24 to 48 hours of application."
+                        "text": "Approval times vary, but many lenders in the USA offer quick approvals, with funds often disbursed within 24 to 48 hours of application."
                     }
                 },
                 {
@@ -104,7 +104,7 @@ $funnelId = "Loans";
                     "name": "What documents do I need to apply for a personal loan?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Commonly required documents include: A valid South African ID, proof of income (e.g., recent payslips), bank statements for the last 3–6 months, and proof of residence (e.g., a utility bill)."
+                        "text": "Commonly required documents include: A valid the USAn ID, proof of income (e.g., recent payslips), bank statements for the last 3–6 months, and proof of residence (e.g., a utility bill)."
                     }
                 }
             ]
@@ -292,7 +292,7 @@ $funnelId = "Loans";
 
         <div class="container">
 
-            <p class="as-seen__heading">Quotes by South Africa's top providers, including:</p>
+            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
 
         </div>
 
@@ -392,7 +392,7 @@ $funnelId = "Loans";
 
             <p class="heading">How We Make<br>Getting A Personal Loan Easy</p>
 
-            <p class="comn_text comn_text--center">We know finding the right personal loan can feel overwhelming. That’s why Quote Rocket simplifies the process for you. In just a few steps, we’ll connect you with trusted lenders, helping you secure the most reliable and affordable personal loan, hassle-free.</p>
+            <p class="comn_text comn_text--center">We know finding the right personal loan can feel overwhelming. That’s why Go Quote Rocket simplifies the process for you. In just a few steps, we’ll connect you with trusted lenders, helping you secure the most reliable and affordable personal loan, hassle-free.</p>
 
 
 
@@ -400,7 +400,7 @@ $funnelId = "Loans";
 
                 <div class="sec2_inr_bx">
 
-                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Quote Rocket for Personal Loans" width="381" height="291">
+                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket for Personal Loans" width="381" height="291">
 
                     <div class="sec2_bx_content">
 
@@ -454,7 +454,7 @@ $funnelId = "Loans";
 
             <p class="heading">Compare & Review<br> Personal Loan Options</p>
 
-            <p class="comn_text">Explore different personal loan options in South Africa to find the perfect solution for your financial needs.<br class="showDesk"> From unsecured loans to microloans, <strong>each option is designed to help you achieve your goals</strong>,<br class="showDesk"> whether it’s consolidating debt, managing emergencies, or funding life’s milestones.</p>
+            <p class="comn_text">Explore different personal loan options in the USA to find the perfect solution for your financial needs.<br class="showDesk"> From unsecured loans to microloans, <strong>each option is designed to help you achieve your goals</strong>,<br class="showDesk"> whether it’s consolidating debt, managing emergencies, or funding life’s milestones.</p>
 
             <div class="inner_sec3_row">
 
@@ -704,9 +704,9 @@ $funnelId = "Loans";
 
             <div class="why_choose_left">
 
-                <p class="heading">Why Choose<br class="hideMob"> Quote Rocket</p>
+                <p class="heading">Why Choose<br class="hideMob"> Go Quote Rocket</p>
 
-                <p class="comn_text">Finding the right personal loan can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Car Insurance">Quote Rocket</a>, we connect you with a reliable, trusted provider who can guide you through the process of picking the right personal loan. You'll be able to make the right choice for your needs and budget.</p>
+                <p class="comn_text">Finding the right personal loan can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Car Insurance">Go Quote Rocket</a>, we connect you with a reliable, trusted provider who can guide you through the process of picking the right personal loan. You'll be able to make the right choice for your needs and budget.</p>
 
             </div>
 
@@ -885,7 +885,7 @@ $funnelId = "Loans";
 
         <div class="container">
 
-            <p class="heading">Over 744 409<br class="showMob"> South Africans Trust Us.</p>
+            <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
             <div class="feefo_box">
 
@@ -912,7 +912,7 @@ $funnelId = "Loans";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I couldn’t believe how quickly Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
+                    <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
                         <p><span>Loren</span><br> Port Elizabeth</p>
@@ -932,7 +932,7 @@ $funnelId = "Loans";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
                         <p><span>Themba</span><br> Bloemfontein</p>
@@ -952,7 +952,7 @@ $funnelId = "Loans";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I’m so glad I used Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
+                    <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
                         <p><span>Mike</span><br> East London</p>
@@ -972,7 +972,7 @@ $funnelId = "Loans";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
                         <p><span>Marthinus</span><br> Johannesburg</p>
@@ -992,7 +992,7 @@ $funnelId = "Loans";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Finding the right insurance was so easy with Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
+                    <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
                         <p><span>Thandi</span><br> Durban</p>
@@ -1012,7 +1012,7 @@ $funnelId = "Loans";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Excellent service! Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
+                    <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
                         <p><span>Sipho</span><br> Cape Town</p>
@@ -1032,7 +1032,7 @@ $funnelId = "Loans";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
+                    <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
                         <p><span>Zanele</span><br> Pretoria</p>
@@ -1052,7 +1052,7 @@ $funnelId = "Loans";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
+                    <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
                         <p><span>Loraine</span><br> Cape Town</p>
@@ -1104,7 +1104,7 @@ $funnelId = "Loans";
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">The amount you can borrow depends on factors like your income, credit score, and the lender’s policies. In South Africa, personal loans typically range from R1,000 to R300,000 or more.</p>
+                            <p class="acdn-para">The amount you can borrow depends on factors like your income, credit score, and the lender’s policies. In the USA, personal loans typically range from R1,000 to R300,000 or more.</p>
 
                         </div>
 
@@ -1122,7 +1122,7 @@ $funnelId = "Loans";
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">Interest rates vary based on your credit profile, the loan amount, and the lender. Rates in South Africa can range from 9% to 27%, depending on your financial circumstances.</p>
+                            <p class="acdn-para">Interest rates vary based on your credit profile, the loan amount, and the lender. Rates in the USA can range from 9% to 27%, depending on your financial circumstances.</p>
 
                         </div>
 
@@ -1158,7 +1158,7 @@ $funnelId = "Loans";
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">Approval times vary, but many lenders in South Africa offer quick approvals, with funds often disbursed within 24 to 48 hours of application.</p>
+                            <p class="acdn-para">Approval times vary, but many lenders in the USA offer quick approvals, with funds often disbursed within 24 to 48 hours of application.</p>
 
                         </div>
 
@@ -1198,7 +1198,7 @@ $funnelId = "Loans";
 
                             <ul class="acdn_list">
 
-                                <li>A valid South African ID.</li>
+                                <li>A valid the USAn ID.</li>
 
                                 <li>Proof of income (e.g., recent payslips).</li>
 
@@ -1329,7 +1329,7 @@ $funnelId = "Loans";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://quoterocket.co.za/leads-api/loan-api-call.php?' + formData,
+                    url: 'https://goquoterocket.com/leads-api/loan-api-call.php?' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1337,7 +1337,7 @@ $funnelId = "Loans";
                         //console.log(resultData)
 
                         if (resultData.code === 1) {
-                            window.location.href = "https://quoterocket.co.za/thank-you.php" + queryStringValue;
+                            window.location.href = "https://goquoterocket.com/thank-you.php" + queryStringValue;
                         } else {
                             $('#loading-indicator').hide();
                             $('#error_handler_overlay').show();
@@ -1420,7 +1420,7 @@ $funnelId = "Loans";
                 }
 
                 $.ajax({
-                    url: 'https://quoterocket.co.za/logger/logger.php',
+                    url: 'https://goquoterocket.com/logger/logger.php',
                     method: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify(formDataObj),

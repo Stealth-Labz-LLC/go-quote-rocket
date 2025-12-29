@@ -23,9 +23,9 @@ $funnelId = "GPS";
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Find the Best GPS Vehicle Tracker Deals | Quote Rocket</title>
+    <title>Find the Best GPS Vehicle Tracker Deals | Go Quote Rocket</title>
 
-    <meta name="description" content="Lower your insurance premiums with a reliable vehicle tracker. Compare affordable tracker solutions in South Africa with Quote Rocket.">
+    <meta name="description" content="Lower your insurance premiums with a reliable vehicle tracker. Compare affordable tracker solutions in the USA with Go Quote Rocket.">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -73,7 +73,7 @@ $funnelId = "GPS";
                     "name": "How does installing a GPS tracker reduce my insurance premium?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Many insurers in South Africa offer discounts for vehicles equipped with GPS trackers because they lower the risk of theft and increase recovery chances, making them a cost-effective security solution."
+                        "text": "Many insurers in the USA offer discounts for vehicles equipped with GPS trackers because they lower the risk of theft and increase recovery chances, making them a cost-effective security solution."
                     }
                 },
                 {
@@ -180,7 +180,7 @@ $funnelId = "GPS";
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">1 Car is Stolen Every 9<br class="showMob"> Minutes<br class="hideMob"> in South Africa</p>
+            <p class="inner_sec1-hdg">1 Car is Stolen Every 9<br class="showMob"> Minutes<br class="hideMob"> in the USA</p>
 
             <p class="inner_sec1_txt">Get a free vehicle tracker quote in minutes and <strong>save up-to 27%</strong> <br class="hideMob">on your monthly car insurance premium today.</p>
 
@@ -337,7 +337,7 @@ $funnelId = "GPS";
 
         <div class="container">
 
-            <p class="as-seen__heading">Quotes by South Africa's top providers, including:</p>
+            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
 
         </div>
 
@@ -365,13 +365,13 @@ $funnelId = "GPS";
 
             <p class="heading">How We Make Getting a<br> Vehicle Tracker Easy</p>
 
-            <p class="comn_text comn_text--center">We know searching for the right vehicle tracker can feel overwhelming. That’s why <a href="/" alt="Affordable Insurance Quotes">Quote Rocket</a> simplifies the process for you. In just a few steps, we’ll connect you with trusted providers, helping you secure the most reliable and affordable vehicle tracker, hassle-free.</p>
+            <p class="comn_text comn_text--center">We know searching for the right vehicle tracker can feel overwhelming. That’s why <a href="/" alt="Affordable Insurance Quotes">Go Quote Rocket</a> simplifies the process for you. In just a few steps, we’ll connect you with trusted providers, helping you secure the most reliable and affordable vehicle tracker, hassle-free.</p>
 
             <div class="sec2_inr">
 
                 <div class="sec2_inr_bx">
 
-                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Quote Rocket" width="381" height="291">
+                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket" width="381" height="291">
 
                     <div class="sec2_bx_content">
 
@@ -425,7 +425,7 @@ $funnelId = "GPS";
 
             <p class="heading">Compare & Save On<br class="hideMob"> A<br class="showMob"> Vehicle Tracking Device</p>
 
-            <p class="comn_text">Protect your vehicle, <strong>reduce your insurance premiums</strong>, and gain peace of mind<br class="hideMob"> with GPS tracking solutions for South African residents.</p>
+            <p class="comn_text">Protect your vehicle, <strong>reduce your insurance premiums</strong>, and gain peace of mind<br class="hideMob"> with GPS tracking solutions for the USAn residents.</p>
 
             <div class="inner_sec3_row">
 
@@ -467,7 +467,7 @@ $funnelId = "GPS";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">GPS trackers are the most popular car tracking devices in South Africa, using satellite technology to provide highly accurate location data. These devices can pinpoint a vehicle's position with precision, making them ideal for theft recovery and fleet management. While GPS trackers require a clear view of the sky to function and are often more expensive, they remain a top choice for reliable and comprehensive tracking.</p>
+                            <p class="inner_sec3_tab_content_tx">GPS trackers are the most popular car tracking devices in the USA, using satellite technology to provide highly accurate location data. These devices can pinpoint a vehicle's position with precision, making them ideal for theft recovery and fleet management. While GPS trackers require a clear view of the sky to function and are often more expensive, they remain a top choice for reliable and comprehensive tracking.</p>
                             <p class="inner_sec3-content-sub_hd">Benefits of Comprehensive GPS Vehicle Tracking</p>
 
                             <ul class="inner_sec3_tab-lst">
@@ -608,9 +608,9 @@ $funnelId = "GPS";
 
             <div class="why_choose_left">
 
-                <p class="heading">Why Choose<br class="hideMob"> Quote Rocket</p>
+                <p class="heading">Why Choose<br class="hideMob"> Go Quote Rocket</p>
 
-                <p class="comn_text">Finding the right GPS tracking device can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Quotes South Africa">Quote Rocket</a>, we connect you with a reliable, trusted provider who can guide you through the process of picking the right GPS tracking device. You'll be able to make the right choice for your needs and budget.</p>
+                <p class="comn_text">Finding the right GPS tracking device can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Quotes the USA">Go Quote Rocket</a>, we connect you with a reliable, trusted provider who can guide you through the process of picking the right GPS tracking device. You'll be able to make the right choice for your needs and budget.</p>
             </div>
 
             <div class="why_choose_right">
@@ -671,7 +671,7 @@ $funnelId = "GPS";
 
         <div class="container">
 
-            <p class="heading">Why Every South African<br> Driver Needs A Vehicle Tracker</p>
+            <p class="heading">Why Every the USAn<br> Driver Needs A Vehicle Tracker</p>
 
             <p class="comn_text">With car theft on the rise, a GPS tracker is your ultimate defense. From <strong>recovering stolen vehicles to lowering insurance premiums</strong>,<br class="showDesk"> it offers unmatched security, peace of mind, and control over your car’s safety.</p>
 
@@ -789,7 +789,7 @@ $funnelId = "GPS";
 
         <div class="container">
 
-            <p class="heading">Over 744 409<br class="showMob"> South Africans Trust Us.</p>
+            <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
             <div class="feefo_box">
 
@@ -815,7 +815,7 @@ $funnelId = "GPS";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I couldn’t believe how quickly Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
+                    <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
                         <p><span>Loren</span><br> Port Elizabeth</p>
@@ -835,7 +835,7 @@ $funnelId = "GPS";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
                         <p><span>Themba</span><br> Bloemfontein</p>
@@ -855,7 +855,7 @@ $funnelId = "GPS";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I’m so glad I used Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
+                    <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
                         <p><span>Mike</span><br> East London</p>
@@ -875,7 +875,7 @@ $funnelId = "GPS";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
                         <p><span>Marthinus</span><br> Johannesburg</p>
@@ -895,7 +895,7 @@ $funnelId = "GPS";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Finding the right insurance was so easy with Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
+                    <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
                         <p><span>Thandi</span><br> Durban</p>
@@ -915,7 +915,7 @@ $funnelId = "GPS";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Excellent service! Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
+                    <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
                         <p><span>Sipho</span><br> Cape Town</p>
@@ -935,7 +935,7 @@ $funnelId = "GPS";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
+                    <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
                         <p><span>Zanele</span><br> Pretoria</p>
@@ -953,7 +953,7 @@ $funnelId = "GPS";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
+                    <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
                         <p><span>Loraine</span><br> Cape Town</p>
@@ -1007,7 +1007,7 @@ $funnelId = "GPS";
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">Many <a href="/" alt="Insurance Quotes South Africa">insurers</a> in South Africa offer discounts for vehicles equipped with GPS trackers because they lower the risk of theft and increase recovery chances, making them a cost-effective security solution.</p>
+                            <p class="acdn-para">Many <a href="/" alt="Insurance Quotes the USA">insurers</a> in the USA offer discounts for vehicles equipped with GPS trackers because they lower the risk of theft and increase recovery chances, making them a cost-effective security solution.</p>
 
                         </div>
 
@@ -1264,7 +1264,7 @@ $funnelId = "GPS";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://quoterocket.co.za/leads-api/track-api-call.php?' + formData,
+                    url: 'https://goquoterocket.com/leads-api/track-api-call.php?' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1272,7 +1272,7 @@ $funnelId = "GPS";
                         //console.log(resultData)
 
                         if (resultData.code === 1) {
-                            window.location.href = "https://quoterocket.co.za/thank-you.php" + queryStringValue;
+                            window.location.href = "https://goquoterocket.com/thank-you.php" + queryStringValue;
                         } else {
                             $('#loading-indicator').hide();
                             $('#error_handler_overlay').show();
@@ -1350,7 +1350,7 @@ $funnelId = "GPS";
                 }
 
                 $.ajax({
-                    url: 'https://quoterocket.co.za/logger/logger.php',
+                    url: 'https://goquoterocket.com/logger/logger.php',
                     method: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify(formDataObj),

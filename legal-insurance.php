@@ -18,9 +18,9 @@ $funnelId = "Legal";
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Legal Insurance Quotes in South Africa | Quote Rocket</title>
+    <title>Legal Insurance Quotes in the USA | Go Quote Rocket</title>
 
-    <meta name="description" content="Stay protected with affordable legal insurance. Compare quotes and find the best legal coverage in South Africa with Quote Rocket.">
+    <meta name="description" content="Stay protected with affordable legal insurance. Compare quotes and find the best legal coverage in the USA with Go Quote Rocket.">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -362,7 +362,7 @@ $funnelId = "Legal";
 
         <div class="container">
 
-            <p class="as-seen__heading">Quotes by South Africa's top providers, including:</p>
+            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
 
         </div>
 
@@ -462,7 +462,7 @@ $funnelId = "Legal";
 
             <p class="heading">How We Make <br class="showDesk"> Finding Legal Cover Easy</p>
 
-            <p class="comn_text comn_text--center">We know finding the right legal cover can feel overwhelming. That’s why Quote Rocket simplifies the process for you. In just a few steps, we’ll connect you with trusted providers, helping you secure the most reliable and affordable legal insurance, hassle-free.</p>
+            <p class="comn_text comn_text--center">We know finding the right legal cover can feel overwhelming. That’s why Go Quote Rocket simplifies the process for you. In just a few steps, we’ll connect you with trusted providers, helping you secure the most reliable and affordable legal insurance, hassle-free.</p>
 
 
 
@@ -524,7 +524,7 @@ $funnelId = "Legal";
 
             <p class="heading">Shield Yourself<br class="showDesk"> With Legal Insurance </p>
 
-            <p class="comn_text comn_text--center">Explore comprehensive legal solutions for <strong>criminal, civil, and labour matters in South Africa</strong>. Learn how legal cover can safeguard your rights and provide expert support when you need it most.</p>
+            <p class="comn_text comn_text--center">Explore comprehensive legal solutions for <strong>criminal, civil, and labour matters in the USA</strong>. Learn how legal cover can safeguard your rights and provide expert support when you need it most.</p>
 
             <div class="inner_sec3_row">
 
@@ -672,7 +672,7 @@ $funnelId = "Legal";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">Labour disputes, such as wrongful dismissal, workplace discrimination, or unpaid wages, are common in South Africa. Legal insurance provides the representation and support you need to fight for your rights as an employee or employer.</p>
+                            <p class="inner_sec3_tab_content_tx">Labour disputes, such as wrongful dismissal, workplace discrimination, or unpaid wages, are common in the USA. Legal insurance provides the representation and support you need to fight for your rights as an employee or employer.</p>
 
                             <p class="inner_sec3-content-sub_hd">Benefits of Labour Matter Coverage</p>
 
@@ -682,7 +682,7 @@ $funnelId = "Legal";
 
                                 <li><strong>Expert Negotiation:</strong> Professional help to mediate and resolve workplace conflicts.</li>
 
-                                <li><strong>Labour Law Compliance:</strong> Assistance to navigate South Africa’s labour laws.</li>
+                                <li><strong>Labour Law Compliance:</strong> Assistance to navigate the USA’s labour laws.</li>
 
                                 <li><strong>Legal Representation:</strong> Support for CCMA hearings and labour courts.</li>
 
@@ -726,9 +726,9 @@ $funnelId = "Legal";
 
             <div class="why_choose_left">
 
-                <p class="heading">Why Choose<br class="hideMob"> Quote Rocket</p>
+                <p class="heading">Why Choose<br class="hideMob"> Go Quote Rocket</p>
 
-                <p class="comn_text">Finding the right legal insurance can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Quotes">Quote Rocket</a>, we connect you with a trusted insurance expert, so you can compare options side by side. Our process is designed to save you time, reduce stress, and help you secure the most reliable and affordable coverage available.</p>
+                <p class="comn_text">Finding the right legal insurance can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Quotes">Go Quote Rocket</a>, we connect you with a trusted insurance expert, so you can compare options side by side. Our process is designed to save you time, reduce stress, and help you secure the most reliable and affordable coverage available.</p>
 
             </div>
 
@@ -906,7 +906,7 @@ $funnelId = "Legal";
 
         <div class="container">
 
-            <p class="heading">Over 744 409<br class="showMob"> South Africans Trust Us.</p>
+            <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
             <div class="feefo_box">
 
@@ -942,7 +942,7 @@ $funnelId = "Legal";
 
 
 
-                    <p class="reviews_text">"I couldn’t believe how quickly Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
+                    <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
 
 
@@ -980,7 +980,7 @@ $funnelId = "Legal";
 
 
 
-                    <p class="reviews_text">"Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
 
 
@@ -1018,7 +1018,7 @@ $funnelId = "Legal";
 
 
 
-                    <p class="reviews_text">"I’m so glad I used Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
+                    <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
 
 
@@ -1056,7 +1056,7 @@ $funnelId = "Legal";
 
 
 
-                    <p class="reviews_text">"Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
 
 
@@ -1094,7 +1094,7 @@ $funnelId = "Legal";
 
 
 
-                    <p class="reviews_text">"Finding the right insurance was so easy with Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
+                    <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
 
 
@@ -1132,7 +1132,7 @@ $funnelId = "Legal";
 
 
 
-                    <p class="reviews_text">"Excellent service! Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
+                    <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
 
 
@@ -1170,7 +1170,7 @@ $funnelId = "Legal";
 
 
 
-                    <p class="reviews_text">"Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
+                    <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
 
 
@@ -1204,7 +1204,7 @@ $funnelId = "Legal";
 
 
 
-                    <p class="reviews_text">"Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
+                    <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
 
 
@@ -1517,7 +1517,7 @@ $funnelId = "Legal";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://quoterocket.co.za/leads-api/legal-api-call.php?' + formData,
+                    url: 'https://goquoterocket.com/leads-api/legal-api-call.php?' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1525,7 +1525,7 @@ $funnelId = "Legal";
                         console.log(resultData)
 
                         if (resultData.code === 1) {
-                            window.location.href = "https://quoterocket.co.za/thank-you.php" + queryStringValue;
+                            window.location.href = "https://goquoterocket.com/thank-you.php" + queryStringValue;
                         } else {
                             $('#loading-indicator').hide();
                             $('#error_handler_overlay').show();
@@ -1608,7 +1608,7 @@ $funnelId = "Legal";
                 }
 
                 $.ajax({
-                    url: 'https://quoterocket.co.za/logger/logger.php',
+                    url: 'https://goquoterocket.com/logger/logger.php',
                     method: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify(formDataObj),

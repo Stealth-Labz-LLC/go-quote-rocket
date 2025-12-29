@@ -17,9 +17,9 @@ $funnelId = "Health";
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Compare Medical Insurance Plans in South Africa | Quote Rocket</title>
+    <title>Compare Medical Insurance Plans in the USA | Go Quote Rocket</title>
 
-    <meta name="description" content="Find affordable medical insurance options with Quote Rocket. Compare quotes from top providers and secure the best health coverage for you and your family.">
+    <meta name="description" content="Find affordable medical insurance options with Go Quote Rocket. Compare quotes from top providers and secure the best health coverage for you and your family.">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -52,10 +52,10 @@ $funnelId = "Health";
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What’s the cheapest medical insurance in South Africa?",
+                    "name": "What’s the cheapest medical insurance in the USA?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The cost of medical insurance in South Africa varies based on factors like your age, health, and the coverage you need. To find the most affordable plan that suits your requirements, compare multiple quotes to ensure you get the best value for your money."
+                        "text": "The cost of medical insurance in the USA varies based on factors like your age, health, and the coverage you need. To find the most affordable plan that suits your requirements, compare multiple quotes to ensure you get the best value for your money."
                     }
                 },
                 {
@@ -100,10 +100,10 @@ $funnelId = "Health";
                 },
                 {
                     "@type": "Question",
-                    "name": "What does it cost to use Quote Rocket?",
+                    "name": "What does it cost to use Go Quote Rocket?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Using Quote Rocket is completely free. We help you compare quotes and find the best medical insurance options without any cost to you."
+                        "text": "Using Go Quote Rocket is completely free. We help you compare quotes and find the best medical insurance options without any cost to you."
                     }
                 }
             ]
@@ -266,7 +266,7 @@ $funnelId = "Health";
 
         <div class="container">
 
-            <p class="as-seen__heading">Quotes by South Africa's top providers, including:</p>
+            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
 
         </div>
 
@@ -362,7 +362,7 @@ $funnelId = "Health";
 
             <p class="heading">How We Make<br class="showDesk"> Finding Medical Insurance Easy</p>
 
-            <p class="comn_text comn_text--center">We know getting medical insurance quotes can feel overwhelming. That’s why <a href="/" alt="South Africa Insurance Quotes Affordable">Quote Rocket</a> simplifies the process for you. In just a few steps, we'll connect you with top-rated insurers, helping you secure the most reliable and affordable medical insurance, hassle-free.</p>
+            <p class="comn_text comn_text--center">We know getting medical insurance quotes can feel overwhelming. That’s why <a href="/" alt="the USA Insurance Quotes Affordable">Go Quote Rocket</a> simplifies the process for you. In just a few steps, we'll connect you with top-rated insurers, helping you secure the most reliable and affordable medical insurance, hassle-free.</p>
 
 
 
@@ -370,7 +370,7 @@ $funnelId = "Health";
 
                 <div class="sec2_inr_bx">
 
-                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Quote Rocket" width="381" height="291">
+                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket" width="381" height="291">
 
                     <div class="sec2_bx_content">
 
@@ -424,7 +424,7 @@ $funnelId = "Health";
 
             <p class="heading">Compare & Save On<br class="hideMob"> All<br class="showMob"> Types Of Medical Insurance</p>
 
-            <p class="comn_text">Explore the <strong>best medical insurance</strong> options available in South Africa<br class="hideMob"> and find the right fit for your health, family, and budget.</p>
+            <p class="comn_text">Explore the <strong>best medical insurance</strong> options available in the USA<br class="hideMob"> and find the right fit for your health, family, and budget.</p>
 
             <div class="inner_sec3_row">
 
@@ -470,7 +470,7 @@ $funnelId = "Health";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">Comprehensive medical insurance provides the highest level of coverage, ensuring you're prepared for both routine and unexpected healthcare expenses. In South Africa, where medical costs can quickly add up, this plan includes benefits for hospital stays, specialist visits, chronic medication, and more. With comprehensive coverage, you can focus on your health without worrying about financial strain. It’s the ultimate solution for those seeking complete peace of mind.</p>
+                            <p class="inner_sec3_tab_content_tx">Comprehensive medical insurance provides the highest level of coverage, ensuring you're prepared for both routine and unexpected healthcare expenses. In the USA, where medical costs can quickly add up, this plan includes benefits for hospital stays, specialist visits, chronic medication, and more. With comprehensive coverage, you can focus on your health without worrying about financial strain. It’s the ultimate solution for those seeking complete peace of mind.</p>
 
                             <p class="inner_sec3-content-sub_hd">Benefits of Comprehensive Medical Insurance</p>
 
@@ -518,7 +518,7 @@ $funnelId = "Health";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">A hospital plan is a medical aid option in South Africa designed to cover in-hospital medical treatment costs, such as hospital bills, specialists' fees, and in-hospital medication, but it does not include savings accounts or day-to-day benefits. Regulated by the Medical Schemes Act, it provides essential coverage for clinically required procedures, although coverage limits and shortfalls may apply for certain treatments like dentistry or back and neck procedures.</p>
+                            <p class="inner_sec3_tab_content_tx">A hospital plan is a medical aid option in the USA designed to cover in-hospital medical treatment costs, such as hospital bills, specialists' fees, and in-hospital medication, but it does not include savings accounts or day-to-day benefits. Regulated by the Medical Schemes Act, it provides essential coverage for clinically required procedures, although coverage limits and shortfalls may apply for certain treatments like dentistry or back and neck procedures.</p>
                             <p class="inner_sec3-content-sub_hd">Benefits of Hospital Plans</p>
 
                             <ul class="inner_sec3_tab-lst">
@@ -564,7 +564,7 @@ $funnelId = "Health";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">A Day-to-Day insurance plan in South Africa provides coverage for routine healthcare expenses, such as doctor visits, prescribed medication, dental care, and optometry. Unlike hospital plans, it focuses on everyday medical needs, helping you manage out-of-pocket expenses for general healthcare. These policies are ideal for individuals or families who require frequent medical consultations or treatments and want the financial security of knowing routine costs are covered.</p>
+                            <p class="inner_sec3_tab_content_tx">A Day-to-Day insurance plan in the USA provides coverage for routine healthcare expenses, such as doctor visits, prescribed medication, dental care, and optometry. Unlike hospital plans, it focuses on everyday medical needs, helping you manage out-of-pocket expenses for general healthcare. These policies are ideal for individuals or families who require frequent medical consultations or treatments and want the financial security of knowing routine costs are covered.</p>
                             <p class="inner_sec3-content-sub_hd">Benefits of Day-to-Day Medical Insurance</p>
 
                             <ul class="inner_sec3_tab-lst">
@@ -608,7 +608,7 @@ $funnelId = "Health";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">Gap cover in South Africa is a short-term insurance policy designed to bridge the gap between what your medical aid pays and the actual costs of in-hospital treatments or procedures. It covers co-payments, shortfalls, and additional costs for specialists, ensuring you’re not left with unexpected expenses. Ideal for those with medical aid, gap cover provides financial protection against rising healthcare costs and helps maintain access to quality medical care without straining your budget.</p>
+                            <p class="inner_sec3_tab_content_tx">Gap cover in the USA is a short-term insurance policy designed to bridge the gap between what your medical aid pays and the actual costs of in-hospital treatments or procedures. It covers co-payments, shortfalls, and additional costs for specialists, ensuring you’re not left with unexpected expenses. Ideal for those with medical aid, gap cover provides financial protection against rising healthcare costs and helps maintain access to quality medical care without straining your budget.</p>
 
 
                             <p class="inner_sec3-content-sub_hd">Benefits of Gap Cover</p>
@@ -658,9 +658,9 @@ $funnelId = "Health";
 
             <div class="why_choose_left">
 
-                <p class="heading">Why Choose<br class="hideMob"> Quote Rocket</p>
+                <p class="heading">Why Choose<br class="hideMob"> Go Quote Rocket</p>
 
-                <p class="comn_text">Finding the right medical insurance can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Quotes">Quote Rocket</a>, we connect you with an insurance expert who can guide you through the process. You’ll be able to make the right choice for your needs and budget.</p>
+                <p class="comn_text">Finding the right medical insurance can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Quotes">Go Quote Rocket</a>, we connect you with an insurance expert who can guide you through the process. You’ll be able to make the right choice for your needs and budget.</p>
 
             </div>
 
@@ -722,7 +722,7 @@ $funnelId = "Health";
 
         <div class="container">
 
-            <p class="heading">Get The Most From<br class="showDesk"> Medical Insurance In South Africa</p>
+            <p class="heading">Get The Most From<br class="showDesk"> Medical Insurance In the USA</p>
 
             <p class="comn_text comn_text--center">Medical insurance empowers you to manage the increasing costs of healthcare, giving you access to <strong>quality private hospitals, expert specialists, and vital treatments</strong> when you need them most. Protect your health, your family, and your finances with comprehensive coverage designed for peace of mind and security.</p>
 
@@ -804,7 +804,7 @@ $funnelId = "Health";
 
         <div class="container">
 
-            <p class="heading">Over 744 409<br class="showMob"> South Africans Trust Us.</p>
+            <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
             <div class="feefo_box">
 
@@ -832,7 +832,7 @@ $funnelId = "Health";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I couldn’t believe how quickly Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
+                    <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
                         <p><span>Loren</span><br> Port Elizabeth</p>
@@ -852,7 +852,7 @@ $funnelId = "Health";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
                         <p><span>Themba</span><br> Bloemfontein</p>
@@ -872,7 +872,7 @@ $funnelId = "Health";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I’m so glad I used Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
+                    <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
                         <p><span>Mike</span><br> East London</p>
@@ -892,7 +892,7 @@ $funnelId = "Health";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
                         <p><span>Marthinus</span><br> Johannesburg</p>
@@ -912,7 +912,7 @@ $funnelId = "Health";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Finding the right insurance was so easy with Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
+                    <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
                         <p><span>Thandi</span><br> Durban</p>
@@ -932,7 +932,7 @@ $funnelId = "Health";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Excellent service! Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
+                    <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
                         <p><span>Sipho</span><br> Cape Town</p>
@@ -952,7 +952,7 @@ $funnelId = "Health";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
+                    <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
                         <p><span>Zanele</span><br> Pretoria</p>
@@ -970,7 +970,7 @@ $funnelId = "Health";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
+                    <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
                         <p><span>Loraine</span><br> Cape Town</p>
@@ -1000,11 +1000,11 @@ $funnelId = "Health";
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-open" id="hd-one">What’s the cheapest medical insurance in South Africa?</div>
+                        <div class="accordion acdn-heading accordion-open" id="hd-one">What’s the cheapest medical insurance in the USA?</div>
 
                         <div class="acdn-content">
 
-                            <p class="acdn-para">The cost of medical insurance in South Africa varies based on factors like your age, health, and the coverage you need. To find the most affordable plan that suits your requirements, compare multiple quotes to ensure you get the best value for your money.</p>
+                            <p class="acdn-para">The cost of medical insurance in the USA varies based on factors like your age, health, and the coverage you need. To find the most affordable plan that suits your requirements, compare multiple quotes to ensure you get the best value for your money.</p>
 
                         </div>
 
@@ -1108,11 +1108,11 @@ $funnelId = "Health";
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">What does it cost to use Quote Rocket?</div>
+                        <div class="accordion acdn-heading accordion-close">What does it cost to use Go Quote Rocket?</div>
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">Using Quote Rocket is completely free. We help you compare quotes and find the best medical insurance options without any cost to you.</p>
+                            <p class="acdn-para">Using Go Quote Rocket is completely free. We help you compare quotes and find the best medical insurance options without any cost to you.</p>
 
                         </div>
 
@@ -1208,7 +1208,7 @@ $funnelId = "Health";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://quoterocket.co.za/leads-api/health-api-call.php?' + formData,
+                    url: 'https://goquoterocket.com/leads-api/health-api-call.php?' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1216,7 +1216,7 @@ $funnelId = "Health";
                         console.log(resultData)
 
                         if (resultData.code === 1) {
-                            window.location.href = "https://quoterocket.co.za/thank-you.php" + queryStringValue;
+                            window.location.href = "https://goquoterocket.com/thank-you.php" + queryStringValue;
                         } else {
                             $('#loading-indicator').hide();
                             $('#error_handler_overlay').show();
@@ -1301,7 +1301,7 @@ $funnelId = "Health";
                 }
 
                 $.ajax({
-                    url: 'https://quoterocket.co.za/logger/logger.php',
+                    url: 'https://goquoterocket.com/logger/logger.php',
                     method: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify(formDataObj),

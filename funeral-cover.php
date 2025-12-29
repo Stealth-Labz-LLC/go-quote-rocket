@@ -18,9 +18,9 @@ $funnelId = "Funeral";
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Affordable Funeral Cover in South Africa | Quote Rocket</title>
+    <title>Affordable Funeral Cover in the USA | Go Quote Rocket</title>
 
-    <meta name="description" content="Compare funeral cover quotes to protect your family during difficult times. Find affordable funeral plans in South Africa with Quote Rocket.">
+    <meta name="description" content="Compare funeral cover quotes to protect your family during difficult times. Find affordable funeral plans in the USA with Go Quote Rocket.">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
     <!--PreloadFile -->
@@ -310,7 +310,7 @@ $funnelId = "Funeral";
 
         <div class="container">
 
-            <p class="as-seen__heading">Quotes by South Africa's top providers, including:</p>
+            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
 
         </div>
 
@@ -419,7 +419,7 @@ $funnelId = "Funeral";
 
             <p class="heading">How We Make<br> Finding Funeral Cover Easy</p>
 
-            <p class="comn_text">We understand that finding the right funeral cover can feel overwhelming. That’s why Quote Rocket simplifies<br class="showDesk"> the process for you. In just a few simple steps, we’ll connect you with trusted providers, helping you<br class="showDesk"> secure reliable and affordable funeral cover for you and your family, hassle-free.</p>
+            <p class="comn_text">We understand that finding the right funeral cover can feel overwhelming. That’s why Go Quote Rocket simplifies<br class="showDesk"> the process for you. In just a few simple steps, we’ll connect you with trusted providers, helping you<br class="showDesk"> secure reliable and affordable funeral cover for you and your family, hassle-free.</p>
 
 
 
@@ -427,7 +427,7 @@ $funnelId = "Funeral";
 
                 <div class="sec2_inr_bx">
 
-                    <img src="images/inner-sec2-img1.webp" alt="Guy Using Quote Rocket on Computer for Funeral Cover" width="381" height="291">
+                    <img src="images/inner-sec2-img1.webp" alt="Guy Using Go Quote Rocket on Computer for Funeral Cover" width="381" height="291">
 
                     <div class="sec2_bx_content">
 
@@ -711,9 +711,9 @@ $funnelId = "Funeral";
 
             <div class="why_choose_left">
 
-                <p class="heading">Why Choose<br class="hideMob"> Quote Rocket</p>
+                <p class="heading">Why Choose<br class="hideMob"> Go Quote Rocket</p>
 
-                <p class="comn_text">Finding the right funeral cover can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Options">Quote Rocket</a>, we connect you with multiple authorized providers, so you can compare options side by side. Our process is designed to save you time, reduce stress, and help you secure the most reliable and affordable coverage available.</p>
+                <p class="comn_text">Finding the right funeral cover can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Options">Go Quote Rocket</a>, we connect you with multiple authorized providers, so you can compare options side by side. Our process is designed to save you time, reduce stress, and help you secure the most reliable and affordable coverage available.</p>
 
             </div>
 
@@ -893,7 +893,7 @@ $funnelId = "Funeral";
 
         <div class="container">
 
-            <p class="heading">Over 744 409<br class="showMob"> South Africans Trust Us.</p>
+            <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
             <div class="feefo_box">
 
@@ -920,7 +920,7 @@ $funnelId = "Funeral";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I couldn’t believe how quickly Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
+                    <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
                         <p><span>Loren</span><br> Port Elizabeth</p>
@@ -940,7 +940,7 @@ $funnelId = "Funeral";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
                         <p><span>Themba</span><br> Bloemfontein</p>
@@ -960,7 +960,7 @@ $funnelId = "Funeral";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I’m so glad I used Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
+                    <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
                         <p><span>Mike</span><br> East London</p>
@@ -980,7 +980,7 @@ $funnelId = "Funeral";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
                         <p><span>Marthinus</span><br> Johannesburg</p>
@@ -1000,7 +1000,7 @@ $funnelId = "Funeral";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Finding the right insurance was so easy with Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
+                    <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
                         <p><span>Thandi</span><br> Durban</p>
@@ -1020,7 +1020,7 @@ $funnelId = "Funeral";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Excellent service! Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
+                    <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
                         <p><span>Sipho</span><br> Cape Town</p>
@@ -1040,7 +1040,7 @@ $funnelId = "Funeral";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
+                    <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
                         <p><span>Zanele</span><br> Pretoria</p>
@@ -1058,7 +1058,7 @@ $funnelId = "Funeral";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
+                    <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
                         <p><span>Loraine</span><br> Cape Town</p>
@@ -1350,7 +1350,7 @@ $funnelId = "Funeral";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://quoterocket.co.za/leads-api/funeral-api-call.php?' + formData,
+                    url: 'https://goquoterocket.com/leads-api/funeral-api-call.php?' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1358,7 +1358,7 @@ $funnelId = "Funeral";
                         console.log(resultData)
 
                         if (resultData.code === 1) {
-                            window.location.href = "https://quoterocket.co.za/thank-you.php" + queryStringValue;
+                            window.location.href = "https://goquoterocket.com/thank-you.php" + queryStringValue;
                         } else {
                             $('#loading-indicator').hide();
                             $('#error_handler_overlay').show();
@@ -1441,7 +1441,7 @@ $funnelId = "Funeral";
                 }
 
                 $.ajax({
-                    url: 'https://quoterocket.co.za/logger/logger.php',
+                    url: 'https://goquoterocket.com/logger/logger.php',
                     method: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify(formDataObj),

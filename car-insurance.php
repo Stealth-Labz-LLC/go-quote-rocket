@@ -22,8 +22,8 @@ $funnelId = "Car";
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Affordable Car Insurance Quotes in South Africa | Quote Rocket</title>
-    <meta name="description" content="Get competitive car insurance quotes in South Africa with Quote Rocket. Compare options and save on affordable coverage for your vehicle today.">
+    <title>Affordable Car Insurance Quotes in the USA | Go Quote Rocket</title>
+    <meta name="description" content="Get competitive car insurance quotes in the USA with Go Quote Rocket. Compare options and save on affordable coverage for your vehicle today.">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
     <!--PreloadFile -->
@@ -59,7 +59,7 @@ $funnelId = "Car";
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What’s the most affordable car insurance in South Africa?",
+                    "name": "What’s the most affordable car insurance in the USA?",
                     "acceptedAnswer": {
                         "@type": "Answer",
                         "text": "Third-party insurance is generally the least expensive because it only covers damages you cause to others. For more extensive protection, comprehensive insurance is a better option, though it costs more."
@@ -70,7 +70,7 @@ $funnelId = "Car";
                     "name": "Why is car insurance important?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "In South Africa, most drivers are uninsured, which means you could be left covering costs if someone else damages your car. Insurance helps you manage expenses from accidents, theft, or breakdowns and often includes useful extras like roadside assistance."
+                        "text": "In the USA, most drivers are uninsured, which means you could be left covering costs if someone else damages your car. Insurance helps you manage expenses from accidents, theft, or breakdowns and often includes useful extras like roadside assistance."
                     }
                 },
                 {
@@ -83,10 +83,10 @@ $funnelId = "Car";
                 },
                 {
                     "@type": "Question",
-                    "name": "What does it cost to use Quote Rocket?",
+                    "name": "What does it cost to use Go Quote Rocket?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Using Quote Rocket is completely free. There are no hidden charges, and you can easily compare quotes at no cost to find a policy that suits you."
+                        "text": "Using Go Quote Rocket is completely free. There are no hidden charges, and you can easily compare quotes at no cost to find a policy that suits you."
                     }
                 },
                 {
@@ -131,10 +131,10 @@ $funnelId = "Car";
                 },
                 {
                     "@type": "Question",
-                    "name": "What are the benefits of using Quote Rocket?",
+                    "name": "What are the benefits of using Go Quote Rocket?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Quote Rocket simplifies comparing insurance options, helping you find affordable and reliable coverage quickly and without hassle. It’s an easy way to save time and money."
+                        "text": "Go Quote Rocket simplifies comparing insurance options, helping you find affordable and reliable coverage quickly and without hassle. It’s an easy way to save time and money."
                     }
                 }
             ]
@@ -185,7 +185,7 @@ $funnelId = "Car";
 
                         <p class="inner_sec1-hdg">Get Free Car Insurance<br class="showDesk"> Quotes in <em>1 Minute!</em></p>
 
-                        <p class="inner_sec1_txt">Compare cheap car insurance offers from South Africa’s top<br class="hideMob"> providers and <strong>save up-to R390 per month.</strong></p>
+                        <p class="inner_sec1_txt">Compare cheap car insurance offers from the USA’s top<br class="hideMob"> providers and <strong>save up-to R390 per month.</strong></p>
 
 
                         <input type="hidden" name="insuranceApi" value="Yes">
@@ -394,7 +394,7 @@ $funnelId = "Car";
                         <p class="inner_sec1-rat-txt">
                             <img src="images/bulb-icon.svg?v=2" class="bulb-img" alt="Customer Reviews" width="24" height="24">
                             <span class="text-left">
-                                <span><u>1 car is stolen every 9 minutes</u></span> in South Africa. Your vehicle is at risk!
+                                <span><u>1 car is stolen every 9 minutes</u></span> in the USA. Your vehicle is at risk!
                             </span>
                         </p>
 
@@ -428,7 +428,7 @@ $funnelId = "Car";
 
         <div class="container">
 
-            <p class="as-seen__heading">Quotes by South Africa's top providers, including:</p>
+            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
 
         </div>
 
@@ -532,7 +532,7 @@ $funnelId = "Car";
 
             <p class="heading">How We Make<br class="showDesk"> Finding Car Insurance Easy</p>
 
-            <p class="comn_text comn_text--center">We know getting car insurance quotes can feel overwhelming. That’s why Quote Rocket simplifies the process for you. In just a few steps, we'll connect you with top-rated insurers, helping you secure the most reliable and affordable car insurance, hassle-free.</p>
+            <p class="comn_text comn_text--center">We know getting car insurance quotes can feel overwhelming. That’s why Go Quote Rocket simplifies the process for you. In just a few steps, we'll connect you with top-rated insurers, helping you secure the most reliable and affordable car insurance, hassle-free.</p>
 
 
 
@@ -540,7 +540,7 @@ $funnelId = "Car";
 
                 <div class="sec2_inr_bx">
 
-                    <img src="images/inner-sec2-img1.webp" alt="Quote Rocket Insurance Form" width="381" height="291">
+                    <img src="images/inner-sec2-img1.webp" alt="Go Quote Rocket Insurance Form" width="381" height="291">
 
                     <div class="sec2_bx_content">
 
@@ -594,7 +594,7 @@ $funnelId = "Car";
 
             <p class="heading">Compare & Save On<br class="showDesk"> All Types Of Car Insurance</p>
 
-            <p class="comn_text">Car insurance in South Africa typically comes in three types: <strong>comprehensive, third-party fire and theft,<br class="showDesk"> and third-party only</strong>. Each option provides different levels of coverage, ensuring you can choose<br class="showDesk"> the protection that best fits your needs and circumstances.</p>
+            <p class="comn_text">Car insurance in the USA typically comes in three types: <strong>comprehensive, third-party fire and theft,<br class="showDesk"> and third-party only</strong>. Each option provides different levels of coverage, ensuring you can choose<br class="showDesk"> the protection that best fits your needs and circumstances.</p>
 
             <div class="inner_sec3_row">
 
@@ -636,7 +636,7 @@ $funnelId = "Car";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">Comprehensive car insurance offers the highest level of protection, covering risks like accidents, theft, fire, and vandalism. In South Africa, where road hazards and vehicle theft are common, this coverage ensures your car—and your wallet—are safeguarded against unexpected costs.</p>
+                            <p class="inner_sec3_tab_content_tx">Comprehensive car insurance offers the highest level of protection, covering risks like accidents, theft, fire, and vandalism. In the USA, where road hazards and vehicle theft are common, this coverage ensures your car—and your wallet—are safeguarded against unexpected costs.</p>
 
                             <p class="inner_sec3_tab_content_tx">With comprehensive insurance, you’re protected from more than just accidents. Whether it’s natural disasters, vandalism, or theft, this all-in-one policy provides peace of mind, allowing you to focus on the road instead of worrying about potential expenses.</p>
 
@@ -686,7 +686,7 @@ $funnelId = "Car";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">Third Party, Fire & Theft car insurance offers a cost-effective way to protect yourself and others on the road. It covers damages you may cause to another person’s vehicle or property while safeguarding your own car against theft, hijacking, or fire damage. Though not as comprehensive as full coverage, it provides essential protection for major risks and is particularly valuable in South Africa, where vehicle theft and fire incidents are common. Balancing affordability with peace of mind, this insurance is an ideal choice for budget-conscious drivers.</p>
+                            <p class="inner_sec3_tab_content_tx">Third Party, Fire & Theft car insurance offers a cost-effective way to protect yourself and others on the road. It covers damages you may cause to another person’s vehicle or property while safeguarding your own car against theft, hijacking, or fire damage. Though not as comprehensive as full coverage, it provides essential protection for major risks and is particularly valuable in the USA, where vehicle theft and fire incidents are common. Balancing affordability with peace of mind, this insurance is an ideal choice for budget-conscious drivers.</p>
 
                             <p class="inner_sec3-content-sub_hd">Benefits of Third Party, Fire & Theft Car Insurance</p>
 
@@ -738,7 +738,7 @@ $funnelId = "Car";
 
                             </div>
 
-                            <p class="inner_sec3_tab_content_tx">Third Party Only car insurance is the most basic and affordable coverage, protecting you against financial liability for damages caused to another person’s vehicle or property. While it doesn’t cover your own car, it ensures you meet legal and financial obligations and avoids out-of-pocket expenses in case of an accident. Ideal for budget-conscious drivers, this policy provides essential protection and peace of mind, especially in South Africa, where accidents are common.</p>
+                            <p class="inner_sec3_tab_content_tx">Third Party Only car insurance is the most basic and affordable coverage, protecting you against financial liability for damages caused to another person’s vehicle or property. While it doesn’t cover your own car, it ensures you meet legal and financial obligations and avoids out-of-pocket expenses in case of an accident. Ideal for budget-conscious drivers, this policy provides essential protection and peace of mind, especially in the USA, where accidents are common.</p>
 
                             <p class="inner_sec3-content-sub_hd">Benefits of Third Party Only Car Insurance</p>
 
@@ -788,9 +788,9 @@ $funnelId = "Car";
 
             <div class="why_choose_left">
 
-                <p class="heading">Why Choose<br class="hideMob"> Quote Rocket</p>
+                <p class="heading">Why Choose<br class="hideMob"> Go Quote Rocket</p>
 
-                <p class="comn_text">Finding the right car insurance can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Quotes South Africa">Quote Rocket</a>, we connect you with an insurance expert who can guide you through the process. You'll be able to make the right choice for your needs and budget.</p>
+                <p class="comn_text">Finding the right car insurance can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Quotes the USA">Go Quote Rocket</a>, we connect you with an insurance expert who can guide you through the process. You'll be able to make the right choice for your needs and budget.</p>
 
             </div>
 
@@ -800,7 +800,7 @@ $funnelId = "Car";
 
                     <li>
 
-                        <img src="images/why-chose-icn1.png" alt="Save Time with Quote Rocket" class="why-chose_icn" width="84" height="92">
+                        <img src="images/why-chose-icn1.png" alt="Save Time with Go Quote Rocket" class="why-chose_icn" width="84" height="92">
 
                         <h3>Save Time</h3>
 
@@ -810,7 +810,7 @@ $funnelId = "Car";
 
                     <li>
 
-                        <img src="images/why-chose-icn2.png" alt="Save Money with Quote Rocket" class="why-chose_icn" width="84" height="92">
+                        <img src="images/why-chose-icn2.png" alt="Save Money with Go Quote Rocket" class="why-chose_icn" width="84" height="92">
 
                         <h3>Save Money</h3>
 
@@ -820,7 +820,7 @@ $funnelId = "Car";
 
                     <li>
 
-                        <img src="images/why-chose-icn3.png" alt="Save Stress with Quote Rocket" class="why-chose_icn" width="84" height="92">
+                        <img src="images/why-chose-icn3.png" alt="Save Stress with Go Quote Rocket" class="why-chose_icn" width="84" height="92">
 
                         <h3>Save Stress</h3>
 
@@ -830,7 +830,7 @@ $funnelId = "Car";
 
                     <li>
 
-                        <img src="images/why-chose-icn4.png" alt="Save Smart with Quote Rocket" class="why-chose_icn" width="84" height="92">
+                        <img src="images/why-chose-icn4.png" alt="Save Smart with Go Quote Rocket" class="why-chose_icn" width="84" height="92">
 
                         <h3>Save Smart</h3>
 
@@ -852,9 +852,9 @@ $funnelId = "Car";
 
         <div class="container">
 
-            <p class="heading">Cost to Insure<br class="showDesk"> South Africa’s Top-Selling Cars</p>
+            <p class="heading">Cost to Insure<br class="showDesk"> the USA’s Top-Selling Cars</p>
 
-            <p class="comn_text comn_text--center">Your insurance premium is determined by a range of factors, from safety features of your vehicle to risk profiles. Discover the <strong>average costs to insure some of South Africa’s most popular car brands</strong> and find out what you could be paying.</p>
+            <p class="comn_text comn_text--center">Your insurance premium is determined by a range of factors, from safety features of your vehicle to risk profiles. Discover the <strong>average costs to insure some of the USA’s most popular car brands</strong> and find out what you could be paying.</p>
 
 
 
@@ -928,7 +928,7 @@ $funnelId = "Car";
 
         <div class="container">
 
-            <p class="heading">Over 744 409<br class="showMob"> South Africans Trust Us.</p>
+            <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
             <div class="feefo_box">
 
@@ -956,7 +956,7 @@ $funnelId = "Car";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I couldn’t believe how quickly Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
+                    <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
                         <p><span>Loren</span><br> Port Elizabeth</p>
@@ -976,7 +976,7 @@ $funnelId = "Car";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
                         <p><span>Themba</span><br> Bloemfontein</p>
@@ -996,7 +996,7 @@ $funnelId = "Car";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"I’m so glad I used Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
+                    <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
                         <p><span>Mike</span><br> East London</p>
@@ -1016,7 +1016,7 @@ $funnelId = "Car";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
+                    <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
                         <p><span>Marthinus</span><br> Johannesburg</p>
@@ -1036,7 +1036,7 @@ $funnelId = "Car";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Finding the right insurance was so easy with Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
+                    <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
                         <p><span>Thandi</span><br> Durban</p>
@@ -1056,7 +1056,7 @@ $funnelId = "Car";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Excellent service! Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
+                    <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
                         <p><span>Sipho</span><br> Cape Town</p>
@@ -1076,7 +1076,7 @@ $funnelId = "Car";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
+                    <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
                         <p><span>Zanele</span><br> Pretoria</p>
@@ -1096,7 +1096,7 @@ $funnelId = "Car";
 
                     <img src="images/rev-quote.png" alt="Testimonial Quote" class="reviews_quote" width="54" height="46">
 
-                    <p class="reviews_text">"Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
+                    <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
                         <p><span>Loraine</span><br> Cape Town</p>
@@ -1128,7 +1128,7 @@ $funnelId = "Car";
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-open" id="hd-one">What’s the most affordable car insurance in South Africa?</div>
+                        <div class="accordion acdn-heading accordion-open" id="hd-one">What’s the most affordable car insurance in the USA?</div>
 
                         <div class="acdn-content">
 
@@ -1150,7 +1150,7 @@ $funnelId = "Car";
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">In South Africa, most drivers are uninsured, which means you could be left covering costs if someone else damages your car. Insurance helps you manage expenses from accidents, theft, or breakdowns and often includes useful extras like roadside assistance.</p>
+                            <p class="acdn-para">In the USA, most drivers are uninsured, which means you could be left covering costs if someone else damages your car. Insurance helps you manage expenses from accidents, theft, or breakdowns and often includes useful extras like roadside assistance.</p>
 
                         </div>
 
@@ -1182,11 +1182,11 @@ $funnelId = "Car";
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">What does it cost to use Quote Rocket?</div>
+                        <div class="accordion acdn-heading accordion-close">What does it cost to use Go Quote Rocket?</div>
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">Using Quote Rocket is <strong>completely free</strong>. There are no hidden charges, and you can easily compare quotes at no cost to find a policy that suits you.</p>
+                            <p class="acdn-para">Using Go Quote Rocket is <strong>completely free</strong>. There are no hidden charges, and you can easily compare quotes at no cost to find a policy that suits you.</p>
 
                         </div>
 
@@ -1294,11 +1294,11 @@ $funnelId = "Car";
 
                     <div class="faq-innr">
 
-                        <div class="accordion acdn-heading accordion-close">What are the benefits of using Quote Rocket?</div>
+                        <div class="accordion acdn-heading accordion-close">What are the benefits of using Go Quote Rocket?</div>
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">Quote Rocket simplifies comparing <a href="medical-insurance.php" alt="Medical Insurance Quotes">insurance options</a>, helping you find affordable and reliable coverage quickly and without hassle. It’s an easy way to save time and money.</p>
+                            <p class="acdn-para">Go Quote Rocket simplifies comparing <a href="medical-insurance.php" alt="Medical Insurance Quotes">insurance options</a>, helping you find affordable and reliable coverage quickly and without hassle. It’s an easy way to save time and money.</p>
 
                         </div>
 
@@ -1400,7 +1400,7 @@ $funnelId = "Car";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://quoterocket.co.za/leads-api/auto-api-call.php?' + formData,
+                    url: 'https://goquoterocket.com/leads-api/auto-api-call.php?' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1495,7 +1495,7 @@ $funnelId = "Car";
                 }
 
                 $.ajax({
-                    url: 'https://quoterocket.co.za/logger/logger.php',
+                    url: 'https://goquoterocket.com/logger/logger.php',
                     method: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify(formDataObj),
@@ -1530,7 +1530,7 @@ $funnelId = "Car";
 
             $('#slide_3_yes_btn').click(function() {
                 let queryStringValue = window.location.search;
-                window.location.href = "https://quoterocket.co.za/thank-you.php" + queryStringValue;
+                window.location.href = "https://goquoterocket.com/thank-you.php" + queryStringValue;
             });
 
             $('#slide_3_no_btn').click(function() {
@@ -1539,7 +1539,7 @@ $funnelId = "Car";
                     trackApiCall(isTrackApiRequired);
                 } else {
                     let queryStringValue = window.location.search;
-                    window.location.href = "https://quoterocket.co.za/thank-you.php" + queryStringValue;
+                    window.location.href = "https://goquoterocket.com/thank-you.php" + queryStringValue;
                 }
             });
             // Track API call function for "Yes" responses
@@ -1547,14 +1547,14 @@ $funnelId = "Car";
                 let queryStringValue = window.location.search;
                 //$('#loading-indicator').show();
                 $.ajax({
-                    url: 'https://quoterocket.co.za/leads-api/auto-api-call.php?trackApi=' + optData,
+                    url: 'https://goquoterocket.com/leads-api/auto-api-call.php?trackApi=' + optData,
                     type: 'post',
                     success: function(data) {
                         let resultData = JSON.parse(data);
                         console.log(resultData);
 
                         if (resultData.code === 1) {
-                            window.location.href = 'https://quoterocket.co.za/thank-you.php' + queryStringValue;
+                            window.location.href = 'https://goquoterocket.com/thank-you.php' + queryStringValue;
                         } else {
                             //$('#loading-indicator').hide();
                             $('#error_handler_overlay').show();

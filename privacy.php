@@ -8,9 +8,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<title>Privacy Policy | Quote Rocket</title>
+<title>Privacy Policy | Go Quote Rocket</title>
 
-<meta name="description" content="Understand how Quote Rocket protects your personal information and ensures your privacy while using our platform to find insurance quotes.">
+<meta name="description" content="Understand how Go Quote Rocket protects your personal information and ensures your privacy while using our platform to find insurance quotes.">
 
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -124,7 +124,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-            <p>You agree that we may store your personal information in any country outside of South Africa where such country's data privacy laws are equivalent to or stricter than POPI (including the United States of America and the United Kingdom), or where we have concluded suitable agreements with third parties which comply with the relevant provisions of POPI, allowing for the storage of personal information.
+            <p>You agree that we may store your personal information in any country outside of the USA where such country's data privacy laws are equivalent to or stricter than POPI (including the United States of America and the United Kingdom), or where we have concluded suitable agreements with third parties which comply with the relevant provisions of POPI, allowing for the storage of personal information.
 
             </p>
 
@@ -140,11 +140,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-            <p>If you have any questions or concerns about our privacy policy, please send us an email at <a href="mailto::support@quoterocket.co.za">support@quoterocket.co.za.</a> Through your use of the Website, you signify your acceptance of our Privacy Policy. Should you not agree to this policy, please do not continue to use the Website. Your continued use of the Website following the posting of changes to these Terms (including but not limited to changes to the Privacy Policy) will be deemed as your acceptance of those changes. By registering at the Website, you provide your consent to allow us to communicate various messages relating to promotions, special offers, discounts, and the like associated with the quoterocket.co.za insurance comparison engine. The form of communication may include, but is not limited to, electronic mail, mobile communications (SMS), and telephone calls.</p>
+            <p>If you have any questions or concerns about our privacy policy, please send us an email at <a href="mailto::support@goquoterocket.com">support@goquoterocket.com.</a> Through your use of the Website, you signify your acceptance of our Privacy Policy. Should you not agree to this policy, please do not continue to use the Website. Your continued use of the Website following the posting of changes to these Terms (including but not limited to changes to the Privacy Policy) will be deemed as your acceptance of those changes. By registering at the Website, you provide your consent to allow us to communicate various messages relating to promotions, special offers, discounts, and the like associated with the goquoterocket.com insurance comparison engine. The form of communication may include, but is not limited to, electronic mail, mobile communications (SMS), and telephone calls.</p>
 
 
 
-            <p>Should you choose to provide us with personally identifiable information through the use of the Website, rest assured that any such information you have voluntarily provided will not be shared with any third-party organization other than in accordance with these Terms or with your express consent, which would include but is not limited to requests to be contacted regarding an insurance product from one of our insurance partners and/or for a specific product. Should you wish to unsubscribe from our services, please send an email to <a href="mailto::support@quoterocket.co.za">support@quoterocket.co.za.</a></p>
+            <p>Should you choose to provide us with personally identifiable information through the use of the Website, rest assured that any such information you have voluntarily provided will not be shared with any third-party organization other than in accordance with these Terms or with your express consent, which would include but is not limited to requests to be contacted regarding an insurance product from one of our insurance partners and/or for a specific product. Should you wish to unsubscribe from our services, please send an email to <a href="mailto::support@goquoterocket.com">support@goquoterocket.com.</a></p>
 
         </div>
 

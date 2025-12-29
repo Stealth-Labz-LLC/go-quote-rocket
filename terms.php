@@ -8,9 +8,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<title>Terms and Conditions | Quote Rocket</title>
+<title>Terms and Conditions | Go Quote Rocket</title>
 
-<meta name="description" content="Read the terms and conditions of using Quote Rocket. Learn about your rights and responsibilities when accessing our insurance comparison services.">
+<meta name="description" content="Read the terms and conditions of using Go Quote Rocket. Learn about your rights and responsibilities when accessing our insurance comparison services.">
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -57,7 +57,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <h3>1. INTRODUCTION</h3>
 
-            <p align="left">www.quoterocket.co.za (“we, us, our”) is an online insurance comparison site (“the Website”), which enables users (“you, your”) to voluntarily enter their contact information on a single Website, and have various insurance companies contact them. We have partnerships with a variety of insurers, and may submit your details to a variety of insurance companies or brokers. These terms and conditions of use (“Terms”) regulate access to and use of the Website and any profile created by you arising out of your use of the Website.</p>
+            <p align="left">www.goquoterocket.com (“we, us, our”) is an online insurance comparison site (“the Website”), which enables users (“you, your”) to voluntarily enter their contact information on a single Website, and have various insurance companies contact them. We have partnerships with a variety of insurers, and may submit your details to a variety of insurance companies or brokers. These terms and conditions of use (“Terms”) regulate access to and use of the Website and any profile created by you arising out of your use of the Website.</p>
 
 
 
@@ -213,7 +213,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-            <p align="left">We hereby reserve the right to take whatever action we find necessary to preserve the security, integrity and reliability of our network and back-office applications. You may not utilise the Website in any manner which may compromise the security of the Website in any manner whatsoever, which shall include, without limitation, delivering or attempting to deliver any unauthorised, damaging or malicious code to the Website, which is expressly prohibited. These Terms will be exclusively governed by and construed in accordance with the laws of South Africa whose Courts will have exclusive jurisdiction in any dispute.</p>
+            <p align="left">We hereby reserve the right to take whatever action we find necessary to preserve the security, integrity and reliability of our network and back-office applications. You may not utilise the Website in any manner which may compromise the security of the Website in any manner whatsoever, which shall include, without limitation, delivering or attempting to deliver any unauthorised, damaging or malicious code to the Website, which is expressly prohibited. These Terms will be exclusively governed by and construed in accordance with the laws of the USA whose Courts will have exclusive jurisdiction in any dispute.</p>
 
 
 
@@ -221,7 +221,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-            <p align="left">The Website is controlled, operated and administered by us from our offices within the Republic of South Africa. We make no representations that the content of the Website is appropriate or available for use outside of South Africa. Access to the Website from territories or countries where the content of the Website is illegal is prohibited. You may not use this Website in violation of South African export laws and regulations. If you access this Website from locations outside of South Africa, you are responsible for compliance with all local laws.</p>
+            <p align="left">The Website is controlled, operated and administered by us from our offices within the Republic of the USA. We make no representations that the content of the Website is appropriate or available for use outside of the USA. Access to the Website from territories or countries where the content of the Website is illegal is prohibited. You may not use this Website in violation of the USAn export laws and regulations. If you access this Website from locations outside of the USA, you are responsible for compliance with all local laws.</p>
 
 
 
@@ -229,7 +229,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-            <p align="left">All content included on the Website, including but not limited to, text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, is our property or the property of our content suppliers and is protected in terms of intellectual property laws in South Africa (including trade mark and copyright law) as well as international copyright laws.</p>
+            <p align="left">All content included on the Website, including but not limited to, text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, is our property or the property of our content suppliers and is protected in terms of intellectual property laws in the USA (including trade mark and copyright law) as well as international copyright laws.</p>
 
 
 
@@ -331,7 +331,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-            <p align="left">Except as explicitly stated otherwise, any notices shall be sent by you by way of email to support@quoterocket.co.za. Notwithstanding anything to the contrary, a written notice or communication actually received by a party shall be an adequate written notice or communication to it, notwithstanding that it was not sent to or delivered at its chosen address/es for that purpose. You hereby agree that we shall use the email address provided by you are your address to receive all information, notices, documents and legal process. Notice shall be deemed given 48 (forty eight) hours after email is sent, unless the sending party is notified that the email address is invalid. You acknowledge that all agreements, notices or other communication required to be given in terms of the law or these Terms may be given via electronic means and that such communications shall be “in writing”.</p>
+            <p align="left">Except as explicitly stated otherwise, any notices shall be sent by you by way of email to support@goquoterocket.com. Notwithstanding anything to the contrary, a written notice or communication actually received by a party shall be an adequate written notice or communication to it, notwithstanding that it was not sent to or delivered at its chosen address/es for that purpose. You hereby agree that we shall use the email address provided by you are your address to receive all information, notices, documents and legal process. Notice shall be deemed given 48 (forty eight) hours after email is sent, unless the sending party is notified that the email address is invalid. You acknowledge that all agreements, notices or other communication required to be given in terms of the law or these Terms may be given via electronic means and that such communications shall be “in writing”.</p>
 
 
 
@@ -343,9 +343,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 <li>Physical Address: Watershed, 17 Dock Rd, Victoria & Alfred Waterfront, Cape Town, 8002</li>
 
-                <li>Website: www.quoterocket.co.za</li>
+                <li>Website: www.goquoterocket.com</li>
 
-                <li>Email: support@quoterocket.co.za</li>
+                <li>Email: support@goquoterocket.com</li>
 
             </ul>
 

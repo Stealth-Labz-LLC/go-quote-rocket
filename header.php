@@ -12,12 +12,12 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <div class="bar3"></div>
                 </button>
             </div>
-            <a href="/"><img src="images/logo.svg" class="logo" width="506" height="48" alt="Quote Rocket Logo"></a>
+            <a href="/"><img src="images/logo.svg" class="logo" width="506" height="48" alt="Go Quote Rocket Logo"></a>
             <div class="header_right">
-                <!--<a href="tel:(087) 550-1158">
+                <!--<a href="tel:(800) 555-1234">
                     <img src="images/phone_icon.png" width="58" height="58" alt="icn" class="phone_call">
                     <p class="header_right_txt1">Speak with a Licensed Insurance Agent</p>
-                    <p class="header_right_txt2">(087) 550-1158</p>
+                    <p class="header_right_txt2">(800) 555-1234</p>
                     <p class="header_right_txt1">Available: Mon - Sun 9AM - 6PM SAST</p>
                 </a>-->
             </div>
@@ -55,7 +55,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                         </div>
                     </li>
                     <li>
-                        <a href="#">Cars<img src="images/d_menu_ic.png" class="d_menu_ic" alt="ic" width="22" height="14"></a>
+                        <a href="#">Auto<img src="images/d_menu_ic.png" class="d_menu_ic" alt="ic" width="22" height="14"></a>
                         <div class="dropMenu">
                             <ul>
                                 <li><a href="car-insurance.php<?= $queryParams ?>" alt="Car Insurance">Car Insurance</a></li>
@@ -64,7 +64,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                             </ul>
                         </div>
                     </li>
-                    <li><a href="about.php<?= $queryParams ?>" alt="About Quote Rocket">About</a></li>
+                    <li><a href="about.php<?= $queryParams ?>" alt="About Go Quote Rocket">About</a></li>
                 </ul>
             </div>
         </div>
@@ -98,7 +98,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
         </li>
 
         <li>
-            <a href="#" class="menuOpen">Cars</a>
+            <a href="#" class="menuOpen">Auto</a>
             <ul class="dropdown-mobile" style="display: none;">
                 <li><a href="car-insurance.php<?= $queryParams ?>" alt="Car Insurance">Car Insurance</a></li>
                 <li><a href="vehicle-tracker.php<?= $queryParams ?>" alt="GPS Vehicle Tracking Device Quotes">Vehicle Tracker</a></li>
@@ -106,7 +106,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
             </ul>
         </li>
 
-        <li><a href="about.php<?= $queryParams ?>" alt="About Quote Rocket">About</a></li>
+        <li><a href="about.php<?= $queryParams ?>" alt="About Go Quote Rocket">About</a></li>
     </ul>
 
 </div>
