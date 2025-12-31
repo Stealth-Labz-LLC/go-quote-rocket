@@ -1,0 +1,40 @@
+# Apache Configuration for Go Quote Rocket
+# Handles clean URLs and PHP execution
+
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Set the directory index
+DirectoryIndex index.php index.html
+
+# Allow PHP execution
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+
+# Prevent directory browsing
+Options -Indexes
+
+# Allow access to the root
+<IfModule mod_authz_core.c>
+    Require all granted
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Protect sensitive files
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect log and config files
+<FilesMatch "\.(log|ini|config)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
