@@ -97,10 +97,12 @@ function sendToWebhook($data, $leadType, $productSpecificFields = []) {
         'timezone' => 'America/New_York',
         'signup_date' => formatDateISO8601(),
         'utm_campaign' => $data['aff_sub'] ?? '',
-        'consent' => true,
+        'consent' => !empty($data['consent']),
         'consent_timestamp' => formatDateISO8601(),
         'consent_source' => 'signup_form',
+        'consent_text' => $data['consent_text'] ?? 'I agree to the terms and conditions and consent to be contacted by phone, SMS, and email regarding insurance quotes.',
         'ip_address' => $_SERVER['REMOTE_ADDR'] ?? '',
+        'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? '',
         'referrer' => $_SERVER['HTTP_REFERER'] ?? '',
         'notes' => $notes
     ];

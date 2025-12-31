@@ -219,6 +219,11 @@ $funnelId = "Car";
                                     </div>
                                 </div>
 
+                                <div class="form_input_box">
+                                    <input type="email" name="email" placeholder="Email Address" class="input-fld required" data-error-message="Please enter your email address.">
+                                    <div class="error_message text-left" style="display:none"></div>
+                                </div>
+
                             </div>
                             <div class="form__input form__input--2">
 
@@ -326,7 +331,8 @@ $funnelId = "Car";
 
                                 <button type="button" class="apiBtn">Get Started Today!</button>
 
-                                <p class="form_terms"><input type="checkbox" name="" id="checkbox_terms" class="form_checkbox" checked> <span></span> <label for="checkbox_terms">Yes, I accept the <a href="terms.php" target="_blank">terms and conditions</a></label>.</p>
+                                <p class="form_terms"><input type="checkbox" name="consent" value="yes" id="checkbox_terms" class="form_checkbox" checked> <span></span> <label for="checkbox_terms">Yes, I accept the <a href="terms.php" target="_blank">terms and conditions</a></label>.</p>
+                                <input type="hidden" name="consent_text" value="I agree to the terms and conditions and consent to be contacted by phone, SMS, and email regarding insurance quotes.">
 
                                 <div class="error_message text-left err_msg" id="checkbox_error_message" style="display: none;">You must agree to our terms to submit your information.</div>
                             </div>
@@ -1367,7 +1373,7 @@ $funnelId = "Car";
                 var PhoneNumber = $("input[name='phone']").val();
                 var errors = new Array();
                 validateCheckbox();
-                $('input[name=phone],input[name=given-name],input[name=family-name],select[name=make],select[name=currentlyinsured],select[name=monthly_income],select[name=employment]')
+                $('input[name=phone],input[name=email],input[name=given-name],input[name=family-name],select[name=make],select[name=currentlyinsured],select[name=monthly_income],select[name=employment]')
                     .each(function(index) {
                         var input = $(this);
                         //console.log(input.val())
@@ -1391,7 +1397,7 @@ $funnelId = "Car";
                 $(this).next('.error_message ').hide();
 
             });
-            $("input[name='given-name'], input[name='family-name']").keyup(function() {
+            $("input[name='given-name'], input[name='family-name'], input[name='email']").keyup(function() {
                 $(this).next('.error_message ').hide();
 
             });

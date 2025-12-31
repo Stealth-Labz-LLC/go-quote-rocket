@@ -3,8 +3,7 @@ name: Deploy to goquoterocket.com
 on:
   push:
     branches:
-      - php-version
-      - dev
+      - orchid_dev
       - main
 
   pull_request:
@@ -14,9 +13,9 @@ on:
 
 jobs:
   build-and-deploy:
-    # Only run on push to php-version/dev/main or merged PR into main
+    # Only run on push to orchid_dev/main or merged PR into main
     if: >
-      (github.event_name == 'push' && (github.ref == 'refs/heads/php-version' || github.ref == 'refs/heads/dev' || github.ref == 'refs/heads/main')) ||
+      (github.event_name == 'push' && (github.ref == 'refs/heads/orchid_dev' || github.ref == 'refs/heads/main')) ||
       (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     runs-on: ubuntu-latest
     permissions:
@@ -46,7 +45,7 @@ jobs:
           else
             BRANCH="${GITHUB_REF##*/}"
             echo "Push to branch: $BRANCH"
-            if [[ "$BRANCH" == "php-version" ]] || [[ "$BRANCH" == "dev" ]]; then
+            if [[ "$BRANCH" == "orchid_dev" ]]; then
               REMOTE_DIR_VAL="/public_html/staging/"
             else
               # any push to main
