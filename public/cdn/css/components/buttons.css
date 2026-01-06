@@ -1,0 +1,87 @@
+/**
+ * Button Component
+ *
+ * CTA buttons, secondary buttons, etc.
+ */
+
+.btn {
+  display: inline-block;
+  padding: 0 2rem;
+  height: 60px;
+  line-height: 60px;
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--font-size-lg);
+  text-align: center;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  transition: var(--transition-base);
+  box-shadow: var(--shadow-button);
+  white-space: nowrap;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Primary Button (Orange) */
+.btn--primary {
+  background: var(--brand-secondary);
+  color: white;
+}
+
+.btn--primary:hover {
+  background: #e55800;
+}
+
+/* Secondary Button (Blue) */
+.btn--secondary {
+  background: white;
+  color: var(--brand-primary);
+  border: 2px solid var(--brand-primary);
+}
+
+.btn--secondary:hover {
+  background: var(--brand-primary);
+  color: white;
+}
+
+/* Large Button */
+.btn--lg {
+  height: 75px;
+  line-height: 75px;
+  font-size: 1.625rem; /* 26px */
+  padding: 0 2.5rem;
+}
+
+/* Small Button */
+.btn--sm {
+  height: 49px;
+  line-height: 49px;
+  font-size: var(--font-size-base);
+  padding: 0 1.5rem;
+}
+
+/* Full Width Button */
+.btn--full {
+  width: 100%;
+  display: block;
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+  .btn {
+    font-size: var(--font-size-base);
+    padding: 0 1.5rem;
+  }
+
+  .btn--lg {
+    height: 60px;
+    line-height: 60px;
+    font-size: var(--font-size-lg);
+    padding: 0 2rem;
+  }
+}

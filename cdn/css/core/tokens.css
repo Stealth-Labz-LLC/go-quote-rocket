@@ -1,0 +1,96 @@
+/**
+ * Design Tokens
+ *
+ * CSS variables for theming - values injected by PHP from brand config
+ * Variables reference --injected-* values set in template <head>
+ */
+
+:root {
+  /* Brand Colors (from PHP injection) */
+  --brand-primary: var(--injected-primary, #002e6a);
+  --brand-secondary: var(--injected-secondary, #FF6100);
+  --brand-accent: var(--injected-accent, #0091ff);
+
+  /* Functional Colors */
+  --color-success: var(--injected-success, #07c176);
+  --color-error: var(--injected-error, #DC2626);
+  --color-warning: var(--injected-warning, #ffc107);
+
+  /* Text Colors */
+  --color-text-primary: var(--injected-text, #000);
+  --color-text-secondary: var(--injected-text-secondary, #515151);
+  --color-text-light: var(--injected-text-light, #a8b0c1);
+  --color-text-muted: #585858;
+
+  /* Background Colors */
+  --color-bg-light: var(--injected-bg-light, #f6fbff);
+  --color-bg-white: #fff;
+  --color-bg-dark: var(--injected-bg-dark, #002e6a);
+
+  /* Border Colors */
+  --color-border: var(--injected-border, #e4e4e4);
+  --color-border-medium: #bdbdbd;
+  --color-border-blue: #cbd5e3;
+
+  /* Typography (from PHP injection) */
+  --font-primary: var(--injected-font-primary, 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif);
+  --font-secondary: var(--injected-font-secondary, 'Manrope', 'DM Sans', sans-serif);
+
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.25rem;    /* 20px */
+  --font-size-xl: 1.5rem;     /* 24px */
+  --font-size-2xl: 2rem;      /* 32px */
+  --font-size-3xl: 2.375rem;  /* 38px */
+  --font-size-4xl: 3.125rem;  /* 50px */
+  --font-size-hero: 3.438rem; /* 55px */
+
+  /* Line Heights */
+  --line-height-tight: 1.1;
+  --line-height-base: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Spacing Scale */
+  --space-xs: 0.5rem;   /* 8px */
+  --space-sm: 1rem;     /* 16px */
+  --space-md: 1.5rem;   /* 24px */
+  --space-lg: 2rem;     /* 32px */
+  --space-xl: 3rem;     /* 48px */
+  --space-2xl: 3.75rem; /* 60px */
+  --space-3xl: 4.375rem; /* 70px */
+
+  /* Layout */
+  --container-max-width: 1170px;
+  --header-height: 70px;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 15px;
+  --radius-pill: 100px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 3px 10px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 5px 20px rgba(0, 0, 0, 0.15);
+  --shadow-button: 0 3px 10px 1px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Breakpoints (for reference in media queries) */
+  --breakpoint-mobile: 767px;
+  --breakpoint-tablet: 1023px;
+  --breakpoint-desktop: 1200px;
+}

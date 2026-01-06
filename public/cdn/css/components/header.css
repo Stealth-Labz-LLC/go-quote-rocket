@@ -1,0 +1,74 @@
+/**
+ * Site Header Component
+ *
+ * Simple header with logo on left, agent contact on right
+ */
+
+.site-header {
+  background: white;
+  border-bottom: 1px solid var(--color-border);
+  padding: 0.75rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: var(--shadow-sm);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.site-header__logo {
+  flex-shrink: 0;
+}
+
+.site-header__logo .logo {
+  height: 25px;
+  width: auto;
+  display: block;
+}
+
+/* Agent Contact */
+.site-header__contact {
+  text-align: right;
+}
+
+.agent-contact__label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.agent-contact__phone {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--brand-primary);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.agent-contact__phone:hover {
+  color: var(--brand-secondary);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .site-header {
+    padding: 0.5rem 0;
+  }
+
+  .site-header__logo .logo {
+    height: 22px;
+  }
+
+  .agent-contact__label {
+    font-size: 0.625rem;
+  }
+
+  .agent-contact__phone {
+    font-size: var(--font-size-base);
+  }
+}

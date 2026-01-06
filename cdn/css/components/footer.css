@@ -1,0 +1,221 @@
+/**
+ * Footer Component
+ *
+ * Multi-column footer with links and carrier logos
+ */
+
+.info-sec {
+  background: var(--color-bg-light);
+  padding: var(--space-3xl) 0 var(--space-2xl);
+}
+
+.info-sec-inr {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-2xl);
+}
+
+/* Company Info Column */
+.info-sec-links-col-1 {
+  padding-right: var(--space-lg);
+}
+
+.info-sec-log {
+  width: 253px;
+  height: auto;
+  margin-bottom: var(--space-md);
+}
+
+.info-sec-tx {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--space-lg);
+}
+
+.contact_info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+}
+
+.contact_info__icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  stroke: currentColor;
+  opacity: 0.7;
+}
+
+.contact_info__link {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.contact_info__link:hover {
+  color: var(--brand-primary);
+  text-decoration: underline;
+}
+
+/* Legacy image icon support */
+.contact_info img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+/* Links Columns */
+.info-sec-links-hd {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-md);
+}
+
+.info-sec-links-list {
+  list-style: none;
+}
+
+.info-sec-links-list li {
+  margin-bottom: var(--space-sm);
+}
+
+.info-sec-links-list a {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.info-sec-links-list a:hover {
+  color: var(--brand-accent);
+}
+
+/* Carrier Logos Section */
+.disclaimer {
+  text-align: center;
+  padding-top: var(--space-2xl);
+  border-top: 1px solid var(--color-border);
+}
+
+.brand_hdg {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-lg);
+}
+
+.disclaimer img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Footer Disclaimer */
+.footer-disclaimer {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-2xl);
+  border-top: 1px solid var(--color-border);
+}
+
+.footer-disclaimer p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--space-md);
+  text-align: left;
+  font-weight: var(--font-weight-normal);
+}
+
+/* Legal Footer */
+.footer {
+  background: var(--color-bg-dark);
+  padding: var(--space-lg) 0;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer__text {
+  color: white;
+  font-size: var(--font-size-sm);
+}
+
+.footer__text a {
+  color: white;
+  text-decoration: none;
+  margin: 0 var(--space-sm);
+  transition: var(--transition-fast);
+}
+
+.footer__text a:hover {
+  color: var(--brand-secondary);
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .info-sec-inr {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  .info-sec-links-col-4,
+  .info-sec-links-col-5 {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 1023px) {
+  .info-sec-inr {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .info-sec-links-col-1 {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 767px) {
+  .info-sec-inr {
+    grid-template-columns: 1fr;
+  }
+
+  .info-sec-links-hd {
+    cursor: pointer;
+    position: relative;
+    padding-right: 30px;
+  }
+
+  .info-sec-links-hd .tot-img {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+
+  .info-sec-links-list {
+    display: none;
+  }
+
+  .info-sec-links-hd.active + .info-sec-links-list {
+    display: block;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}

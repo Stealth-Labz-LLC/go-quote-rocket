@@ -1,0 +1,100 @@
+/**
+ * Utility Classes
+ *
+ * Helper classes for common patterns
+ */
+
+/* Display */
+.block { display: block; }
+.inline-block { display: inline-block; }
+.hidden { display: none; }
+
+/* Responsive Display */
+.showDesk {
+  display: block;
+}
+
+.showTab {
+  display: none;
+}
+
+.showMob {
+  display: none;
+}
+
+.hideDesk {
+  display: none;
+}
+
+.hideMob {
+  display: block;
+}
+
+@media (max-width: 1023px) {
+  .showDesk {
+    display: none !important;
+  }
+
+  .showTab {
+    display: block !important;
+  }
+
+  .hideDesk {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .showTab {
+    display: none !important;
+  }
+
+  .showMob {
+    display: block !important;
+  }
+
+  .hideMob {
+    display: none !important;
+  }
+}
+
+/* Float */
+.fl { float: left; }
+.fr { float: right; }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Position */
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
+
+/* Width */
+.w-full { width: 100%; }
+.w-auto { width: auto; }
+
+/* Overflow */
+.overflow-hidden { overflow: hidden; }
+.overflow-auto { overflow: auto; }
+
+/* Cursor */
+.cursor-pointer { cursor: pointer; }
+
+/* Border Radius */
+.rounded-sm { border-radius: var(--radius-sm); }
+.rounded-md { border-radius: var(--radius-md); }
+.rounded-lg { border-radius: var(--radius-lg); }
+.rounded-pill { border-radius: var(--radius-pill); }
+
+/* Shadow */
+.shadow-sm { box-shadow: var(--shadow-sm); }
+.shadow-md { box-shadow: var(--shadow-md); }
+.shadow-lg { box-shadow: var(--shadow-lg); }
+
+/* Transition */
+.transition { transition: all var(--transition-base); }
+.transition-fast { transition: all var(--transition-fast); }

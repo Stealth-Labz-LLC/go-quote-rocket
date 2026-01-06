@@ -1,0 +1,113 @@
+/**
+ * FAQ Section
+ *
+ * Accordion-style FAQ displays
+ */
+
+.faq {
+  padding: var(--space-3xl) 0;
+  background: var(--color-bg-light);
+}
+
+.accordion {
+  max-width: 900px;
+  margin: var(--space-xl) auto 0;
+}
+
+/* Accordion Item */
+.accordion__item {
+  background: white;
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.accordion__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-lg);
+  background: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  transition: var(--transition-base);
+}
+
+.accordion__header:hover {
+  background: var(--color-bg-light);
+}
+
+.accordion__header::after {
+  content: '+';
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--brand-secondary);
+  transition: var(--transition-base);
+}
+
+.accordion__header.active::after {
+  content: '−';
+}
+
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-base);
+}
+
+.accordion__content.active {
+  max-height: 500px;
+}
+
+.accordion__content p {
+  padding: 0 var(--space-lg) var(--space-lg);
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Alternative FAQ Style (no accordion) */
+.faq-list {
+  max-width: 900px;
+  margin: var(--space-xl) auto 0;
+}
+
+.faq-item {
+  background: white;
+  padding: var(--space-xl);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.faq-item__question {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--brand-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.faq-item__answer {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .accordion__header {
+    font-size: var(--font-size-base);
+    padding: var(--space-md);
+  }
+
+  .accordion__content p {
+    padding: 0 var(--space-md) var(--space-md);
+    font-size: var(--font-size-sm);
+  }
+}

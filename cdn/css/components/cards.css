@@ -1,0 +1,105 @@
+/**
+ * Card Components
+ *
+ * Feature cards, service cards, carrier cards
+ */
+
+.card {
+  padding: var(--space-lg);
+  background: white;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-base);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Feature Card styles moved to sections/features.css for landing pages */
+
+/* Carrier Card (for offer walls) */
+.carrier-card {
+  padding: var(--space-lg);
+  background: white;
+  border-radius: var(--radius-md);
+  box-shadow: 0 0 15px 1px rgba(38, 116, 217, 0.1);
+  transition: var(--transition-base);
+}
+
+.carrier-card:hover {
+  box-shadow: 0 0 20px 2px rgba(38, 116, 217, 0.2);
+}
+
+.carrier-card__logo {
+  height: 60px;
+  margin-bottom: var(--space-md);
+}
+
+.carrier-card__logo img {
+  max-height: 100%;
+  width: auto;
+}
+
+.carrier-card__rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: var(--space-sm);
+}
+
+.carrier-card__highlights {
+  list-style: none;
+  margin-bottom: var(--space-md);
+}
+
+.carrier-card__highlights li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  font-size: var(--font-size-sm);
+}
+
+.carrier-card__highlights li::before {
+  content: '✓';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+  color: var(--color-success);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  padding: var(--space-xl);
+  background: white;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.testimonial-card__stars {
+  margin-bottom: var(--space-sm);
+  color: #FFB800;
+  font-size: var(--font-size-xl);
+}
+
+.testimonial-card__quote {
+  font-size: var(--font-size-lg);
+  font-style: italic;
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--space-md);
+  color: var(--color-text-primary);
+}
+
+.testimonial-card__author {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+}
+
+.testimonial-card__location {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+}

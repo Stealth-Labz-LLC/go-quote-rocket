@@ -1,55 +1,91 @@
 <?php
+/**
+ * GoQuoteRocket Universal Funnel Platform
+ *
+ * Single entry point for ALL verticals
+ */
 
-use Illuminate\Contracts\Http\Kernel;
-use Illuminate\Http\Request;
+// Load environment configuration
+require_once __DIR__ . '/../config/environment.php';
 
-define('LARAVEL_START', microtime(true));
+// Autoloader for classes
+spl_autoload_register(function ($class) {
+    $prefix = 'App\\';
+    $baseDir = __DIR__ . '/../app/';
 
-/*
-|--------------------------------------------------------------------------
-| Check If The Application Is Under Maintenance
-|--------------------------------------------------------------------------
-|
-| If the application is in maintenance / demo mode via the "down" command
-| we will load this file so that any pre-rendered content can be shown
-| instead of starting the framework, which could cause an exception.
-|
-*/
+    $len = strlen($prefix);
+    if (strncmp($prefix, $class, $len) !== 0) {
+        return;
+    }
 
-if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php')) {
-    require $maintenance;
+    $relativeClass = substr($class, $len);
+    $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+
+    if (file_exists($file)) {
+        require $file;
+    }
+});
+
+use App\Core\Router;
+use App\Models\Vertical;
+
+// Detect vertical from subdomain or query param
+$vertical = Vertical::detect();
+
+// Get the current path
+$requestUri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+// Remove the base path (for localhost/goquoterocket/public access)
+$scriptName = dirname($_SERVER['SCRIPT_NAME']);
+if ($scriptName !== '/') {
+    $requestUri = str_replace($scriptName, '', $requestUri);
 }
 
-/*
-|--------------------------------------------------------------------------
-| Register The Auto Loader
-|--------------------------------------------------------------------------
-|
-| Composer provides a convenient, automatically generated class loader for
-| this application. We just need to utilize it! We'll simply require it
-| into the script here so we don't need to manually load our classes.
-|
-*/
+$path = trim($requestUri, '/');
 
-require __DIR__.'/../vendor/autoload.php';
+// Remove .php extension if present
+$path = preg_replace('/\.php$/', '', $path);
 
-/*
-|--------------------------------------------------------------------------
-| Run The Application
-|--------------------------------------------------------------------------
-|
-| Once we have the application, we can handle the incoming request using
-| the application's HTTP kernel. Then, we will send the response back
-| to this client's browser, allowing them to enjoy our application.
-|
-*/
+// Route based on path and vertical
+if (!$vertical) {
+    // No vertical detected - show homepage (vertical selector)
+    Router::route('home', 'index');
+    exit;
+}
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
+// Vertical detected - route to appropriate page
+switch ($path) {
+    case '':
+    case 'index':
+        // Landing page for this vertical
+        Router::route('landing', 'show', [$vertical]);
+        break;
 
-$kernel = $app->make(Kernel::class);
+    case 'flow':
+        // Funnel flow page
+        Router::route('flow', 'show', [$vertical]);
+        break;
 
-$response = $kernel->handle(
-    $request = Request::capture()
-)->send();
+    case 'owl':
+        // Offer wall (multiple offers)
+        Router::route('offerWall', 'show', [$vertical, 'multiple']);
+        break;
 
-$kernel->terminate($request, $response);
+    case 'sow':
+        // Single offer wall
+        Router::route('offerWall', 'show', [$vertical, 'single']);
+        break;
+
+    // Legal Pages
+    case 'terms':
+    case 'privacy':
+    case 'about':
+    case 'contact':
+        Router::route('legal', $path);
+        break;
+
+    default:
+        // 404 for unknown paths
+        Router::error404();
+        break;
+}
