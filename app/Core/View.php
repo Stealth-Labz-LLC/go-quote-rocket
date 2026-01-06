@@ -61,7 +61,6 @@ class View {
         // Include the component
         require $componentPath;
     }
-
     /**
      * Escape HTML for safe output
      *
