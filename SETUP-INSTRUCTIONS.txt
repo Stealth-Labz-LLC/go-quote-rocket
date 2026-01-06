@@ -1,0 +1,158 @@
+# GoQuoteRocket - Local Setup Instructions
+
+## Automated Setup (Recommended)
+
+1. **Right-click** `setup-hosts.bat` and select **"Run as Administrator"**
+2. The script will:
+   - Backup your existing hosts file
+   - Add GoQuoteRocket domains to hosts file
+   - Restart Apache automatically
+3. Done! Skip to "Testing" section below
+
+---
+
+## Manual Setup (If Batch Script Fails)
+
+### Step 1: Edit Hosts File
+
+1. Open Notepad **as Administrator**:
+   - Press Windows key
+   - Type "notepad"
+   - Right-click Notepad → "Run as administrator"
+
+2. In Notepad, open: `C:\Windows\System32\drivers\etc\hosts`
+
+3. Add these lines at the end:
+
+```
+# GoQuoteRocket Local Development
+127.0.0.1       goquoterocket.local
+127.0.0.1       www.goquoterocket.local
+127.0.0.1       auto.goquoterocket.local
+127.0.0.1       life.goquoterocket.local
+127.0.0.1       medicare.goquoterocket.local
+127.0.0.1       creditcard.goquoterocket.local
+127.0.0.1       api.goquoterocket.local
+127.0.0.1       cdn.goquoterocket.local
+```
+
+4. Save and close
+
+### Step 2: Restart Apache
+
+1. Open XAMPP Control Panel
+2. Click "Stop" next to Apache
+3. Click "Start" next to Apache
+
+---
+
+## Testing
+
+Once setup is complete, test these URLs in your browser:
+
+### Main Site (Homepage)
+- http://goquoterocket.local
+- http://www.goquoterocket.local
+
+### Vertical Funnels
+- http://auto.goquoterocket.local (Auto Insurance)
+- http://life.goquoterocket.local (Life Insurance)
+- http://medicare.goquoterocket.local (Medicare)
+- http://creditcard.goquoterocket.local (Credit Cards)
+
+### API & Assets
+- http://api.goquoterocket.local
+- http://cdn.goquoterocket.local
+
+---
+
+## Configuration Completed
+
+The following files have been configured:
+
+✅ **Apache VirtualHosts**: `C:\xampp\apache\conf\extra\httpd-vhosts.conf`
+- Added 7 VirtualHost entries for GoQuoteRocket domains
+- Each subdomain routes to the universal funnel at `/public`
+- API and CDN have separate DocumentRoot paths
+
+✅ **Tracking Configuration**: `C:\xampp\htdocs\goquoterocket\config\tracking.php`
+- Removed Everflow tracking (not needed for source funnels)
+- Kept Google Tag Manager (GTM)
+- Kept TrustedForm compliance tracking
+
+✅ **API Integration**: `C:\xampp\htdocs\goquoterocket\api\submit.php`
+- Routes leads to StealthLabz portal webhook
+- Sends deanonymized data (full PII)
+- Portal handles identity resolution and CDP storage
+
+---
+
+## Architecture Summary
+
+### Source Funnel Tracking Flow
+
+```
+User fills form
+    ↓
+StealthLabz webhook POST (server-side)
+    ↓
+Portal CDP processes:
+    - Identity resolution (email/phone matching)
+    - Event tracking (form_submit, lead_created)
+    - Contact point deduplication
+    - Lead scoring
+```
+
+### No Client-Side Tracking
+- ❌ No Everflow pixel (removed)
+- ❌ No client-side event tracking
+- ✅ GTM for general analytics only
+- ✅ TrustedForm for compliance only
+
+### Server-Side Only
+- All lead data sent via webhook POST
+- Deanonymized data (name, email, phone, address)
+- StealthLabz portal handles all CDP functions
+
+---
+
+## Next Steps
+
+1. Run the setup (automated or manual)
+2. Visit http://auto.goquoterocket.local to test
+3. Complete the funnel questionnaire
+4. Verify webhook POST to StealthLabz in browser Network tab
+5. Check StealthLabz portal for received lead data
+
+---
+
+## Troubleshooting
+
+**Issue**: "This site can't be reached"
+- **Solution**: Make sure you ran setup-hosts.bat as Administrator OR manually edited hosts file
+
+**Issue**: Apache won't restart
+- **Solution**: Check Apache error logs at `C:\xampp\apache\logs\error.log`
+
+**Issue**: 404 Not Found
+- **Solution**: Verify DocumentRoot paths in httpd-vhosts.conf match your directory structure
+
+**Issue**: Leads not appearing in StealthLabz portal
+- **Solution**: Check webhook URL in `config/integrations.php` and verify webhook ID is correct
+
+---
+
+## Files Modified
+
+1. `C:\xampp\apache\conf\extra\httpd-vhosts.conf` - Added VirtualHost entries
+2. `C:\xampp\htdocs\goquoterocket\config\tracking.php` - Removed Everflow
+3. `C:\xampp\htdocs\goquoterocket\views\templates\flow.php` - Removed Everflow SDK
+4. `C:\xampp\htdocs\goquoterocket\cdn\js\FunnelEngine.js` - Removed Everflow events
+5. `C:\xampp\htdocs\goquoterocket\config\verticals\auto.php` - Removed tracking section
+6. `C:\xampp\htdocs\goquoterocket\config\verticals\life.php` - Removed tracking section
+7. `C:\xampp\htdocs\goquoterocket\config\verticals\medicare.php` - Removed tracking section
+8. `C:\xampp\htdocs\goquoterocket\config\verticals\creditcard.php` - Removed tracking section
+
+---
+
+**Setup Complete!** 🚀
