@@ -4,7 +4,6 @@ namespace App\Controllers;
 use App\Core\Controller;
 use App\Core\View;
 use App\Models\Vertical;
-
 /**
  * Flow Controller
  *
