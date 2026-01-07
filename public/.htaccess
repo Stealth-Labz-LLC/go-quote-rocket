@@ -1,7 +1,20 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Redirect to index.php
+    # Funnel routes - send to funnel.php
+    RewriteRule ^flow/?$ funnel.php [QSA,L]
+    RewriteRule ^landing/?$ funnel.php [QSA,L]
+    RewriteRule ^offer-wall/?$ funnel.php [QSA,L]
+    RewriteRule ^offers/?$ funnel.php [QSA,L]
+
+    # API routes
+    RewriteRule ^api/(.*)$ ../api/$1 [QSA,L]
+
+    # If vertical query param exists on root, use funnel
+    RewriteCond %{QUERY_STRING} (^|&)vertical= [NC]
+    RewriteRule ^$ funnel.php [QSA,L]
+
+    # Everything else - serve files directly or fallback to organic index.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php [QSA,L]
