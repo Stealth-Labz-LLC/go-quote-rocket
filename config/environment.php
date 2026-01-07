@@ -4,7 +4,6 @@
  *
  * Change ENVIRONMENT to 'production' when deploying to live server
  */
-
 // Auto-detect environment based on domain and path
 $host = $_SERVER['HTTP_HOST'] ?? '';
 $requestUri = $_SERVER['REQUEST_URI'] ?? '';
