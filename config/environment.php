@@ -26,7 +26,7 @@ if (ENVIRONMENT === 'local') {
     define('DEBUG_MODE', true);
 } else {
     // Production
-    define('BASE_DOMAIN', 'quoterocket.com');
+    define('BASE_DOMAIN', 'goquoterocket.com');
     define('USE_HTTPS', true);
     define('DEBUG_MODE', false);
 }
