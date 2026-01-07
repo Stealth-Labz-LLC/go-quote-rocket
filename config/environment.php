@@ -42,7 +42,6 @@ if (ENVIRONMENT === 'local') {
     define('DEBUG_MODE', false);
     define('BASE_PATH', '');
 }
-
 // Helper function to build URLs
 function buildUrl($subdomain = 'www', $path = '') {
     if (ENVIRONMENT === 'local') {
