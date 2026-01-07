@@ -5,13 +5,17 @@
  * Change ENVIRONMENT to 'production' when deploying to live server
  */
 
-// Auto-detect environment based on domain
+// Auto-detect environment based on domain and path
 $host = $_SERVER['HTTP_HOST'] ?? '';
+$requestUri = $_SERVER['REQUEST_URI'] ?? '';
+
 $isLocal = strpos($host, '.local') !== false ||
            strpos($host, 'localhost') !== false ||
            strpos($host, '127.0.0.1') !== false;
 
-define('ENVIRONMENT', $isLocal ? 'local' : 'production');
+$isStaging = strpos($requestUri, '/staging/') === 0;
+
+define('ENVIRONMENT', $isLocal ? 'local' : ($isStaging ? 'staging' : 'production'));
 
 // WHITE-LABEL SYSTEM: Set active brand
 // Change this to switch entire platform branding instantly
@@ -24,32 +28,47 @@ if (ENVIRONMENT === 'local') {
     define('BASE_DOMAIN', strpos($host, 'quoterocket.local') !== false ? 'quoterocket.local' : 'goquoterocket.local');
     define('USE_HTTPS', false);
     define('DEBUG_MODE', true);
+    define('BASE_PATH', '/goquoterocket/public');
+} elseif (ENVIRONMENT === 'staging') {
+    // Staging environment
+    define('BASE_DOMAIN', 'goquoterocket.com');
+    define('USE_HTTPS', true);
+    define('DEBUG_MODE', true);
+    define('BASE_PATH', '/staging/public');
 } else {
     // Production
     define('BASE_DOMAIN', 'goquoterocket.com');
     define('USE_HTTPS', true);
     define('DEBUG_MODE', false);
+    define('BASE_PATH', '');
 }
 
 // Helper function to build URLs
 function buildUrl($subdomain = 'www', $path = '') {
-    // Detect if we're running on localhost
-    $host = $_SERVER['HTTP_HOST'] ?? '';
-    $isLocalhost = strpos($host, 'localhost') !== false || strpos($host, '127.0.0.1') !== false;
-
-    if ($isLocalhost) {
-        // Use localhost paths instead of subdomains
+    if (ENVIRONMENT === 'local') {
+        // Local: use localhost paths instead of subdomains
         if ($subdomain === 'cdn') {
-            return '/goquoterocket/public/cdn' . $path;
+            return BASE_PATH . '/cdn' . $path;
         } elseif ($subdomain === 'api') {
-            return '/goquoterocket/api' . $path;
+            return str_replace('/public', '/api', BASE_PATH) . $path;
         } else {
-            return '/goquoterocket/public' . $path;
+            return BASE_PATH . $path;
         }
+    } elseif (ENVIRONMENT === 'staging') {
+        // Staging: use same domain with /staging/public/ prefix
+        if ($subdomain === 'cdn') {
+            return BASE_PATH . '/cdn' . $path;
+        } elseif ($subdomain === 'api') {
+            return '/staging/api' . $path;
+        } else {
+            // For vertical subdomains in staging, just return the staging base path
+            // Since we can't use real subdomains in staging folder
+            return BASE_PATH . '?vertical=' . $subdomain . $path;
+        }
+    } else {
+        // Production: use actual subdomains
+        $protocol = USE_HTTPS ? 'https://' : 'http://';
+        $domain = $subdomain ? $subdomain . '.' . BASE_DOMAIN : BASE_DOMAIN;
+        return $protocol . $domain . $path;
     }
-
-    // Production: use subdomains
-    $protocol = USE_HTTPS ? 'https://' : 'http://';
-    $domain = $subdomain ? $subdomain . '.' . BASE_DOMAIN : BASE_DOMAIN;
-    return $protocol . $domain . $path;
 }

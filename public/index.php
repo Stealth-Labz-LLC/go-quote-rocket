@@ -5,6 +5,13 @@
  * Single entry point for ALL verticals
  */
 
+// Enable error reporting for debugging (only in staging/dev)
+if (strpos($_SERVER['REQUEST_URI'] ?? '', '/staging/') !== false) {
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+}
+
 // Load environment configuration
 require_once __DIR__ . '/../config/environment.php';
 
