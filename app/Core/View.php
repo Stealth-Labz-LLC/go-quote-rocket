@@ -78,7 +78,6 @@ class View {
      * @return string Full asset URL
      */
     public static function asset($path) {
-        $protocol = USE_HTTPS ? 'https://' : 'http://';
-        return $protocol . 'cdn.' . BASE_DOMAIN . '/' . ltrim($path, '/');
+        return buildUrl('cdn', '/' . ltrim($path, '/'));
     }
 }
