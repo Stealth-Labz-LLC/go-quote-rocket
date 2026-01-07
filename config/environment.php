@@ -53,10 +53,9 @@ function buildUrl($subdomain = 'www', $path = '') {
             return BASE_PATH . $path;
         }
     } elseif (ENVIRONMENT === 'staging') {
-        // Staging: subdomain staging.goquoterocket.com - serve assets from same domain
+        // Staging: subdomain staging.goquoterocket.com - serve assets from /cdn/ folder
         if ($subdomain === 'cdn') {
-            // Serve CDN assets from /images, /css, /js folders on staging subdomain
-            return $path;
+            return '/cdn' . $path;
         } elseif ($subdomain === 'api') {
             return '/api' . $path;
         } else {
