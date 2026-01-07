@@ -16,8 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-    env:
-      LOCAL_SRC: ./
 
     steps:
       - name: Checkout code
@@ -28,32 +26,28 @@ jobs:
       - name: Restore file mtimes from Git history
         uses: chetan/git-restore-mtime-action@v2.2
 
-      - name: Determine remote directory
+      - name: Determine deploy settings
         id: set_remote
         shell: bash
         run: |
           set -euo pipefail
 
-          echo "Event: $GITHUB_EVENT_NAME"
-          if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
-            echo "Merged PR into main → deploying to live folder"
-            REMOTE_DIR_VAL="/public_html/"
+          BRANCH="${GITHUB_REF##*/}"
+          echo "Branch: $BRANCH"
+
+          if [[ "$BRANCH" == "orchid_dev" ]]; then
+            # Staging: deploy public/ contents to /public_html/staging/public/
+            REMOTE_DIR_VAL="/public_html/staging/public/"
+            LOCAL_SRC_VAL="./public"
           else
-            BRANCH="${GITHUB_REF##*/}"
-            echo "Push to branch: $BRANCH"
-            if [[ "$BRANCH" == "orchid_dev" ]]; then
-              REMOTE_DIR_VAL="/public_html/staging/"
-            else
-              # any push to main
-              REMOTE_DIR_VAL="/public_html/"
-            fi
+            # Production (main): deploy public/ contents directly to /public_html/
+            REMOTE_DIR_VAL="/public_html/"
+            LOCAL_SRC_VAL="./public"
           fi
 
-          # Export for this step and persist to later steps
-          export REMOTE_DIR="$REMOTE_DIR_VAL"
           echo "REMOTE_DIR=$REMOTE_DIR_VAL" >> "$GITHUB_ENV"
-
-          echo " → REMOTE_DIR set to: $REMOTE_DIR"
+          echo "LOCAL_SRC=$LOCAL_SRC_VAL" >> "$GITHUB_ENV"
+          echo " → Deploying $LOCAL_SRC_VAL to $REMOTE_DIR_VAL"
 
       - name: Add remote host key to known_hosts
         run: |
@@ -81,14 +75,12 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Store secrets in variables to avoid command injection
           FTP_HOST="${{ secrets.FTP_HOST }}"
           FTP_USER="${{ secrets.FTP_USER }}"
           FTP_PASS="${{ secrets.FTP_PASS }}"
           SSH_PORT="${{ secrets.SSH_PORT }}"
           SFTP_PROTOCOL="${{ secrets.SFTP_PROTOCOL }}"
 
-          # Build target URL
           if [[ -z "$SFTP_PROTOCOL" ]] || [[ "$SFTP_PROTOCOL" == "sftp" ]]; then
             PROTO="sftp"
           else
@@ -101,13 +93,12 @@ jobs:
             TARGET="${PROTO}://${FTP_HOST}:${SSH_PORT}"
           fi
 
-          # Ensure we have our directory
           if [[ -z "${REMOTE_DIR:-}" ]]; then
             echo "ERROR: REMOTE_DIR is not set!"
             exit 1
           fi
 
-          echo "Uploading to: ${TARGET}${REMOTE_DIR}"
+          echo "Uploading ${LOCAL_SRC} to: ${TARGET}${REMOTE_DIR}"
 
           lftp -u "$FTP_USER","$FTP_PASS" \
             -e "set ssl:verify-certificate no; \
