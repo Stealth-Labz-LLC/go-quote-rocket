@@ -1,9 +1,13 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Redirect all requests to public/ subdirectory
-    # Only redirect if not already in public/ and not a real file/directory
+    # Redirect root access to index.php (which then redirects to public/)
+    # This handles the staging folder access issue
+    DirectoryIndex index.php
+
+    # Redirect all other requests to public/ subdirectory
     RewriteCond %{REQUEST_URI} !^/public/
+    RewriteCond %{REQUEST_URI} !^/index\.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ public/$1 [L]
