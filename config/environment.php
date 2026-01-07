@@ -12,7 +12,7 @@ $isLocal = strpos($host, '.local') !== false ||
            strpos($host, 'localhost') !== false ||
            strpos($host, '127.0.0.1') !== false;
 
-$isStaging = strpos($requestUri, '/staging/') === 0;
+$isStaging = strpos($requestUri, '/staging/') === 0 || strpos($host, 'staging.') === 0;
 
 define('ENVIRONMENT', $isLocal ? 'local' : ($isStaging ? 'staging' : 'production'));
 
@@ -29,11 +29,11 @@ if (ENVIRONMENT === 'local') {
     define('DEBUG_MODE', true);
     define('BASE_PATH', '/goquoterocket/public');
 } elseif (ENVIRONMENT === 'staging') {
-    // Staging environment
+    // Staging environment (staging.goquoterocket.com subdomain)
     define('BASE_DOMAIN', 'goquoterocket.com');
     define('USE_HTTPS', true);
     define('DEBUG_MODE', true);
-    define('BASE_PATH', '/staging/public');
+    define('BASE_PATH', ''); // Subdomain serves from root
 } else {
     // Production
     define('BASE_DOMAIN', 'goquoterocket.com');
@@ -53,15 +53,14 @@ function buildUrl($subdomain = 'www', $path = '') {
             return BASE_PATH . $path;
         }
     } elseif (ENVIRONMENT === 'staging') {
-        // Staging: use same domain with /staging/public/ prefix
+        // Staging: subdomain staging.goquoterocket.com - serve assets from same domain
         if ($subdomain === 'cdn') {
-            return BASE_PATH . '/cdn' . $path;
+            // Serve CDN assets from /images, /css, /js folders on staging subdomain
+            return $path;
         } elseif ($subdomain === 'api') {
-            return '/staging/api' . $path;
+            return '/api' . $path;
         } else {
-            // For vertical subdomains in staging, just return the staging base path
-            // Since we can't use real subdomains in staging folder
-            return BASE_PATH . '?vertical=' . $subdomain . $path;
+            return $path;
         }
     } else {
         // Production: use actual subdomains
