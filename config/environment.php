@@ -49,31 +49,33 @@ if (ENVIRONMENT === 'local') {
     define('DEBUG_MODE', false);
     define('BASE_PATH', '');
 }
-// Helper function to build URLs
+/**
+ * Build URLs for the application
+ * - Local/Staging: Uses path-based routing (BASE_PATH + path)
+ * - Production: Uses subdomain-based routing (subdomain.domain.com)
+ *
+ * @param string $subdomain 'www', 'cdn', 'api', or vertical subdomain
+ * @param string $path The path to append (e.g., '/flow?vertical=auto')
+ * @return string The full URL
+ */
 function buildUrl($subdomain = 'www', $path = '') {
-    if (ENVIRONMENT === 'local') {
-        // Local: use localhost paths instead of subdomains
+    // For local and staging: ignore subdomain, use path-based routing
+    if (ENVIRONMENT === 'local' || ENVIRONMENT === 'staging') {
         if ($subdomain === 'cdn') {
             return BASE_PATH . '/cdn' . $path;
         } elseif ($subdomain === 'api') {
+            // API is at sibling level to public: /staging/api/
             return str_replace('/public', '/api', BASE_PATH) . $path;
         } else {
+            // For www and vertical subdomains, use base path + path
             return BASE_PATH . $path;
         }
-    } elseif (ENVIRONMENT === 'staging') {
-        // Staging: path-based routing (e.g., /staging/public/...)
-        if ($subdomain === 'cdn') {
-            return BASE_PATH . '/cdn' . $path;
-        } elseif ($subdomain === 'api') {
-            // API is at parent level: /staging/api/
-            return str_replace('/public', '/api', BASE_PATH) . $path;
-        } else {
-            return BASE_PATH . $path;
-        }
-    } else {
-        // Production: use actual subdomains
-        $protocol = USE_HTTPS ? 'https://' : 'http://';
-        $domain = $subdomain ? $subdomain . '.' . BASE_DOMAIN : BASE_DOMAIN;
-        return $protocol . $domain . $path;
     }
+
+    // Production: use actual subdomains
+    $protocol = USE_HTTPS ? 'https://' : 'http://';
+    $domain = ($subdomain && $subdomain !== 'www')
+        ? $subdomain . '.' . BASE_DOMAIN
+        : BASE_DOMAIN;
+    return $protocol . $domain . $path;
 }
