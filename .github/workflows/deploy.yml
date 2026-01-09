@@ -109,7 +109,7 @@ jobs:
                 set sftp:connect-program 'ssh -a -x -o UserKnownHostsFile=~/.ssh/known_hosts -o StrictHostKeyChecking=yes'; \
                 lcd ${LOCAL_SRC}; \
                 cd ${REMOTE_DIR}; \
-                mirror -R --only-newer --parallel=3 --verbose \
+                mirror -R --parallel=3 --verbose \
                   --exclude .git/ \
                   --exclude .github/ \
                   --exclude .claude/ \
