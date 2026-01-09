@@ -36,13 +36,17 @@ jobs:
           echo "Branch: $BRANCH"
 
           if [[ "$BRANCH" == "orchid_dev" ]]; then
-            # Staging: deploy public/ contents to /public_html/staging/public/
-            REMOTE_DIR_VAL="/public_html/staging/public/"
-            LOCAL_SRC_VAL="./public"
+            # Staging: deploy entire project to /public_html/staging/
+            # Note: public/ contents will be at /public_html/staging/public/
+            # The funnel requires app/, config/, views/, api/ at the parent level
+            REMOTE_DIR_VAL="/public_html/staging/"
+            LOCAL_SRC_VAL="."
           else
-            # Production (main): deploy public/ contents directly to /public_html/
+            # Production (main): deploy entire project to /public_html/
+            # Note: public/ contents will be at /public_html/public/
+            # Web root should point to /public_html/public/ or use .htaccess redirect
             REMOTE_DIR_VAL="/public_html/"
-            LOCAL_SRC_VAL="./public"
+            LOCAL_SRC_VAL="."
           fi
 
           echo "REMOTE_DIR=$REMOTE_DIR_VAL" >> "$GITHUB_ENV"
@@ -108,10 +112,15 @@ jobs:
                 mirror -R --only-newer --parallel=3 --verbose \
                   --exclude .git/ \
                   --exclude .github/ \
+                  --exclude .claude/ \
                   --exclude node_modules/ \
                   --exclude tests/ \
+                  --exclude vendor/ \
+                  --exclude docs/ \
                   --exclude .env \
                   --exclude .env.example \
+                  --exclude .gitignore \
+                  --exclude README.md \
                   --exclude 'storage/logs/*' \
                 . .; \
                 bye" "$TARGET"
