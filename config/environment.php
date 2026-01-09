@@ -51,12 +51,15 @@ if (ENVIRONMENT === 'local') {
 }
 /**
  * Build URLs for the application
- * - Local/Staging: Uses path-based routing (BASE_PATH + path)
- * - Production: Uses subdomain-based routing (subdomain.domain.com)
+ *
+ * Local/Staging: Uses path-based routing (BASE_PATH + path)
+ * Production: Uses subdomain-based routing (subdomain.domain.com)
  *
  * @param string $subdomain 'www', 'cdn', 'api', or vertical subdomain
  * @param string $path The path to append (e.g., '/flow?vertical=auto')
  * @return string The full URL
+ *
+ * @version 2.0 - Fixed staging URL generation
  */
 function buildUrl($subdomain = 'www', $path = '') {
     // For local and staging: ignore subdomain, use path-based routing
