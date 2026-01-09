@@ -59,20 +59,29 @@ if (ENVIRONMENT === 'local') {
  * @param string $path The path to append (e.g., '/flow?vertical=auto')
  * @return string The full URL
  *
- * @version 2.0 - Fixed staging URL generation
+ * @version 2.1 - Fixed staging URL generation with proper path handling
  */
 function buildUrl($subdomain = 'www', $path = '') {
     // For local and staging: ignore subdomain, use path-based routing
     if (ENVIRONMENT === 'local' || ENVIRONMENT === 'staging') {
+        $url = '';
+
         if ($subdomain === 'cdn') {
-            return BASE_PATH . '/cdn' . $path;
+            $url = BASE_PATH . '/cdn' . $path;
         } elseif ($subdomain === 'api') {
             // API is at sibling level to public: /staging/api/
-            return str_replace('/public', '/api', BASE_PATH) . $path;
+            $url = str_replace('/public', '/api', BASE_PATH) . $path;
         } else {
             // For www and vertical subdomains, use base path + path
-            return BASE_PATH . $path;
+            $url = BASE_PATH . $path;
         }
+
+        // Debug logging for staging environment
+        if (DEBUG_MODE && ENVIRONMENT === 'staging') {
+            error_log("buildUrl() called - subdomain: $subdomain, path: $path, result: $url");
+        }
+
+        return $url;
     }
 
     // Production: use actual subdomains
