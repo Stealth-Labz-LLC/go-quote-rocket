@@ -177,7 +177,6 @@ return [
                     'text' => 'Yes, I want to receive helpful life insurance tips from GoQuoteRocket!',
                     'default_checked' => true
                 ],
-                'trustedform' => true,
                 'submit_text' => 'Get My Quotes',
                 'submit_icon' => 'arrow-right'
             ]

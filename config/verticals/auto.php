@@ -212,7 +212,6 @@ return [
                     'text' => 'Yes, I want to receive helpful insurance tips and exclusive offers from GoQuoteRocket!',
                     'default_checked' => true
                 ],
-                'trustedform' => true,
                 'submit_text' => 'See My Instant Quotes',
                 'submit_icon' => 'arrow-right'
             ]

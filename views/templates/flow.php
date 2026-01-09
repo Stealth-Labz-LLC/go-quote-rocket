@@ -38,31 +38,17 @@ $t = $tracking;
     <link rel="stylesheet" href="<?= buildUrl('cdn', '/css/slick.css') ?>">
 
     <!-- Tracking - GTM -->
-    <?php if (isset($t['gtm'][$v['id']])): ?>
+    <?php if (!empty($t['gtm'][$v['id']])): ?>
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','<?= $t['gtm'][$v['id']] ?>');</script>
     <?php endif; ?>
-
-    <!-- TrustedForm -->
-    <?php if (isset($t['trustedform']) && $t['trustedform']['enabled']): ?>
-    <script type="text/javascript">
-    (function() {
-        var tf = document.createElement('script');
-        tf.type = 'text/javascript'; tf.async = true;
-        tf.src = ("https:" == document.location.protocol ? 'https' : 'http') +
-                 "://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&ping_field=xxTrustedFormPingUrl&l=" +
-                 new Date().getTime() + Math.random();
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tf, s);
-    })();
-    </script>
-    <?php endif; ?>
 </head>
 <body class="flow-page">
     <!-- GTM noscript -->
-    <?php if (isset($t['gtm'][$v['id']])): ?>
+    <?php if (!empty($t['gtm'][$v['id']])): ?>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<?= $t['gtm'][$v['id']] ?>"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <?php endif; ?>
@@ -99,9 +85,6 @@ $t = $tracking;
                 <input type="hidden" name="aff_sub" value="<?= $_GET['aff_sub'] ?? '' ?>">
                 <input type="hidden" name="aff_sub2" value="<?= $_GET['aff_sub2'] ?? '' ?>">
                 <input type="hidden" name="transaction_id" value="<?= $_GET['transaction_id'] ?? uniqid('txn_') ?>">
-                <?php if (isset($t['trustedform']) && $t['trustedform']['enabled']): ?>
-                <input type="hidden" name="xxTrustedFormCertUrl" value="">
-                <?php endif; ?>
 
                 <!-- Navigation Buttons -->
                 <div class="funnel-navigation">

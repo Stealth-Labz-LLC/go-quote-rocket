@@ -9,13 +9,38 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 error_log('API submit called');
 
-// Headers
-header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: POST');
-
 // Load environment config
 require_once __DIR__ . '/../config/environment.php';
+
+// CORS - restrict to known origins in production
+$allowedOrigins = [
+    'https://goquoterocket.com',
+    'https://auto.goquoterocket.com',
+    'https://life.goquoterocket.com',
+    'https://medicare.goquoterocket.com',
+    'https://creditcard.goquoterocket.com',
+    'https://staging.goquoterocket.com',
+];
+
+// Allow all origins in local/staging for easier testing
+if (ENVIRONMENT === 'local' || ENVIRONMENT === 'staging') {
+    header('Access-Control-Allow-Origin: *');
+} else {
+    $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
+    if (in_array($origin, $allowedOrigins)) {
+        header('Access-Control-Allow-Origin: ' . $origin);
+    }
+}
+
+header('Content-Type: application/json');
+header('Access-Control-Allow-Methods: POST, OPTIONS');
+header('Access-Control-Allow-Headers: Content-Type');
+
+// Handle preflight OPTIONS request
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    http_response_code(200);
+    exit;
+}
 
 // Autoloader
 spl_autoload_register(function ($class) {
