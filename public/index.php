@@ -244,7 +244,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                 <div class="btn-bx sec1-btn-bx">
 
-                    <a href="http://auto.funnel.quoterocket.local/flow" class="comn-btn">Compare Quotes Now</a>
+                    <a href="car-insurance.php<?= $queryParams ?>" class="comn-btn">Compare Quotes Now</a>
 
                     <ul class="btn-list">
 
@@ -823,7 +823,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
             <div class="btn-bx">
 
-                <a href="http://funnel.quoterocket.local/flow" class="comn-btn" alt="Get Insurance Quotes">Get Started Today</a>
+                <a href="car-insurance.php<?= $queryParams ?>" class="comn-btn" alt="Get Insurance Quotes">Get Started Today</a>
 
             </div>
 
@@ -963,7 +963,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
             <div class="btn-bx">
 
-                <a href="http://funnel.quoterocket.local/flow" class="comn-btn" alt="Get Insurance Quotes">Get Started Today</a>
+                <a href="car-insurance.php<?= $queryParams ?>" class="comn-btn" alt="Get Insurance Quotes">Get Started Today</a>
 
             </div>
 
@@ -1189,7 +1189,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
             <div class="btn-bx">
 
-                <a href="http://funnel.quoterocket.local/flow" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
+                <a href="car-insurance.php<?= $queryParams ?>" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
 
             </div>
 
