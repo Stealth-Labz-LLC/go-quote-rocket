@@ -12,7 +12,7 @@ $t = $tracking;
 $carrier = !empty($carriers) ? reset($carriers) : null;
 
 if (!$carrier) {
-    header('Location: /owl');
+    header('Location: ' . buildUrl('www', '/owl?vertical=' . $v['id']));
     exit;
 }
 ?>
@@ -211,7 +211,7 @@ if (!$carrier) {
         </div>
 
         <div class="secondary-link">
-            <a href="/owl">Want to see more options? View all matches →</a>
+            <a href="<?= buildUrl('www', '/owl?vertical=' . $v['id']) ?>">Want to see more options? View all matches →</a>
         </div>
     </div>
 

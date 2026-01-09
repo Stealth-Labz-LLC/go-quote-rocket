@@ -192,7 +192,7 @@ $t = $tracking;
             questions: <?= json_encode($v['flow']['questions']) ?>,
             progressLabels: <?= json_encode($v['flow']['progress_labels'] ?? []) ?>,
             apiEndpoint: '<?= buildUrl('api', '/submit.php') ?>',
-            redirectUrl: '/<?= $v['flow']['redirect_type'] ?? 'owl' ?>',
+            redirectUrl: '<?= buildUrl('www', '/' . ($v['flow']['redirect_type'] ?? 'owl') . '?vertical=' . $v['id']) ?>',
             tracking: <?= json_encode($v['tracking'] ?? []) ?>,
             loadingMessages: <?= json_encode($v['flow']['loading_modal']['messages'] ?? [
                 'Analyzing your information...',

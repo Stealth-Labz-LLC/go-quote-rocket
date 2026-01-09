@@ -14,6 +14,14 @@ $isLocal = strpos($host, '.local') !== false ||
 
 $isStaging = strpos($requestUri, '/staging/') === 0 || strpos($host, 'staging.') === 0;
 
+// Detect staging path structure (e.g., /staging/public/)
+$stagingBasePath = '';
+if ($isStaging && strpos($requestUri, '/staging/public') === 0) {
+    $stagingBasePath = '/staging/public';
+} elseif ($isStaging && strpos($requestUri, '/staging/') === 0) {
+    $stagingBasePath = '/staging';
+}
+
 define('ENVIRONMENT', $isLocal ? 'local' : ($isStaging ? 'staging' : 'production'));
 
 // WHITE-LABEL SYSTEM: Set active brand
@@ -29,11 +37,11 @@ if (ENVIRONMENT === 'local') {
     define('DEBUG_MODE', true);
     define('BASE_PATH', '/goquoterocket/public');
 } elseif (ENVIRONMENT === 'staging') {
-    // Staging environment (staging.goquoterocket.com subdomain)
+    // Staging environment (goquoterocket.com/staging/public/)
     define('BASE_DOMAIN', 'goquoterocket.com');
     define('USE_HTTPS', true);
     define('DEBUG_MODE', true);
-    define('BASE_PATH', ''); // Subdomain serves from root
+    define('BASE_PATH', $stagingBasePath); // Dynamic based on URL structure
 } else {
     // Production
     define('BASE_DOMAIN', 'goquoterocket.com');
@@ -53,13 +61,14 @@ function buildUrl($subdomain = 'www', $path = '') {
             return BASE_PATH . $path;
         }
     } elseif (ENVIRONMENT === 'staging') {
-        // Staging: subdomain staging.goquoterocket.com - serve assets from /cdn/ folder
+        // Staging: path-based routing (e.g., /staging/public/...)
         if ($subdomain === 'cdn') {
-            return '/cdn' . $path;
+            return BASE_PATH . '/cdn' . $path;
         } elseif ($subdomain === 'api') {
-            return '/api' . $path;
+            // API is at parent level: /staging/api/
+            return str_replace('/public', '/api', BASE_PATH) . $path;
         } else {
-            return $path;
+            return BASE_PATH . $path;
         }
     } else {
         // Production: use actual subdomains

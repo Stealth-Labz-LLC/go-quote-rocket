@@ -219,7 +219,7 @@ $queryString = $queryString ?? '';
                 Compare rates from top providers in minutes
             </p>
             <div class="cta-banner__action">
-                <a href="/flow?<?= $queryString ?>" class="btn btn--secondary btn--lg">
+                <a href="<?= buildUrl('www', '/flow?vertical=' . $v['id'] . ($queryString ? '&' . ltrim($queryString, '?') : '')) ?>" class="btn btn--secondary btn--lg">
                     <?= $v['landing']['cta_text'] ?>
                 </a>
             </div>

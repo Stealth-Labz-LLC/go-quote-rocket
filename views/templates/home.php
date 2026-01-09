@@ -50,7 +50,7 @@
 
     <div class="vertical-grid">
         <?php foreach ($verticals as $id => $vertical): ?>
-            <a href="<?= buildUrl($vertical['subdomain']) ?>" class="vertical-card">
+            <a href="<?= buildUrl('www', '?vertical=' . $id) ?>" class="vertical-card">
                 <h2><?= $vertical['name'] ?></h2>
                 <p><?= $vertical['landing']['tagline'] ?? '' ?></p>
                 <button style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: var(--primary); color: white; border: none; border-radius: 6px; cursor: pointer;">
