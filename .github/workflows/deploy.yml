@@ -26,6 +26,12 @@ jobs:
       - name: Restore file mtimes from Git history
         uses: chetan/git-restore-mtime-action@v2.2
 
+      - name: Force update timestamps for critical files
+        run: |
+          touch config/environment.php
+          touch views/templates/*.php
+          sleep 1
+
       - name: Determine deploy settings
         id: set_remote
         shell: bash
