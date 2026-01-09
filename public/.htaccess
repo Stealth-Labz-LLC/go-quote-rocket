@@ -1,18 +1,19 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Funnel routes - send to funnel.php
-    RewriteRule ^flow/?$ funnel.php [QSA,L]
-    RewriteRule ^landing/?$ funnel.php [QSA,L]
-    RewriteRule ^offer-wall/?$ funnel.php [QSA,L]
-    RewriteRule ^offers/?$ funnel.php [QSA,L]
+    # Funnel subdomains - route everything to funnel.php
+    RewriteCond %{HTTP_HOST} ^(auto|life|medicare|creditcard)\.goquoterocket\.com$ [NC]
+    RewriteRule ^(.*)$ funnel.php [QSA,L]
 
     # API routes
     RewriteRule ^api/(.*)$ ../api/$1 [QSA,L]
 
-    # If vertical query param exists on root, use funnel
+    # Staging/dev: Allow path-based funnel access with ?vertical= param
+    RewriteCond %{REQUEST_URI} /staging/ [OR]
+    RewriteCond %{HTTP_HOST} localhost [NC,OR]
+    RewriteCond %{HTTP_HOST} \.local$ [NC]
     RewriteCond %{QUERY_STRING} (^|&)vertical= [NC]
-    RewriteRule ^$ funnel.php [QSA,L]
+    RewriteRule ^(flow|landing|offer-wall|offers)/?$ funnel.php [QSA,L]
 
     # Everything else - serve files directly or fallback to organic index.php
     RewriteCond %{REQUEST_FILENAME} !-f
