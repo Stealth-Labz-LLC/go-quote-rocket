@@ -176,25 +176,31 @@ jobs:
 
 | Trigger | Branch | Environment | Remote Path |
 |---------|--------|-------------|-------------|
-| Push | `orchid_dev` | Staging | `/public_html/staging/public/` |
+| Push | `orchid_dev` | Staging | `/public_html/staging/` |
 | Push | `main` | Production | `/public_html/` |
 | PR Merge | `main` | Production | `/public_html/` |
+
+**Note:** The staging deployment includes the entire project structure, so the funnel is accessible at `goquoterocket.com/staging/public/`.
 
 ### What Gets Deployed
 
 **Included**:
-- All PHP files
-- HTML, CSS, JavaScript files
+- All PHP files (app/, config/, views/, public/, api/)
+- HTML, CSS, JavaScript files (cdn/)
 - Images and assets
 - Configuration files (except .env)
 
 **Excluded**:
 - `.git/` - Git history
 - `.github/` - GitHub workflows
+- `.claude/` - Claude configuration
 - `node_modules/` - Node dependencies
 - `tests/` - Test files
-- `.env`, `.env.*` - Environment secrets
-- `storage/logs/` - Log files
+- `vendor/` - Composer dependencies
+- `docs/` - Documentation
+- `.env`, `.env.example` - Environment files
+- `.gitignore`, `README.md` - Repo files
+- `storage/logs/*` - Log files
 
 ---
 
@@ -309,9 +315,9 @@ git commit -m "Descriptive message"
 git push origin orchid_dev
 ```
 
-**Deployment target**: `/public_html/staging/public/`
+**Deployment target**: `/public_html/staging/`
 
-**Test URL**: `https://goquoterocket.com/staging`
+**Test URL**: `https://goquoterocket.com/staging/public/`
 
 ### Production Deployment
 

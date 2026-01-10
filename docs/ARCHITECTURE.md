@@ -16,12 +16,22 @@ This document describes the system architecture, design patterns, and code organ
 
 ## Overview
 
-GoQuoteRocket follows a **configuration-driven MVC architecture**:
+GoQuoteRocket follows a **configuration-driven MVC + Laravel hybrid architecture**:
 
-- **Model**: Data loading and business logic (`Vertical`, `Carrier`)
+- **Model**: Data loading and business logic (`Vertical`, `Carrier`, `Brand`, `User`)
 - **View**: Universal PHP templates that render config data
-- **Controller**: Lightweight handlers that orchestrate model→view flow
+- **Controller**: Custom controllers + Laravel HTTP controllers
+- **Services**: Business logic services (`LeadService`)
 - **Configuration**: The "brain" of the system - defines all behavior
+
+### Technology Stack
+
+| Layer | Technology |
+|-------|------------|
+| Backend | PHP 8+ with Laravel components |
+| Frontend | Vanilla JavaScript (FunnelEngine.js) |
+| CSS | Modular CSS with CSS variables (26 files) |
+| Deployment | GitHub Actions → SFTP |
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -64,9 +74,16 @@ GoQuoteRocket follows a **configuration-driven MVC architecture**:
 
 ### Models (`app/Models/`)
 
-Models handle data access and business logic. In GoQuoteRocket, models primarily load configuration.
+Models handle data access and business logic. GoQuoteRocket uses 4 core models:
 
-#### Vertical.php (~198 lines)
+| Model | Purpose | Key Methods |
+|-------|---------|-------------|
+| `Vertical` | Vertical detection & config loading | `detect()`, `load()`, `all()` |
+| `Carrier` | Carrier data & filtering | `forVertical()`, `filterByEligibility()` |
+| `Brand` | White-label brand config | `getActiveBrand()` |
+| `User` | Laravel user model | Standard auth methods |
+
+#### Vertical.php
 
 The core model that powers vertical detection and loading.
 
@@ -96,7 +113,7 @@ class Vertical
 }
 ```
 
-#### Carrier.php (~112 lines)
+#### Carrier.php
 
 Manages the carrier database and filtering.
 
@@ -111,6 +128,42 @@ class Carrier
 
     // Get carrier logo path
     public static function getLogo(string $carrierId): string
+}
+```
+
+#### Brand.php
+
+Handles white-label branding support.
+
+```php
+class Brand
+{
+    // Get the active brand configuration
+    public static function getActiveBrand(): array
+    {
+        $brandFile = __DIR__ . '/../../config/brands/' . ACTIVE_BRAND . '.php';
+        return require $brandFile;
+    }
+}
+```
+
+### Services (`app/Services/`)
+
+#### LeadService.php
+
+Handles lead submission and routing to external APIs.
+
+```php
+class LeadService
+{
+    // Submit lead to StealthLabz
+    public function submitToStealthLabz(array $data): array
+
+    // Submit lead to Waypoint
+    public function submitToWaypoint(array $data): array
+
+    // Format phone number to E.164
+    public function formatPhone(string $phone): string
 }
 ```
 
@@ -239,35 +292,62 @@ class OfferWallController extends Controller
 goquoterocket/
 │
 ├── app/                           # Application code
-│   ├── Controllers/               # Request handlers
+│   ├── Controllers/               # Custom request handlers
 │   │   ├── FlowController.php
 │   │   ├── LandingController.php
 │   │   ├── OfferWallController.php
 │   │   ├── HomeController.php
 │   │   └── LegalController.php
 │   │
-│   ├── Core/                      # MVC framework
+│   ├── Core/                      # Custom MVC framework
 │   │   ├── Controller.php         # Base controller
 │   │   ├── Router.php             # Routing engine
 │   │   └── View.php               # Template renderer
 │   │
+│   ├── Http/                      # Laravel HTTP components
+│   │   ├── Controllers/           # Laravel controllers
+│   │   │   ├── Controller.php
+│   │   │   ├── LeadController.php
+│   │   │   └── PageController.php
+│   │   ├── Kernel.php             # HTTP kernel
+│   │   └── Middleware/            # 9 middleware classes
+│   │
 │   ├── Models/                    # Data models
 │   │   ├── Vertical.php           # Vertical detection/loading
-│   │   └── Carrier.php            # Carrier management
+│   │   ├── Carrier.php            # Carrier management
+│   │   ├── Brand.php              # White-label branding
+│   │   └── User.php               # Laravel user model
 │   │
-│   └── Exceptions/                # Exception classes
+│   ├── Services/                  # Business logic
+│   │   └── LeadService.php        # API routing service
+│   │
+│   ├── Providers/                 # Laravel service providers
+│   │   ├── AppServiceProvider.php
+│   │   ├── AuthServiceProvider.php
+│   │   ├── BroadcastServiceProvider.php
+│   │   ├── EventServiceProvider.php
+│   │   └── RouteServiceProvider.php
+│   │
+│   ├── Console/Kernel.php         # Console kernel
+│   └── Exceptions/Handler.php     # Exception handling
 │
 ├── config/                        # Configuration (THE BRAIN)
-│   ├── environment.php            # Environment detection
+│   ├── environment.php            # Environment detection & URL building
 │   ├── verticals/                 # Per-vertical configs
+│   │   ├── auto.php               # 7 questions, 5 carriers
+│   │   ├── life.php               # 5 questions, 3 carriers
+│   │   ├── medicare.php           # 7 questions, 5 carriers
+│   │   └── creditcard.php         # 7 questions, 6 carriers
 │   ├── brands/                    # Brand configs
-│   ├── tracking.php               # Analytics config
-│   ├── integrations.php           # API endpoints
+│   │   └── goquoterocket.php      # Main brand
+│   ├── tracking.php               # GTM IDs per vertical
+│   ├── integrations.php           # StealthLabz, Waypoint
 │   └── carriers.php               # Master carrier DB
 │
 ├── views/                         # Templates
-│   ├── templates/                 # Page templates
-│   └── components/                # Reusable parts
+│   ├── templates/                 # Page templates (5 files)
+│   ├── components/                # Reusable parts (4 files)
+│   └── legal/                     # Legal pages
 │
 ├── public/                        # Web root
 │   ├── index.php                  # Organic pages entry

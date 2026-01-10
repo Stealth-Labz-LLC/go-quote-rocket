@@ -32,19 +32,28 @@ A **vertical** is a complete insurance product funnel defined by a single config
 
 ## Current Verticals
 
-| ID | Name | Questions | Carriers | Status |
-|----|------|-----------|----------|--------|
-| `auto` | Auto Insurance | 7 | 5 | Active |
-| `life` | Life Insurance | 5 | 3 | Active |
-| `medicare` | Medicare Plans | 7 | TBD | Active |
-| `creditcard` | Credit Cards | 7 | TBD | Active |
+| ID | Name | Questions | Carriers | StealthLabz | Waypoint | Status |
+|----|------|-----------|----------|-------------|----------|--------|
+| `auto` | Auto Insurance | 7 | 5 | Configured | Configured | **READY** |
+| `life` | Life Insurance | 5 | 3 | Placeholder | Configured | Needs Webhook |
+| `medicare` | Medicare Plans | 7 | 5 | Placeholder | - | Needs Webhook |
+| `creditcard` | Credit Cards | 7 | 6 | Placeholder | - | Needs Webhook |
+
+### Lead Routing Status
+
+| Vertical | Webhook ID | Notes |
+|----------|------------|-------|
+| Auto | `c10ebcce-f22e-4e48-a633-e7de9529f46c` | Production ready |
+| Life | `LIFE-WEBHOOK-ID-HERE` | Replace with real ID |
+| Medicare | `MEDICARE-WEBHOOK-ID-HERE` | Replace with real ID |
+| Credit Card | - | Uses StealthLabz only |
 
 ### Vertical URLs
 
 | Environment | URL Pattern | Example |
 |-------------|-------------|---------|
 | Local | `{vertical}.goquoterocket.local` | `auto.goquoterocket.local` |
-| Staging | `{vertical}.goquoterocket.com/staging` | - |
+| Staging | `goquoterocket.com/staging/public/?vertical={id}` | `?vertical=auto` |
 | Production | `{vertical}.goquoterocket.com` | `auto.goquoterocket.com` |
 
 ---

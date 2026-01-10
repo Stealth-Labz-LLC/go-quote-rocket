@@ -13,6 +13,7 @@
 | [Frontend](FRONTEND.md) | FunnelEngine.js, CSS architecture, templates |
 | [Deployment](DEPLOYMENT.md) | GitHub Actions CI/CD, environments, hosting |
 | [Development](DEVELOPMENT.md) | Local setup with XAMPP, testing, troubleshooting |
+| [Audit](AUDIT.md) | Production readiness audit and checklist |
 
 ---
 
@@ -41,36 +42,53 @@ GoQuoteRocket is a lead generation platform that:
 
 ```
 goquoterocket/
-├── app/                      # Application code (MVC)
-│   ├── Controllers/          # Request handlers
+├── app/                      # Application code (MVC + Laravel)
+│   ├── Controllers/          # Custom request handlers (5 controllers)
 │   ├── Core/                 # Router, View, base Controller
-│   └── Models/               # Vertical, Carrier models
+│   ├── Models/               # Vertical, Carrier, Brand, User models
+│   ├── Services/             # LeadService for API routing
+│   ├── Http/                 # Laravel HTTP components
+│   │   ├── Controllers/      # LeadController, PageController
+│   │   └── Middleware/       # Auth, CSRF, encryption, etc.
+│   └── Providers/            # Laravel service providers
 │
 ├── config/                   # ALL configuration
 │   ├── verticals/            # Per-vertical configs
-│   │   ├── auto.php          # Auto insurance
+│   │   ├── auto.php          # Auto insurance (7 questions, 5 carriers)
 │   │   ├── life.php          # Life insurance
 │   │   ├── medicare.php      # Medicare plans
 │   │   └── creditcard.php    # Credit cards
 │   ├── brands/               # Brand configurations
 │   │   └── goquoterocket.php # Main brand
-│   ├── environment.php       # Environment detection
-│   ├── tracking.php          # GTM, TrustedForm, pixels
-│   ├── integrations.php      # StealthLabz, Waypoint
+│   ├── environment.php       # Environment detection & URL building
+│   ├── tracking.php          # GTM per vertical
+│   ├── integrations.php      # StealthLabz, Waypoint configs
 │   └── carriers.php          # Master carrier database
 │
 ├── views/                    # Universal templates
 │   ├── templates/            # Page templates
-│   └── components/           # Reusable components
+│   │   ├── home.php          # Homepage
+│   │   ├── landing.php       # Vertical landing page
+│   │   ├── flow.php          # Questionnaire funnel
+│   │   ├── offer-wall.php    # Multi-offer results
+│   │   └── single-offer.php  # Single offer page
+│   ├── components/           # Reusable components
+│   │   ├── header.php
+│   │   ├── footer.php
+│   │   └── faq.php
+│   └── legal/                # Legal pages
 │
 ├── public/                   # Web root
-│   ├── index.php             # Entry point
+│   ├── index.php             # Entry point (organic pages)
 │   ├── funnel.php            # Funnel router
 │   └── .htaccess             # URL rewriting
 │
 ├── cdn/                      # Static assets
 │   ├── js/                   # JavaScript (FunnelEngine.js)
-│   ├── css/                  # Stylesheets
+│   ├── css/                  # Stylesheets (26 modular files)
+│   │   ├── core/             # Reset, tokens, typography
+│   │   ├── components/       # Buttons, forms, cards
+│   │   └── sections/         # Hero, features, FAQ
 │   └── images/               # Logos, carriers, icons
 │
 ├── api/                      # API endpoints
@@ -86,12 +104,12 @@ goquoterocket/
 
 ## Current Verticals
 
-| Vertical | Subdomain | Questions | Carriers | Status |
-|----------|-----------|-----------|----------|--------|
-| Auto Insurance | auto.goquoterocket.com | 7 | 5 | Active |
-| Life Insurance | life.goquoterocket.com | 5 | 3 | Active |
-| Medicare | medicare.goquoterocket.com | 7 | TBD | Active |
-| Credit Cards | creditcard.goquoterocket.com | 7 | TBD | Active |
+| Vertical | Subdomain | Questions | Carriers | Lead Routing | Status |
+|----------|-----------|-----------|----------|--------------|--------|
+| Auto Insurance | auto.goquoterocket.com | 7 | 5 | StealthLabz + Waypoint | **Active** |
+| Life Insurance | life.goquoterocket.com | 5 | 3 | StealthLabz + Waypoint | Needs Webhook |
+| Medicare | medicare.goquoterocket.com | 7 | 5 | StealthLabz | Needs Webhook |
+| Credit Cards | creditcard.goquoterocket.com | 7 | 6 | StealthLabz | Needs Webhook |
 
 ---
 
@@ -165,9 +183,9 @@ See [Verticals Guide](VERTICALS.md) for complete instructions.
 
 | Layer | Technology |
 |-------|------------|
-| Backend | PHP 7.4+ (vanilla, no framework) |
-| Frontend | Vanilla JavaScript, jQuery (optional) |
-| CSS | Custom CSS with CSS variables |
+| Backend | PHP 8+ with Laravel components |
+| Frontend | Vanilla JavaScript (FunnelEngine.js), jQuery (optional) |
+| CSS | Custom CSS with CSS variables (26 modular files) |
 | Templates | PHP templates with components |
 | Deployment | GitHub Actions → SFTP to cPanel |
 | Tracking | GTM, TrustedForm, Facebook Pixel, GA4 |
@@ -179,13 +197,24 @@ See [Verticals Guide](VERTICALS.md) for complete instructions.
 
 | Metric | Value |
 |--------|-------|
-| Total Application Code | ~10,000 lines |
-| Configuration Lines | ~5,000 lines |
-| Controllers | 5 files, ~245 lines |
-| Templates | 5 files, ~710 lines |
-| FunnelEngine.js | 407 lines |
+| Total PHP Files | ~97 files |
+| Controllers | 8 files (5 custom + 3 Laravel) |
+| Models | 4 files (Vertical, Carrier, Brand, User) |
+| Templates | 5 page templates + components |
+| CSS Files | 26 modular files |
+| FunnelEngine.js | ~400 lines |
 | Time to Add Vertical | ~5 minutes |
 | Time to Rebrand | ~5 minutes |
+
+---
+
+## Environments
+
+| Environment | Branch | URL | Status |
+|-------------|--------|-----|--------|
+| Local | - | `goquoterocket.local` | Ready |
+| Staging | `orchid_dev` | `goquoterocket.com/staging/public/` | Ready |
+| Production | `main` | `goquoterocket.com` | Ready |
 
 ---
 
@@ -208,4 +237,4 @@ For issues or questions:
 
 ---
 
-*Documentation maintained by the GoQuoteRocket development team.*
+*Documentation last updated: January 2026*
