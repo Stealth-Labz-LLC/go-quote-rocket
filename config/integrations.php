@@ -9,7 +9,7 @@ return [
     // StealthLabz Configuration
     'stealthlabz' => [
         'enabled' => true,
-        'base_url' => 'https://portal.stealthlabz.com/webhook/quote_rocket/',
+        'base_url' => 'https://portal.stealthlabz.com/source/quote_rocket/',
 
         // Single webhook - portal handles routing internally
         'webhook_id' => 'aa919ce5-e028-11f0-a113-861da8dd4c12',
