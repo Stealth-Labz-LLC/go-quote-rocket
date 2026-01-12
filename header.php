@@ -65,6 +65,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                         </div>
                     </li>
                     <li><a href="about.php<?= $queryParams ?>" alt="About Go Quote Rocket">About</a></li>
+                    <li><a href="/articles/" alt="Insurance Articles & Guides">Articles</a></li>
                 </ul>
             </div>
         </div>
@@ -107,6 +108,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
         </li>
 
         <li><a href="about.php<?= $queryParams ?>" alt="About Go Quote Rocket">About</a></li>
+        <li><a href="/articles/" alt="Insurance Articles & Guides">Articles</a></li>
     </ul>
 
 </div>
