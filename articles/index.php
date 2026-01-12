@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Insurance Articles & Guides | Go Quote Rocket</title>
     <meta name="description" content="Expert guides on car insurance, health coverage, life insurance, and more. Learn how to save money and find the right coverage for your needs.">
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -224,8 +224,8 @@
 
     <?php include '../footer.php'; ?>
 
-    <script src="../js/jquery-3.6.0.min.js"></script>
-    <script src="../js/slick.js"></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/slick.js"></script>
     <script>
         $(document).ready(function() {
             $('#mobMenuBtn').click(function() {
