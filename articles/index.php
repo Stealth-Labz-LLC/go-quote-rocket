@@ -18,6 +18,9 @@
     })(window,document,'script','dataLayer','GTM-NPP3PH3H');</script>
     <!-- End Google Tag Manager -->
     <style>
+        .inner_bnr--articles {
+            background: #002e6a;
+        }
         .articles-hub {
             padding: 60px 0;
             background: #f8f9fa;
@@ -113,7 +116,7 @@
     include '../header.php';
     ?>
 
-    <div class="inner_bnr">
+    <div class="inner_bnr inner_bnr--articles">
         <div class="container">
             <div class="inner_bnr_content">
                 <div>

@@ -16,7 +16,9 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NPP3PH3H');</script>
     <style>
-        .article-container { max-width: 800px; margin: 0 auto; padding: 40px 20px 60px; }
+        .article-layout { max-width: 1170px; margin: 0 auto; padding: 40px 20px 60px; display: flex; gap: 40px; }
+        .article-main { flex: 1; max-width: 760px; }
+        .article-sidebar { width: 300px; flex-shrink: 0; }
         .article-header { margin-bottom: 40px; }
         .article-category { display: inline-block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 4px 12px; border-radius: 4px; margin-bottom: 16px; background: #efebe9; color: #4e342e; }
         .article-title { font-size: 36px; font-weight: 700; color: #1a1a1a; line-height: 1.2; margin-bottom: 16px; }
@@ -29,7 +31,27 @@
         .article-cta a:hover { transform: translateY(-2px); }
         .back-link { display: inline-block; margin-bottom: 24px; color: #666; text-decoration: none; font-size: 14px; }
         .back-link:hover { color: #007bff; }
-        @media (max-width: 768px) { .article-title { font-size: 28px; } .article-content { font-size: 16px; } }
+        .sidebar-widget { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+        .sidebar-widget h3 { font-size: 18px; font-weight: 700; color: #1a1a1a; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 2px solid #e9ecef; }
+        .sidebar-articles { list-style: none; padding: 0; margin: 0; }
+        .sidebar-articles li { margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #e9ecef; }
+        .sidebar-articles li:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+        .sidebar-articles a { color: #333; text-decoration: none; font-size: 15px; line-height: 1.4; display: block; transition: color 0.2s; }
+        .sidebar-articles a:hover { color: #007bff; }
+        .sidebar-articles .article-cat { font-size: 11px; text-transform: uppercase; color: #888; margin-top: 4px; }
+        .sidebar-cta { background: linear-gradient(135deg, #002e6a 0%, #001a3d 100%); border-radius: 12px; padding: 28px 24px; text-align: center; color: #fff; margin-bottom: 24px; }
+        .sidebar-cta h3 { color: #fff; border-bottom: none; padding-bottom: 0; margin-bottom: 12px; font-size: 18px; font-weight: 700; }
+        .sidebar-cta p { font-size: 14px; line-height: 1.5; margin-bottom: 20px; color: rgba(255,255,255,0.9); }
+        .sidebar-cta a { display: block; background: #ff6100; color: #fff; font-weight: 600; padding: 14px 20px; border-radius: 8px; text-decoration: none; transition: background 0.2s; }
+        .sidebar-cta a:hover { background: #e55500; }
+        .sidebar-links { list-style: none; padding: 0; margin: 0; }
+        .sidebar-links li { margin-bottom: 12px; }
+        .sidebar-links li:last-child { margin-bottom: 0; }
+        .sidebar-links a { color: #007bff; text-decoration: none; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+        .sidebar-links a:hover { text-decoration: underline; }
+        .sidebar-links a::before { content: '\2192'; }
+        @media (max-width: 968px) { .article-layout { flex-direction: column; } .article-sidebar { width: 100%; max-width: 500px; } .article-main { max-width: 100%; } }
+        @media (max-width: 768px) { .article-title { font-size: 28px; } .article-content { font-size: 16px; } .article-layout { padding: 30px 15px 50px; } }
     </style>
 </head>
 <body class="inner_pg">
@@ -37,55 +59,92 @@
 
     <?php include '../header.php'; ?>
 
-    <div class="article-container">
-        <a href="/articles/" class="back-link">&larr; Back to Articles</a>
+    <div class="article-layout">
+        <main class="article-main">
+            <a href="/articles/" class="back-link">&larr; Back to Articles</a>
 
-        <article>
-            <header class="article-header">
-                <span class="article-category">Legal Insurance</span>
-                <h1 class="article-title">Legal Protection Plans: Affordable Access to Attorney Services</h1>
-            </header>
+            <article>
+                <header class="article-header">
+                    <span class="article-category">Legal Insurance</span>
+                    <h1 class="article-title">Legal Protection Plans: Affordable Access to Attorney Services</h1>
+                </header>
 
-            <div class="article-content">
-                <p>Most Americans can't afford a lawyer when they need one. Hourly rates of $200-500 make even simple legal matters expensive, and complex issues can cost thousands before resolution. Legal insurance, also called legal protection plans or prepaid legal services, offers an alternative: monthly premiums that provide access to attorney services at reduced or no additional cost.</p>
+                <div class="article-content">
+                    <p>Most Americans can't afford a lawyer when they need one. Hourly rates of $200-500 make even simple legal matters expensive, and complex issues can cost thousands before resolution. Legal insurance, also called legal protection plans or prepaid legal services, offers an alternative: monthly premiums that provide access to attorney services at reduced or no additional cost.</p>
 
-                <h2>How Legal Protection Plans Work</h2>
-                <p>Legal insurance operates differently from health or auto insurance. Rather than reimbursing you for legal expenses, most plans provide direct access to a network of attorneys who handle covered matters as part of your membership.</p>
-                <p>You pay a monthly premium, typically between $15 and $50 for individual coverage. When a covered legal need arises, you contact the plan, get connected with a network attorney, and receive services according to your plan's terms. Some plans include specific services at no additional charge; others provide discounted hourly rates.</p>
-                <p>Plans are offered through employers as voluntary benefits, through organizations like unions or associations, and directly to consumers. Employer-sponsored plans often cost less due to group rates, but individual plans provide similar coverage at reasonable prices.</p>
+                    <h2>How Legal Protection Plans Work</h2>
+                    <p>Legal insurance operates differently from health or auto insurance. Rather than reimbursing you for legal expenses, most plans provide direct access to a network of attorneys who handle covered matters as part of your membership.</p>
+                    <p>You pay a monthly premium, typically between $15 and $50 for individual coverage. When a covered legal need arises, you contact the plan, get connected with a network attorney, and receive services according to your plan's terms. Some plans include specific services at no additional charge; others provide discounted hourly rates.</p>
+                    <p>Plans are offered through employers as voluntary benefits, through organizations like unions or associations, and directly to consumers. Employer-sponsored plans often cost less due to group rates, but individual plans provide similar coverage at reasonable prices.</p>
 
-                <h2>What Legal Plans Cover</h2>
-                <p>Coverage varies by plan, but most include common legal needs that arise in everyday life. Document preparation and review is a core benefit—wills, powers of attorney, real estate contracts, lease agreements, and similar documents. Having an attorney prepare your will typically costs $200-500 out of pocket; with legal insurance, it's often included.</p>
-                <p>Consultation services let you speak with an attorney about legal questions without hourly charges. Need to understand your rights in a neighbor dispute, know how to handle a contractor issue, or understand a contract before signing? A quick call to your plan's attorney line provides answers.</p>
-                <p>Many plans cover representation in court for specific matters. Traffic ticket defense, small claims assistance, and representation in certain civil matters may be included. This coverage alone can justify the annual premium if you face even one situation requiring a lawyer's presence.</p>
-                <p>Family law matters like uncontested divorces, adoption assistance, or custody modifications often receive coverage or significant discounts. Estate planning services—wills, trusts, and related documents—are standard inclusions.</p>
+                    <h2>What Legal Plans Cover</h2>
+                    <p>Coverage varies by plan, but most include common legal needs that arise in everyday life. Document preparation and review is a core benefit—wills, powers of attorney, real estate contracts, lease agreements, and similar documents. Having an attorney prepare your will typically costs $200-500 out of pocket; with legal insurance, it's often included.</p>
+                    <p>Consultation services let you speak with an attorney about legal questions without hourly charges. Need to understand your rights in a neighbor dispute, know how to handle a contractor issue, or understand a contract before signing? A quick call to your plan's attorney line provides answers.</p>
+                    <p>Many plans cover representation in court for specific matters. Traffic ticket defense, small claims assistance, and representation in certain civil matters may be included. This coverage alone can justify the annual premium if you face even one situation requiring a lawyer's presence.</p>
+                    <p>Family law matters like uncontested divorces, adoption assistance, or custody modifications often receive coverage or significant discounts. Estate planning services—wills, trusts, and related documents—are standard inclusions.</p>
 
-                <h2>What's Not Covered</h2>
-                <p>Legal insurance has significant limitations. Pre-existing legal matters—issues that existed before your coverage began—typically aren't covered. Business-related legal needs usually require separate business coverage. Class action suits, cases against your employer, and matters involving the plan's network attorneys are excluded.</p>
-                <p>Coverage limits matter. Plans may cap attorney hours for certain matters or provide fixed fee coverage that doesn't extend to complex cases. A simple will is covered; a complicated estate plan might exceed your benefits.</p>
-                <p>Criminal defense is partially covered by some plans but excluded by others. Even when included, serious felony charges usually require payment beyond plan benefits. Know your plan's criminal coverage before assuming you're protected.</p>
+                    <h2>What's Not Covered</h2>
+                    <p>Legal insurance has significant limitations. Pre-existing legal matters—issues that existed before your coverage began—typically aren't covered. Business-related legal needs usually require separate business coverage. Class action suits, cases against your employer, and matters involving the plan's network attorneys are excluded.</p>
+                    <p>Coverage limits matter. Plans may cap attorney hours for certain matters or provide fixed fee coverage that doesn't extend to complex cases. A simple will is covered; a complicated estate plan might exceed your benefits.</p>
+                    <p>Criminal defense is partially covered by some plans but excluded by others. Even when included, serious felony charges usually require payment beyond plan benefits. Know your plan's criminal coverage before assuming you're protected.</p>
 
-                <h2>Who Benefits Most</h2>
-                <p>Legal protection plans make sense for people likely to need legal services. First-time homebuyers benefit from contract review and closing assistance. New parents can use estate planning services to create wills and guardianship documents. Small landlords get help with lease preparation and tenant issues.</p>
-                <p>Anyone who wants peace of mind about legal matters benefits from having an attorney available for questions. Instead of wondering about your rights or whether a situation requires legal action, you can simply call and ask.</p>
-                <p>Workers with employer-sponsored plans should strongly consider enrolling. The premiums are often very low through payroll deduction, and having coverage available costs little compared to needing a lawyer without it.</p>
+                    <h2>Who Benefits Most</h2>
+                    <p>Legal protection plans make sense for people likely to need legal services. First-time homebuyers benefit from contract review and closing assistance. New parents can use estate planning services to create wills and guardianship documents. Small landlords get help with lease preparation and tenant issues.</p>
+                    <p>Anyone who wants peace of mind about legal matters benefits from having an attorney available for questions. Instead of wondering about your rights or whether a situation requires legal action, you can simply call and ask.</p>
+                    <p>Workers with employer-sponsored plans should strongly consider enrolling. The premiums are often very low through payroll deduction, and having coverage available costs little compared to needing a lawyer without it.</p>
 
-                <h2>Choosing a Legal Plan</h2>
-                <p>If your employer offers legal insurance, review the plan documents carefully before enrolling. Understand what's covered, what the limitations are, and how the network attorney system works. Ask colleagues who've used the benefit about their experiences.</p>
-                <p>For individual plans, compare options from established providers like LegalShield, ARAG, and MetLife Legal Plans. Request detailed coverage information—marketing materials oversimplify what's included. Read the member agreement before committing.</p>
-                <p>Network quality matters. Check whether the plan's network includes attorneys in your area with relevant expertise. A plan with thousands of attorneys nationally doesn't help if none practice near you or in your needed specialty.</p>
+                    <h2>Choosing a Legal Plan</h2>
+                    <p>If your employer offers legal insurance, review the plan documents carefully before enrolling. Understand what's covered, what the limitations are, and how the network attorney system works. Ask colleagues who've used the benefit about their experiences.</p>
+                    <p>For individual plans, compare options from established providers like LegalShield, ARAG, and MetLife Legal Plans. Request detailed coverage information—marketing materials oversimplify what's included. Read the member agreement before committing.</p>
+                    <p>Network quality matters. Check whether the plan's network includes attorneys in your area with relevant expertise. A plan with thousands of attorneys nationally doesn't help if none practice near you or in your needed specialty.</p>
 
-                <h2>The Real Value Proposition</h2>
-                <p>Legal insurance isn't about saving money on legal services you'd definitely pay for otherwise. Most people don't budget for lawyers and simply go without when legal needs arise. The real value is access—having legal help available changes how you handle situations.</p>
-                <p>With a plan, you'll call an attorney about the neighbor's fence encroaching on your property. Without coverage, you'd probably just stew about it. You'll have your employment contract reviewed before signing. You'll create a will instead of putting it off indefinitely.</p>
-                <p>For $20-40 per month, you get an attorney in your corner for life's legal moments. Whether that's worth it depends on how much you value access to professional legal guidance when situations arise.</p>
+                    <h2>The Real Value Proposition</h2>
+                    <p>Legal insurance isn't about saving money on legal services you'd definitely pay for otherwise. Most people don't budget for lawyers and simply go without when legal needs arise. The real value is access—having legal help available changes how you handle situations.</p>
+                    <p>With a plan, you'll call an attorney about the neighbor's fence encroaching on your property. Without coverage, you'd probably just stew about it. You'll have your employment contract reviewed before signing. You'll create a will instead of putting it off indefinitely.</p>
+                    <p>For $20-40 per month, you get an attorney in your corner for life's legal moments. Whether that's worth it depends on how much you value access to professional legal guidance when situations arise.</p>
+                </div>
+
+                <div class="article-cta">
+                    <p>Curious what legal protection would cost for your situation?</p>
+                    <a href="/legal-insurance.php">Explore Legal Insurance Options</a>
+                </div>
+            </article>
+        </main>
+
+        <aside class="article-sidebar">
+            <div class="sidebar-cta">
+                <h3>Legal Protection</h3>
+                <p>Get affordable access to attorneys for everyday legal needs starting at just $20/month.</p>
+                <a href="/legal-insurance.php">Get a Free Quote</a>
             </div>
 
-            <div class="article-cta">
-                <p>Curious what legal protection would cost for your situation?</p>
-                <a href="/legal-insurance.php">Explore Legal Insurance Options</a>
+            <div class="sidebar-widget">
+                <h3>Related Articles</h3>
+                <ul class="sidebar-articles">
+                    <li>
+                        <a href="small-business-insurance-essentials.php">Small Business Insurance Essentials</a>
+                        <div class="article-cat">Business</div>
+                    </li>
+                    <li>
+                        <a href="term-vs-whole-life-insurance.php">Term vs Whole Life Insurance</a>
+                        <div class="article-cat">Life Insurance</div>
+                    </li>
+                    <li>
+                        <a href="best-personal-loan-rates.php">How to Find the Best Personal Loan Rates</a>
+                        <div class="article-cat">Finance</div>
+                    </li>
+                </ul>
             </div>
-        </article>
+
+            <div class="sidebar-widget">
+                <h3>Insurance Products</h3>
+                <ul class="sidebar-links">
+                    <li><a href="/legal-insurance.php">Legal Insurance</a></li>
+                    <li><a href="/life-insurance.php">Life Insurance</a></li>
+                    <li><a href="/business-insurance.php">Business Insurance</a></li>
+                </ul>
+            </div>
+        </aside>
     </div>
 
     <?php include '../footer.php'; ?>
