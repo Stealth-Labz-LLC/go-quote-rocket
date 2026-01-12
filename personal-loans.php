@@ -64,7 +64,7 @@ $funnelId = "Loans";
                     "name": "How much can I borrow with a personal loan?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The amount you can borrow depends on factors like your income, credit score, and the lender’s policies. In the USA, personal loans typically range from R1,000 to R300,000 or more."
+                        "text": "The amount you can borrow depends on factors like your income, credit score, and the lender's policies. In the USA, personal loans typically range from $1,000 to $50,000 or more."
                     }
                 },
                 {
@@ -148,7 +148,7 @@ $funnelId = "Loans";
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">Get Pre-Approved<br class="showDesk"> For Up-To R150 000</p>
+            <p class="inner_sec1-hdg">Get Pre-Approved<br class="showDesk"> For Up-To $50,000</p>
 
             <p class="inner_sec1_txt">Apply in <strong>less than 60 seconds</strong> to see if you qualify—no obligations, <br class="hideMob">no hidden fees, and quick access to funds.</p>
 
@@ -227,11 +227,11 @@ $funnelId = "Loans";
                             <div class="form_input_box">
                                 <select name="income" class="input-fld required" data-error-message="Please select your monthly income.">
                                     <option value="" selected="">What is your monthly income?</option>
-                                    <option value="R0 - R5,000">R0 - R5,000</option>
-                                    <option value="R5,001 - R15,000">R5,001 - R15,000</option>
-                                    <option value="R15,001 - R30,000">R15,001 - R30,000</option>
-                                    <option value="R30,001 - R50,000">R30,001 - R50,000</option>
-                                    <option value="R50,001+">R50,001+</option>
+                                    <option value="$0 - $2,000">$0 - $2,000</option>
+                                    <option value="$2,001 - $4,000">$2,001 - $4,000</option>
+                                    <option value="$4,001 - $6,000">$4,001 - $6,000</option>
+                                    <option value="$6,001 - $8,000">$6,001 - $8,000</option>
+                                    <option value="$8,001+">$8,001+</option>
                                 </select>
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
@@ -239,13 +239,13 @@ $funnelId = "Loans";
                             <div class="form_input_box">
                                 <select name="loanamount" class="input-fld required" data-error-message="Please select your desired loan amount.">
                                     <option value="" selected="">What is your desired loan amount?</option>
-                                    <option value="5000">R5,000</option>
-                                    <option value="15000">R15,000</option>
-                                    <option value="30000">R30,000</option>
-                                    <option value="50000">R50,000</option>
-                                    <option value="65000">R65,000</option>
-                                    <option value="80000">R80,000</option>
-                                    <option value="100000">R100,000</option>
+                                    <option value="5000">$5,000</option>
+                                    <option value="15000">$15,000</option>
+                                    <option value="30000">$30,000</option>
+                                    <option value="50000">$50,000</option>
+                                    <option value="65000">$65,000</option>
+                                    <option value="80000">$80,000</option>
+                                    <option value="100000">$100,000</option>
                                 </select>
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
@@ -1010,7 +1010,7 @@ $funnelId = "Loans";
 
                         <div class="acdn-content" style="display: none;">
 
-                            <p class="acdn-para">The amount you can borrow depends on factors like your income, credit score, and the lender’s policies. In the USA, personal loans typically range from R1,000 to R300,000 or more.</p>
+                            <p class="acdn-para">The amount you can borrow depends on factors like your income, credit score, and the lender's policies. In the USA, personal loans typically range from $1,000 to $50,000 or more.</p>
 
                         </div>
 
@@ -1262,23 +1262,20 @@ $funnelId = "Loans";
                 let phoneNumber = $(this).val().replace(/[^0-9]/g, ''); // Remove non-digit characters and spaces
                 $(this).val(phoneNumber); // Update the input field with the cleaned value
                 if (phoneNumber.length < 1) return;
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
             });
 
-            function validateZAPhone(phoneNumber) {
-                const promptText = "Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.";
-                const phoneSub = phoneNumber.substring(0, 3);
+            function validateUSPhone(phoneNumber) {
+                const promptText = "Please enter a valid 10-digit US phone number.";
 
-                const invalidPrefixes = ["27", "+27", "080", "086", "085", "09"];
-                const isValidPrefix = !invalidPrefixes.some(prefix => phoneSub.includes(prefix));
+                // Remove any non-digit characters
+                const cleanedNumber = phoneNumber.replace(/\D/g, '');
 
                 let errorMessage = "";
-                if (!isValidPrefix) {
+                if (cleanedNumber.length !== 10) {
                     errorMessage = promptText;
-                } else if (phoneNumber.length < 10) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length == 10 && phoneNumber.charAt(0) !== '0') {
-                    errorMessage = promptText;
+                } else if (cleanedNumber.charAt(0) === '0' || cleanedNumber.charAt(0) === '1') {
+                    errorMessage = "Phone number cannot start with 0 or 1.";
                 }
 
                 if (errorMessage) {

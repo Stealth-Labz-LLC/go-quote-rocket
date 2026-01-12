@@ -176,7 +176,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <p class="sec1-hdg">Compare Car Insurance Quotes In 1 Minute and Save!</p>
 
-                    <p class="sec1-txt">Get cheap car insurance rates from SAs top providers and <b>save up-to R390 per month</b>.</p>
+                    <p class="sec1-txt">Get cheap car insurance rates from America's top providers and <b>save up-to $150 per month</b>.</p>
 
                 </div>
 
@@ -184,7 +184,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                     <p class="sec1-hdg">Compare Medical Insurance Quotes & Find Savings In 1 Minute!</p>
 
-                    <p class="sec1-txt">Get cheap medical insurance rates from SAs top providers and <b>save up to R390 per month</b>.</p>
+                    <p class="sec1-txt">Get cheap medical insurance rates from America's top providers and <b>save up to $150 per month</b>.</p>
 
                 </div>
 

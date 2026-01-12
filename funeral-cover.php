@@ -173,7 +173,7 @@ $funnelId = "Funeral";
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">Get Up-To R50,000<br class="showDesk"> Funeral Cover in Minutes</p>
+            <p class="inner_sec1-hdg">Get Up-To $50,000<br class="showDesk"> Funeral Cover in Minutes</p>
 
             <p class="inner_sec1_txt">Qualifying claims approved in <strong>under 5 minutes</strong>—secure financial peace<br class="showDesk"> of mind for your loved ones today.</p>
 
@@ -257,11 +257,11 @@ $funnelId = "Funeral";
                                 <select name="income" id="" class="input-fld required" data-error-message="Please opt your monthly income.">
 
                                     <option value="" selected>What is your monthly income?</option>
-                                    <option value="R0 - R5,000">R0 - R5,000</option>
-                                    <option value="R5,001 - R15,000">R5,001 - R15,000</option>
-                                    <option value="R15,001 - R30,000">R15,001 - R30,000</option>
-                                    <option value="R30,001 - R50,000">R30,001 - R50,000</option>
-                                    <option value="R50,001+">R50,001+</option>
+                                    <option value="$0 - $5,000">$0 - $5,000</option>
+                                    <option value="$5,001 - $15,000">$5,001 - $15,000</option>
+                                    <option value="$15,001 - $30,000">$15,001 - $30,000</option>
+                                    <option value="$30,001 - $50,000">$30,001 - $50,000</option>
+                                    <option value="$50,001+">$50,001+</option>
 
                                 </select>
                                 <div class="error_message text-left" style="display:none"></div>
@@ -684,9 +684,9 @@ $funnelId = "Funeral";
 
                     <img src="images/inner-sec4-funeral-icon1.png" alt="Funerl Cover Payout Icon" class="inner_sec4_icn" width="200" height="124">
 
-                    <h3>Pay-outs of<br> Up to R50,000</h3>
+                    <h3>Pay-outs of<br> Up to $50,000</h3>
 
-                    <p>Policies offer pay-outs ranging from R5,000 to R50,000 per member, giving you the flexibility to choose the level of coverage that suits your needs.</p>
+                    <p>Policies offer pay-outs ranging from $5,000 to $50,000 per member, giving you the flexibility to choose the level of coverage that suits your needs.</p>
 
                 </div>
 
@@ -1274,22 +1274,14 @@ $funnelId = "Funeral";
                 let phoneNumber = $(this).val().replace(/[^0-9]/g, ''); // Remove non-digit characters and spaces
                 $(this).val(phoneNumber); // Update the input field with the cleaned value
                 if (phoneNumber.length < 1) return;
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
             });
 
-            function validateZAPhone(phoneNumber) {
-                const promptText = "Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.";
-                const phoneSub = phoneNumber.substring(0, 3);
-
-                const invalidPrefixes = ["27", "+27", "080", "086", "085", "09"];
-                const isValidPrefix = !invalidPrefixes.some(prefix => phoneSub.includes(prefix));
+            function validateUSPhone(phoneNumber) {
+                const promptText = "Please enter a valid 10-digit US phone number.";
 
                 let errorMessage = "";
-                if (!isValidPrefix) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length < 10) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length == 10 && phoneNumber.charAt(0) !== '0') {
+                if (phoneNumber.length !== 10) {
                     errorMessage = promptText;
                 }
 

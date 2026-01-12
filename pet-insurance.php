@@ -171,7 +171,7 @@ $funnelId = "Pet";
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">Pet Insurance Plans<br class="showDesk"> Starting at R84 per Month</p>
+            <p class="inner_sec1-hdg">Pet Insurance Plans<br class="showDesk"> Starting at $25 per Month</p>
 
             <p class="inner_sec1_txt">Get coverage for <strong>accidents, illnesses, and routine car</strong> with<br class="showDesk"> pet insurance tailored to your needs.</p>
 
@@ -1224,22 +1224,14 @@ $funnelId = "Pet";
                 let phoneNumber = $(this).val().replace(/[^0-9]/g, ''); // Remove non-digit characters and spaces
                 $(this).val(phoneNumber); // Update the input field with the cleaned value
                 if (phoneNumber.length < 1) return;
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
             });
 
-            function validateZAPhone(phoneNumber) {
-                const promptText = "Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.";
-                const phoneSub = phoneNumber.substring(0, 3);
-
-                const invalidPrefixes = ["27", "+27", "080", "086", "085", "09"];
-                const isValidPrefix = !invalidPrefixes.some(prefix => phoneSub.includes(prefix));
+            function validateUSPhone(phoneNumber) {
+                const promptText = "Please enter a valid 10-digit US phone number.";
 
                 let errorMessage = "";
-                if (!isValidPrefix) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length < 10) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length == 10 && phoneNumber.charAt(0) !== '0') {
+                if (phoneNumber.length !== 10) {
                     errorMessage = promptText;
                 }
 

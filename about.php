@@ -125,7 +125,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <li>
 
-            	<h3>R4680</h3>
+            	<h3>$1,800</h3>
 
                 <p>Average Annual<br> Customer Savings</p>
 

@@ -263,18 +263,18 @@ $funnelId = "Life";
                                 <select name="income" class="input-fld required" data-error-message="Please select your monthly income.">
 
                                     <option value="" selected>What is your monthly income?</option>
-                                    <option value="0_To_3000">R0 - R3,000</option>
-                                    <option value="3000_To_5000">R3,001 - R5,000</option>
-                                    <option value="5000_To_10000">R5,001 - R10,000</option>
-                                    <option value="10000_To_15000">R10,001 - R15,000</option>
-                                    <option value="15000_To_20000">R15,001 - R20,000+</option>
-                                    <option value="20000_To_30000">R20,001 - R30,000+</option>
-                                    <option value="30000_To_40000">R30,001 - R40,000+</option>
-                                    <option value="40000_To_50000">R40,001 - R50,000+</option>
-                                    <option value="50000_To_60000">R50,001 - R60,000+</option>
-                                    <option value="60000_To_70000">R60,001 - R70,000+</option>
-                                    <option value="70000_To_80000">R70,001 - R80,000+</option>
-                                    <option value="80000_And_Above">R80,001+</option>
+                                    <option value="0_To_3000">$0 - $3,000</option>
+                                    <option value="3000_To_5000">$3,001 - $5,000</option>
+                                    <option value="5000_To_10000">$5,001 - $10,000</option>
+                                    <option value="10000_To_15000">$10,001 - $15,000</option>
+                                    <option value="15000_To_20000">$15,001 - $20,000+</option>
+                                    <option value="20000_To_30000">$20,001 - $30,000+</option>
+                                    <option value="30000_To_40000">$30,001 - $40,000+</option>
+                                    <option value="40000_To_50000">$40,001 - $50,000+</option>
+                                    <option value="50000_To_60000">$50,001 - $60,000+</option>
+                                    <option value="60000_To_70000">$60,001 - $70,000+</option>
+                                    <option value="70000_To_80000">$70,001 - $80,000+</option>
+                                    <option value="80000_And_Above">$80,001+</option>
                                     <option value="NotCurrentlyEmployed">currently Not Employed</option>
 
                                 </select>
@@ -1234,22 +1234,14 @@ $funnelId = "Life";
                 let phoneNumber = $(this).val().replace(/[^0-9]/g, ''); // Remove non-digit characters and spaces
                 $(this).val(phoneNumber); // Update the input field with the cleaned value
                 if (phoneNumber.length < 1) return;
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
             });
 
-            function validateZAPhone(phoneNumber) {
-                const promptText = "Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.";
-                const phoneSub = phoneNumber.substring(0, 3);
-
-                const invalidPrefixes = ["27", "+27", "080", "086", "085", "09"];
-                const isValidPrefix = !invalidPrefixes.some(prefix => phoneSub.includes(prefix));
+            function validateUSPhone(phoneNumber) {
+                const promptText = "Please enter a valid 10-digit US phone number.";
 
                 let errorMessage = "";
-                if (!isValidPrefix) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length < 10) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length == 10 && phoneNumber.charAt(0) !== '0') {
+                if (phoneNumber.length !== 10) {
                     errorMessage = promptText;
                 }
 

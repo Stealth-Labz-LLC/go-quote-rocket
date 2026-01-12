@@ -178,7 +178,7 @@ $funnelId = "Biz";
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">Protect Your Business<br class="showMob"> with<br class="hideMob"> Insurance Coverage<br class="showMob"> Up-To R300 000</p>
+            <p class="inner_sec1-hdg">Protect Your Business<br class="showMob"> with<br class="hideMob"> Insurance Coverage<br class="showMob"> Up-To $300,000</p>
 
             <p class="inner_sec1_txt">Get a customized business insurance quote in <strong>just 60 seconds</strong>—no hassle,<br class="showDesk"> no hidden fees, and complete peace of mind.</p>
 
@@ -1300,28 +1300,21 @@ $funnelId = "Biz";
             //phone number validation
             $("input[name='phone']").keyup(function() {
                 let phoneNumber = $(this).val();
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
 
             });
 
-            function validateZAPhone(PhoneNumber) {
-                const prompText = `Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.`;
-                const phoneField = PhoneNumber.toLowerCase();
-                const PhoneSub = phoneField.substring(0, 3);
-                if (PhoneSub.includes("27") || PhoneSub.includes("+27") || PhoneSub.includes("080") || PhoneSub.includes("086") || PhoneSub.includes("085") || PhoneSub.includes("09")) {
-                    $('#phone_prompt').text(prompText).show();
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                } else
+            function validateUSPhone(PhoneNumber) {
+                const prompText = `Please enter a valid 10-digit US phone number.`;
                 if (PhoneNumber.length < 10) {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
                     $('#phone_prompt').text(prompText).show();
-                } else
-                if (PhoneNumber.length == 10 && PhoneNumber.charAt(0) !== '0') {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                    $('#phone_prompt').text(prompText).show();
-                } else {
+                } else if (PhoneNumber.length == 10) {
                     $('#phone_prompt').hide();
                     phoneErrors.length = 0;
+                } else {
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
+                    $('#phone_prompt').text(prompText).show();
                 }
             }
             //validate terms checkbox

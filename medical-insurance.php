@@ -148,7 +148,7 @@ $funnelId = "Health";
 
             <p class="inner_sec1-hdg">Get Free Medical Insurance<br class="showDesk"> Quotes in <em>1 Minute!</em></p>
 
-            <p class="inner_sec1_txt">Get unlimited private doctor (GPs) visits, medication, and<br class="hideMob"> dentists for <strong>less than R480 per month.</strong></p>
+            <p class="inner_sec1_txt">Get unlimited private doctor (GPs) visits, medication, and<br class="hideMob"> dentists for <strong>less than $150 per month.</strong></p>
 
 
 
@@ -215,11 +215,11 @@ $funnelId = "Health";
                             <div class="form_input_box">
                                 <select name="income" class="input-fld required" data-error-message="Please select your monthly income.">
                                     <option value="" selected>What is your monthly income?</option>
-                                    <option value="R0 - R5,000">R0 - R5,000</option>
-                                    <option value="R5,001 - R15,000">R5,001 - R15,000</option>
-                                    <option value="R15,001 - R30,000">R15,001 - R30,000</option>
-                                    <option value="R30,001 - R50,000">R30,001 - R50,000</option>
-                                    <option value="R50,001+">R50,001+</option>
+                                    <option value="$0 - $5,000">$0 - $5,000</option>
+                                    <option value="$5,001 - $15,000">$5,001 - $15,000</option>
+                                    <option value="$15,001 - $30,000">$15,001 - $30,000</option>
+                                    <option value="$30,001 - $50,000">$30,001 - $50,000</option>
+                                    <option value="$50,001+">$50,001+</option>
                                 </select>
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
@@ -1145,22 +1145,14 @@ $funnelId = "Health";
                 let phoneNumber = $(this).val().replace(/[^0-9]/g, ''); // Remove non-digit characters and spaces
                 $(this).val(phoneNumber); // Update the input field with the cleaned value
                 if (phoneNumber.length < 1) return;
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
             });
 
-            function validateZAPhone(phoneNumber) {
-                const promptText = "Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.";
-                const phoneSub = phoneNumber.substring(0, 3);
-
-                const invalidPrefixes = ["27", "+27", "080", "086", "085", "09"];
-                const isValidPrefix = !invalidPrefixes.some(prefix => phoneSub.includes(prefix));
+            function validateUSPhone(phoneNumber) {
+                const promptText = "Please enter a valid 10-digit US phone number.";
 
                 let errorMessage = "";
-                if (!isValidPrefix) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length < 10) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length == 10 && phoneNumber.charAt(0) !== '0') {
+                if (phoneNumber.length !== 10) {
                     errorMessage = promptText;
                 }
 

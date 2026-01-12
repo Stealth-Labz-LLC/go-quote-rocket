@@ -230,7 +230,7 @@ $funnelId = "Debt";
 
                             <div>
                                 <select name="monthly_income" class="input-fld required" data-error-message="Please opt your monthly earn.">
-                                    <option value="" selected>Do you earn more than R15K monthly?</option>
+                                    <option value="" selected>Do you earn more than $15K monthly?</option>
                                     <option value="true">Yes</option>
                                     <option value="false">No</option>
                                 </select>
@@ -238,7 +238,7 @@ $funnelId = "Debt";
                             </div>
                             <div>
                                 <select name="debt_greater_than_40_000" class="input-fld required" data-error-message="Please select your debt amount.">
-                                    <option value="" selected>Is your debt more than R40K?</option>
+                                    <option value="" selected>Is your debt more than $40K?</option>
                                     <option value="true">Yes</option>
                                     <option value="false">No</option>
                                 </select>
@@ -1134,22 +1134,14 @@ $funnelId = "Debt";
                 let phoneNumber = $(this).val().replace(/[^0-9]/g, ''); // Remove non-digit characters and spaces
                 $(this).val(phoneNumber); // Update the input field with the cleaned value
                 if (phoneNumber.length < 1) return;
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
             });
 
-            function validateZAPhone(phoneNumber) {
-                const promptText = "Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.";
-                const phoneSub = phoneNumber.substring(0, 3);
-
-                const invalidPrefixes = ["27", "+27", "080", "086", "085", "09"];
-                const isValidPrefix = !invalidPrefixes.some(prefix => phoneSub.includes(prefix));
+            function validateUSPhone(phoneNumber) {
+                const promptText = "Please enter a valid 10-digit US phone number.";
 
                 let errorMessage = "";
-                if (!isValidPrefix) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length < 10) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length == 10 && phoneNumber.charAt(0) !== '0') {
+                if (phoneNumber.length !== 10) {
                     errorMessage = promptText;
                 }
 

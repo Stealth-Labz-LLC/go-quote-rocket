@@ -159,7 +159,7 @@ $funnelId = "Car";
                     <div class="ban_slide1" id="ban_slide_1">
                         <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
                         <p class="inner_sec1-hdg">Get Free Car Insurance<br class="showDesk"> Quotes in <em>1 Minute!</em></p>
-                        <p class="inner_sec1_txt">Compare cheap car insurance offers from the USA’s top<br class="hideMob"> providers and <strong>save up-to R390 per month.</strong></p>
+                        <p class="inner_sec1_txt">Compare cheap car insurance offers from the USA's top<br class="hideMob"> providers and <strong>save up-to $150 per month.</strong></p>
                         <input type="hidden" name="insuranceApi" value="Yes">
                         <input type="hidden" name="aff_id" value="<?= $aff_id; ?>" />
                         <input type="hidden" name="offer_id" value="<?= $offer_id; ?>" />
@@ -180,7 +180,7 @@ $funnelId = "Car";
                                 <div class="form_input_box">
                                     <input type="tel" name="phone" placeholder="Phone Number" class="input-fld required" data-error-message="Please enter your phone number without the country code first" maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
                                     <div class="error_message text-left" style="display: none;" id="phone_prompt">
-                                        <span class="phone-prompt-error">Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,or 09 aren't supported.</span>
+                                        <span class="phone-prompt-error">Please enter a valid US phone number.</span>
                                     </div>
                                 </div>
                             </div>
@@ -196,8 +196,9 @@ $funnelId = "Car";
                                 <div class="form_input_box">
                                     <select class="input-fld required" name="monthly_income" data-error-message="Please opt your monthly income.">
                                         <option value="">What's your monthly income?</option>
-                                        <option value="R0 - R7999">R0 - R7999</option>
-                                        <option value="R8000+">R8000+</option>
+                                        <option value="$0 - $2,999">$0 - $2,999</option>
+                                        <option value="$3,000 - $4,999">$3,000 - $4,999</option>
+                                        <option value="$5,000+">$5,000+</option>
                                     </select>
                                     <div class="error_message text-left" style="display:none"></div>
                                 </div>
@@ -500,27 +501,27 @@ $funnelId = "Car";
             <div class="inner_sec4_inr">
                 <div class="inner_sec4_inr_bx">
                     <img src="images/vw-polo-icon.png" alt="Volkswagon Polo Car Insurance" class="inner_sec4_icn" width="200" height="124">
-                    <p>Insurance for a <strong>VW Polo</strong> averages <strong>R1 437pm*</strong>, but can be low as <strong>R205pm*</strong>.</p>
+                    <p>Insurance for a <strong>Honda Civic</strong> averages <strong>$175/mo*</strong>, but can be as low as <strong>$89/mo*</strong>.</p>
                 </div>
                 <div class="inner_sec4_inr_bx">
                     <img src="images/toyota-icon.png" alt="Toyota Corolla Car Insurance" class="inner_sec4_icn" width="200" height="124">
-                    <p>Insurance for a <strong>Toyota Corolla</strong> averages <strong>R1 321pm*</strong>, but can be low as <strong>R168pm*</strong>.</p>
+                    <p>Insurance for a <strong>Toyota Corolla</strong> averages <strong>$165/mo*</strong>, but can be as low as <strong>$78/mo*</strong>.</p>
                 </div>
                 <div class="inner_sec4_inr_bx">
                     <img src="images/hyundai-icon.png" alt="Hyundai i20 Car Insurance" class="inner_sec4_icn" width="200" height="124">
-                    <p>Insurance for a <strong>Hyundai i20</strong> averages <strong>R1 327pm*</strong>, but can be low as <strong>R336pm*</strong>.</p>
+                    <p>Insurance for a <strong>Honda Accord</strong> averages <strong>$168/mo*</strong>, but can be as low as <strong>$95/mo*</strong>.</p>
                 </div>
                 <div class="inner_sec4_inr_bx">
                     <img src="images/kia-icon.png" alt="Kia Rio Car Insurance" class="inner_sec4_icn" width="200" height="124">
-                    <p>Insurance for a <strong>Kia Rio</strong> averages <strong>R1 423pm*</strong>, but can be low as <strong>R307pm*.</strong></p>
+                    <p>Insurance for a <strong>Ford F-150</strong> averages <strong>$185/mo*</strong>, but can be as low as <strong>$105/mo*</strong>.</p>
                 </div>
                 <div class="inner_sec4_inr_bx">
                     <img src="images/suzuki-icon.png" alt="Suzuki Swift Car Insurance" class="inner_sec4_icn" width="200" height="124">
-                    <p>Insurance for a <strong>Suzuki Swift</strong> averages <strong>R1 407pm*</strong>, but can be low as <strong>R368pm*.</strong></p>
+                    <p>Insurance for a <strong>Chevrolet Equinox</strong> averages <strong>$172/mo*</strong>, but can be as low as <strong>$92/mo*</strong>.</p>
                 </div>
                 <div class="inner_sec4_inr_bx">
                     <img src="images/renault-icon.png" alt="Renault Kwid Car Insurance" class="inner_sec4_icn" width="200" height="124">
-                    <p>Insurance for a <strong>Renault Kwid</strong> averages <strong>R1 157pm*</strong>, but can be low as <strong>R377pm*</strong>.</p>
+                    <p>Insurance for a <strong>Nissan Altima</strong> averages <strong>$158/mo*</strong>, but can be as low as <strong>$85/mo*</strong>.</p>
                 </div>
             </div>
             <div class="btn-bx">
@@ -810,22 +811,16 @@ $funnelId = "Car";
             //phone number validation
             $("input[name='phone']").keyup(function() {
                 let phoneNumber = $(this).val();
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
             });
-            function validateZAPhone(PhoneNumber) {
-                const prompText = `Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.`;
-                const phoneField = PhoneNumber.toLowerCase();
-                const PhoneSub = phoneField.substring(0, 3);
-                if (PhoneSub.includes("27") || PhoneSub.includes("+27") || PhoneSub.includes("080") || PhoneSub.includes("086") || PhoneSub.includes("085") || PhoneSub.includes("09")) {
+            function validateUSPhone(PhoneNumber) {
+                const prompText = `Please enter a valid 10-digit US phone number.`;
+                const cleanPhone = PhoneNumber.replace(/\D/g, '');
+                if (cleanPhone.length < 10) {
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
                     $('#phone_prompt').text(prompText).show();
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                } else
-                if (PhoneNumber.length < 10) {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                    $('#phone_prompt').text(prompText).show();
-                } else
-                if (PhoneNumber.length == 10 && PhoneNumber.charAt(0) !== '0') {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
+                } else if (cleanPhone.length >= 10 && cleanPhone.charAt(0) === '0') {
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
                     $('#phone_prompt').text(prompText).show();
                 } else {
                     $('#phone_prompt').hide();
