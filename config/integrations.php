@@ -25,10 +25,10 @@ return [
         'retry_attempts' => 2
     ],
 
-    // Waypoint Configuration
+    // Waypoint Configuration (DISABLED)
     'waypoint' => [
-        'enabled' => true,
-        'endpoint' => 'https://mass1ve.waypointsoftware.io/capture.php',
+        'enabled' => false,
+        'endpoint' => '',
         'timeout' => 30,
         'retry_attempts' => 2
     ],

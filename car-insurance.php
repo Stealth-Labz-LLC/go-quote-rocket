@@ -1308,9 +1308,10 @@ $funnelId = "Car";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://goquoterocket.com/leads-api/auto-api-call.php?' + formData,
+                    url: '/api/submit.php?vertical=auto',
                     // Type of Request
                     type: 'post',
+                    data: formData + '&vertical=auto',
                     success: function(data) {
                         let resultData = JSON.parse(data);
                         //console.log(resultData)
@@ -1379,37 +1380,6 @@ $funnelId = "Car";
             $(document).on('click', '#error_handler_overlay_close', function(event) {
                 $('#error_handler_overlay').hide();
             });
-            // Logger Feature Update
-            $('.apiBtn').on('click', function() {
-                const formElement = document.forms['insurance_api1'];
-                const formDataObj = Object.fromEntries(new FormData(formElement).entries());
-                //console.log(formDataObj);
-
-                formDataObj.userIsAt = window.location.href;
-                const requiredFields = ['funnelId', 'given-name', 'family-name', 'phone', 'make'];
-
-                // Validate required fields
-                for (const field of requiredFields) {
-                    if (!formDataObj[field] || formDataObj[field].trim() === '') {
-                        // alert(`The field "${field}" is required.`);
-                        return;
-                    }
-                }
-
-                $.ajax({
-                    url: 'https://goquoterocket.com/logger/logger.php',
-                    method: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify(formDataObj),
-                    success: function(response) {
-                        // console.log('Success:', response);
-                    },
-                    error: function(error) {
-                        console.error('Error:', error);
-                    }
-                });
-            });
-            //End
 
             //for ups-trck api
             $('#back_btn_2').click(function() {
@@ -1449,8 +1419,9 @@ $funnelId = "Car";
                 let queryStringValue = window.location.search;
                 //$('#loading-indicator').show();
                 $.ajax({
-                    url: 'https://goquoterocket.com/leads-api/auto-api-call.php?trackApi=' + optData,
+                    url: '/api/submit.php?vertical=auto&trackApi=' + optData,
                     type: 'post',
+                    data: { vertical: 'auto' },
                     success: function(data) {
                         let resultData = JSON.parse(data);
                         console.log(resultData);

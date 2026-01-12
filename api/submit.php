@@ -84,16 +84,10 @@ try {
 
     $results = [];
 
-    // Route to StealthLabz if enabled
+    // Route to StealthLabz
     if (isset($config['routing']['stealthlabz']) && $config['routing']['stealthlabz']['enabled']) {
         $stealthLabzResult = routeToStealthLabz($config, $formData, $integrations);
         $results['stealthlabz'] = $stealthLabzResult;
-    }
-
-    // Route to Waypoint if enabled
-    if (isset($config['routing']['waypoint']) && $config['routing']['waypoint']['enabled']) {
-        $waypointResult = routeToWaypoint($config, $formData, $integrations);
-        $results['waypoint'] = $waypointResult;
     }
 
     // Determine redirect URL
@@ -159,38 +153,3 @@ function routeToStealthLabz($config, $formData, $integrations) {
     ];
 }
 
-/**
- * Route lead to Waypoint
- */
-function routeToWaypoint($config, $formData, $integrations) {
-    $routing = $config['routing']['waypoint'];
-
-    // Map fields
-    $payload = [];
-    foreach ($routing['field_mapping'] as $targetField => $mapping) {
-        if (isset($mapping['value'])) {
-            $payload[$targetField] = $mapping['value'];
-        } elseif (isset($mapping['field']) && isset($formData[$mapping['field']])) {
-            $payload[$targetField] = $formData[$mapping['field']];
-        }
-    }
-
-    // Send to Waypoint
-    $url = $integrations['waypoint']['endpoint'];
-
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($payload));
-    curl_setopt($ch, CURLOPT_TIMEOUT, $integrations['waypoint']['timeout']);
-
-    $response = curl_exec($ch);
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
-
-    return [
-        'success' => $httpCode >= 200 && $httpCode < 300,
-        'http_code' => $httpCode,
-        'response' => $response
-    ];
-}
