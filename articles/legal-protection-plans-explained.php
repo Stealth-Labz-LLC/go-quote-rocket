@@ -22,7 +22,7 @@
         .article-header { margin-bottom: 40px; }
         .article-category { display: inline-block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 4px 12px; border-radius: 4px; margin-bottom: 16px; background: #efebe9; color: #4e342e; }
         .article-title { font-size: 36px; font-weight: 700; color: #1a1a1a; line-height: 1.2; margin-bottom: 16px; }
-        .article-content { font-size: 17px; line-height: 1.8; color: #333; }
+        .article-content { font-size: 17px; line-height: 1.8; color: #333; text-align: left; }
         .article-content h2 { font-size: 24px; font-weight: 700; color: #1a1a1a; margin: 40px 0 16px; }
         .article-content p { margin-bottom: 20px; }
         .article-cta { background: linear-gradient(135deg, #5d4037 0%, #3e2723 100%); border-radius: 12px; padding: 32px; margin-top: 48px; text-align: center; }
