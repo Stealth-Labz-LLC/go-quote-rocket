@@ -16,7 +16,9 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NPP3PH3H');</script>
     <style>
-        .article-container { max-width: 800px; margin: 0 auto; padding: 40px 20px 60px; }
+        .article-layout { max-width: 1170px; margin: 0 auto; padding: 40px 20px 60px; display: flex; gap: 40px; }
+        .article-main { flex: 1; max-width: 760px; }
+        .article-sidebar { width: 300px; flex-shrink: 0; }
         .article-header { margin-bottom: 40px; }
         .article-category { display: inline-block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 4px 12px; border-radius: 4px; margin-bottom: 16px; background: #e0f7fa; color: #00838f; }
         .article-title { font-size: 36px; font-weight: 700; color: #1a1a1a; line-height: 1.2; margin-bottom: 16px; }
@@ -29,7 +31,27 @@
         .article-cta a:hover { transform: translateY(-2px); }
         .back-link { display: inline-block; margin-bottom: 24px; color: #666; text-decoration: none; font-size: 14px; }
         .back-link:hover { color: #007bff; }
-        @media (max-width: 768px) { .article-title { font-size: 28px; } .article-content { font-size: 16px; } }
+        .sidebar-widget { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+        .sidebar-widget h3 { font-size: 18px; font-weight: 700; color: #1a1a1a; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 2px solid #e9ecef; }
+        .sidebar-articles { list-style: none; padding: 0; margin: 0; }
+        .sidebar-articles li { margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #e9ecef; }
+        .sidebar-articles li:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+        .sidebar-articles a { color: #333; text-decoration: none; font-size: 15px; line-height: 1.4; display: block; transition: color 0.2s; }
+        .sidebar-articles a:hover { color: #007bff; }
+        .sidebar-articles .article-cat { font-size: 11px; text-transform: uppercase; color: #888; margin-top: 4px; }
+        .sidebar-cta { background: linear-gradient(135deg, #002e6a 0%, #001a3d 100%); border-radius: 12px; padding: 28px 24px; text-align: center; color: #fff; margin-bottom: 24px; }
+        .sidebar-cta h3 { color: #fff; border-bottom: none; padding-bottom: 0; margin-bottom: 12px; font-size: 18px; font-weight: 700; }
+        .sidebar-cta p { font-size: 14px; line-height: 1.5; margin-bottom: 20px; color: rgba(255,255,255,0.9); }
+        .sidebar-cta a { display: block; background: #ff6100; color: #fff; font-weight: 600; padding: 14px 20px; border-radius: 8px; text-decoration: none; transition: background 0.2s; }
+        .sidebar-cta a:hover { background: #e55500; }
+        .sidebar-links { list-style: none; padding: 0; margin: 0; }
+        .sidebar-links li { margin-bottom: 12px; }
+        .sidebar-links li:last-child { margin-bottom: 0; }
+        .sidebar-links a { color: #007bff; text-decoration: none; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+        .sidebar-links a:hover { text-decoration: underline; }
+        .sidebar-links a::before { content: '\2192'; }
+        @media (max-width: 968px) { .article-layout { flex-direction: column; } .article-sidebar { width: 100%; max-width: 500px; } .article-main { max-width: 100%; } }
+        @media (max-width: 768px) { .article-title { font-size: 28px; } .article-content { font-size: 16px; } .article-layout { padding: 30px 15px 50px; } }
     </style>
 </head>
 <body class="inner_pg">
@@ -37,61 +59,98 @@
 
     <?php include '../header.php'; ?>
 
-    <div class="article-container">
-        <a href="/articles/" class="back-link">&larr; Back to Articles</a>
+    <div class="article-layout">
+        <main class="article-main">
+            <a href="/articles/" class="back-link">&larr; Back to Articles</a>
 
-        <article>
-            <header class="article-header">
-                <span class="article-category">Pet Insurance</span>
-                <h1 class="article-title">Pet Insurance Cost Breakdown: What You'll Actually Pay</h1>
-            </header>
+            <article>
+                <header class="article-header">
+                    <span class="article-category">Pet Insurance</span>
+                    <h1 class="article-title">Pet Insurance Cost Breakdown: What You'll Actually Pay</h1>
+                </header>
 
-            <div class="article-content">
-                <p>Veterinary care has gotten expensive. A single emergency surgery can cost $5,000 or more. Cancer treatment for dogs regularly runs into five figures. As pet owners face these realities, pet insurance has grown from a niche product into a mainstream consideration. But what does it actually cost, and what do you get for your money?</p>
+                <div class="article-content">
+                    <p>Veterinary care has gotten expensive. A single emergency surgery can cost $5,000 or more. Cancer treatment for dogs regularly runs into five figures. As pet owners face these realities, pet insurance has grown from a niche product into a mainstream consideration. But what does it actually cost, and what do you get for your money?</p>
 
-                <h2>Average Monthly Premiums</h2>
-                <p>Pet insurance premiums vary based on several factors: your pet's species, breed, age, and location, plus the coverage level you choose. That said, here are realistic ranges for what most pet owners pay.</p>
-                <p>For dogs, expect monthly premiums between $30 and $70 for comprehensive accident and illness coverage. Large breeds and those with known health issues cost more. A healthy young mixed-breed dog might run $35 monthly, while a French Bulldog or German Shepherd could hit $70 or higher.</p>
-                <p>Cats typically cost less to insure, usually between $15 and $35 per month. Their smaller size means less expensive treatments, and they face fewer breed-specific issues than dogs.</p>
-                <p>These figures assume a $500 annual deductible and 80% reimbursement rate—the most common configuration. Adjusting those numbers changes your premium significantly.</p>
+                    <h2>Average Monthly Premiums</h2>
+                    <p>Pet insurance premiums vary based on several factors: your pet's species, breed, age, and location, plus the coverage level you choose. That said, here are realistic ranges for what most pet owners pay.</p>
+                    <p>For dogs, expect monthly premiums between $30 and $70 for comprehensive accident and illness coverage. Large breeds and those with known health issues cost more. A healthy young mixed-breed dog might run $35 monthly, while a French Bulldog or German Shepherd could hit $70 or higher.</p>
+                    <p>Cats typically cost less to insure, usually between $15 and $35 per month. Their smaller size means less expensive treatments, and they face fewer breed-specific issues than dogs.</p>
+                    <p>These figures assume a $500 annual deductible and 80% reimbursement rate—the most common configuration. Adjusting those numbers changes your premium significantly.</p>
 
-                <h2>How Deductibles and Reimbursement Work</h2>
-                <p>Understanding your policy structure is crucial to knowing what you'll actually pay when claims arise.</p>
-                <p>The deductible is what you pay before insurance kicks in. Most policies offer annual deductibles ranging from $100 to $1,000. Lower deductibles mean higher premiums. If you choose a $250 deductible, you'll pay the first $250 of covered costs each year before reimbursement begins.</p>
-                <p>The reimbursement rate determines what percentage of covered costs the insurance pays after your deductible. Common options are 70%, 80%, and 90%. At 80% reimbursement on a $1,000 vet bill with a $500 deductible, you'd pay $500 (deductible) plus $100 (20% of remaining $500), totaling $600 out of $1,000.</p>
-                <p>Annual maximums cap how much the policy pays per year. Unlimited is ideal but costs more. Common caps range from $5,000 to $20,000 annually. For most pets, $10,000 provides reasonable protection, though cancer treatment or major orthopedic surgery can exceed this.</p>
+                    <h2>How Deductibles and Reimbursement Work</h2>
+                    <p>Understanding your policy structure is crucial to knowing what you'll actually pay when claims arise.</p>
+                    <p>The deductible is what you pay before insurance kicks in. Most policies offer annual deductibles ranging from $100 to $1,000. Lower deductibles mean higher premiums. If you choose a $250 deductible, you'll pay the first $250 of covered costs each year before reimbursement begins.</p>
+                    <p>The reimbursement rate determines what percentage of covered costs the insurance pays after your deductible. Common options are 70%, 80%, and 90%. At 80% reimbursement on a $1,000 vet bill with a $500 deductible, you'd pay $500 (deductible) plus $100 (20% of remaining $500), totaling $600 out of $1,000.</p>
+                    <p>Annual maximums cap how much the policy pays per year. Unlimited is ideal but costs more. Common caps range from $5,000 to $20,000 annually. For most pets, $10,000 provides reasonable protection, though cancer treatment or major orthopedic surgery can exceed this.</p>
 
-                <h2>What Pet Insurance Covers</h2>
-                <p>Standard accident and illness policies cover a wide range of conditions: broken bones, swallowed objects, lacerations, cancer, infections, digestive issues, allergies, and chronic conditions like diabetes. Emergency care, surgeries, hospitalizations, diagnostics, and prescription medications typically fall under coverage.</p>
-                <p>What's not covered matters equally. No pet insurance covers pre-existing conditions—problems that existed before coverage began. Routine care like vaccines, checkups, and dental cleanings require an additional wellness rider. Elective procedures and breeding-related costs are excluded.</p>
-                <p>Some policies exclude hereditary or breed-specific conditions, which can be significant for breeds prone to particular problems. Hip dysplasia in large dogs, heart conditions in Cavalier King Charles Spaniels, respiratory issues in flat-faced breeds—check whether your policy covers these if relevant to your pet.</p>
+                    <h2>What Pet Insurance Covers</h2>
+                    <p>Standard accident and illness policies cover a wide range of conditions: broken bones, swallowed objects, lacerations, cancer, infections, digestive issues, allergies, and chronic conditions like diabetes. Emergency care, surgeries, hospitalizations, diagnostics, and prescription medications typically fall under coverage.</p>
+                    <p>What's not covered matters equally. No pet insurance covers pre-existing conditions—problems that existed before coverage began. Routine care like vaccines, checkups, and dental cleanings require an additional wellness rider. Elective procedures and breeding-related costs are excluded.</p>
+                    <p>Some policies exclude hereditary or breed-specific conditions, which can be significant for breeds prone to particular problems. Hip dysplasia in large dogs, heart conditions in Cavalier King Charles Spaniels, respiratory issues in flat-faced breeds—check whether your policy covers these if relevant to your pet.</p>
 
-                <h2>Is Pet Insurance Worth It?</h2>
-                <p>This question has a frustrating answer: it depends. Pet insurance is about managing risk, not saving money on routine care.</p>
-                <p>If your pet stays healthy throughout its life, you'll pay more in premiums than you receive in claims. If your pet develops cancer at age 8 or tears a cruciate ligament, insurance can save you thousands.</p>
-                <p>Consider your financial situation. Can you comfortably absorb a $5,000 emergency vet bill? If yes, self-insuring by setting aside money each month might work. If that expense would create serious hardship or cause you to consider euthanasia over treatment, insurance provides valuable protection.</p>
-                <p>The math generally favors pet insurance for breeds with known expensive health issues, for owners who want the freedom to pursue any recommended treatment regardless of cost, and for those who prefer predictable monthly expenses over potential large bills.</p>
+                    <h2>Is Pet Insurance Worth It?</h2>
+                    <p>This question has a frustrating answer: it depends. Pet insurance is about managing risk, not saving money on routine care.</p>
+                    <p>If your pet stays healthy throughout its life, you'll pay more in premiums than you receive in claims. If your pet develops cancer at age 8 or tears a cruciate ligament, insurance can save you thousands.</p>
+                    <p>Consider your financial situation. Can you comfortably absorb a $5,000 emergency vet bill? If yes, self-insuring by setting aside money each month might work. If that expense would create serious hardship or cause you to consider euthanasia over treatment, insurance provides valuable protection.</p>
+                    <p>The math generally favors pet insurance for breeds with known expensive health issues, for owners who want the freedom to pursue any recommended treatment regardless of cost, and for those who prefer predictable monthly expenses over potential large bills.</p>
 
-                <h2>When to Buy</h2>
-                <p>Timing matters significantly. Pet insurance should be purchased when your pet is young and healthy. Waiting until problems develop means those issues become pre-existing conditions—permanently uninsurable.</p>
-                <p>The ideal time to enroll is as a puppy or kitten, or immediately upon adopting an older pet. Every day you wait is a day something could develop and be excluded from coverage.</p>
-                <p>Some policies have waiting periods before coverage begins, typically 14 days for illness and immediate to a few days for accidents. Plan accordingly and don't let coverage lapse.</p>
+                    <h2>When to Buy</h2>
+                    <p>Timing matters significantly. Pet insurance should be purchased when your pet is young and healthy. Waiting until problems develop means those issues become pre-existing conditions—permanently uninsurable.</p>
+                    <p>The ideal time to enroll is as a puppy or kitten, or immediately upon adopting an older pet. Every day you wait is a day something could develop and be excluded from coverage.</p>
+                    <p>Some policies have waiting periods before coverage begins, typically 14 days for illness and immediate to a few days for accidents. Plan accordingly and don't let coverage lapse.</p>
 
-                <h2>Choosing a Policy</h2>
-                <p>Compare quotes from multiple providers. Prices and coverage details vary substantially. Use the same deductible and reimbursement settings when comparing to get accurate apples-to-apples quotes.</p>
-                <p>Read the policy documents, not just the marketing materials. Understand exclusions, waiting periods, and how the claims process works. Check whether the policy covers exam fees, which can add up with multiple vet visits.</p>
-                <p>Look for policies that don't increase premiums based on claims filed or that guarantee renewability regardless of conditions developed while covered. Some insurers raise rates or refuse renewal after expensive claims—not a position you want to be in with a chronically ill pet.</p>
+                    <h2>Choosing a Policy</h2>
+                    <p>Compare quotes from multiple providers. Prices and coverage details vary substantially. Use the same deductible and reimbursement settings when comparing to get accurate apples-to-apples quotes.</p>
+                    <p>Read the policy documents, not just the marketing materials. Understand exclusions, waiting periods, and how the claims process works. Check whether the policy covers exam fees, which can add up with multiple vet visits.</p>
+                    <p>Look for policies that don't increase premiums based on claims filed or that guarantee renewability regardless of conditions developed while covered. Some insurers raise rates or refuse renewal after expensive claims—not a position you want to be in with a chronically ill pet.</p>
 
-                <h2>The Bottom Line</h2>
-                <p>Pet insurance costs real money—hundreds to over a thousand dollars annually depending on your pet and chosen coverage. For that investment, you get protection against veterinary bills that can easily reach several thousand dollars.</p>
-                <p>Whether that trade-off makes sense depends on your pet, your finances, and your peace of mind. At minimum, understand what coverage costs before deciding it's not for you. The best time to consider insurance is when your pet doesn't need it.</p>
+                    <h2>The Bottom Line</h2>
+                    <p>Pet insurance costs real money—hundreds to over a thousand dollars annually depending on your pet and chosen coverage. For that investment, you get protection against veterinary bills that can easily reach several thousand dollars.</p>
+                    <p>Whether that trade-off makes sense depends on your pet, your finances, and your peace of mind. At minimum, understand what coverage costs before deciding it's not for you. The best time to consider insurance is when your pet doesn't need it.</p>
+                </div>
+
+                <div class="article-cta">
+                    <p>Want to see what pet insurance would cost for your furry friend?</p>
+                    <a href="/pet-insurance.php">Get a Free Pet Insurance Quote</a>
+                </div>
+            </article>
+        </main>
+
+        <aside class="article-sidebar">
+            <div class="sidebar-cta">
+                <h3>Protect Your Pet</h3>
+                <p>Get affordable pet insurance coverage and never worry about unexpected vet bills again.</p>
+                <a href="/pet-insurance.php">Get a Free Quote</a>
             </div>
 
-            <div class="article-cta">
-                <p>Want to see what pet insurance would cost for your furry friend?</p>
-                <a href="/pet-insurance.php">Get a Free Pet Insurance Quote</a>
+            <div class="sidebar-widget">
+                <h3>Related Articles</h3>
+                <ul class="sidebar-articles">
+                    <li>
+                        <a href="health-insurance-vs-medicare.php">Health Insurance vs Medicare</a>
+                        <div class="article-cat">Health Insurance</div>
+                    </li>
+                    <li>
+                        <a href="term-vs-whole-life-insurance.php">Term vs Whole Life Insurance</a>
+                        <div class="article-cat">Life Insurance</div>
+                    </li>
+                    <li>
+                        <a href="final-expense-insurance-guide.php">Final Expense Insurance Guide</a>
+                        <div class="article-cat">Life Insurance</div>
+                    </li>
+                </ul>
             </div>
-        </article>
+
+            <div class="sidebar-widget">
+                <h3>Insurance Products</h3>
+                <ul class="sidebar-links">
+                    <li><a href="/pet-insurance.php">Pet Insurance</a></li>
+                    <li><a href="/medical-insurance.php">Health Insurance</a></li>
+                    <li><a href="/life-insurance.php">Life Insurance</a></li>
+                </ul>
+            </div>
+        </aside>
     </div>
 
     <?php include '../footer.php'; ?>
