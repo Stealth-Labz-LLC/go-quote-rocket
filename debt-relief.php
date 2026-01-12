@@ -291,76 +291,7 @@ $funnelId = "Debt";
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-        <div class="hideMob">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/debtsafe-logo.svg" alt="Debt Safe Debt Relief Logo" class="debtsafe_logo"></li>
-
-                    <li><img src="images/debtline-logo.svg" alt="Debtline Debt Relief Logo"></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="showMob">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/debtsafe-logo.svg" alt="Debt Safe Debt Relief Logo" class="debtsafe_logo"></li>
-
-                    <li><img src="images/debtline-logo.svg" alt="Debtline Debt Relief Logo"></li>
-
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-                    <li><img src="images/debtsafe-logo.svg" alt="Debt Safe Debt Relief Logo" class="debtsafe_logo"></li>
-                    <li><img src="images/debtline-logo.svg" alt="Debtline Debt Relief Logo"></li>
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/debtsafe-logo.svg" alt="Debt Safe Debt Relief Logo" class="debtsafe_logo"></li>
-                    <li><img src="images/debtline-logo.svg" alt="Debtline Debt Relief Logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/debtsafe-logo.svg" alt="Debt Safe Debt Relief Logo" class="debtsafe_logo"></li>
-
-                    <li><img src="images/debtline-logo.svg" alt="Debtline Debt Relief Logo"></li>
-
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
+<?php include 'carrier-logos.php'; ?>
 
 
 

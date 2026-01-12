@@ -274,209 +274,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-
-        <div class="brand__strip__scroller">
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/auto-general-logo.svg" width="200" height="40" alt="Auto General Insurance Logo" class="auto-general_logo"></li>
-
-                <li><img src="images/beame-logo.svg" width="200" height="40" alt="Beame Insurance Logo"></li>
-
-                <li><img src="images/budget-logo.svg" width="200" height="40" alt="Budget Insurance Logo" class="budget_logo"></li>
-
-                <li><img src="images/dial-direct-logo.svg" width="200" height="40" alt="Dial Direct Insurance Logo" class="dial-direct_logo"></li>
-
-                <li><img src="images/dichem-logo.svg" width="200" height="40" alt="Dichem Insurance Logo" class="dichem_logo"></li>
-
-                <li><img src="images/discover-health-logo.svg" width="200" height="40" alt="Discover Health Insurance Logo"></li>
-
-                <li><img src="images/discover-insure-logo.svg" width="200" height="40" alt="Discover Insure Insurance Logo"></li>
-
-                <li><img src="images/essentialMED-logo.svg" width="200" height="40" alt="EssentialMED Insurance Logo"></li>
-
-                <li><img src="images/exlicare-logo.svg" width="200" height="40" alt="Exlicare Insurance Logo"></li>
-
-                <li><img src="images/iwyze-logo.svg" width="200" height="40" alt="iWyze Insurance Logo"></li>
-
-                <li><img src="images/king-price-logo.svg" width="200" height="40" alt="King Price Insurance Logo"></li>
-
-                <li><img src="images/matrix-logo.svg" width="200" height="40" alt="Matrix Insurance Logo" class="matrix_logo"></li>
-
-                <li><img src="images/miway-logo.svg" width="200" height="40" alt="MiWay Insurance Logo"></li>
-
-                <li><img src="images/momentum-logo.svg" width="200" height="40" alt="Momentum Insurance Logo" class="momentum_logo"></li>
-
-                <li><img src="images/netstar_logo.svg" width="200" height="40" alt="Netstar Insurance Logo"></li>
-
-                <li><img src="images/old-mutual-logo.svg" width="200" height="40" alt="Old Mutual Insurance Logo"></li>
-
-                <li><img src="images/optivest-logo.svg" width="200" height="40" alt="Optivest Insurance Logo" class="optivest_logo"></li>
-
-                <li><img src="images/Prime_Logo.svg" width="200" height="40" alt="Prime Insurance Logo"></li>
-
-                <li><img src="images/santam-logo.svg" width="200" height="40" alt="Santam Insurance Logo"></li>
-
-                <li><img src="images/virseker-logo.svg" width="200" height="40" alt="Virseker Insurance Logo" class="virseker_logo"></li>
-
-                <li><img src="images/zestlife-logo.svg" width="200" height="40" alt="Zestlife Insurance Logo" class="zestlife_logo"></li>
-
-            </ul>
-
-
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/auto-general-logo.svg" width="200" height="40" alt="Auto General Insurance Logo" class="auto-general_logo"></li>
-
-                <li><img src="images/beame-logo.svg" width="200" height="40" alt="Beame Insurance Logo"></li>
-
-                <li><img src="images/budget-logo.svg" width="200" height="40" alt="Budget Insurance Logo" class="budget_logo"></li>
-
-                <li><img src="images/dial-direct-logo.svg" width="200" height="40" alt="Dial Direct Insurance Logo" class="dial-direct_logo"></li>
-
-                <li><img src="images/dichem-logo.svg" width="200" height="40" alt="Dichem Insurance Logo" class="dichem_logo"></li>
-
-                <li><img src="images/discover-health-logo.svg" width="200" height="40" alt="Discover Health Insurance Logo"></li>
-
-                <li><img src="images/discover-insure-logo.svg" width="200" height="40" alt="Discover Insure Insurance Logo"></li>
-
-                <li><img src="images/essentialMED-logo.svg" width="200" height="40" alt="EssentialMED Insurance Logo"></li>
-
-                <li><img src="images/exlicare-logo.svg" width="200" height="40" alt="Exlicare Insurance Logo"></li>
-
-                <li><img src="images/iwyze-logo.svg" width="200" height="40" alt="iWyze Insurance Logo"></li>
-
-                <li><img src="images/king-price-logo.svg" width="200" height="40" alt="King Price Insurance Logo"></li>
-
-                <li><img src="images/matrix-logo.svg" width="200" height="40" alt="Matrix Insurance Logo" class="matrix_logo"></li>
-
-                <li><img src="images/miway-logo.svg" width="200" height="40" alt="MiWay Insurance Logo"></li>
-
-                <li><img src="images/momentum-logo.svg" alt="Momentum Insurance Logo" class="momentum_logo"></li>
-
-                <li><img src="images/netstar_logo.svg" width="200" height="40" alt="Netstar Insurance Logo"></li>
-
-                <li><img src="images/old-mutual-logo.svg" width="200" height="40" alt="Old Mutual Insurance Logo"></li>
-
-                <li><img src="images/optivest-logo.svg" width="200" height="40" alt="Optivest Insurance Logo" class="optivest_logo"></li>
-
-                <li><img src="images/Prime_Logo.svg" width="200" height="40" alt="Prime Insurance Logo"></li>
-
-                <li><img src="images/santam-logo.svg" width="200" height="40" alt="Santam Insurance Logo"></li>
-
-                <li><img src="images/virseker-logo.svg" width="200" height="40" alt="Virseker Insurance Logo" class="virseker_logo"></li>
-
-                <li><img src="images/zestlife-logo.svg" width="200" height="40" alt="Zestlife Insurance Logo" class="zestlife_logo"></li>
-
-            </ul>
-
-
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/auto-general-logo.svg" width="200" height="40" alt="Auto General Insurance Logo" class="auto-general_logo"></li>
-
-                <li><img src="images/beame-logo.svg" width="200" height="40" alt="Beame Insurance Logo"></li>
-
-                <li><img src="images/budget-logo.svg" width="200" height="40" alt="Budget Insurance Logo" class="budget_logo"></li>
-
-                <li><img src="images/dial-direct-logo.svg" width="200" height="40" alt="Dial Direct Insurance Logo" class="dial-direct_logo"></li>
-
-                <li><img src="images/dichem-logo.svg" width="200" height="40" alt="Dichem Insurance Logo" class="dichem_logo"></li>
-
-                <li><img src="images/discover-health-logo.svg" width="200" height="40" alt="Discover Health Insurance Logo"></li>
-
-                <li><img src="images/discover-insure-logo.svg" width="200" height="40" alt="Discover Insure Insurance Logo"></li>
-
-                <li><img src="images/essentialMED-logo.svg" width="200" height="40" alt="EssentialMED Insurance Logo"></li>
-
-                <li><img src="images/exlicare-logo.svg" width="200" height="40" alt="Exlicare Insurance Logo"></li>
-
-                <li><img src="images/iwyze-logo.svg" width="200" height="40" alt="iWyze Insurance Logo"></li>
-
-                <li><img src="images/king-price-logo.svg" width="200" height="40" alt="King Price Insurance Logo"></li>
-
-                <li><img src="images/matrix-logo.svg" width="200" height="40" alt="Matrix Insurance Logo" class="matrix_logo"></li>
-
-                <li><img src="images/miway-logo.svg" width="200" height="40" alt="MiWay Insurance Logo"></li>
-
-                <li><img src="images/momentum-logo.svg" width="200" height="40" alt="Momentum Insurance Logo" class="momentum_logo"></li>
-
-                <li><img src="images/netstar_logo.svg" width="200" height="40" alt="Netstar Insurance Logo"></li>
-
-                <li><img src="images/old-mutual-logo.svg" width="200" height="40" alt="Old Mutual Insurance Logo"></li>
-
-                <li><img src="images/optivest-logo.svg" width="200" height="40" alt="Optivest Insurance Logo" class="optivest_logo"></li>
-
-                <li><img src="images/Prime_Logo.svg" width="200" height="40" alt="Prime Insurance Logo"></li>
-
-                <li><img src="images/santam-logo.svg" width="200" height="40" alt="Santam Insurance Logo"></li>
-
-                <li><img src="images/virseker-logo.svg" width="200" height="40" alt="Virseker Insurance Logo" class="virseker_logo"></li>
-
-                <li><img src="images/zestlife-logo.svg" width="200" height="40" alt="Zestlife Insurance Logo" class="zestlife_logo"></li>
-
-            </ul>
-
-
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/auto-general-logo.svg" width="200" height="40" alt="Auto General Insurance Logo" class="auto-general_logo"></li>
-
-                <li><img src="images/beame-logo.svg" width="200" height="40" alt="Beame Insurance Logo"></li>
-
-                <li><img src="images/budget-logo.svg" width="200" height="40" alt="Budget Insurance Logo" class="budget_logo"></li>
-
-                <li><img src="images/dial-direct-logo.svg" width="200" height="40" alt="Dial Direct Insurance Logo" class="dial-direct_logo"></li>
-
-                <li><img src="images/dichem-logo.svg" width="200" height="40" alt="Dichem Insurance Logo" class="dichem_logo"></li>
-
-                <li><img src="images/discover-health-logo.svg" width="200" height="40" alt="Discover Health Insurance Logo"></li>
-
-                <li><img src="images/discover-insure-logo.svg" width="200" height="40" alt="Discover Insure Insurance Logo"></li>
-
-                <li><img src="images/essentialMED-logo.svg" width="200" height="40" alt="EssentialMED Insurance Logo"></li>
-
-                <li><img src="images/exlicare-logo.svg" width="200" height="40" alt="Exlicare Insurance Logo"></li>
-
-                <li><img src="images/iwyze-logo.svg" width="200" height="40" alt="iWyze Insurance Logo"></li>
-
-                <li><img src="images/king-price-logo.svg" width="200" height="40" alt="King Price Insurance Logo"></li>
-
-                <li><img src="images/matrix-logo.svg" width="200" height="40" alt="Matrix Insurance Logo" class="matrix_logo"></li>
-
-                <li><img src="images/miway-logo.svg" width="200" height="40" alt="MiWay Insurance Logo"></li>
-
-                <li><img src="images/momentum-logo.svg" width="200" height="40" alt="Momentum Insurance Logo" class="momentum_logo"></li>
-
-                <li><img src="images/netstar_logo.svg" width="200" height="40" alt="Netstar Insurance Logo"></li>
-
-                <li><img src="images/old-mutual-logo.svg" width="200" height="40" alt="Old Mutual Insurance Logo"></li>
-
-                <li><img src="images/optivest-logo.svg" width="200" height="40" alt="Optivest Insurance Logo" class="optivest_logo"></li>
-
-                <li><img src="images/Prime_Logo.svg" width="200" height="40" alt="Prime Insurance Logo"></li>
-
-                <li><img src="images/santam-logo.svg" width="200" height="40" alt="Santam Insurance Logo"></li>
-
-                <li><img src="images/virseker-logo.svg" width="200" height="40" alt="Virseker Insurance Logo" class="virseker_logo"></li>
-
-                <li><img src="images/zestlife-logo.svg" width="200" height="40" alt="Zestlife Insurance Logo" class="zestlife_logo"></li>
-
-            </ul>
-
-        </div>
-
-    </div>
+    <?php include 'carrier-logos.php'; ?>
 
 
 
@@ -837,81 +635,45 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
         <div class="container">
 
-            <p class="heading">Partnering with South<br class="showMob"> Africa's<br class="hideMob"> Leading Providers</p>
-
-
+            <p class="heading">Partnering with<br class="showMob"> America's<br class="hideMob"> Leading Providers</p>
 
             <div class="strip-inner">
 
                 <div class="strip-icons">
-
-                    <div class="stp-icon icon1"><img src="images/auto-general-logo.svg" alt="Auto General Insurance Logo"></div>
-
-                    <div class="stp-icon icon2"><img src="images/beame-logo.svg" alt="Beame Insurance Logo"></div>
-
-                    <div class="stp-icon icon3"><img src="images/budget-logo.svg" alt="Budget Insurance Logo"></div>
-
-                    <div class="stp-icon icon4"><img src="images/dial-direct-logo.svg" alt="Dial Direct Insurance Logo"></div>
-
-                    <div class="stp-icon icon5"><img src="images/dichem-logo.svg" alt="Dichem Insurance Logo"></div>
-
-                    <div class="stp-icon icon6"><img src="images/discover-health-logo.svg" alt="Discover Health Insurance Logo"></div>
-
+                    <div class="stp-icon icon1"><img src="images/progressive-logo.svg" alt="Progressive Insurance Logo"></div>
+                    <div class="stp-icon icon2"><img src="images/geico-logo.svg" alt="GEICO Insurance Logo"></div>
+                    <div class="stp-icon icon3"><img src="images/state-farm.svg" alt="State Farm Insurance Logo"></div>
+                    <div class="stp-icon icon4"><img src="images/allstate-logo.svg" alt="Allstate Insurance Logo"></div>
+                    <div class="stp-icon icon5"><img src="images/libertymutual-logo.svg" alt="Liberty Mutual Insurance Logo"></div>
+                    <div class="stp-icon icon6"><img src="images/usaa.svg" alt="USAA Insurance Logo"></div>
                 </div>
-
-
 
                 <div class="stp-mid-md">
-
                     <img src="images/mobile-img.png" alt="" width="521" height="489" class="mobile_img hideMob">
-
                     <ul class="stp-list showMob">
-
-                        <li class="stp-icon"><img src="images/auto-general-logo.svg" width="200" height="200" alt="Auto General Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/beame-logo.svg" width="200" height="200" alt="Beame Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/budget-logo.svg" width="200" height="200" alt="Budget Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/dial-direct-logo.svg" width="200" height="200" alt="Dial Direct Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/dichem-logo.svg" width="200" height="200" alt="Dichem Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/discover-health-logo.svg" width="200" height="200" alt="Discover Health Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/discover-insure-logo.svg" width="200" height="200" alt="Discover Insure Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/netstar_logo.svg" width="200" height="200" alt="Netstar Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/exlicare-logo.svg" width="200" height="200" alt="Exlicare Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/iwyze-logo.svg" width="200" height="200" alt="iWyze Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/king-price-logo.svg" width="200" height="200" alt="King Price Insurance Logo"></li>
-
-                        <li class="stp-icon"><img src="images/matrix-logo.svg" width="200" height="200" alt="Matrix Insurance Logo"></li>
-
+                        <li class="stp-icon"><img src="images/progressive-logo.svg" width="200" height="200" alt="Progressive Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/geico-logo.svg" width="200" height="200" alt="GEICO Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/state-farm.svg" width="200" height="200" alt="State Farm Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/allstate-logo.svg" width="200" height="200" alt="Allstate Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/libertymutual-logo.svg" width="200" height="200" alt="Liberty Mutual Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/usaa.svg" width="200" height="200" alt="USAA Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/farmers-logo.svg" width="200" height="200" alt="Farmers Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/aaa.svg" width="200" height="200" alt="AAA Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/aetna.svg" width="200" height="200" alt="Aetna Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/aflac.svg" width="200" height="200" alt="Aflac Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/transamerica.svg" width="200" height="200" alt="Transamerica Insurance Logo"></li>
+                        <li class="stp-icon"><img src="images/aarp.svg" width="200" height="200" alt="AARP Insurance Logo"></li>
                     </ul>
                     <img src="images/line.png" alt="" width="460" height="8" class="line">
-
                 </div>
 
-
-
                 <div class="strip-icons">
-
-                    <div class="stp-icon icon7"><img src="images/discover-insure-logo.svg" width="100" height="50" alt="Discover Insure Insurance Logo"></div>
-
-                    <div class="stp-icon icon8"><img src="images/netstar_logo.svg" width="100" height="50" alt="Netstar Insurance Logo"></div>
-
-                    <div class="stp-icon icon9"><img src="images/exlicare-logo.svg" width="100" height="50" alt="Exlicare Insurance Logo"></div>
-
-                    <div class="stp-icon icon10"><img src="images/iwyze-logo.svg" width="100" height="50" alt="iWyze Insurance Logo"></div>
-
-                    <div class="stp-icon icon11"><img src="images/king-price-logo.svg" width="100" height="50" alt="King Price Insurance Logo"></div>
-
-                    <div class="stp-icon icon12"><img src="images/matrix-logo.svg" width="100" height="50" alt="Matrix Insurance Logo"></div>
-
+                    <div class="stp-icon icon7"><img src="images/farmers-logo.svg" width="100" height="50" alt="Farmers Insurance Logo"></div>
+                    <div class="stp-icon icon8"><img src="images/aaa.svg" width="100" height="50" alt="AAA Insurance Logo"></div>
+                    <div class="stp-icon icon9"><img src="images/aetna.svg" width="100" height="50" alt="Aetna Insurance Logo"></div>
+                    <div class="stp-icon icon10"><img src="images/aflac.svg" width="100" height="50" alt="Aflac Insurance Logo"></div>
+                    <div class="stp-icon icon11"><img src="images/transamerica.svg" width="100" height="50" alt="Transamerica Insurance Logo"></div>
+                    <div class="stp-icon icon12"><img src="images/aarp.svg" width="100" height="50" alt="AARP Insurance Logo"></div>
                 </div>
 
             </div>

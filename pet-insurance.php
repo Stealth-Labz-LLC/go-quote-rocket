@@ -290,29 +290,7 @@ $funnelId = "Pet";
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-
-
-
-        <div class="brand__strip__scroller">
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/auto-general-logo.svg" alt="Auto & General Pet Insurance Logo" class="auto-general_logo"></li>
-
-                <li><img src="images/first-for-women-logo.svg" alt="First For Women Pet Insurance Logo"></li>
-
-            </ul>
-
-        </div>
-
-    </div>
+<?php include 'carrier-logos.php'; ?>
 
 
 

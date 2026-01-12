@@ -337,53 +337,7 @@ $funnelId = "Car";
             </div>
         </div>
     </div>
-    <div class="as-seen">
-        <div class="container">
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-        </div>
-        <div class="brand__strip__scroller">
-            <ul class="scroll__brand__list">
-                <li><img src="images/first-for-women-logo.svg" alt="1st For Women Car Insurance Logo"></li>
-                <li><img src="images/virseker-logo.svg" alt="Virseker Car Insurance Logo" class="virseker_logo"></li>
-                <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Car Insurance Logo" class="dial-direct_logo"></li>
-                <li><img src="images/budget-logo.svg" alt="Budget Car Insurance Logo" class="budget_logo"></li>
-                <li><img src="images/auto-general-logo.svg" alt="Auto & General Car Insurance Logo" class="auto-general_logo"></li>
-                <!--<li><img src="images/momentum-logo.svg" alt="Momentum Car Insurance Logo" class="momentum_logo"></li>
-                <li><img src="images/iwyze-logo.svg" alt="iWyze Car Insurance Logo"></li>-->
-                <li><img src="images/king-price-logo.svg" alt="King Price Car Insurance Logo"></li>
-            </ul>
-            <ul class="scroll__brand__list">
-                <li><img src="images/first-for-women-logo.svg" alt="1st For Women Car Insurance Logo"></li>
-                <li><img src="images/virseker-logo.svg" alt="Virseker Car Insurance Logo" class="virseker_logo"></li>
-                <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Car Insurance Logo" class="dial-direct_logo"></li>
-                <li><img src="images/budget-logo.svg" alt="Budget Car Insurance Logo" class="budget_logo"></li>
-                <li><img src="images/auto-general-logo.svg" alt="Auto & General Car Insurance Logo" class="auto-general_logo"></li>
-                <!--<li><img src="images/momentum-logo.svg" alt="Momentum Car Insurance Logo" class="momentum_logo"></li>
-                <li><img src="images/iwyze-logo.svg" alt="iWyze Car Insurance Logo"></li>-->
-                <li><img src="images/king-price-logo.svg" alt="King Price Car Insurance Logo"></li>
-            </ul>
-            <ul class="scroll__brand__list">
-                <li><img src="images/first-for-women-logo.svg" alt="1st For Women Car Insurance Logo"></li>
-                <li><img src="images/virseker-logo.svg" alt="Virseker Car Insurance Logo" class="virseker_logo"></li>
-                <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Car Insurance Logo" class="dial-direct_logo"></li>
-                <li><img src="images/budget-logo.svg" alt="Budget Car Insurance Logo" class="budget_logo"></li>
-                <li><img src="images/auto-general-logo.svg" alt="Auto & General Car Insurance Logo" class="auto-general_logo"></li>
-                <!--<li><img src="images/momentum-logo.svg" alt="Momentum Car Insurance Logo" class="momentum_logo"></li>
-                <li><img src="images/iwyze-logo.svg" alt="iWyze Car Insurance Logo"></li>--->
-                <li><img src="images/king-price-logo.svg" alt="King Price Car Insurance Logo"></li>
-            </ul>
-            <ul class="scroll__brand__list">
-                <li><img src="images/first-for-women-logo.svg" alt="1st For Women Car Insurance Logo"></li>
-                <li><img src="images/virseker-logo.svg" alt="Virseker Car Insurance Logo" class="virseker_logo"></li>
-                <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Car Insurance Logo" class="dial-direct_logo"></li>
-                <li><img src="images/budget-logo.svg" alt="Budget Car Insurance Logo" class="budget_logo"></li>
-                <li><img src="images/auto-general-logo.svg" alt="Auto & General Car Insurance Logo" class="auto-general_logo"></li>
-                <!---<li><img src="images/momentum-logo.svg" alt="Momentum Car Insurance Logo" class="momentum_logo"></li>
-                <li><img src="images/iwyze-logo.svg" alt="iWyze Car Insurance Logo"></li>-->
-                <li><img src="images/king-price-logo.svg" alt="King Price Car Insurance Logo"></li>
-            </ul>
-        </div>
-    </div>
+<?php include 'carrier-logos.php'; ?>
     <div class="inner_sec2">
         <div class="container">
             <p class="heading">How We Make<br class="showDesk"> Finding Car Insurance Easy</p>

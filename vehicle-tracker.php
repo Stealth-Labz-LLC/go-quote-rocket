@@ -333,29 +333,7 @@ $funnelId = "GPS";
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-
-
-
-        <div class="brand__strip__scroller">
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/beame-logo.svg" alt="Beame GPS Vehicle Tracking Device Logo"></li>
-
-                <li><img src="images/matrix-logo.svg" alt="Matrix GPS Vehicle Tracking Device Logo" class="matrix_logo"></li>
-
-            </ul>
-
-        </div>
-
-    </div>
+<?php include 'carrier-logos.php'; ?>
 
 
 
