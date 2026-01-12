@@ -42,15 +42,11 @@ jobs:
           echo "Branch: $BRANCH"
 
           if [[ "$BRANCH" == "orchid_dev" ]]; then
-            # Staging: deploy entire project to /public_html/staging/
-            # Note: public/ contents will be at /public_html/staging/public/
-            # The funnel requires app/, config/, views/, api/ at the parent level
+            # Staging: deploy to /public_html/staging/
             REMOTE_DIR_VAL="/public_html/staging/"
             LOCAL_SRC_VAL="."
           else
-            # Production (main): deploy entire project to /public_html/
-            # Note: public/ contents will be at /public_html/public/
-            # Web root should point to /public_html/public/ or use .htaccess redirect
+            # Production (main): deploy to /public_html/
             REMOTE_DIR_VAL="/public_html/"
             LOCAL_SRC_VAL="."
           fi

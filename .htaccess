@@ -1,14 +1,19 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Redirect root access to index.php (which then redirects to public/)
-    # This handles the staging folder access issue
-    DirectoryIndex index.php
+    # Serve real files and directories directly (CSS, JS, images, etc.)
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
 
-    # Redirect all other requests to public/ subdirectory
-    RewriteCond %{REQUEST_URI} !^/public/
-    RewriteCond %{REQUEST_URI} !^/index\.php
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ public/$1 [L]
+    # Funnel subdomains - route to funnel.php
+    RewriteCond %{HTTP_HOST} ^(auto|life|medicare|creditcard)\.goquoterocket\.com$ [NC]
+    RewriteRule ^(.*)$ funnel.php [QSA,L]
+
+    # Staging/dev: funnel access with ?vertical= param
+    RewriteCond %{QUERY_STRING} (^|&)vertical= [NC]
+    RewriteRule ^(flow|landing|offer-wall|offers)/?$ funnel.php [QSA,L]
+
+    # Everything else that doesn't exist - 404 or homepage
+    RewriteRule ^(.*)$ index.php [QSA,L]
 </IfModule>
