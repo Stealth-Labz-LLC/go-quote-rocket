@@ -9,26 +9,20 @@ return [
     // StealthLabz Configuration
     'stealthlabz' => [
         'enabled' => true,
-        'base_url' => 'https://portal.stealthlabz.com/webhook/unify/',
+        'base_url' => 'https://portal.stealthlabz.com/source/quote_rocket/',
 
-        // Webhook IDs per vertical
-        'webhooks' => [
-            'auto' => 'c10ebcce-f22e-4e48-a633-e7de9529f46c',
-            'life' => 'LIFE-WEBHOOK-ID-HERE',
-            'health' => 'HEALTH-WEBHOOK-ID-HERE',
-            'medicare' => 'MEDICARE-WEBHOOK-ID-HERE',
-            'home' => 'HOME-WEBHOOK-ID-HERE'
-        ],
+        // Single webhook - portal handles routing internally
+        'webhook_id' => 'aa919ce5-e028-11f0-a113-861da8dd4c12',
 
         // Timeout settings
         'timeout' => 30,
         'retry_attempts' => 2
     ],
 
-    // Waypoint Configuration
+    // Waypoint Configuration (DISABLED)
     'waypoint' => [
-        'enabled' => true,
-        'endpoint' => 'https://mass1ve.waypointsoftware.io/capture.php',
+        'enabled' => false,
+        'endpoint' => '',
         'timeout' => 30,
         'retry_attempts' => 2
     ],
