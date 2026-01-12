@@ -11,14 +11,8 @@ return [
         'enabled' => true,
         'base_url' => 'https://portal.stealthlabz.com/webhook/unify/',
 
-        // Webhook IDs per vertical
-        'webhooks' => [
-            'auto' => 'c10ebcce-f22e-4e48-a633-e7de9529f46c',
-            'life' => 'LIFE-WEBHOOK-ID-HERE',
-            'health' => 'HEALTH-WEBHOOK-ID-HERE',
-            'medicare' => 'MEDICARE-WEBHOOK-ID-HERE',
-            'home' => 'HOME-WEBHOOK-ID-HERE'
-        ],
+        // Single webhook - portal handles routing internally
+        'webhook_id' => 'c10ebcce-f22e-4e48-a633-e7de9529f46c',
 
         // Timeout settings
         'timeout' => 30,
