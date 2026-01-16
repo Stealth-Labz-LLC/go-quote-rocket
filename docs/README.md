@@ -4,6 +4,8 @@
 
 ## Quick Links
 
+### Technical Documentation (docs/)
+
 | Document | Description |
 |----------|-------------|
 | [Architecture](ARCHITECTURE.md) | System design, MVC structure, routing, design patterns |
@@ -15,16 +17,45 @@
 | [Development](DEVELOPMENT.md) | Local setup with XAMPP, testing, troubleshooting |
 | [Audit](AUDIT.md) | Production readiness audit and checklist |
 
+### Product & Operations Documentation (.claude/docs/)
+
+| Document | Description |
+|----------|-------------|
+| [Product Overview](../.claude/docs/PRODUCT.md) | Executive summary for investors/buyers |
+| [Project Metrics](../.claude/docs/PROJECT-METRICS.md) | Actual vs. traditional build comparison |
+| [Post-Launch Checklist](../.claude/docs/POST-LAUNCH-CHECKLIST.md) | Audit playbook for going live |
+| [Organic Pages](../.claude/docs/ORGANIC-PAGES.md) | SEO landing page system documentation |
+| [User Flows](../.claude/docs/USER-FLOWS.md) | Complete user journey mapping |
+
+### Reusable Templates (.claude/docs/TEMPLATES/)
+
+| Template | Description |
+|----------|-------------|
+| [Project Metrics Template](../.claude/docs/TEMPLATES/PROJECT-METRICS-TEMPLATE.md) | Reusable template for any project |
+| [gather-metrics.sh](../.claude/docs/TEMPLATES/gather-metrics.sh) | Script to auto-generate metrics data |
+
 ---
 
 ## What is GoQuoteRocket?
 
-GoQuoteRocket is a lead generation platform that:
+GoQuoteRocket is a lead generation platform with **two traffic capture systems**:
 
-- **Captures insurance quote requests** through optimized questionnaire funnels
-- **Routes leads to buyers** (StealthLabz, Waypoint) based on vertical configuration
-- **Displays offer walls** with matched carriers after submission
-- **Tracks conversions** via GTM, TrustedForm, and affiliate networks
+### 1. Subdomain Funnel System (Paid Traffic)
+- **Step-by-step questionnaire** powered by FunnelEngine.js
+- **Subdomain routing:** `auto.goquoterocket.com`, `life.goquoterocket.com`, etc.
+- **Offer wall results** with eligibility-based carrier filtering
+- **High conversion focus** for paid/affiliate traffic
+
+### 2. Organic SEO Pages (Google Traffic)
+- **Content-rich landing pages** at `goquoterocket.com/*.php`
+- **Schema.org FAQPage** structured data for search rankings
+- **Inline lead capture forms** on each page
+- **11 product pages:** car, life, medical, pet, funeral, debt, business, tracker, warranty, loans
+
+### Both Systems:
+- **Route leads to buyers** (StealthLabz, Waypoint) based on configuration
+- **Track conversions** via GTM, TrustedForm, and affiliate networks
+- **100% configuration-driven** - add new verticals without code changes
 
 ### Key Value Proposition
 
