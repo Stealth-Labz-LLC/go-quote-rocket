@@ -174,7 +174,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
                 <div class="tab-content" id="car">
 
-                    <p class="sec1-hdg">Compare Car Insurance Quotes In 1 Minute and Save!</p>
+                    <h1 class="sec1-hdg">Compare Car Insurance Quotes In 1 Minute and Save!</h1>
 
                     <p class="sec1-txt">Get cheap car insurance rates from SAs top providers and <b>save up-to R390 per month</b>.</p>
 

@@ -183,7 +183,7 @@ $funnelId = "Car";
 
                         <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-                        <p class="inner_sec1-hdg">Get Free Car Insurance<br class="showDesk"> Quotes in <em>1 Minute!</em></p>
+                        <h1 class="inner_sec1-hdg">Get Free Car Insurance<br class="showDesk"> Quotes in <em>1 Minute!</em></h1>
 
                         <p class="inner_sec1_txt">Compare cheap car insurance offers from the USA’s top<br class="hideMob"> providers and <strong>save up-to R390 per month.</strong></p>
 
