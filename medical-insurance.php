@@ -20,6 +20,7 @@ $funnelId = "Health";
     <title>Compare Medical Insurance Plans in the USA | Go Quote Rocket</title>
 
     <meta name="description" content="Find affordable medical insurance options with Go Quote Rocket. Compare quotes from top providers and secure the best health coverage for you and your family.">
+    <link rel="canonical" href="https://goquoterocket.com/medical-insurance.php">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -138,15 +139,25 @@ $funnelId = "Health";
     <!-- End Google Tag Manager (noscript) -->
     <?php include 'header.php'; ?>
 
-
-
     <div class="inner_sec1" id="choosePack">
+
+        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1">
+                <span class="breadcrumb-separator">/</span>
+            </span>
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span class="breadcrumb-current" itemprop="name">Medical Insurance</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </nav>
 
         <div class="container">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">Get Free Medical Insurance<br class="showDesk"> Quotes in <em>1 Minute!</em></p>
+            <h1 class="inner_sec1-hdg">Get Free Medical Insurance<br class="showDesk"> Quotes in <em>1 Minute!</em></h1>
 
             <p class="inner_sec1_txt">Get unlimited private doctor (GPs) visits, medication, and<br class="hideMob"> dentists for <strong>less than R480 per month.</strong></p>
 
@@ -808,7 +819,7 @@ $funnelId = "Health";
 
             <div class="feefo_box">
 
-                <img src="images/feefo-logo.png" alt="" class="feefo_log" width="366" height="84">
+                <img src="images/feefo-logo.png" alt="Feefo Reviews" class="feefo_log" width="366" height="84">
 
                 <div class="feefo_review">
 

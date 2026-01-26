@@ -11,6 +11,7 @@
 <title>Privacy Policy | Go Quote Rocket</title>
 
 <meta name="description" content="Understand how Go Quote Rocket protects your personal information and ensures your privacy while using our platform to find insurance quotes.">
+<link rel="canonical" href="https://goquoterocket.com/privacy.php">
 
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -38,9 +39,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<!-- End Google Tag Manager (noscript) -->
 	<?php include 'header.php';?>
 
-
-
     <div class="inner_sec1">
+
+        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1">
+                <span class="breadcrumb-separator">/</span>
+            </span>
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span class="breadcrumb-current" itemprop="name">Privacy Policy</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </nav>
 
     	<div class="container">
 

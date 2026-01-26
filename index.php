@@ -14,6 +14,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
     <title>Affordable Insurance Quotes in the USA | Go Quote Rocket</title>
 
     <meta name="description" content="Compare insurance quotes from top US providers. Car, life, health, pet insurance and more. Save time and money with Go Quote Rocket.">
+    <link rel="canonical" href="https://goquoterocket.com/">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -133,6 +134,24 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
             ]
         }
     </script>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Go Quote Rocket",
+        "url": "https://goquoterocket.com",
+        "logo": "https://goquoterocket.com/images/logo.png",
+        "description": "Compare insurance quotes from top US providers. Car, life, health, pet insurance and more. Save time and money with Go Quote Rocket.",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "areaServed": "US"
+        }
+    }
+    </script>
+
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
