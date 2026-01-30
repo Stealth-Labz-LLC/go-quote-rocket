@@ -2,14 +2,14 @@
     <div class="container">
         <div class="info-sec-inr">
             <div class="info-sec-links-col info-sec-links-col-1">
-                <img src="images/logo.svg" alt="Go Quote Rocket Logo" class="info-sec-log" width="506" height="48">
+                <img src="/images/logo.svg" alt="Go Quote Rocket Logo" class="info-sec-log" width="506" height="48">
                 <p class="info-sec-tx">Go Quote Rocket is based in the USA, working hard to get you the rates you deserve.</p>
-                <p class="contact_info"><img src="images/phn-icn.png" alt="Go Quote Rocket Customer Service" width="36" height="34">
+                <p class="contact_info"><img src="/images/phn-icn.png" alt="Go Quote Rocket Customer Service" width="36" height="34">
                     <a href="tel:18005551234" style="text-decoration: none;color: #000;">(800) 555-1234</a>
                 </p>
-                <p class="contact_info"><img src="images/mail-icn.png" alt="Go Quote Rocket Support email" width="36" height="34"><a href="mailto:support@goquoterocket.com" style="text-decoration: none;color: #000;">support@goquoterocket.com</a>
+                <p class="contact_info"><img src="/images/mail-icn.png" alt="Go Quote Rocket Support email" width="36" height="34"><a href="mailto:support@goquoterocket.com" style="text-decoration: none;color: #000;">support@goquoterocket.com</a>
                 </p>
-                <p class="contact_info"><img src="images/loc-icn.png" alt="Go Quote Rocket Address" width="36" height="34">Serving customers nationwide across the United States</p>
+                <p class="contact_info"><img src="/images/loc-icn.png" alt="Go Quote Rocket Address" width="36" height="34">Serving customers nationwide across the United States</p>
             </div>
 
             <div class="info-sec-links-col info-sec-links-col-2">
@@ -47,8 +47,8 @@
 
         <div class="disclaimer">
             <p class="brand_hdg">Go Quote Rocket Brands</p>
-            <img src="images/footer-logos-gray.svg" alt="Go Quote Rocket Reviews" width="920" height="66" class="showDesk">
-            <img src="images/footer-logos-gray-mobile.svg" alt="Go Quote Rocket Reviews" width="420" height="90" class="showMob">
+            <img src="/images/footer-logos-gray.svg" alt="Go Quote Rocket Reviews" width="920" height="66" class="showDesk">
+            <img src="/images/footer-logos-gray-mobile.svg" alt="Go Quote Rocket Reviews" width="420" height="90" class="showMob">
 
         </div>
     </div>

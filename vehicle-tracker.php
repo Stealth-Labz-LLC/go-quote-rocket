@@ -159,7 +159,7 @@ $funnelId = "GPS";
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WJCXPHPK');
+        })(window, document, 'script', 'dataLayer', 'GTM-NPP3PH3H');
     </script>
     <!-- End Google Tag Manager -->
 
@@ -168,7 +168,7 @@ $funnelId = "GPS";
 
 <body class="inner_pg vehicle_insurance">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJCXPHPK"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPP3PH3H"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include 'header.php'; ?>
@@ -344,29 +344,7 @@ $funnelId = "GPS";
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-
-
-
-        <div class="brand__strip__scroller">
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/beame-logo.svg" alt="Beame GPS Vehicle Tracking Device Logo"></li>
-
-                <li><img src="images/matrix-logo.svg" alt="Matrix GPS Vehicle Tracking Device Logo" class="matrix_logo"></li>
-
-            </ul>
-
-        </div>
-
-    </div>
+<?php include 'carrier-logos.php'; ?>
 
 
 
@@ -1275,7 +1253,7 @@ $funnelId = "GPS";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://goquoterocket.com/leads-api/track-api-call.php?' + formData,
+                    url: '/api/submit.php?vertical=track&' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1300,25 +1278,15 @@ $funnelId = "GPS";
             //phone number validation
             $("input[name='phone']").keyup(function() {
                 let phoneNumber = $(this).val();
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
 
             });
 
-            function validateZAPhone(PhoneNumber) {
-                const prompText = `Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.`;
-                const phoneField = PhoneNumber.toLowerCase();
-                const PhoneSub = phoneField.substring(0, 3);
-                if (PhoneSub.includes("27") || PhoneSub.includes("+27") || PhoneSub.includes("080") || PhoneSub.includes("086") || PhoneSub.includes("085") || PhoneSub.includes("09")) {
+            function validateUSPhone(PhoneNumber) {
+                const prompText = `Please enter a valid 10-digit US phone number.`;
+                if (PhoneNumber.length !== 10) {
                     $('#phone_prompt').text(prompText).show();
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                } else
-                if (PhoneNumber.length < 10) {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                    $('#phone_prompt').text(prompText).show();
-                } else
-                if (PhoneNumber.length == 10 && PhoneNumber.charAt(0) !== '0') {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                    $('#phone_prompt').text(prompText).show();
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
                 } else {
                     $('#phone_prompt').hide();
                     phoneErrors.length = 0;
@@ -1343,37 +1311,6 @@ $funnelId = "GPS";
             $(document).on('click', '#error_handler_overlay_close', function(event) {
                 $('#error_handler_overlay').hide();
             });
-            // Logger Feature Update
-            $('.apiBtn').on('click', function() {
-                const formElement = document.forms['track_api1'];
-                const formDataObj = Object.fromEntries(new FormData(formElement).entries());
-                console.log(formDataObj);
-
-                formDataObj.userIsAt = window.location.href;
-                const requiredFields = ['funnelId', 'given-name', 'family-name', 'phone'];
-
-                // Validate required fields
-                for (const field of requiredFields) {
-                    if (!formDataObj[field] || formDataObj[field].trim() === '') {
-                        // alert(`The field "${field}" is required.`);
-                        return;
-                    }
-                }
-
-                $.ajax({
-                    url: 'https://goquoterocket.com/logger/logger.php',
-                    method: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify(formDataObj),
-                    success: function(response) {
-                        // console.log('Success:', response);
-                    },
-                    error: function(error) {
-                        console.error('Error:', error);
-                    }
-                });
-            });
-            //End
 
             // form validation end 
             $('.mob-mnu-ic').click(function(e) {

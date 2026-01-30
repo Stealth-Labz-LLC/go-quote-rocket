@@ -157,7 +157,7 @@ $funnelId = "Warranty";
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WJCXPHPK');
+        })(window, document, 'script', 'dataLayer', 'GTM-NPP3PH3H');
     </script>
     <!-- End Google Tag Manager -->
 </head>
@@ -166,7 +166,7 @@ $funnelId = "Warranty";
 
 <body class="inner_pg motor_warranty">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJCXPHPK"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPP3PH3H"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include 'header.php'; ?>
@@ -191,7 +191,7 @@ $funnelId = "Warranty";
 
             <h1 class="inner_sec1-hdg">Unexpected Car Repairs<br class="showDesk"> Can Be Expensive</h1>
 
-            <p class="inner_sec1_txt">Shield yourself with a motor warranty and get coverage <strong>up-to R400,000</strong> <br class="showDesk">on unexpected repair costs.</p>
+            <p class="inner_sec1_txt">Shield yourself with a motor warranty and get coverage <strong>up-to $50,000</strong> <br class="showDesk">on unexpected repair costs.</p>
 
 
 
@@ -247,9 +247,9 @@ $funnelId = "Warranty";
 
                                     <option value="" selected="">What's your monthly income?</option>
 
-                                    <option value="R0 - R7999">R0 - R7999</option>
+                                    <option value="$0 - $2,999">$0 - $2,999</option>
 
-                                    <option value="R8000+">R8000+</option>
+                                    <option value="$3,000+">$3,000+</option>
 
                                 </select>
 
@@ -444,99 +444,7 @@ $funnelId = "Warranty";
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-
-
-
-        <div class="hideMob">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Motor Warranty Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Motor Warranty Logo" class="budget_logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Motor Warranty Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/king-price-logo.svg" alt="King Price Motor Warranty Logo"></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="showMob">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Motor Warranty Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Motor Warranty Logo" class="budget_logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Motor Warranty Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/king-price-logo.svg" alt="King Price Motor Warranty Logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Motor Warranty Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Motor Warranty Logo" class="budget_logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Motor Warranty Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/king-price-logo.svg" alt="King Price Motor Warranty Logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Motor Warranty Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Motor Warranty Logo" class="budget_logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Motor Warranty Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/king-price-logo.svg" alt="King Price Motor Warranty Logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Motor Warranty Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Motor Warranty Logo" class="budget_logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Motor Warranty Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/king-price-logo.svg" alt="King Price Motor Warranty Logo"></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
+<?php include 'carrier-logos.php'; ?>
 
 
 
@@ -1433,7 +1341,7 @@ $funnelId = "Warranty";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://goquoterocket.com/leads-api/motor-api-call.php?' + formData,
+                    url: '/api/submit.php?vertical=motor&' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1458,28 +1366,21 @@ $funnelId = "Warranty";
             //phone number validation
             $("input[name='phone']").keyup(function() {
                 let phoneNumber = $(this).val();
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
 
             });
 
-            function validateZAPhone(PhoneNumber) {
-                const prompText = `Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.`;
-                const phoneField = PhoneNumber.toLowerCase();
-                const PhoneSub = phoneField.substring(0, 3);
-                if (PhoneSub.includes("27") || PhoneSub.includes("+27") || PhoneSub.includes("080") || PhoneSub.includes("086") || PhoneSub.includes("085") || PhoneSub.includes("09")) {
-                    $('#phone_prompt').text(prompText).show();
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                } else
+            function validateUSPhone(PhoneNumber) {
+                const prompText = `Please enter a valid 10-digit US phone number.`;
                 if (PhoneNumber.length < 10) {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
                     $('#phone_prompt').text(prompText).show();
-                } else
-                if (PhoneNumber.length == 10 && PhoneNumber.charAt(0) !== '0') {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                    $('#phone_prompt').text(prompText).show();
-                } else {
+                } else if (PhoneNumber.length == 10) {
                     $('#phone_prompt').hide();
                     phoneErrors.length = 0;
+                } else {
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
+                    $('#phone_prompt').text(prompText).show();
                 }
             }
             //validate terms checkbox
@@ -1501,35 +1402,6 @@ $funnelId = "Warranty";
             $(document).on('click', '#error_handler_overlay_close', function(event) {
                 $('#error_handler_overlay').hide();
             });
-            // Logger Feature Update
-            $('.apiBtn').on('click', function() {
-                const formElement = document.forms['motor_api1'];
-                const formDataObj = Object.fromEntries(new FormData(formElement).entries());
-                //console.log(formDataObj);
-                formDataObj.userIsAt = window.location.href;
-                const requiredFields = ['funnelId', 'given-name', 'family-name', 'phone'];
-                // Validate required fields
-                for (const field of requiredFields) {
-                    if (!formDataObj[field] || formDataObj[field].trim() === '') {
-                        // alert(`The field "${field}" is required.`);
-                        return;
-                    }
-                }
-
-                $.ajax({
-                    url: 'https://goquoterocket.com/logger/logger.php',
-                    method: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify(formDataObj),
-                    success: function(response) {
-                        // console.log('Success:', response);
-                    },
-                    error: function(error) {
-                        console.error('Error:', error);
-                    }
-                });
-            });
-            //End
             // banner form validation 
 
 

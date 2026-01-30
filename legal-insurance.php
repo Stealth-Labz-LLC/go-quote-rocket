@@ -241,7 +241,7 @@ $funnelId = "Legal";
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WJCXPHPK');
+        })(window, document, 'script', 'dataLayer', 'GTM-NPP3PH3H');
     </script>
     <!-- End Google Tag Manager -->
 
@@ -253,7 +253,7 @@ $funnelId = "Legal";
 
 <body class="inner_pg legal_insurance">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJCXPHPK"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPP3PH3H"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
@@ -277,7 +277,7 @@ $funnelId = "Legal";
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <h1 class="inner_sec1-hdg">R500,000 in Personal Legal<br class="showDesk"> Cover at Your Fingertips</h1>
+            <h1 class="inner_sec1-hdg">$500,000 in Personal Legal<br class="showDesk"> Cover at Your Fingertips</h1>
 
             <p class="inner_sec1_txt">Cover legal fees, court costs, and settlements—compare plans<br class="showDesk"> now and find the best deal!</p>
 
@@ -369,101 +369,7 @@ $funnelId = "Legal";
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-
-
-
-        <div class="hideMob">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Legal Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Legal Insurance Logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Legal Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Buget Legal Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="showMob">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Legal Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Legal Insurance Logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Legal Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Buget Legal Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Legal Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Legal Insurance Logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Legal Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Buget Legal Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Legal Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Legal Insurance Logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Legal Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Buget Legal Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Legal Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Legal Insurance Logo"></li>
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Legal Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Buget Legal Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
+<?php include 'carrier-logos.php'; ?>
 
 
 
@@ -1528,7 +1434,7 @@ $funnelId = "Legal";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://goquoterocket.com/leads-api/legal-api-call.php?' + formData,
+                    url: '/api/submit.php?vertical=legal&' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1555,22 +1461,14 @@ $funnelId = "Legal";
                 let phoneNumber = $(this).val().replace(/[^0-9]/g, ''); // Remove non-digit characters and spaces
                 $(this).val(phoneNumber); // Update the input field with the cleaned value
                 if (phoneNumber.length < 1) return;
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
             });
 
-            function validateZAPhone(phoneNumber) {
-                const promptText = "Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.";
-                const phoneSub = phoneNumber.substring(0, 3);
-
-                const invalidPrefixes = ["27", "+27", "080", "086", "085", "09"];
-                const isValidPrefix = !invalidPrefixes.some(prefix => phoneSub.includes(prefix));
+            function validateUSPhone(phoneNumber) {
+                const promptText = "Please enter a valid 10-digit US phone number.";
 
                 let errorMessage = "";
-                if (!isValidPrefix) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length < 10) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length == 10 && phoneNumber.charAt(0) !== '0') {
+                if (phoneNumber.length !== 10) {
                     errorMessage = promptText;
                 }
 
@@ -1601,37 +1499,6 @@ $funnelId = "Legal";
             $(document).on('click', '#error_handler_overlay_close', function(event) {
                 $('#error_handler_overlay').hide();
             });
-            // Logger Feature Update
-            $('.apiBtn').on('click', function() {
-                const formElement = document.forms['legal_api1'];
-                const formDataObj = Object.fromEntries(new FormData(formElement).entries());
-                console.log(formDataObj);
-
-                formDataObj.userIsAt = window.location.href;
-                const requiredFields = ['funnelId', 'given-name', 'family-name', 'phone'];
-
-                // Validate required fields
-                for (const field of requiredFields) {
-                    if (!formDataObj[field] || formDataObj[field].trim() === '') {
-                        // alert(`The field "${field}" is required.`);
-                        return;
-                    }
-                }
-
-                $.ajax({
-                    url: 'https://goquoterocket.com/logger/logger.php',
-                    method: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify(formDataObj),
-                    success: function(response) {
-                        // console.log('Success:', response);
-                    },
-                    error: function(error) {
-                        console.error('Error:', error);
-                    }
-                });
-            });
-            //End
 
 
             // banner form valiation end

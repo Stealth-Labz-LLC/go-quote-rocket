@@ -156,7 +156,7 @@ $funnelId = "Car";
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WJCXPHPK');
+        })(window, document, 'script', 'dataLayer', 'GTM-NPP3PH3H');
     </script>
     <!-- End Google Tag Manager -->
 </head>
@@ -165,7 +165,7 @@ $funnelId = "Car";
 
 <body class="inner_pg car_insurance">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJCXPHPK"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPP3PH3H"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include 'header.php'; ?>
@@ -196,7 +196,7 @@ $funnelId = "Car";
 
                         <h1 class="inner_sec1-hdg">Get Free Car Insurance<br class="showDesk"> Quotes in <em>1 Minute!</em></h1>
 
-                        <p class="inner_sec1_txt">Compare cheap car insurance offers from the USA’s top<br class="hideMob"> providers and <strong>save up-to R390 per month.</strong></p>
+                        <p class="inner_sec1_txt">Compare cheap car insurance offers from the USA's top<br class="hideMob"> providers and <strong>save up-to $150 per month.</strong></p>
 
 
                         <input type="hidden" name="insuranceApi" value="Yes">
@@ -226,7 +226,7 @@ $funnelId = "Car";
                                     <input type="tel" name="phone" placeholder="Phone Number" class="input-fld required" data-error-message="Please enter your phone number without the country code first" maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
 
                                     <div class="error_message text-left" style="display: none;" id="phone_prompt">
-                                        <span class="phone-prompt-error">Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,or 09 aren't supported.</span>
+                                        <span class="phone-prompt-error">Please enter a valid US phone number.</span>
                                     </div>
                                 </div>
 
@@ -251,9 +251,9 @@ $funnelId = "Car";
 
                                         <option value="">What's your monthly income?</option>
 
-                                        <option value="R0 - R7999">R0 - R7999</option>
-
-                                        <option value="R8000+">R8000+</option>
+                                        <option value="$0 - $2,999">$0 - $2,999</option>
+                                        <option value="$3,000 - $4,999">$3,000 - $4,999</option>
+                                        <option value="$5,000+">$5,000+</option>
 
                                     </select>
                                     <div class="error_message text-left" style="display:none"></div>
@@ -441,105 +441,7 @@ $funnelId = "Car";
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-
-        <div class="brand__strip__scroller">
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/first-for-women-logo.svg" alt="1st For Women Car Insurance Logo"></li>
-
-                <li><img src="images/virseker-logo.svg" alt="Virseker Car Insurance Logo" class="virseker_logo"></li>
-
-                <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Car Insurance Logo" class="dial-direct_logo"></li>
-
-                <li><img src="images/budget-logo.svg" alt="Budget Car Insurance Logo" class="budget_logo"></li>
-
-                <li><img src="images/auto-general-logo.svg" alt="Auto & General Car Insurance Logo" class="auto-general_logo"></li>
-
-                <!--<li><img src="images/momentum-logo.svg" alt="Momentum Car Insurance Logo" class="momentum_logo"></li>
-
-                <li><img src="images/iwyze-logo.svg" alt="iWyze Car Insurance Logo"></li>-->
-
-                <li><img src="images/king-price-logo.svg" alt="King Price Car Insurance Logo"></li>
-
-            </ul>
-
-
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/first-for-women-logo.svg" alt="1st For Women Car Insurance Logo"></li>
-
-                <li><img src="images/virseker-logo.svg" alt="Virseker Car Insurance Logo" class="virseker_logo"></li>
-
-                <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Car Insurance Logo" class="dial-direct_logo"></li>
-
-                <li><img src="images/budget-logo.svg" alt="Budget Car Insurance Logo" class="budget_logo"></li>
-
-                <li><img src="images/auto-general-logo.svg" alt="Auto & General Car Insurance Logo" class="auto-general_logo"></li>
-
-                <!--<li><img src="images/momentum-logo.svg" alt="Momentum Car Insurance Logo" class="momentum_logo"></li>
-
-                <li><img src="images/iwyze-logo.svg" alt="iWyze Car Insurance Logo"></li>-->
-
-                <li><img src="images/king-price-logo.svg" alt="King Price Car Insurance Logo"></li>
-
-            </ul>
-
-
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/first-for-women-logo.svg" alt="1st For Women Car Insurance Logo"></li>
-
-                <li><img src="images/virseker-logo.svg" alt="Virseker Car Insurance Logo" class="virseker_logo"></li>
-
-                <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Car Insurance Logo" class="dial-direct_logo"></li>
-
-                <li><img src="images/budget-logo.svg" alt="Budget Car Insurance Logo" class="budget_logo"></li>
-
-                <li><img src="images/auto-general-logo.svg" alt="Auto & General Car Insurance Logo" class="auto-general_logo"></li>
-
-                <!--<li><img src="images/momentum-logo.svg" alt="Momentum Car Insurance Logo" class="momentum_logo"></li>
-
-                <li><img src="images/iwyze-logo.svg" alt="iWyze Car Insurance Logo"></li>--->
-
-                <li><img src="images/king-price-logo.svg" alt="King Price Car Insurance Logo"></li>
-
-            </ul>
-
-
-
-            <ul class="scroll__brand__list">
-
-                <li><img src="images/first-for-women-logo.svg" alt="1st For Women Car Insurance Logo"></li>
-
-                <li><img src="images/virseker-logo.svg" alt="Virseker Car Insurance Logo" class="virseker_logo"></li>
-
-                <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Car Insurance Logo" class="dial-direct_logo"></li>
-
-                <li><img src="images/budget-logo.svg" alt="Budget Car Insurance Logo" class="budget_logo"></li>
-
-                <li><img src="images/auto-general-logo.svg" alt="Auto & General Car Insurance Logo" class="auto-general_logo"></li>
-
-                <!---<li><img src="images/momentum-logo.svg" alt="Momentum Car Insurance Logo" class="momentum_logo"></li>
-
-                <li><img src="images/iwyze-logo.svg" alt="iWyze Car Insurance Logo"></li>-->
-
-                <li><img src="images/king-price-logo.svg" alt="King Price Car Insurance Logo"></li>
-
-            </ul>
-
-        </div>
-
-    </div>
+    <?php include 'carrier-logos.php'; ?>
 
 
 
@@ -881,7 +783,7 @@ $funnelId = "Car";
 
                     <img src="images/vw-polo-icon.png" alt="Volkswagon Polo Car Insurance" class="inner_sec4_icn" width="200" height="124">
 
-                    <p>Insurance for a <strong>VW Polo</strong> averages <strong>R1 437pm*</strong>, but can be low as <strong>R205pm*</strong>.</p>
+                    <p>Insurance for a <strong>Honda Civic</strong> averages <strong>$175/mo*</strong>, but can be as low as <strong>$89/mo*</strong>.</p>
 
                 </div>
 
@@ -889,7 +791,7 @@ $funnelId = "Car";
 
                     <img src="images/toyota-icon.png" alt="Toyota Corolla Car Insurance" class="inner_sec4_icn" width="200" height="124">
 
-                    <p>Insurance for a <strong>Toyota Corolla</strong> averages <strong>R1 321pm*</strong>, but can be low as <strong>R168pm*</strong>.</p>
+                    <p>Insurance for a <strong>Toyota Corolla</strong> averages <strong>$165/mo*</strong>, but can be as low as <strong>$78/mo*</strong>.</p>
 
                 </div>
 
@@ -897,7 +799,7 @@ $funnelId = "Car";
 
                     <img src="images/hyundai-icon.png" alt="Hyundai i20 Car Insurance" class="inner_sec4_icn" width="200" height="124">
 
-                    <p>Insurance for a <strong>Hyundai i20</strong> averages <strong>R1 327pm*</strong>, but can be low as <strong>R336pm*</strong>.</p>
+                    <p>Insurance for a <strong>Honda Accord</strong> averages <strong>$168/mo*</strong>, but can be as low as <strong>$95/mo*</strong>.</p>
 
                 </div>
 
@@ -905,7 +807,7 @@ $funnelId = "Car";
 
                     <img src="images/kia-icon.png" alt="Kia Rio Car Insurance" class="inner_sec4_icn" width="200" height="124">
 
-                    <p>Insurance for a <strong>Kia Rio</strong> averages <strong>R1 423pm*</strong>, but can be low as <strong>R307pm*.</strong></p>
+                    <p>Insurance for a <strong>Ford F-150</strong> averages <strong>$185/mo*</strong>, but can be as low as <strong>$105/mo*</strong>.</p>
 
                 </div>
 
@@ -913,7 +815,7 @@ $funnelId = "Car";
 
                     <img src="images/suzuki-icon.png" alt="Suzuki Swift Car Insurance" class="inner_sec4_icn" width="200" height="124">
 
-                    <p>Insurance for a <strong>Suzuki Swift</strong> averages <strong>R1 407pm*</strong>, but can be low as <strong>R368pm*.</strong></p>
+                    <p>Insurance for a <strong>Chevrolet Equinox</strong> averages <strong>$172/mo*</strong>, but can be as low as <strong>$92/mo*</strong>.</p>
 
                 </div>
 
@@ -921,7 +823,7 @@ $funnelId = "Car";
 
                     <img src="images/renault-icon.png" alt="Renault Kwid Car Insurance" class="inner_sec4_icn" width="200" height="124">
 
-                    <p>Insurance for a <strong>Renault Kwid</strong> averages <strong>R1 157pm*</strong>, but can be low as <strong>R377pm*</strong>.</p>
+                    <p>Insurance for a <strong>Nissan Altima</strong> averages <strong>$158/mo*</strong>, but can be as low as <strong>$85/mo*</strong>.</p>
 
                 </div>
 
@@ -1417,9 +1319,10 @@ $funnelId = "Car";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://goquoterocket.com/leads-api/auto-api-call.php?' + formData,
+                    url: '/api/submit.php?vertical=auto',
                     // Type of Request
                     type: 'post',
+                    data: formData + '&vertical=auto',
                     success: function(data) {
                         let resultData = JSON.parse(data);
                         //console.log(resultData)
@@ -1451,24 +1354,18 @@ $funnelId = "Car";
             //phone number validation
             $("input[name='phone']").keyup(function() {
                 let phoneNumber = $(this).val();
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
 
             });
 
-            function validateZAPhone(PhoneNumber) {
-                const prompText = `Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.`;
-                const phoneField = PhoneNumber.toLowerCase();
-                const PhoneSub = phoneField.substring(0, 3);
-                if (PhoneSub.includes("27") || PhoneSub.includes("+27") || PhoneSub.includes("080") || PhoneSub.includes("086") || PhoneSub.includes("085") || PhoneSub.includes("09")) {
+            function validateUSPhone(PhoneNumber) {
+                const prompText = `Please enter a valid 10-digit US phone number.`;
+                const cleanPhone = PhoneNumber.replace(/\D/g, '');
+                if (cleanPhone.length < 10) {
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
                     $('#phone_prompt').text(prompText).show();
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                } else
-                if (PhoneNumber.length < 10) {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                    $('#phone_prompt').text(prompText).show();
-                } else
-                if (PhoneNumber.length == 10 && PhoneNumber.charAt(0) !== '0') {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
+                } else if (cleanPhone.length >= 10 && cleanPhone.charAt(0) === '0') {
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
                     $('#phone_prompt').text(prompText).show();
                 } else {
                     $('#phone_prompt').hide();
@@ -1494,37 +1391,6 @@ $funnelId = "Car";
             $(document).on('click', '#error_handler_overlay_close', function(event) {
                 $('#error_handler_overlay').hide();
             });
-            // Logger Feature Update
-            $('.apiBtn').on('click', function() {
-                const formElement = document.forms['insurance_api1'];
-                const formDataObj = Object.fromEntries(new FormData(formElement).entries());
-                //console.log(formDataObj);
-
-                formDataObj.userIsAt = window.location.href;
-                const requiredFields = ['funnelId', 'given-name', 'family-name', 'phone', 'make'];
-
-                // Validate required fields
-                for (const field of requiredFields) {
-                    if (!formDataObj[field] || formDataObj[field].trim() === '') {
-                        // alert(`The field "${field}" is required.`);
-                        return;
-                    }
-                }
-
-                $.ajax({
-                    url: 'https://goquoterocket.com/logger/logger.php',
-                    method: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify(formDataObj),
-                    success: function(response) {
-                        // console.log('Success:', response);
-                    },
-                    error: function(error) {
-                        console.error('Error:', error);
-                    }
-                });
-            });
-            //End
 
             //for ups-trck api
             $('#back_btn_2').click(function() {
@@ -1564,8 +1430,9 @@ $funnelId = "Car";
                 let queryStringValue = window.location.search;
                 //$('#loading-indicator').show();
                 $.ajax({
-                    url: 'https://goquoterocket.com/leads-api/auto-api-call.php?trackApi=' + optData,
+                    url: '/api/submit.php?vertical=auto&trackApi=' + optData,
                     type: 'post',
+                    data: { vertical: 'auto' },
                     success: function(data) {
                         let resultData = JSON.parse(data);
                         console.log(resultData);

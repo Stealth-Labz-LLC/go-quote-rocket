@@ -157,7 +157,7 @@ $funnelId = "Biz";
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WJCXPHPK');
+        })(window, document, 'script', 'dataLayer', 'GTM-NPP3PH3H');
     </script>
     <!-- End Google Tag Manager -->
 </head>
@@ -166,7 +166,7 @@ $funnelId = "Biz";
 
 <body class="inner_pg business_insurance">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJCXPHPK"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPP3PH3H"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include 'header.php'; ?>
@@ -189,7 +189,7 @@ $funnelId = "Biz";
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <h1 class="inner_sec1-hdg">Protect Your Business<br class="showMob"> with<br class="hideMob"> Insurance Coverage<br class="showMob"> Up-To R300 000</h1>
+            <h1 class="inner_sec1-hdg">Protect Your Business<br class="showMob"> with<br class="hideMob"> Insurance Coverage<br class="showMob"> Up-To $300,000</h1>
 
             <p class="inner_sec1_txt">Get a customized business insurance quote in <strong>just 60 seconds</strong>—no hassle,<br class="showDesk"> no hidden fees, and complete peace of mind.</p>
 
@@ -338,121 +338,7 @@ $funnelId = "Biz";
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-
-
-
-        <div class="hide-1024">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Business Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/virseker-logo.svg" alt="Virseker Business Insurance Logo" class="virseker_logo"></li>
-
-                    <li><img src="images/miway-logo.svg" alt="Miiway Business Insurance Logo"></li>
-
-                    <li><img src="images/momentum-logo.svg" alt="Momentum Business Insurance Logo" class="momentum_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Business Insurance Logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Insurance Business Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="show-1024">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Business Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/virseker-logo.svg" alt="Virseker Business Insurance Logo" class="virseker_logo"></li>
-
-                    <li><img src="images/miway-logo.svg" alt="Miiway Business Insurance Logo"></li>
-
-                    <li><img src="images/momentum-logo.svg" alt="Momentum Business Insurance Logo" class="momentum_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Business Insurance Logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Insurance Business Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Business Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/virseker-logo.svg" alt="Virseker Business Insurance Logo" class="virseker_logo"></li>
-
-                    <li><img src="images/miway-logo.svg" alt="Miiway Business Insurance Logo"></li>
-
-                    <li><img src="images/momentum-logo.svg" alt="Momentum Business Insurance Logo" class="momentum_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Business Insurance Logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Insurance Business Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Business Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/virseker-logo.svg" alt="Virseker Business Insurance Logo" class="virseker_logo"></li>
-
-                    <li><img src="images/miway-logo.svg" alt="Miiway Business Insurance Logo"></li>
-
-                    <li><img src="images/momentum-logo.svg" alt="Momentum Business Insurance Logo" class="momentum_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Business Insurance Logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Insurance Business Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/dial-direct-logo.svg" alt="Dial Direct Business Insurance Logo" class="dial-direct_logo"></li>
-
-                    <li><img src="images/virseker-logo.svg" alt="Virseker Business Insurance Logo" class="virseker_logo"></li>
-
-                    <li><img src="images/miway-logo.svg" alt="Miiway Business Insurance Logo"></li>
-
-                    <li><img src="images/momentum-logo.svg" alt="Momentum Business Insurance Logo" class="momentum_logo"></li>
-
-                    <li><img src="images/first-for-women-logo.svg" alt="First For Women Business Insurance Logo"></li>
-
-                    <li><img src="images/budget-logo.svg" alt="Budget Insurance Business Insurance Logo" class="budget_logo"></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
+<?php include 'carrier-logos.php'; ?>
 
 
 
@@ -1400,7 +1286,7 @@ $funnelId = "Biz";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://goquoterocket.com/leads-api/business-api-call.php?' + formData,
+                    url: '/api/submit.php?vertical=business&' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1425,28 +1311,21 @@ $funnelId = "Biz";
             //phone number validation
             $("input[name='phone']").keyup(function() {
                 let phoneNumber = $(this).val();
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
 
             });
 
-            function validateZAPhone(PhoneNumber) {
-                const prompText = `Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.`;
-                const phoneField = PhoneNumber.toLowerCase();
-                const PhoneSub = phoneField.substring(0, 3);
-                if (PhoneSub.includes("27") || PhoneSub.includes("+27") || PhoneSub.includes("080") || PhoneSub.includes("086") || PhoneSub.includes("085") || PhoneSub.includes("09")) {
-                    $('#phone_prompt').text(prompText).show();
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                } else
+            function validateUSPhone(PhoneNumber) {
+                const prompText = `Please enter a valid 10-digit US phone number.`;
                 if (PhoneNumber.length < 10) {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
                     $('#phone_prompt').text(prompText).show();
-                } else
-                if (PhoneNumber.length == 10 && PhoneNumber.charAt(0) !== '0') {
-                    phoneErrors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                    $('#phone_prompt').text(prompText).show();
-                } else {
+                } else if (PhoneNumber.length == 10) {
                     $('#phone_prompt').hide();
                     phoneErrors.length = 0;
+                } else {
+                    phoneErrors.push("Please enter a valid 10-digit US phone number.");
+                    $('#phone_prompt').text(prompText).show();
                 }
             }
             //validate terms checkbox
@@ -1468,37 +1347,6 @@ $funnelId = "Biz";
             $(document).on('click', '#error_handler_overlay_close', function(event) {
                 $('#error_handler_overlay').hide();
             });
-            // Logger Feature Update
-            $('.apiBtn').on('click', function() {
-                const formElement = document.forms['business_api1'];
-                const formDataObj = Object.fromEntries(new FormData(formElement).entries());
-                console.log(formDataObj);
-
-                formDataObj.userIsAt = window.location.href;
-                const requiredFields = ['funnelId', 'given-name', 'family-name', 'phone'];
-
-                // Validate required fields
-                for (const field of requiredFields) {
-                    if (!formDataObj[field] || formDataObj[field].trim() === '') {
-                        // alert(`The field "${field}" is required.`);
-                        return;
-                    }
-                }
-
-                $.ajax({
-                    url: 'https://goquoterocket.com/logger/logger.php',
-                    method: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify(formDataObj),
-                    success: function(response) {
-                        // console.log('Success:', response);
-                    },
-                    error: function(error) {
-                        console.error('Error:', error);
-                    }
-                });
-            });
-            //End
             // banner form validation 
 
 

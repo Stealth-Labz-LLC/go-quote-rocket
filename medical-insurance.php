@@ -125,7 +125,7 @@ $funnelId = "Health";
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WJCXPHPK');
+        })(window, document, 'script', 'dataLayer', 'GTM-NPP3PH3H');
     </script>
     <!-- End Google Tag Manager -->
 </head>
@@ -134,7 +134,7 @@ $funnelId = "Health";
 
 <body class="inner_pg medical_insurance">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJCXPHPK"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPP3PH3H"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php include 'header.php'; ?>
@@ -159,7 +159,7 @@ $funnelId = "Health";
 
             <h1 class="inner_sec1-hdg">Get Free Medical Insurance<br class="showDesk"> Quotes in <em>1 Minute!</em></h1>
 
-            <p class="inner_sec1_txt">Get unlimited private doctor (GPs) visits, medication, and<br class="hideMob"> dentists for <strong>less than R480 per month.</strong></p>
+            <p class="inner_sec1_txt">Get unlimited private doctor (GPs) visits, medication, and<br class="hideMob"> dentists for <strong>less than $150 per month.</strong></p>
 
 
 
@@ -226,11 +226,11 @@ $funnelId = "Health";
                             <div class="form_input_box">
                                 <select name="income" class="input-fld required" data-error-message="Please select your monthly income.">
                                     <option value="" selected>What is your monthly income?</option>
-                                    <option value="R0 - R5,000">R0 - R5,000</option>
-                                    <option value="R5,001 - R15,000">R5,001 - R15,000</option>
-                                    <option value="R15,001 - R30,000">R15,001 - R30,000</option>
-                                    <option value="R30,001 - R50,000">R30,001 - R50,000</option>
-                                    <option value="R50,001+">R50,001+</option>
+                                    <option value="$0 - $5,000">$0 - $5,000</option>
+                                    <option value="$5,001 - $15,000">$5,001 - $15,000</option>
+                                    <option value="$15,001 - $30,000">$15,001 - $30,000</option>
+                                    <option value="$30,001 - $50,000">$30,001 - $50,000</option>
+                                    <option value="$50,001+">$50,001+</option>
                                 </select>
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
@@ -273,97 +273,7 @@ $funnelId = "Health";
 
 
 
-    <div class="as-seen">
-
-        <div class="container">
-
-            <p class="as-seen__heading">Quotes by the USA's top providers, including:</p>
-
-        </div>
-
-        <div class="hideMob">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/discover-health-logo.svg" alt="Discovery Health Medical Insurance Logo"></li>
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Medical Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/exlicare-logo.svg" alt="Exlicare Medical Insurance Logo"></li>
-
-                    <li><img src="images/dichem-logo.svg" alt="Dischem Medical Insurance Logo" class="dichem_logo"></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-        <div class="showMob">
-
-            <div class="brand__strip__scroller">
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/discover-health-logo.svg" alt="Discovery Health Medical Insurance Logo"></li>
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Medical Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/exlicare-logo.svg" alt="Exlicare Medical Insurance Logo"></li>
-
-                    <li><img src="images/dichem-logo.svg" alt="Dischem Medical Insurance Logo" class="dichem_logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/discover-health-logo.svg" alt="Discovery Health Medical Insurance Logo"></li>
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Medical Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/exlicare-logo.svg" alt="Exlicare Medical Insurance Logo"></li>
-
-                    <li><img src="images/dichem-logo.svg" alt="Dischem Medical Insurance Logo" class="dichem_logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/discover-health-logo.svg" alt="Discovery Health Medical Insurance Logo"></li>
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Medical Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/exlicare-logo.svg" alt="Exlicare Medical Insurance Logo"></li>
-
-                    <li><img src="images/dichem-logo.svg" alt="Dischem Medical Insurance Logo" class="dichem_logo"></li>
-
-                </ul>
-
-
-
-                <ul class="scroll__brand__list">
-
-                    <li><img src="images/discover-health-logo.svg" alt="Discovery Health Medical Insurance Logo"></li>
-
-                    <li><img src="images/auto-general-logo.svg" alt="Auto & General Medical Insurance Logo" class="auto-general_logo"></li>
-
-                    <li><img src="images/exlicare-logo.svg" alt="Exlicare Medical Insurance Logo"></li>
-
-                    <li><img src="images/dichem-logo.svg" alt="Dischem Medical Insurance Logo" class="dichem_logo"></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
+<?php include 'carrier-logos.php'; ?>
 
 
 
@@ -1219,7 +1129,7 @@ $funnelId = "Health";
                 $('#loading-indicator').show();
                 let queryStringValue = window.location.search;
                 $.ajax({
-                    url: 'https://goquoterocket.com/leads-api/health-api-call.php?' + formData,
+                    url: '/api/submit.php?vertical=health&' + formData,
                     // Type of Request
                     type: 'post',
                     success: function(data) {
@@ -1246,22 +1156,14 @@ $funnelId = "Health";
                 let phoneNumber = $(this).val().replace(/[^0-9]/g, ''); // Remove non-digit characters and spaces
                 $(this).val(phoneNumber); // Update the input field with the cleaned value
                 if (phoneNumber.length < 1) return;
-                validateZAPhone(phoneNumber);
+                validateUSPhone(phoneNumber);
             });
 
-            function validateZAPhone(phoneNumber) {
-                const promptText = "Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.";
-                const phoneSub = phoneNumber.substring(0, 3);
-
-                const invalidPrefixes = ["27", "+27", "080", "086", "085", "09"];
-                const isValidPrefix = !invalidPrefixes.some(prefix => phoneSub.includes(prefix));
+            function validateUSPhone(phoneNumber) {
+                const promptText = "Please enter a valid 10-digit US phone number.";
 
                 let errorMessage = "";
-                if (!isValidPrefix) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length < 10) {
-                    errorMessage = promptText;
-                } else if (phoneNumber.length == 10 && phoneNumber.charAt(0) !== '0') {
+                if (phoneNumber.length !== 10) {
                     errorMessage = promptText;
                 }
 
@@ -1294,37 +1196,6 @@ $funnelId = "Health";
             $(document).on('click', '#error_handler_overlay_close', function(event) {
                 $('#error_handler_overlay').hide();
             });
-            // Logger Feature Update
-            $('.apiBtn').on('click', function() {
-                const formElement = document.forms['health_api1'];
-                const formDataObj = Object.fromEntries(new FormData(formElement).entries());
-                console.log(formDataObj);
-
-                formDataObj.userIsAt = window.location.href;
-                const requiredFields = ['funnelId', 'given-name', 'family-name', 'phone'];
-
-                // Validate required fields
-                for (const field of requiredFields) {
-                    if (!formDataObj[field] || formDataObj[field].trim() === '') {
-                        // alert(`The field "${field}" is required.`);
-                        return;
-                    }
-                }
-
-                $.ajax({
-                    url: 'https://goquoterocket.com/logger/logger.php',
-                    method: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify(formDataObj),
-                    success: function(response) {
-                        // console.log('Success:', response);
-                    },
-                    error: function(error) {
-                        console.error('Error:', error);
-                    }
-                });
-            });
-            //End
 
             $('.mob-mnu-ic').click(function(e) {
 
