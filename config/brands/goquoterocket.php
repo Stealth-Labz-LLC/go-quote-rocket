@@ -13,8 +13,8 @@ return [
     'domain' => BASE_DOMAIN,
 
     // Contact Information
-    'phone' => '1-800-555-1234',
-    'phone_tel' => '18005551234',
+    'phone' => '(904) 942-5529',
+    'phone_tel' => '19049425529',
     'email' => 'support@goquoterocket.com',
 
     // Logo & Assets
@@ -82,7 +82,7 @@ return [
     // Legal
     'legal' => [
         'company_legal_name' => 'GoQuoteRocket LLC',
-        'address' => "123 Insurance Way, Suite 100\nNew York, NY 10001",
+        'address' => "Jacksonville, FL",
         'phone_hours' => 'Monday - Friday: 9:00 AM - 6:00 PM EST',
         'year_founded' => 2024,
 

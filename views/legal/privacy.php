@@ -28,7 +28,7 @@ $effectiveDate = $privacy['effective_date'] ?? date('F j, Y');
 
     <!-- Legal Content -->
     <main class="legal-content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="legal-content__inner">
                 <h1 class="legal-content__title">Privacy Policy</h1>
                 <p class="legal-content__date">Effective Date: <?= $effectiveDate ?></p>

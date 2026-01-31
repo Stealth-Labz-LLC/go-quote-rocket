@@ -15,6 +15,7 @@
 
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="inner_sec1">
 
-        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -53,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </span>
         </nav>
 
-    	<div class="container">
+    	<div class="container-fluid">
 
         	<h1>Privacy Policy</h1>
 
@@ -65,7 +66,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="content">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p>We have taken reasonable steps to safeguard the privacy of information provided by you, but we do not make any representations or warranties that the information provided by you, whether personal information or otherwise, is absolutely safe and secure. We are committed to protecting your privacy. This policy applies to all the web pages related to the Website. The information gathered through details submitted to the online forms on the Website will not be used for anything other than that which is stated in these Terms. Such gathered personal information may be re-used and stored by us for a reasonable period in order to complete any of our related services, including marketing and advertising of products by ourselves. The Website may collect certain information about your visit, including but not limited to the name of the Internet service provider and the Internet Protocol (IP) address through which you access the Internet; the date and time you access the Website; the pages that you access while at the Website, and the Internet address of the website that linked you directly to the Website. This information is used, among other things, to help improve the Website, analyze trends, and administer the Website.
 
@@ -79,7 +80,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-            <p>While using the Website, information about you may be either collected by us or provided by you, such as, without limitation, your name, surname, title, birth date, gender, ID number, country of residence, closest city, address, contact numbers, non-personal browsing habits and click patterns, email address, and IP address. You consent to such collection of information.
+            <p>While using the Website, information about you may be either collected by us or provided by you, such as, without limitation, your name, last name, title, birth date, gender, ID number, country of residence, closest city, address, contact numbers, non-personal browsing habits and click patterns, email address, and IP address. You consent to such collection of information.
 
             </p>
 

@@ -17,6 +17,7 @@
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <link rel="stylesheet" type="text/css" href="css/slick.css">
@@ -46,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="inner_bnr inner_bnr--about">
 
-	<nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+	<nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
 		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 			<a href="/" itemprop="item"><span itemprop="name">Home</span></a>
 			<meta itemprop="position" content="1">
@@ -58,7 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</span>
 	</nav>
 
-	<div class="container">
+	<div class="container-fluid">
 
     	<div class="inner_bnr_content">
 
@@ -80,7 +81,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="about_sec1">
 
-	<div class="container">
+	<div class="container-fluid">
 
     	<img src="images/abt-sec1-img.jpg" alt="Go Quote Rocket Founder" class="abt_sec1_img hideMob" width="471" height="534">
 
@@ -118,7 +119,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="abt-num_strip">
 
-	<div class="container">
+	<div class="container-fluid">
 
     	<p class="abt-num_strip_hdg">How We've Helped Customers</p>
 
@@ -166,7 +167,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="sec2">
 
-	<div class="container">
+	<div class="container-fluid">
 
     	<p class="heading">Why Go Quote Rocket Is<br class="showDesk"> The Best Choice</p>
 

@@ -7,7 +7,7 @@
 ?>
 
 <header class="site-header">
-    <div class="container">
+    <div class="container-fluid">
         <div class="site-header__inner">
             <!-- Logo -->
             <div class="site-header__logo">

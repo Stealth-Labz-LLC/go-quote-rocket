@@ -30,7 +30,8 @@ $funnelId = "Legal";
     <link rel="preload" href="css/error-handler.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="css/loader-design.css" as="style" onload="this.rel='stylesheet'">
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
 
     <!--PreloadFile -->
@@ -261,7 +262,7 @@ $funnelId = "Legal";
 
     <div class="inner_sec1" id="choosePack">
 
-        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -273,7 +274,7 @@ $funnelId = "Legal";
             </span>
         </nav>
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
@@ -315,7 +316,7 @@ $funnelId = "Legal";
                             <div class="form_input_box">
                                 <input type="tel" value="" name="phone" placeholder="Phone Number" class="input-fld required" data-error-message="Please enter your phone number without the country code first" maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
                                 <div class="error_message text-left" style="display: none;" id="phone_prompt">
-                                    <span class="phone-prompt-error">Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,or 09 aren't supported.</span>
+                                    <span class="phone-prompt-error">Please enter a valid 10-digit U.S. phone number.</span>
                                 </div>
                             </div>
 
@@ -367,7 +368,7 @@ $funnelId = "Legal";
 
     <div class="inner_sec2">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">How We Make <br class="showDesk"> Finding Legal Cover Easy</p>
 
@@ -429,7 +430,7 @@ $funnelId = "Legal";
 
     <div class="inner_sec3">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Shield Yourself<br class="showDesk"> With Legal Insurance </p>
 
@@ -631,7 +632,7 @@ $funnelId = "Legal";
 
     <div class="why_choose">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="why_choose_left">
 
@@ -697,7 +698,7 @@ $funnelId = "Legal";
 
     <div class="inner_sec4">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Legal Protection<br class="showDesk"> for Life’s Challenges</p>
 
@@ -813,7 +814,7 @@ $funnelId = "Legal";
 
     <div class="sec3">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
@@ -856,7 +857,7 @@ $funnelId = "Legal";
 
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
-                        <p><span>Loren</span><br> Port Elizabeth</p>
+                        <p><span>Lauren</span><br> Jacksonville, FL</p>
                     </div>
 
 
@@ -894,7 +895,7 @@ $funnelId = "Legal";
 
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
-                        <p><span>Themba</span><br> Bloemfontein</p>
+                        <p><span>James</span><br> Austin, TX</p>
                     </div>
 
 
@@ -932,7 +933,7 @@ $funnelId = "Legal";
 
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
-                        <p><span>Mike</span><br> East London</p>
+                        <p><span>Mike</span><br> Denver, CO</p>
                     </div>
 
 
@@ -970,7 +971,7 @@ $funnelId = "Legal";
 
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
-                        <p><span>Marthinus</span><br> Johannesburg</p>
+                        <p><span>Martin</span><br> Chicago, IL</p>
                     </div>
 
 
@@ -1008,7 +1009,7 @@ $funnelId = "Legal";
 
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
-                        <p><span>Thandi</span><br> Durban</p>
+                        <p><span>Sarah</span><br> Phoenix, AZ</p>
                     </div>
 
 
@@ -1046,7 +1047,7 @@ $funnelId = "Legal";
 
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
-                        <p><span>Sipho</span><br> Cape Town</p>
+                        <p><span>David</span><br> Atlanta, GA</p>
                     </div>
 
 
@@ -1084,7 +1085,7 @@ $funnelId = "Legal";
 
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
-                        <p><span>Zanele</span><br> Pretoria</p>
+                        <p><span>Jessica</span><br> Dallas, TX</p>
                     </div>
 
 
@@ -1118,7 +1119,7 @@ $funnelId = "Legal";
 
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
-                        <p><span>Loraine</span><br> Cape Town</p>
+                        <p><span>Loraine</span><br> Miami, FL</p>
                     </div>
 
 
@@ -1147,7 +1148,7 @@ $funnelId = "Legal";
 
     <div class="sec7">
 
-        <div class="container" id="faq-section">
+        <div class="container-fluid" id="faq-section">
 
             <p class="heading">Frequently Asked Questions</p>
 

@@ -21,7 +21,8 @@
     <link rel="preload" href="css/loader-design.css" as="style" onload="this.rel='stylesheet'">
 
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" href="css/loader-design.css">
     <link href="css/error-handler.css?v=1.0" rel="stylesheet" type="text/css">
@@ -50,7 +51,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="inner_bnr inner_bnr--contact">
 
-        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -62,7 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </span>
         </nav>
 
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="inner_bnr_content">
 
@@ -82,7 +83,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="contact_sec1">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="contact_sec1_inner">
 
@@ -98,7 +99,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <p>Call Us</p>
 
-                            <h3>(800) 555-1234</h3>
+                            <h3>(904) 942-5529</h3>
 
                         </li>
 
@@ -118,7 +119,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <p>Headquarters</p>
 
-                            <h3>Watershed 17 Dock Rd, Victoria & Alfred Waterfront, Cape Town, 8002</h3>
+                            <h3>Jacksonville, FL</h3>
 
                         </li>
 
@@ -166,7 +167,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <input type="tel" name="phone" id="" class="contact_form_field required" placeholder="Phone" data-error-message="Please enter your phone number." maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
                             <div class="error_message text-left" style="display: none;" id="phone_prompt">
-                                <span>Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,or 09 aren't supported.</span>
+                                <span>Please enter a valid 10-digit U.S. phone number.</span>
                             </div>
                         </div>
 
@@ -251,10 +252,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         }
                     });
                 if (PhoneNumber.length == 10 && PhoneNumber.charAt(0) !== '0') {
-                    errors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                    $('#phone_prompt').text("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.").show();
+                    errors.push("Please enter a valid 10-digit U.S. phone number.");
+                    $('#phone_prompt').text("Please enter a valid 10-digit U.S. phone number.").show();
                 } else {
-                    $('#phone_prompt').text("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.").show();
+                    $('#phone_prompt').text("Please enter a valid 10-digit U.S. phone number.").show();
                 }
 
                 if (errors.length == 0 && PhoneNumber.length == 10) {

@@ -14,6 +14,7 @@
 <link rel="canonical" href="https://goquoterocket.com/terms.php">
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="inner_sec1">
 
-        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -52,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </span>
         </nav>
 
-    	<div class="container">
+    	<div class="container-fluid">
 
         	<h1>Terms &amp; Conditions</h1>
 
@@ -64,7 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="content">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <h3>1. INTRODUCTION</h3>
 
@@ -352,7 +353,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <ul>
 
-                <li>Physical Address: Watershed, 17 Dock Rd, Victoria & Alfred Waterfront, Cape Town, 8002</li>
+                <li>Location: Jacksonville, FL</li>
 
                 <li>Website: www.goquoterocket.com</li>
 

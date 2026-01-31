@@ -37,6 +37,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
     <!--PreloadFile End-->
 
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
     <link rel="preload" href="css/style.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="css/slick.css" as="style" onload="this.rel='stylesheet'">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -183,7 +184,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     <div class="sec1" id="choosePack">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="sec1-inr">
 
@@ -299,7 +300,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     <div class="sec2">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Why Go Quote Rocket Is<br class="showMob"> The Best Choice</p>
 
@@ -360,7 +361,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     <div class="sec3">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
@@ -393,7 +394,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
-                        <p><span>Loren</span><br> Port Elizabeth</p>
+                        <p><span>Lauren</span><br> Jacksonville, FL</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -413,7 +414,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
-                        <p><span>Themba</span><br> Bloemfontein</p>
+                        <p><span>James</span><br> Austin, TX</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -433,7 +434,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
-                        <p><span>Mike</span><br> East London</p>
+                        <p><span>Mike</span><br> Denver, CO</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Rating" class="reviews_star" width="228" height="40">
@@ -453,7 +454,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
-                        <p><span>Marthinus</span><br> Johannesburg</p>
+                        <p><span>Martin</span><br> Chicago, IL</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Rated" class="reviews_star" width="228" height="40">
@@ -473,7 +474,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
-                        <p><span>Thandi</span><br> Durban</p>
+                        <p><span>Sarah</span><br> Phoenix, AZ</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -493,7 +494,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
-                        <p><span>Sipho</span><br> Cape Town</p>
+                        <p><span>David</span><br> Atlanta, GA</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -513,7 +514,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
-                        <p><span>Zanele</span><br> Pretoria</p>
+                        <p><span>Jessica</span><br> Dallas, TX</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -533,7 +534,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
-                        <p><span>Loraine</span><br> Cape Town</p>
+                        <p><span>Loraine</span><br> Miami, FL</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -550,7 +551,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     <div class="sec4">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">How To Use Go Quote Rocket</p>
 
@@ -650,9 +651,36 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
 
 
+    <div class="sec8_stats">
+        <div class="container-fluid">
+            <p class="heading">Go Quote Rocket<br class="d-md-none"> By The Numbers</p>
+            <p class="comn_text">Thousands of Americans trust us to find them better insurance at lower prices.</p>
+            <div class="row justify-content-center mt-4">
+                <div class="col-6 col-lg-3 text-center stats_item">
+                    <h3 class="stats_number">500K+</h3>
+                    <p class="stats_label">Quotes Compared</p>
+                </div>
+                <div class="col-6 col-lg-3 text-center stats_item">
+                    <h3 class="stats_number">$1,200</h3>
+                    <p class="stats_label">Average Annual Savings</p>
+                </div>
+                <div class="col-6 col-lg-3 text-center stats_item">
+                    <h3 class="stats_number">10+</h3>
+                    <p class="stats_label">Insurance Partners</p>
+                </div>
+                <div class="col-6 col-lg-3 text-center stats_item">
+                    <h3 class="stats_number">4.8/5</h3>
+                    <p class="stats_label">Customer Rating</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <div class="sec5">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Partnering with<br class="showMob"> America's<br class="hideMob"> Leading Providers</p>
 
@@ -705,7 +733,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     <div class="sec6">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Where Go Quote Rocket<br class="showMob"> Helps You Save</p>
 
@@ -753,10 +781,43 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
     </div>
 
 
+    <div class="sec9_expert">
+        <div class="container-fluid">
+            <p class="heading">Need Help? We're Here For You</p>
+            <p class="comn_text">Our team of licensed insurance professionals is ready to assist you every step of the way.</p>
+            <div class="row justify-content-center g-4 mt-3">
+                <div class="col-12 col-lg-4">
+                    <div class="expert_card">
+                        <img src="/images/contact-phn-icn.png" alt="Call Go Quote Rocket" class="expert_icon" width="60" height="60">
+                        <h3>Call Us</h3>
+                        <p>Speak directly with an insurance expert</p>
+                        <a href="tel:19049425529" class="expert_link">(904) 942-5529</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="expert_card">
+                        <img src="/images/contact-mail-icn.png" alt="Email Go Quote Rocket" class="expert_icon" width="60" height="60">
+                        <h3>Email Us</h3>
+                        <p>Send us your questions anytime</p>
+                        <a href="mailto:support@goquoterocket.com" class="expert_link">support@goquoterocket.com</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="expert_card">
+                        <img src="/images/contact-loca-icn.png" alt="Go Quote Rocket Hours" class="expert_icon" width="60" height="60">
+                        <h3>Business Hours</h3>
+                        <p>Mon - Fri: 9AM - 6PM EST</p>
+                        <p class="expert_link">Jacksonville, FL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="sec7">
 
-        <div class="container" id="faq-section">
+        <div class="container-fluid" id="faq-section">
 
             <p class="heading">Frequently Asked Questions</p>
 
@@ -952,6 +1013,51 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     </div>
 
+
+    <div class="sec10_trust">
+        <div class="container-fluid">
+            <p class="heading">Your Security Is Our Priority</p>
+            <p class="comn_text">We take every measure to protect your information and deliver a trustworthy experience.</p>
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-lg-8">
+                    <ul class="trust_lst">
+                        <li class="trust_item">
+                            <img src="/images/checkmark.svg" alt="Secure" class="trust_check" width="28" height="28">
+                            <div>
+                                <h3>256-Bit SSL Encryption</h3>
+                                <p>Your personal information is protected with bank-level security at every step.</p>
+                            </div>
+                        </li>
+                        <li class="trust_item">
+                            <img src="/images/checkmark.svg" alt="Licensed" class="trust_check" width="28" height="28">
+                            <div>
+                                <h3>Licensed Insurance Partners</h3>
+                                <p>We only work with licensed, vetted insurance providers across the United States.</p>
+                            </div>
+                        </li>
+                        <li class="trust_item">
+                            <img src="/images/checkmark.svg" alt="No Spam" class="trust_check" width="28" height="28">
+                            <div>
+                                <h3>No-Spam Policy</h3>
+                                <p>We will never sell your data to third-party marketers. Your inbox is safe with us.</p>
+                            </div>
+                        </li>
+                        <li class="trust_item">
+                            <img src="/images/checkmark.svg" alt="Free" class="trust_check" width="28" height="28">
+                            <div>
+                                <h3>100% Free Service</h3>
+                                <p>No hidden fees, no obligations. Compare quotes and choose what works for you.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="trust_badges">
+                        <img src="/images/secure.svg" alt="Secure Website" width="120" height="40">
+                        <img src="/images/heart.svg" alt="Trusted Service" width="120" height="40">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="blue_strip">

@@ -73,7 +73,7 @@ $queryString = $queryString ?? '';
 
     <!-- Hero Section -->
     <section class="hero hero--<?= $v['id'] ?>">
-        <div class="container">
+        <div class="container-fluid">
             <div class="hero__content">
                 <!-- Rating Badge -->
                 <div class="hero__badge">
@@ -126,7 +126,7 @@ $queryString = $queryString ?? '';
     <!-- Benefits Section -->
     <?php if (isset($v['landing']['benefits']) && !empty($v['landing']['benefits'])): ?>
     <section class="features">
-        <div class="container">
+        <div class="container-fluid">
             <div class="features__grid">
                 <?php foreach ($v['landing']['benefits'] as $benefit): ?>
                 <div class="feature-card">
@@ -174,7 +174,7 @@ $queryString = $queryString ?? '';
     ?>
     <?php if (!empty($carriers)): ?>
     <section class="carrier-strip">
-        <div class="container">
+        <div class="container-fluid">
             <p class="carrier-strip__heading">
                 Compare rates from top providers, including:
             </p>
@@ -192,7 +192,7 @@ $queryString = $queryString ?? '';
     <!-- Testimonial Section -->
     <?php if (isset($v['landing']['testimonial'])): ?>
     <section class="testimonials">
-        <div class="container">
+        <div class="container-fluid">
             <div class="testimonial-card">
                 <div class="testimonial-card__stars">★★★★★</div>
                 <blockquote class="testimonial-card__quote">
@@ -211,7 +211,7 @@ $queryString = $queryString ?? '';
 
     <!-- Final CTA Section -->
     <section class="cta-banner">
-        <div class="container">
+        <div class="container-fluid">
             <h2 class="cta-banner__heading">
                 Ready to <?= strtolower($v['action_verb'] ?? 'get started') ?>?
             </h2>
