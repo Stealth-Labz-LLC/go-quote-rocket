@@ -11,6 +11,7 @@
 <title>Terms and Conditions | Go Quote Rocket</title>
 
 <meta name="description" content="Read the terms and conditions of using Go Quote Rocket. Learn about your rights and responsibilities when accessing our insurance comparison services.">
+<link rel="canonical" href="https://goquoterocket.com/terms.php">
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -37,9 +38,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<!-- End Google Tag Manager (noscript) -->
 	<?php include 'header.php';?>
 
-
-
     <div class="inner_sec1">
+
+        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1">
+                <span class="breadcrumb-separator">/</span>
+            </span>
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span class="breadcrumb-current" itemprop="name">Terms &amp; Conditions</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </nav>
 
     	<div class="container">
 

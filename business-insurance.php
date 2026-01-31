@@ -26,6 +26,7 @@ $funnelId = "Biz";
     <title>Affordable Business Insurance in the USA | Go Quote Rocket</title>
 
     <meta name="description" content="Secure your business with comprehensive and affordable insurance. Compare business insurance quotes in the USA with Go Quote Rocket today.">
+    <link rel="canonical" href="https://goquoterocket.com/business-insurance.php">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -170,15 +171,25 @@ $funnelId = "Biz";
     <!-- End Google Tag Manager (noscript) -->
     <?php include 'header.php'; ?>
 
-
-
     <div class="inner_sec1" id="choosePack">
+
+        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1">
+                <span class="breadcrumb-separator">/</span>
+            </span>
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span class="breadcrumb-current" itemprop="name">Business Insurance</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </nav>
 
         <div class="container">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">Protect Your Business<br class="showMob"> with<br class="hideMob"> Insurance Coverage<br class="showMob"> Up-To $300,000</p>
+            <h1 class="inner_sec1-hdg">Protect Your Business<br class="showMob"> with<br class="hideMob"> Insurance Coverage<br class="showMob"> Up-To $300,000</h1>
 
             <p class="inner_sec1_txt">Get a customized business insurance quote in <strong>just 60 seconds</strong>—no hassle,<br class="showDesk"> no hidden fees, and complete peace of mind.</p>
 
@@ -819,11 +830,11 @@ $funnelId = "Biz";
 
             <div class="feefo_box">
 
-                <img src="images/feefo-logo.png" alt="" class="feefo_log" width="366" height="84">
+                <img src="images/feefo-logo.png" alt="Feefo Reviews" class="feefo_log" width="366" height="84">
 
                 <div class="feefo_review">
 
-                    <img src="images/star.png" alt="" width="228" height="40">
+                    <img src="images/star.png" alt="5 Star Rating" width="228" height="40">
 
                     <p>4.8/5 Based On 2000+ reviews</p>
 

@@ -26,6 +26,7 @@ $funnelId = "GPS";
     <title>Find the Best GPS Vehicle Tracker Deals | Go Quote Rocket</title>
 
     <meta name="description" content="Lower your insurance premiums with a reliable vehicle tracker. Compare affordable tracker solutions in the USA with Go Quote Rocket.">
+    <link rel="canonical" href="https://goquoterocket.com/vehicle-tracker.php">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -172,15 +173,25 @@ $funnelId = "GPS";
     <!-- End Google Tag Manager (noscript) -->
     <?php include 'header.php'; ?>
 
-
-
     <div class="inner_sec1" id="choosePack">
+
+        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1">
+                <span class="breadcrumb-separator">/</span>
+            </span>
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span class="breadcrumb-current" itemprop="name">Vehicle Tracker</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </nav>
 
         <div class="container">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">1 Car is Stolen Every 9<br class="showMob"> Minutes<br class="hideMob"> in the USA</p>
+            <h1 class="inner_sec1-hdg">1 Car is Stolen Every 9<br class="showMob"> Minutes<br class="hideMob"> in the USA</h1>
 
             <p class="inner_sec1_txt">Get a free vehicle tracker quote in minutes and <strong>save up-to 27%</strong> <br class="hideMob">on your monthly car insurance premium today.</p>
 
@@ -771,7 +782,7 @@ $funnelId = "GPS";
 
             <div class="feefo_box">
 
-                <img src="images/feefo-logo.png" alt="" class="feefo_log" width="366" height="84">
+                <img src="images/feefo-logo.png" alt="Feefo Reviews" class="feefo_log" width="366" height="84">
 
                 <div class="feefo_review">
 

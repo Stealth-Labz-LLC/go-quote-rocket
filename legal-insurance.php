@@ -21,6 +21,7 @@ $funnelId = "Legal";
     <title>Legal Insurance Quotes in the USA | Go Quote Rocket</title>
 
     <meta name="description" content="Stay protected with affordable legal insurance. Compare quotes and find the best legal coverage in the USA with Go Quote Rocket.">
+    <link rel="canonical" href="https://goquoterocket.com/legal-insurance.php">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -258,15 +259,25 @@ $funnelId = "Legal";
 
     <?php include 'header.php'; ?>
 
-
-
     <div class="inner_sec1" id="choosePack">
+
+        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1">
+                <span class="breadcrumb-separator">/</span>
+            </span>
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span class="breadcrumb-current" itemprop="name">Legal Insurance</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </nav>
 
         <div class="container">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">$500,000 in Personal Legal<br class="showDesk"> Cover at Your Fingertips</p>
+            <h1 class="inner_sec1-hdg">$500,000 in Personal Legal<br class="showDesk"> Cover at Your Fingertips</h1>
 
             <p class="inner_sec1_txt">Cover legal fees, court costs, and settlements—compare plans<br class="showDesk"> now and find the best deal!</p>
 
@@ -293,13 +304,13 @@ $funnelId = "Legal";
                             </div>
 
                             <div class="form_input_box">
-                                <input type="text" name="family-name" class="input-fld required" data-error-message="Please enter your surname." placeholder="Surname">
+                                <input type="text" name="family-name" class="input-fld required" data-error-message="Please enter your last name." placeholder="Last Name">
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
 
                         </div>
 
-                        <div class="form__input form__input--3">
+                        <div class="form__input form__input--2">
 
                             <div class="form_input_box">
                                 <input type="tel" value="" name="phone" placeholder="Phone Number" class="input-fld required" data-error-message="Please enter your phone number without the country code first" maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
@@ -310,14 +321,6 @@ $funnelId = "Legal";
 
                             <div class="form_input_box">
                                 <input type="email" name="email" id="" class="input-fld required" placeholder="Email" data-error-message="Please enter your email address.">
-                                <div class="error_message text-left" style="display:none"></div>
-                            </div>
-                            <div class="form_input_box">
-                                <select name="employment" class="input-fld required" data-error-message="Please select your employment status.">
-                                    <option value="" selected="">Are you currently employed?</option>
-                                    <option value="true">Yes</option>
-                                    <option value="false">No</option>
-                                </select>
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
                         </div>
@@ -816,11 +819,11 @@ $funnelId = "Legal";
 
             <div class="feefo_box">
 
-                <img src="images/feefo-logo.png" alt="" class="feefo_log" width="366" height="84">
+                <img src="images/feefo-logo.png" alt="Feefo Reviews" class="feefo_log" width="366" height="84">
 
                 <div class="feefo_review">
 
-                    <img src="images/star.png" alt="" width="228" height="40">
+                    <img src="images/star.png" alt="5 Star Rating" width="228" height="40">
 
                     <p>4.8/5 Based On 2000+ reviews</p>
 

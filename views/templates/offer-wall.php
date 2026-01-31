@@ -13,6 +13,7 @@ $t = $tracking;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
     <title>Your <?= $v['name'] ?> Quotes | <?= $b['company_name'] ?></title>
 
     <!-- Fonts -->
@@ -79,6 +80,21 @@ $t = $tracking;
         .carrier-cta {
             margin-top: auto;
         }
+        .carrier-cta .btn {
+            width: 100%;
+            text-align: center;
+        }
+        .offer-wall-header p {
+            font-size: 1.125rem;
+            margin-top: 0.5rem;
+        }
+        .offer-wall-footer {
+            background: #1f2937;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 3rem;
+        }
     </style>
 
     <!-- Tracking -->
@@ -105,7 +121,7 @@ $t = $tracking;
     <!-- Header -->
     <div class="offer-wall-header">
         <h1>Great News! You Have <?= count($carriers) ?> Matches</h1>
-        <p style="font-size: 1.125rem; margin-top: 0.5rem;">Compare your personalized <?= strtolower($v['name']) ?> quotes below</p>
+        <p>Compare your personalized <?= strtolower($v['name']) ?> quotes below</p>
     </div>
 
     <!-- Carriers -->
@@ -136,7 +152,6 @@ $t = $tracking;
                 ?>
                 <a href="<?= $carrierUrl ?>"
                    class="btn btn-primary btn-lg"
-                   style="width: 100%; text-align: center;"
                    onclick="trackCarrierClick('<?= $carrier['id'] ?>')">
                     Get Quote from <?= $carrier['name'] ?>
                 </a>
@@ -146,7 +161,7 @@ $t = $tracking;
     </div>
 
     <!-- Footer -->
-    <footer style="background: #1f2937; color: white; padding: 2rem 0; text-align: center; margin-top: 3rem;">
+    <footer class="offer-wall-footer">
         <p>&copy; <?= date('Y') ?> <?= $b['company_name'] ?>. All rights reserved.</p>
     </footer>
 

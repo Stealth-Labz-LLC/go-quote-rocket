@@ -21,6 +21,7 @@ $funnelId = "Life";
     <title>Compare Life Insurance Plans in the USA | Go Quote Rocket</title>
 
     <meta name="description" content="Protect your loved ones with affordable life insurance. Compare quotes and find the best coverage in the USA with Go Quote Rocket.">
+    <link rel="canonical" href="https://goquoterocket.com/life-insurance.php">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -165,15 +166,25 @@ $funnelId = "Life";
     <!-- End Google Tag Manager (noscript) -->
     <?php include 'header.php'; ?>
 
-
-
     <div class="inner_sec1" id="choosePack">
+
+        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1">
+                <span class="breadcrumb-separator">/</span>
+            </span>
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span class="breadcrumb-current" itemprop="name">Life Insurance</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </nav>
 
         <div class="container">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">Get Life Insurance Quotes in<br class="showDesk"> 30 Seconds or Less!</p>
+            <h1 class="inner_sec1-hdg">Get Life Insurance Quotes in<br class="showDesk"> 30 Seconds or Less!</h1>
 
             <p class="inner_sec1_txt">Compare plans and <strong>save up-to 35%</strong> on your monthly premium—protect<br class="showDesk"> your loved ones with affordable, tailored coverage today.</p>
 
@@ -199,7 +210,7 @@ $funnelId = "Life";
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
                             <div>
-                                <input type="text" value="" name="family-name" placeholder="Surname" class="input-fld required" data-error-message="Please enter your surname.">
+                                <input type="text" value="" name="family-name" placeholder="Last Name" class="input-fld required" data-error-message="Please enter your last name.">
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
 
@@ -223,7 +234,7 @@ $funnelId = "Life";
 
 
 
-                        <div class="form__input form__input--3">
+                        <div class="form__input form__input--2">
 
                             <div>
                                 <select name="age" class="input-fld required" data-error-message="Please select your age.">
@@ -254,28 +265,6 @@ $funnelId = "Life";
                                     <option value="true">Yes</option>
 
                                     <option value="false">No</option>
-
-                                </select>
-                                <div class="error_message text-left" style="display:none"></div>
-                            </div>
-
-                            <div>
-                                <select name="income" class="input-fld required" data-error-message="Please select your monthly income.">
-
-                                    <option value="" selected>What is your monthly income?</option>
-                                    <option value="0_To_3000">$0 - $3,000</option>
-                                    <option value="3000_To_5000">$3,001 - $5,000</option>
-                                    <option value="5000_To_10000">$5,001 - $10,000</option>
-                                    <option value="10000_To_15000">$10,001 - $15,000</option>
-                                    <option value="15000_To_20000">$15,001 - $20,000+</option>
-                                    <option value="20000_To_30000">$20,001 - $30,000+</option>
-                                    <option value="30000_To_40000">$30,001 - $40,000+</option>
-                                    <option value="40000_To_50000">$40,001 - $50,000+</option>
-                                    <option value="50000_To_60000">$50,001 - $60,000+</option>
-                                    <option value="60000_To_70000">$60,001 - $70,000+</option>
-                                    <option value="70000_To_80000">$70,001 - $80,000+</option>
-                                    <option value="80000_And_Above">$80,001+</option>
-                                    <option value="NotCurrentlyEmployed">currently Not Employed</option>
 
                                 </select>
                                 <div class="error_message text-left" style="display:none"></div>
@@ -752,11 +741,11 @@ $funnelId = "Life";
 
             <div class="feefo_box">
 
-                <img src="images/feefo-logo.png" alt="" class="feefo_log" width="366" height="84">
+                <img src="images/feefo-logo.png" alt="Feefo Reviews" class="feefo_log" width="366" height="84">
 
                 <div class="feefo_review">
 
-                    <img src="images/star.png" alt="" width="228" height="40">
+                    <img src="images/star.png" alt="5 Star Rating" width="228" height="40">
 
                     <p>4.8/5 Based On 2000+ reviews</p>
 

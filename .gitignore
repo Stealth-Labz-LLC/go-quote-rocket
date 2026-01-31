@@ -17,4 +17,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-/.claude
+/.claude/settings.local.json
+Thumbs.db

@@ -19,14 +19,14 @@ $data = $_SESSION;
 <head>
 
     <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Thank You for Using Go Quote Rocket</title>
 
     <meta name="description" content="Thank you for trusting Go Quote Rocket for your insurance quote needs. Explore more affordable options on car, medical, and life insurance today.">
-
-
+    <link rel="canonical" href="https://goquoterocket.com/thank-you.php">
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 

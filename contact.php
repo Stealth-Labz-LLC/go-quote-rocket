@@ -10,7 +10,8 @@
 
     <title>Contact Go Quote Rocket | Get in Touch Today</title>
 
-    <meta name="description" content="Need help with insurance quotes? Contact the Go Quote Rocket team today for assistance and support. We’re here to make insurance simple for you.">
+    <meta name="description" content="Need help with insurance quotes? Contact the Go Quote Rocket team today for assistance and support. We're here to make insurance simple for you.">
+    <link rel="canonical" href="https://goquoterocket.com/contact.php">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
 
@@ -49,6 +50,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="inner_bnr inner_bnr--contact">
 
+        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1">
+                <span class="breadcrumb-separator">/</span>
+            </span>
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span class="breadcrumb-current" itemprop="name">Contact</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </nav>
+
         <div class="container">
 
             <div class="inner_bnr_content">
@@ -81,7 +94,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <li>
 
-                            <img src="images/contact-phn-icn.png" alt="" width="110" height="110">
+                            <img src="images/contact-phn-icn.png" alt="Phone Icon" width="110" height="110">
 
                             <p>Call Us</p>
 
@@ -91,7 +104,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <li>
 
-                            <img src="images/contact-mail-icn.png" alt="" width="110" height="110">
+                            <img src="images/contact-mail-icn.png" alt="Email Icon" width="110" height="110">
 
                             <p>Email</p>
 
@@ -101,7 +114,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <li>
 
-                            <img src="images/contact-loca-icn.png" alt="" width="110" height="110">
+                            <img src="images/contact-loca-icn.png" alt="Location Icon" width="110" height="110">
 
                             <p>Headquarters</p>
 
@@ -131,9 +144,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <div class="contact_form_input half fr">
 
-                            <label for="">Surname</label>
+                            <label for="">Last Name</label>
 
-                            <input type="text" name="lastName" id="" class="contact_form_field required" placeholder="Surname" data-error-message="Please enter your surname.">
+                            <input type="text" name="lastName" id="" class="contact_form_field required" placeholder="Last Name" data-error-message="Please enter your last name.">
                             <div class="error_message text-left" style="display:none"></div>
                         </div>
 
@@ -158,14 +171,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
 
 
-
-                        <div class="contact_form_input fl">
-
-                            <label for="">Message</label>
-
-                            <textarea name="message" id="message" class="contact_form_field required" placeholder="Message" data-error-message="Please type your message here."></textarea>
-                            <div class="error_message text-left" style="display:none"></div>
-                        </div>
 
                         <div class="">
                             <div class="btn-bx submit-btn-bx">

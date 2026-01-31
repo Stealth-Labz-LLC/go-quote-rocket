@@ -1,10 +1,10 @@
 # Allow all search engines to crawl the site
 User-agent: *
-Disallow: /privacy.php
-Disallow: /terms.php
-Disallow: /contact.php
 
-# Block specific directories (example: admin or private directories)
+# Block conversion/utility pages
+Disallow: /thank-you.php
+
+# Block internal directories
 Disallow: /lead-import/
 Disallow: /lead-log/
 

@@ -11,8 +11,7 @@
 <title>About Go Quote Rocket | Affordable Insurance Solutions</title>
 
 <meta name="description" content="Learn more about Go Quote Rocket, the USA's trusted platform for comparing insurance options. Find out how we simplify your search for affordable coverage.">
-
-
+<link rel="canonical" href="https://goquoterocket.com/about.php">
 
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -45,9 +44,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<!-- End Google Tag Manager (noscript) -->
 <?php include 'header.php';?>
 
-
-
 <div class="inner_bnr inner_bnr--about">
+
+	<nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+			<a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+			<meta itemprop="position" content="1">
+			<span class="breadcrumb-separator">/</span>
+		</span>
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+			<span class="breadcrumb-current" itemprop="name">About</span>
+			<meta itemprop="position" content="2">
+		</span>
+	</nav>
 
 	<div class="container">
 

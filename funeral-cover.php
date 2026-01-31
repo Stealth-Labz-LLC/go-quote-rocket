@@ -21,6 +21,7 @@ $funnelId = "Funeral";
     <title>Affordable Funeral Cover in the USA | Go Quote Rocket</title>
 
     <meta name="description" content="Compare funeral cover quotes to protect your family during difficult times. Find affordable funeral plans in the USA with Go Quote Rocket.">
+    <link rel="canonical" href="https://goquoterocket.com/funeral-cover.php">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
     <!--PreloadFile -->
@@ -165,15 +166,25 @@ $funnelId = "Funeral";
 
     <?php include 'header.php'; ?>
 
-
-
     <div class="inner_sec1" id="choosePack">
+
+        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1">
+                <span class="breadcrumb-separator">/</span>
+            </span>
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span class="breadcrumb-current" itemprop="name">Funeral Cover</span>
+                <meta itemprop="position" content="2">
+            </span>
+        </nav>
 
         <div class="container">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-            <p class="inner_sec1-hdg">Get Up-To $50,000<br class="showDesk"> Funeral Cover in Minutes</p>
+            <h1 class="inner_sec1-hdg">Get Up-To $50,000<br class="showDesk"> Funeral Cover in Minutes</h1>
 
             <p class="inner_sec1_txt">Qualifying claims approved in <strong>under 5 minutes</strong>—secure financial peace<br class="showDesk"> of mind for your loved ones today.</p>
 
@@ -199,7 +210,7 @@ $funnelId = "Funeral";
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
                             <div class="form_input_box">
-                                <input type="text" value="" name="family-name" placeholder="Surname" class="input-fld required" data-error-message="Please enter your surname.">
+                                <input type="text" value="" name="family-name" placeholder="Last Name" class="input-fld required" data-error-message="Please enter your last name.">
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
 
@@ -223,7 +234,7 @@ $funnelId = "Funeral";
 
 
 
-                        <div class="form__input form__input--3">
+                        <div class="form__input form__input--2">
 
                             <div class="form_input_box">
                                 <select name="age" id="" class="input-fld required" data-error-message="Please opt your age range.">
@@ -248,20 +259,6 @@ $funnelId = "Funeral";
                                     <option value="true">Yes</option>
 
                                     <option value="false">No</option>
-
-                                </select>
-                                <div class="error_message text-left" style="display:none"></div>
-                            </div>
-
-                            <div class="form_input_box">
-                                <select name="income" id="" class="input-fld required" data-error-message="Please opt your monthly income.">
-
-                                    <option value="" selected>What is your monthly income?</option>
-                                    <option value="$0 - $5,000">$0 - $5,000</option>
-                                    <option value="$5,001 - $15,000">$5,001 - $15,000</option>
-                                    <option value="$15,001 - $30,000">$15,001 - $30,000</option>
-                                    <option value="$30,001 - $50,000">$30,001 - $50,000</option>
-                                    <option value="$50,001+">$50,001+</option>
 
                                 </select>
                                 <div class="error_message text-left" style="display:none"></div>
@@ -794,11 +791,11 @@ $funnelId = "Funeral";
 
             <div class="feefo_box">
 
-                <img src="images/feefo-logo.png" alt="" class="feefo_log" width="366" height="84">
+                <img src="images/feefo-logo.png" alt="Feefo Reviews" class="feefo_log" width="366" height="84">
 
                 <div class="feefo_review">
 
-                    <img src="images/star.png" alt="" width="228" height="40">
+                    <img src="images/star.png" alt="5 Star Rating" width="228" height="40">
 
                     <p>4.8/5 Based On 2000+ reviews</p>
 
