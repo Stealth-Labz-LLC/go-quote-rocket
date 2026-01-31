@@ -210,7 +210,7 @@ $funnelId = "Funeral";
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
                             <div class="form_input_box">
-                                <input type="text" value="" name="family-name" placeholder="Surname" class="input-fld required" data-error-message="Please enter your surname.">
+                                <input type="text" value="" name="family-name" placeholder="Last Name" class="input-fld required" data-error-message="Please enter your last name.">
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
 
@@ -234,7 +234,7 @@ $funnelId = "Funeral";
 
 
 
-                        <div class="form__input form__input--3">
+                        <div class="form__input form__input--2">
 
                             <div class="form_input_box">
                                 <select name="age" id="" class="input-fld required" data-error-message="Please opt your age range.">
@@ -259,20 +259,6 @@ $funnelId = "Funeral";
                                     <option value="true">Yes</option>
 
                                     <option value="false">No</option>
-
-                                </select>
-                                <div class="error_message text-left" style="display:none"></div>
-                            </div>
-
-                            <div class="form_input_box">
-                                <select name="income" id="" class="input-fld required" data-error-message="Please opt your monthly income.">
-
-                                    <option value="" selected>What is your monthly income?</option>
-                                    <option value="$0 - $5,000">$0 - $5,000</option>
-                                    <option value="$5,001 - $15,000">$5,001 - $15,000</option>
-                                    <option value="$15,001 - $30,000">$15,001 - $30,000</option>
-                                    <option value="$30,001 - $50,000">$30,001 - $50,000</option>
-                                    <option value="$50,001+">$50,001+</option>
 
                                 </select>
                                 <div class="error_message text-left" style="display:none"></div>

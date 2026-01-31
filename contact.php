@@ -144,9 +144,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <div class="contact_form_input half fr">
 
-                            <label for="">Surname</label>
+                            <label for="">Last Name</label>
 
-                            <input type="text" name="lastName" id="" class="contact_form_field required" placeholder="Surname" data-error-message="Please enter your surname.">
+                            <input type="text" name="lastName" id="" class="contact_form_field required" placeholder="Last Name" data-error-message="Please enter your last name.">
                             <div class="error_message text-left" style="display:none"></div>
                         </div>
 
@@ -171,14 +171,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
 
 
-
-                        <div class="contact_form_input fl">
-
-                            <label for="">Message</label>
-
-                            <textarea name="message" id="message" class="contact_form_field required" placeholder="Message" data-error-message="Please type your message here."></textarea>
-                            <div class="error_message text-left" style="display:none"></div>
-                        </div>
 
                         <div class="">
                             <div class="btn-bx submit-btn-bx">

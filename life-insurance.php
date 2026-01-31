@@ -210,7 +210,7 @@ $funnelId = "Life";
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
                             <div>
-                                <input type="text" value="" name="family-name" placeholder="Surname" class="input-fld required" data-error-message="Please enter your surname.">
+                                <input type="text" value="" name="family-name" placeholder="Last Name" class="input-fld required" data-error-message="Please enter your last name.">
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
 
@@ -234,7 +234,7 @@ $funnelId = "Life";
 
 
 
-                        <div class="form__input form__input--3">
+                        <div class="form__input form__input--2">
 
                             <div>
                                 <select name="age" class="input-fld required" data-error-message="Please select your age.">
@@ -265,28 +265,6 @@ $funnelId = "Life";
                                     <option value="true">Yes</option>
 
                                     <option value="false">No</option>
-
-                                </select>
-                                <div class="error_message text-left" style="display:none"></div>
-                            </div>
-
-                            <div>
-                                <select name="income" class="input-fld required" data-error-message="Please select your monthly income.">
-
-                                    <option value="" selected>What is your monthly income?</option>
-                                    <option value="0_To_3000">$0 - $3,000</option>
-                                    <option value="3000_To_5000">$3,001 - $5,000</option>
-                                    <option value="5000_To_10000">$5,001 - $10,000</option>
-                                    <option value="10000_To_15000">$10,001 - $15,000</option>
-                                    <option value="15000_To_20000">$15,001 - $20,000+</option>
-                                    <option value="20000_To_30000">$20,001 - $30,000+</option>
-                                    <option value="30000_To_40000">$30,001 - $40,000+</option>
-                                    <option value="40000_To_50000">$40,001 - $50,000+</option>
-                                    <option value="50000_To_60000">$50,001 - $60,000+</option>
-                                    <option value="60000_To_70000">$60,001 - $70,000+</option>
-                                    <option value="70000_To_80000">$70,001 - $80,000+</option>
-                                    <option value="80000_And_Above">$80,001+</option>
-                                    <option value="NotCurrentlyEmployed">currently Not Employed</option>
 
                                 </select>
                                 <div class="error_message text-left" style="display:none"></div>

@@ -304,13 +304,13 @@ $funnelId = "Legal";
                             </div>
 
                             <div class="form_input_box">
-                                <input type="text" name="family-name" class="input-fld required" data-error-message="Please enter your surname." placeholder="Surname">
+                                <input type="text" name="family-name" class="input-fld required" data-error-message="Please enter your last name." placeholder="Last Name">
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
 
                         </div>
 
-                        <div class="form__input form__input--3">
+                        <div class="form__input form__input--2">
 
                             <div class="form_input_box">
                                 <input type="tel" value="" name="phone" placeholder="Phone Number" class="input-fld required" data-error-message="Please enter your phone number without the country code first" maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
@@ -321,14 +321,6 @@ $funnelId = "Legal";
 
                             <div class="form_input_box">
                                 <input type="email" name="email" id="" class="input-fld required" placeholder="Email" data-error-message="Please enter your email address.">
-                                <div class="error_message text-left" style="display:none"></div>
-                            </div>
-                            <div class="form_input_box">
-                                <select name="employment" class="input-fld required" data-error-message="Please select your employment status.">
-                                    <option value="" selected="">Are you currently employed?</option>
-                                    <option value="true">Yes</option>
-                                    <option value="false">No</option>
-                                </select>
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
                         </div>
