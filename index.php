@@ -650,6 +650,44 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
 
 
+    <div class="sec8_stats">
+
+        <div class="container">
+
+            <p class="heading">Go Quote Rocket<br class="showMob"> By The Numbers</p>
+
+            <p class="comn_text">Thousands of Americans trust us to find them better insurance at lower prices.</p>
+
+            <ul class="stats_lst">
+
+                <li class="stats_item">
+                    <h3 class="stats_number">500K+</h3>
+                    <p class="stats_label">Quotes Compared</p>
+                </li>
+
+                <li class="stats_item">
+                    <h3 class="stats_number">$1,200</h3>
+                    <p class="stats_label">Average Annual Savings</p>
+                </li>
+
+                <li class="stats_item">
+                    <h3 class="stats_number">10+</h3>
+                    <p class="stats_label">Insurance Partners</p>
+                </li>
+
+                <li class="stats_item">
+                    <h3 class="stats_number">4.8/5</h3>
+                    <p class="stats_label">Customer Rating</p>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
     <div class="sec5">
 
         <div class="container">
@@ -752,6 +790,33 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     </div>
 
+
+    <div class="sec9_expert">
+        <div class="container">
+            <p class="heading">Need Help? We're Here For You</p>
+            <p class="comn_text">Our team of licensed insurance professionals is ready to assist you every step of the way.</p>
+            <div class="expert_grid">
+                <div class="expert_card">
+                    <img src="/images/contact-phn-icn.png" alt="Call Go Quote Rocket" class="expert_icon" width="60" height="60">
+                    <h3 class="expert_title">Call Us</h3>
+                    <p class="expert_desc">Speak directly with an insurance expert</p>
+                    <a href="tel:19049425529" class="expert_link">(904) 942-5529</a>
+                </div>
+                <div class="expert_card">
+                    <img src="/images/contact-mail-icn.png" alt="Email Go Quote Rocket" class="expert_icon" width="60" height="60">
+                    <h3 class="expert_title">Email Us</h3>
+                    <p class="expert_desc">Send us your questions anytime</p>
+                    <a href="mailto:support@goquoterocket.com" class="expert_link">support@goquoterocket.com</a>
+                </div>
+                <div class="expert_card">
+                    <img src="/images/contact-loca-icn.png" alt="Go Quote Rocket Hours" class="expert_icon" width="60" height="60">
+                    <h3 class="expert_title">Business Hours</h3>
+                    <p class="expert_desc">Mon - Fri: 9AM - 6PM EST</p>
+                    <p class="expert_link">Jacksonville, FL</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="sec7">
@@ -952,6 +1017,47 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     </div>
 
+
+    <div class="sec10_trust">
+        <div class="container">
+            <p class="heading">Your Security Is Our Priority</p>
+            <p class="comn_text">We take every measure to protect your information and deliver a trustworthy experience.</p>
+            <ul class="trust_list">
+                <li class="trust_item">
+                    <img src="/images/checkmark.svg" alt="Secure" class="trust_check" width="28" height="28">
+                    <div class="trust_text">
+                        <h3>256-Bit SSL Encryption</h3>
+                        <p>Your personal information is protected with bank-level security at every step.</p>
+                    </div>
+                </li>
+                <li class="trust_item">
+                    <img src="/images/checkmark.svg" alt="Licensed" class="trust_check" width="28" height="28">
+                    <div class="trust_text">
+                        <h3>Licensed Insurance Partners</h3>
+                        <p>We only work with licensed, vetted insurance providers across the United States.</p>
+                    </div>
+                </li>
+                <li class="trust_item">
+                    <img src="/images/checkmark.svg" alt="No Spam" class="trust_check" width="28" height="28">
+                    <div class="trust_text">
+                        <h3>No-Spam Policy</h3>
+                        <p>We will never sell your data to third-party marketers. Your inbox is safe with us.</p>
+                    </div>
+                </li>
+                <li class="trust_item">
+                    <img src="/images/checkmark.svg" alt="Free" class="trust_check" width="28" height="28">
+                    <div class="trust_text">
+                        <h3>100% Free Service</h3>
+                        <p>No hidden fees, no obligations. Compare quotes and choose what works for you.</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="trust_badges">
+                <img src="/images/secure.svg" alt="Secure Website" width="120" height="40">
+                <img src="/images/heart.svg" alt="Trusted Service" width="120" height="40">
+            </div>
+        </div>
+    </div>
 
 
     <div class="blue_strip">
