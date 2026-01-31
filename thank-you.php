@@ -32,7 +32,8 @@ $data = $_SESSION;
 
 
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,7 +72,7 @@ $data = $_SESSION;
 
     <div class="thankyou_content">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="thankyou_heading">Congratulations!</p>
 

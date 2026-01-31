@@ -1,6 +1,6 @@
 <!-- US Carrier Logo Strip -->
 <div class="as-seen">
-    <div class="container">
+    <div class="container-fluid">
         <p class="as-seen__heading">Quotes from America's top providers, including:</p>
     </div>
     <div class="brand__strip__scroller">

@@ -35,7 +35,8 @@ $funnelId = "Health";
     <link rel="preload" href="images/footer-logos-gray.svg" type="image/svg+xml" as="image" />
     <!--PreloadFile End-->
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
     <link rel="stylesheet" type="text/css" href="css/slick.css">
 
@@ -141,7 +142,7 @@ $funnelId = "Health";
 
     <div class="inner_sec1" id="choosePack">
 
-        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -153,7 +154,7 @@ $funnelId = "Health";
             </span>
         </nav>
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
@@ -279,7 +280,7 @@ $funnelId = "Health";
 
     <div class="inner_sec2">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">How We Make<br class="showDesk"> Finding Medical Insurance Easy</p>
 
@@ -341,7 +342,7 @@ $funnelId = "Health";
 
     <div class="inner_sec3">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Compare & Save On<br class="hideMob"> All<br class="showMob"> Types Of Medical Insurance</p>
 
@@ -575,7 +576,7 @@ $funnelId = "Health";
 
     <div class="why_choose">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="why_choose_left">
 
@@ -641,7 +642,7 @@ $funnelId = "Health";
 
     <div class="inner_sec4">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Get The Most From<br class="showDesk"> Medical Insurance In the USA</p>
 
@@ -723,7 +724,7 @@ $funnelId = "Health";
 
     <div class="sec3">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
@@ -911,7 +912,7 @@ $funnelId = "Health";
 
     <div class="sec7">
 
-        <div class="container" id="faq-section">
+        <div class="container-fluid" id="faq-section">
 
             <p class="heading">Frequently Asked Questions</p>
 

@@ -12,7 +12,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "?" . $_SERVER['QUERY_STRING']
 ?>
 
 <div class="info-sec">
-    <div class="container">
+    <div class="container-fluid">
         <div class="info-sec-inr">
             <!-- Company Info Column -->
             <div class="info-sec-col">
@@ -51,7 +51,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "?" . $_SERVER['QUERY_STRING']
 
 <!-- Legal Footer -->
 <div class="footer">
-    <div class="container">
+    <div class="container-fluid">
         <div class="footer__inner">
             <p class="footer__text footer__text--1">
                 © <?= date('Y') ?> <?= $brand['legal']['company_legal_name'] ?? $brand['company_name'] . ' LLC' ?> | All Rights Reserved

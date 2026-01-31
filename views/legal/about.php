@@ -27,7 +27,7 @@ $about = $legal['about'] ?? [];
 
     <!-- Legal Content -->
     <main class="legal-content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="legal-content__inner">
                 <h1 class="legal-content__title">About <?= $brand['company_name'] ?></h1>
 

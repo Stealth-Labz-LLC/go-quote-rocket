@@ -41,7 +41,8 @@ $funnelId = "Life";
     <link rel="preload" href="css/error-handler.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="css/loader-design.css" as="style" onload="this.rel='stylesheet'">
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
 
 
@@ -168,7 +169,7 @@ $funnelId = "Life";
 
     <div class="inner_sec1" id="choosePack">
 
-        <nav class="breadcrumbs container" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -180,7 +181,7 @@ $funnelId = "Life";
             </span>
         </nav>
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
@@ -314,7 +315,7 @@ $funnelId = "Life";
 
     <div class="inner_sec2">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">How We Make<br> Finding Life Insurance Easy</p>
 
@@ -376,7 +377,7 @@ $funnelId = "Life";
 
     <div class="inner_sec3">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Compare Life Insurance<br class="showDesk"> Plans To Find Your Perfect Fit</p>
 
@@ -554,7 +555,7 @@ $funnelId = "Life";
 
     <div class="why_choose">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="why_choose_left">
 
@@ -620,7 +621,7 @@ $funnelId = "Life";
 
     <div class="inner_sec4">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Secure Your Family's<br class="showDesk"> Future With Life Insurance</p>
 
@@ -735,7 +736,7 @@ $funnelId = "Life";
 
     <div class="sec3">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
@@ -922,7 +923,7 @@ $funnelId = "Life";
 
     <div class="sec7">
 
-        <div class="container" id="faq-section">
+        <div class="container-fluid" id="faq-section">
 
             <p class="heading">Frequently Asked Questions</p>
 

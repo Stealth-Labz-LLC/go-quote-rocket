@@ -4,7 +4,7 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
 <div class="top-fix-bar">
     <div class="header">
-        <div class="container">
+        <div class="container-fluid">
             <div class="mob-mnu-ic showTab">
                 <button class="dl-trigger" id="mobMenuBtn">
                     <div class="bar1"></div>

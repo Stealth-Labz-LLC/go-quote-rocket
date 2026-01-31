@@ -72,7 +72,7 @@ $t = $tracking;
 
     <!-- Main Funnel -->
     <main class="funnel-main">
-        <div class="container" style="max-width: 700px; margin: 0 auto; padding: 2rem 1rem;">
+        <div class="container-fluid" style="max-width: 700px; margin: 0 auto; padding: 2rem 1rem;">
             <h1 class="funnel-title text-center"><?= $v['flow']['title'] ?></h1>
 
             <form id="funnelForm" class="funnel-form">

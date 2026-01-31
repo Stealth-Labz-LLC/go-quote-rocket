@@ -117,7 +117,7 @@
     ?>
 
     <div class="inner_bnr inner_bnr--articles">
-        <div class="container">
+        <div class="container-fluid">
             <div class="inner_bnr_content">
                 <div>
                     <p class="inner_bnr_hdg">Insurance Guides & Articles</p>
@@ -128,7 +128,7 @@
     </div>
 
     <div class="articles-hub">
-        <div class="container">
+        <div class="container-fluid">
             <div class="articles-grid">
 
                 <div class="article-card">
