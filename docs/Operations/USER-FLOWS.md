@@ -200,8 +200,8 @@ This document maps all user journeys through the GoQuoteRocket platform, coverin
 │ ┌─────────────────────────────────────────────────────────────────────────┐ │
 │ │ PRODUCT TYPES (Tabbed content)                                          │ │
 │ │ • Tab 1: Comprehensive Insurance                                        │ │
-│ │ • Tab 2: Third Party Fire & Theft                                       │ │
-│ │ • Tab 3: Third Party Only                                               │ │
+│ │ • Tab 2: Liability Coverage                                              │ │
+│ │ • Tab 3: Collision & Comprehensive                                      │ │
 │ └─────────────────────────────────────────────────────────────────────────┘ │
 │                                                                             │
 │ ┌─────────────────────────────────────────────────────────────────────────┐ │
@@ -211,8 +211,8 @@ This document maps all user journeys through the GoQuoteRocket platform, coverin
 │                                                                             │
 │ ┌─────────────────────────────────────────────────────────────────────────┐ │
 │ │ COST EXAMPLES                                                           │ │
-│ │ • VW Polo: R1,437/month                                                 │ │
-│ │ • Toyota Corolla: R1,321/month                                          │ │
+│ │ • VW Jetta: $187/month                                                  │ │
+│ │ • Toyota Corolla: $165/month                                            │ │
 │ │ • etc.                                                                  │ │
 │ └─────────────────────────────────────────────────────────────────────────┘ │
 │                                                                             │
@@ -243,8 +243,8 @@ This document maps all user journeys through the GoQuoteRocket platform, coverin
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ Validation checks:                                                          │
 │ • Required fields not empty                                                 │
-│ • Phone number format (0xx xxx xxxx)                                        │
-│ • Phone number not starting with 086, 085, 080, 09, 27                      │
+│ • Phone number format (valid 10-digit U.S. number)                          │
+│ • Phone number validation                                                   │
 │ • Email format valid                                                        │
 │ • Terms checkbox checked                                                    │
 │                                                                             │

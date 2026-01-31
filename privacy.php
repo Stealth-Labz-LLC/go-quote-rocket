@@ -79,7 +79,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-            <p>While using the Website, information about you may be either collected by us or provided by you, such as, without limitation, your name, surname, title, birth date, gender, ID number, country of residence, closest city, address, contact numbers, non-personal browsing habits and click patterns, email address, and IP address. You consent to such collection of information.
+            <p>While using the Website, information about you may be either collected by us or provided by you, such as, without limitation, your name, last name, title, birth date, gender, ID number, country of residence, closest city, address, contact numbers, non-personal browsing habits and click patterns, email address, and IP address. You consent to such collection of information.
 
             </p>
 

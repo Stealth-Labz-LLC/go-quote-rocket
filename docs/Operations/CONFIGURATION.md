@@ -160,8 +160,8 @@ return [
     // ============================================================
     'company_name' => 'GoQuoteRocket',
     'tagline' => 'Compare. Save. Protect.',
-    'phone' => '1-800-555-1234',
-    'phone_display' => '1 (800) 555-1234',
+    'phone' => '(904) 942-5529',
+    'phone_display' => '(904) 942-5529',
     'email' => 'support@goquoterocket.com',
 
     // ============================================================

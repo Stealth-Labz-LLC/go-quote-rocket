@@ -46,7 +46,7 @@ class Brand
         return [
             'company_name' => 'GoQuoteRocket',
             'tagline' => 'Compare. Save. Protect.',
-            'phone' => '1-800-555-1234',
+            'phone' => '(904) 942-5529',
             'email' => 'support@goquoterocket.com',
             'colors' => [
                 'primary' => '#002e6a',

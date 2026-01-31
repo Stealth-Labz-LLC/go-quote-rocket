@@ -5,7 +5,7 @@
                 <img src="/images/logo.svg" alt="Go Quote Rocket Logo" class="info-sec-log" width="506" height="48">
                 <p class="info-sec-tx">Go Quote Rocket is based in the USA, working hard to get you the rates you deserve.</p>
                 <p class="contact_info"><img src="/images/phn-icn.png" alt="Go Quote Rocket Customer Service" width="36" height="34">
-                    <a href="tel:18005551234" style="text-decoration: none;color: #000;">(800) 555-1234</a>
+                    <a href="tel:19049425529" style="text-decoration: none;color: #000;">(904) 942-5529</a>
                 </p>
                 <p class="contact_info"><img src="/images/mail-icn.png" alt="Go Quote Rocket Support email" width="36" height="34"><a href="mailto:support@goquoterocket.com" style="text-decoration: none;color: #000;">support@goquoterocket.com</a>
                 </p>

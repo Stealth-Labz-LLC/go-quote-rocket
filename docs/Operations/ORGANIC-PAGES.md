@@ -251,25 +251,12 @@ $.ajax({
 ### Validation Functions
 
 ```javascript
-// Phone validation (South African format)
-function validateZAPhone(PhoneNumber) {
-    const prompText = `Please check that your phone number is in local format 0xx xxx xxxx...`;
-    const PhoneSub = phoneField.substring(0, 3);
-
-    // Invalid prefixes
-    if (PhoneSub.includes("27") || PhoneSub.includes("+27") ||
-        PhoneSub.includes("080") || PhoneSub.includes("086") ||
-        PhoneSub.includes("085") || PhoneSub.includes("09")) {
-        // Show error
-    }
+// Phone validation (U.S. format)
+function validateUSPhone(PhoneNumber) {
+    const promptText = `Please enter a valid 10-digit U.S. phone number.`;
 
     // Length check
-    if (PhoneNumber.length < 10) {
-        // Show error
-    }
-
-    // First digit check
-    if (PhoneNumber.length == 10 && PhoneNumber.charAt(0) !== '0') {
+    if (PhoneNumber.length !== 10) {
         // Show error
     }
 }

@@ -98,7 +98,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <p>Call Us</p>
 
-                            <h3>(800) 555-1234</h3>
+                            <h3>(904) 942-5529</h3>
 
                         </li>
 
@@ -118,7 +118,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <p>Headquarters</p>
 
-                            <h3>Watershed 17 Dock Rd, Victoria & Alfred Waterfront, Cape Town, 8002</h3>
+                            <h3>Jacksonville, FL</h3>
 
                         </li>
 
@@ -166,7 +166,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <input type="tel" name="phone" id="" class="contact_form_field required" placeholder="Phone" data-error-message="Please enter your phone number." maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
                             <div class="error_message text-left" style="display: none;" id="phone_prompt">
-                                <span>Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,or 09 aren't supported.</span>
+                                <span>Please enter a valid 10-digit U.S. phone number.</span>
                             </div>
                         </div>
 
@@ -251,10 +251,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         }
                     });
                 if (PhoneNumber.length == 10 && PhoneNumber.charAt(0) !== '0') {
-                    errors.push("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,  or 09 aren't supported.");
-                    $('#phone_prompt').text("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.").show();
+                    errors.push("Please enter a valid 10-digit U.S. phone number.");
+                    $('#phone_prompt').text("Please enter a valid 10-digit U.S. phone number.").show();
                 } else {
-                    $('#phone_prompt').text("Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080, or 09 aren't supported.").show();
+                    $('#phone_prompt').text("Please enter a valid 10-digit U.S. phone number.").show();
                 }
 
                 if (errors.length == 0 && PhoneNumber.length == 10) {

@@ -14,11 +14,11 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
             </div>
             <a href="/"><img src="/images/logo.svg" class="logo" width="506" height="48" alt="Go Quote Rocket Logo"></a>
             <div class="header_right">
-                <!--<a href="tel:(800) 555-1234">
+                <!--<a href="tel:19049425529">
                     <img src="/images/phone_icon.png" width="58" height="58" alt="icn" class="phone_call">
                     <p class="header_right_txt1">Speak with a Licensed Insurance Agent</p>
-                    <p class="header_right_txt2">(800) 555-1234</p>
-                    <p class="header_right_txt1">Available: Mon - Sun 9AM - 6PM SAST</p>
+                    <p class="header_right_txt2">(904) 942-5529</p>
+                    <p class="header_right_txt1">Available: Mon - Sun 9AM - 6PM EST</p>
                 </a>-->
             </div>
 

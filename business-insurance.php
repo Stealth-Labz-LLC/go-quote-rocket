@@ -216,7 +216,7 @@ $funnelId = "Biz";
                             </div>
 
                             <div class="form_input_box">
-                                <input type="text" name="family-name" class="input-fld required" data-error-message="Please enter your surname." placeholder="Surname">
+                                <input type="text" name="family-name" class="input-fld required" data-error-message="Please enter your last name." placeholder="Last Name">
                                 <div class="error_message text-left" style="display:none"></div>
                             </div>
 
@@ -224,7 +224,7 @@ $funnelId = "Biz";
                                 <input type="tel" name="phone" placeholder="Phone Number" class="input-fld required" data-error-message="Please enter your phone number without the country code first" maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
 
                                 <div class="error_message text-left" style="display: none;" id="phone_prompt">
-                                    <span class="phone-prompt-error">Please check that your phone number is in local format 0xx xxx xxxx. Numbers starting with 086, 085, 080,or 09 aren't supported.</span>
+                                    <span class="phone-prompt-error">Please enter a valid 10-digit U.S. phone number.</span>
                                 </div>
                             </div>
 
@@ -242,21 +242,21 @@ $funnelId = "Biz";
 
                                     <option value="" selected="">Select your city...</option>
 
-                                    <option value="Bloemfontein">Bloemfontein</option>
+                                    <option value="Atlanta">Atlanta</option>
 
-                                    <option value="CapeTown">CapeTown</option>
+                                    <option value="Austin">Austin</option>
 
-                                    <option value="Durban">Durban</option>
+                                    <option value="Chicago">Chicago</option>
 
-                                    <option value="Johannesburg">Johannesburg</option>
+                                    <option value="Dallas">Dallas</option>
 
-                                    <option value="Pietermaritzburg">Pietermaritzburg</option>
+                                    <option value="Denver">Denver</option>
 
-                                    <option value="Polokwane">Polokwane</option>
+                                    <option value="Jacksonville">Jacksonville</option>
 
-                                    <option value="PortElizabeth">PortElizabeth</option>
+                                    <option value="Miami">Miami</option>
 
-                                    <option value="Pretoria">Pretoria</option>
+                                    <option value="Phoenix">Phoenix</option>
 
                                     <option value="Other">Other</option>
 
@@ -855,7 +855,7 @@ $funnelId = "Biz";
                     <p class="reviews_text">"I couldn’t believe how quickly Go Quote Rocket found me the best insurance options. The whole process was stress-free and saved me so much time."</p>
 
                     <div class="reviews_name"><img src="images/ntombi.jpg" alt="Customer Named Loren" width="100" height="100" class="rev_fc">
-                        <p><span>Loren</span><br> Port Elizabeth</p>
+                        <p><span>Lauren</span><br> Jacksonville, FL</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -875,7 +875,7 @@ $funnelId = "Biz";
                     <p class="reviews_text">"Go Quote Rocket’s customer service was outstanding. They answered all my questions and helped me choose a plan that worked perfectly for my budget."</p>
 
                     <div class="reviews_name"><img src="images/themba.jpg" alt="Customer Named Themba" width="100" height="100" class="rev_fc">
-                        <p><span>Themba</span><br> Bloemfontein</p>
+                        <p><span>James</span><br> Austin, TX</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -895,7 +895,7 @@ $funnelId = "Biz";
                     <p class="reviews_text">"I’m so glad I used Go Quote Rocket! They compared multiple options for me and found the best deal in minutes. Highly efficient and reliable."</p>
 
                     <div class="reviews_name"><img src="images/lebo.jpg" alt="Customer Named Mike" width="100" height="100" class="rev_fc">
-                        <p><span>Mike</span><br> East London</p>
+                        <p><span>Mike</span><br> Denver, CO</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Rating" class="reviews_star" width="228" height="40">
@@ -915,7 +915,7 @@ $funnelId = "Biz";
                     <p class="reviews_text">"Go Quote Rocket’s service was incredibly fast and efficient. They provided me with great options and unbeatable prices. I’m thrilled with the deal I got and highly recommend them."</p>
 
                     <div class="reviews_name"><img src="images/marthinus.jpg" alt="Customer Named Marthinus" width="100" height="100" class="rev_fc">
-                        <p><span>Marthinus</span><br> Johannesburg</p>
+                        <p><span>Martin</span><br> Chicago, IL</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Rated" class="reviews_star" width="228" height="40">
@@ -935,7 +935,7 @@ $funnelId = "Biz";
                     <p class="reviews_text">"Finding the right insurance was so easy with Go Quote Rocket. The options were tailored to my needs, and everything was simple and straightforward."</p>
 
                     <div class="reviews_name"><img src="images/thandi.jpg" alt="Customer Named Thandi" width="100" height="100" class="rev_fc">
-                        <p><span>Thandi</span><br> Durban</p>
+                        <p><span>Sarah</span><br> Phoenix, AZ</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -955,7 +955,7 @@ $funnelId = "Biz";
                     <p class="reviews_text">"Excellent service! Go Quote Rocket made it easy to find a great insurance deal. They were professional and very helpful throughout the process."</p>
 
                     <div class="reviews_name"><img src="images/sipho.jpg" alt="Customer Named Sipho" width="100" height="100" class="rev_fc">
-                        <p><span>Sipho</span><br> Cape Town</p>
+                        <p><span>David</span><br> Atlanta, GA</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -975,7 +975,7 @@ $funnelId = "Biz";
                     <p class="reviews_text">"Go Quote Rocket was a lifesaver! They helped me find insurance quickly with a smooth, convenient process. Highly recommended."</p>
 
                     <div class="reviews_name"><img src="images/zanele.jpg" alt="Customer Named Zanele" width="100" height="100" class="rev_fc">
-                        <p><span>Zanele</span><br> Pretoria</p>
+                        <p><span>Jessica</span><br> Dallas, TX</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
@@ -993,7 +993,7 @@ $funnelId = "Biz";
                     <p class="reviews_text">"Go Quote Rocket’s system was so easy to use. I quickly found the coverage I needed without any hassle. Fantastic experience!"</p>
 
                     <div class="reviews_name"><img src="images/loraine.jpg" alt="Customer Named Loraine" width="100" height="100" class="rev_fc">
-                        <p><span>Loraine</span><br> Cape Town</p>
+                        <p><span>Loraine</span><br> Miami, FL</p>
                     </div>
 
                     <img src="images/star.png" alt="5 Star Review" class="reviews_star" width="228" height="40">
