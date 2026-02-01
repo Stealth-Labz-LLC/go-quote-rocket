@@ -110,6 +110,11 @@ h1.inner_sec1-hdg {
   max-width: 1500px;
 }
 
+/* Bootstrap utility replacements (not in bootstrap-grid.min.css) */
+.text-center { text-align: center; }
+.mt-3 { margin-top: 1rem; }
+.mt-4 { margin-top: 1.5rem; }
+
 /* ===== Header ===== */
 .top-fix-bar {
   float: left;
@@ -308,7 +313,6 @@ ul.topMenu li:hover .dropMenu {
 }
 
 .sec1-inr {
-  width: 58%;
   text-align: left;
 }
 
@@ -467,15 +471,20 @@ ul.btn-list li img {
   line-height: 72px;
 }
 
+.sec1-mob {
+  position: relative;
+  text-align: center;
+}
+
 .sec1_img {
-  position: absolute;
-  right: -90px;
-  top: -40px;
+  position: relative;
+  max-width: 100%;
+  height: auto;
 }
 
 .sec1_phone {
   position: absolute;
-  right: 300px;
+  right: 40%;
   top: 280px;
 }
 
@@ -610,10 +619,7 @@ ul.scroll__brand__list li img.zestlife_logo {
   margin-top: 15px;
 }
 
-.sec2_inr {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
+.sec2 .row {
   margin-top: 40px;
 }
 
@@ -761,10 +767,6 @@ ul.scroll__brand__list li img.zestlife_logo {
 }
 
 .works_inr {
-  display: flex;
-  display: -webkit-flex;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
   margin-top: 45px;
 }
 
@@ -776,10 +778,10 @@ ul.scroll__brand__list li img.zestlife_logo {
 }
 
 .works_box1 {
-  width: 40%;
   box-shadow: 0 0 15px 1px rgb(38 116 217 / .1);
   -webkit-box-shadow: 0 0 15px 1px rgb(38 116 217 / .1);
   position: relative;
+  height: 100%;
 }
 
 .works_box1 .works_box_content {
@@ -841,7 +843,7 @@ ul.works_box1_lst li {
 .works_box3 {
   flex-direction: column;
   background: #f5f9ff;
-  width: 28%;
+  height: 100%;
 }
 
 .work-box2_image,
@@ -1124,9 +1126,6 @@ ul.acdn_list li {
 /* ===== Blue Strip CTA ===== */
 .blue_strip {
   background: #002e6a;
-  max-width: 1260px;
-  width: 96%;
-  margin: 0 auto;
   border-radius: 10px;
   padding: 30px 40px;
   display: inline-block;
@@ -1134,9 +1133,7 @@ ul.acdn_list li {
 }
 
 .blue_strip_cont {
-  float: left;
   color: #fff;
-  width: 56%;
   text-align: left;
 }
 
@@ -1154,8 +1151,6 @@ ul.acdn_list li {
 }
 
 .blue_strip_btn {
-  float: right;
-  width: 40%;
   margin-top: 11px;
 }
 
@@ -2751,7 +2746,6 @@ ul.trust_lst {
 
   .works_box2,
   .works_box3 {
-    width: 29%;
   }
 
   .about_sec1_content {
@@ -3007,21 +3001,12 @@ ul.trust_lst {
     top: 16px;
   }
 
-  .sec1-inr {
-    width: 60%;
-  }
-
   .sec1-hdg {
     font-size: 38px;
     line-height: 46px;
   }
 
-  .sec1_img {
-    right: -220px;
-  }
-
   .sec1_phone {
-    right: 120px;
     width: 170px;
   }
 
@@ -3061,9 +3046,6 @@ ul.trust_lst {
   }
 
   .works_inr {
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    max-width: 600px;
     margin: 15px auto 0;
   }
 
@@ -3071,17 +3053,8 @@ ul.trust_lst {
     margin-top: 30px;
   }
 
-  .works_box1 {
-    width: 100%;
-  }
-
   .works_box1 .works_box_content p {
     padding-right: 230px;
-  }
-
-  .works_box2,
-  .works_box3 {
-    width: 48%;
   }
 
   .sec5 {
@@ -3451,10 +3424,6 @@ ul.trust_lst {
     padding: 22px 0 30px;
   }
 
-  .sec1-inr {
-    width: 100%;
-  }
-
   .sec1-rat-txt {
     padding: 6px 10px;
     font-size: 13px;
@@ -3594,10 +3563,9 @@ ul.trust_lst {
     padding: 25px 0 35px;
   }
 
-  .sec2_inr {
-    grid-template-columns: 1fr;
-    margin: 20px auto 0;
+  .sec2 .sec2_inr_bx {
     max-width: 420px;
+    margin: 0 auto;
   }
 
   .heading {
@@ -3681,7 +3649,6 @@ ul.trust_lst {
   }
 
   .works_inr {
-    margin: 0 auto;
   }
 
   .works_box1 {
@@ -3707,7 +3674,6 @@ ul.trust_lst {
 
   .works_box2,
   .works_box3 {
-    width: 100%;
     margin-top: 25px;
   }
 
@@ -3840,13 +3806,11 @@ ul.trust_lst {
   }
 
   .blue_strip {
-    width: 100%;
     border-radius: 0;
   }
 
   .blue_strip_cont,
   .blue_strip_btn {
-    width: 100%;
     text-align: center;
   }
 

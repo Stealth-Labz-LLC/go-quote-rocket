@@ -184,110 +184,69 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
     <div class="sec1" id="choosePack">
 
-        <div class="container-fluid">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="sec1-inr">
 
-            <div class="sec1-inr">
+                        <p class="sec1-rat-txt"><img src="images/sec1-star.png" alt="Go Quote Rocket Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
-                <p class="sec1-rat-txt"><img src="images/sec1-star.png" alt="Go Quote Rocket Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
+                        <div class="tab-content" id="car">
+                            <h1 class="sec1-hdg">Compare Car Insurance Quotes In 1 Minute and Save!</h1>
+                            <p class="sec1-txt">Get cheap car insurance rates from America's top providers and <b>save up-to $150 per month</b>.</p>
+                        </div>
 
+                        <div class="tab-content" id="medical" style="display:none;">
+                            <p class="sec1-hdg">Compare Medical Insurance Quotes & Find Savings In 1 Minute!</p>
+                            <p class="sec1-txt">Get cheap medical insurance rates from America's top providers and <b>save up to $150 per month</b>.</p>
+                        </div>
 
+                        <div class="tab-content" id="life" style="display:none;">
+                            <p class="sec1-hdg">Compare Life Insurance Quotes and Save Every Month!</p>
+                            <p class="sec1-txt">Save <b>up to 35% on your monthly premium</b> with personalized life insurance plans.</p>
+                        </div>
 
-                <div class="tab-content" id="car">
+                        <div class="tab-content" id="debt" style="display:none;">
+                            <p class="sec1-hdg">Find Debt Relief and Savings On Payments In 1 Minute!</p>
+                            <p class="sec1-txt">Get debt relief quotes and breath easy with debt rescue today!</p>
+                        </div>
 
-                    <h1 class="sec1-hdg">Compare Car Insurance Quotes In 1 Minute and Save!</h1>
+                        <ul class="sec1-lst">
+                            <li class="active" data-target="#car" data-link="car-insurance.php<?= $queryParams ?>">
+                                <img src="images/sec1-lst-icn1.png" alt="Car Insurance" width="80" height="76">
+                                <p>Car</p>
+                            </li>
+                            <li data-target="#medical" data-link="medical-insurance.php<?= $queryParams ?>">
+                                <img src="images/sec1-lst-icn2.png" alt="Medical Insurance" width="80" height="76">
+                                <p>Medical</p>
+                            </li>
+                            <li data-target="#life" data-link="life-insurance.php<?= $queryParams ?>">
+                                <img src="images/sec1-lst-icn3.png" alt="Life Insurance" width="80" height="76">
+                                <p>Life</p>
+                            </li>
+                            <li data-target="#debt" data-link="debt-relief.php<?= $queryParams ?>">
+                                <img src="images/sec1-lst-icn4.png" alt="Debt Relief" width="80" height="76">
+                                <p>Debt</p>
+                            </li>
+                        </ul>
 
-                    <p class="sec1-txt">Get cheap car insurance rates from America's top providers and <b>save up-to $150 per month</b>.</p>
+                        <div class="btn-bx sec1-btn-bx">
+                            <a href="car-insurance.php<?= $queryParams ?>" class="comn-btn">Compare Quotes Now</a>
+                            <ul class="btn-list">
+                                <li><img src="images/btn-lst-icn1.png" alt="Happy Customers" width="40" height="40"> 442 000 Happy Customers <span class="hideMob">& Counting</span></li>
+                                <li><img src="images/btn-lst-icn2.png" alt="Confidential Form" width="40" height="40"> 100% <span class="hideMob">Confidential &amp;</span> Secure <span class="showMob">Form</span></li>
+                            </ul>
+                        </div>
 
+                    </div>
                 </div>
-
-                <div class="tab-content" id="medical" style="display:none;">
-
-                    <p class="sec1-hdg">Compare Medical Insurance Quotes & Find Savings In 1 Minute!</p>
-
-                    <p class="sec1-txt">Get cheap medical insurance rates from America's top providers and <b>save up to $150 per month</b>.</p>
-
+                <div class="col-lg-5 d-none d-lg-block">
+                    <div class="sec1-mob">
+                        <img src="images/sec1-img.png" alt="Girl Using Go Quote Rocket Smiling" class="sec1_img" width="474" height="689">
+                        <img src="images/sec-1-phone.png" alt="Go Quote Rocket Photo" class="sec1_phone" width="188" height="283">
+                    </div>
                 </div>
-
-                <div class="tab-content" id="life" style="display:none;">
-
-                    <p class="sec1-hdg">Compare Life Insurance Quotes and Save Every Month!</p>
-
-                    <p class="sec1-txt">Save <b>up to 35% on your monthly premium</b> with personalized life insurance plans.</p>
-
-                </div>
-
-                <div class="tab-content" id="debt" style="display:none;">
-
-                    <p class="sec1-hdg">Find Debt Relief and Savings On Payments In 1 Minute!</p>
-
-                    <p class="sec1-txt">Get debt relief quotes and breath easy with debt rescue today!</p>
-
-                </div>
-
-
-
-                <ul class="sec1-lst">
-
-                    <li class="active" data-target="#car" data-link="car-insurance.php<?= $queryParams ?>">
-
-                        <img src="images/sec1-lst-icn1.png" alt="Car Insurance" width="80" height="76">
-
-                        <p>Car</p>
-
-                    </li>
-
-                    <li data-target="#medical" data-link="medical-insurance.php<?= $queryParams ?>">
-
-                        <img src="images/sec1-lst-icn2.png" alt="Medical Insurance" width="80" height="76">
-
-                        <p>Medical</p>
-
-                    </li>
-
-                    <li data-target="#life" data-link="life-insurance.php<?= $queryParams ?>">
-
-                        <img src="images/sec1-lst-icn3.png" alt="Life Insurance" width="80" height="76">
-
-                        <p>Life</p>
-
-                    </li>
-
-                    <li data-target="#debt" data-link="debt-relief.php<?= $queryParams ?>">
-
-                        <img src="images/sec1-lst-icn4.png" alt="Debt Relief" width="80" height="76">
-
-                        <p>Debt</p>
-
-                    </li>
-
-                </ul>
-
-                <div class="btn-bx sec1-btn-bx">
-
-                    <a href="car-insurance.php<?= $queryParams ?>" class="comn-btn">Compare Quotes Now</a>
-
-                    <ul class="btn-list">
-
-                        <li><img src="images/btn-lst-icn1.png" alt="Happy Customers" width="40" height="40"> 442 000 Happy Customers <span class="hideMob">& Counting</span></li>
-
-                        <li><img src="images/btn-lst-icn2.png" alt="Confidential Form" width="40" height="40"> 100% <span class="hideMob">Confidential &amp;</span> Secure <span class="showMob">Form</span></li>
-
-                    </ul>
-
-                </div>
-
-
-
-                <div class="sec1-mob">
-
-                    <img src="images/sec1-img.png" alt="Girl Using Go Quote Rocket Smiling" class="sec1_img" width="474" height="689">
-
-                    <img src="images/sec-1-phone.png" alt="Go Quote Rocket Photo" class="sec1_phone" width="188" height="283">
-
-                </div>
-
             </div>
-
         </div>
 
     </div>
@@ -308,47 +267,36 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
 
 
-            <div class="sec2_inr">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx">
-
-                    <img src="images/sec2-bx-img1.webp" alt="Girl On Phone" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Do It Yourself</h3>
-
-                        <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected and secure.</p>
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/sec2-bx-img1.webp" alt="Girl On Phone" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Do It Yourself</h3>
+                            <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected and secure.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx">
-
-                    <img src="images/sec2-bx-img2.webp" alt="Guy On Phone Call" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Speak To An Expert</h3>
-
-                        <p>Speak with an insurance specialist for personalized quotes and expert advice over the phone.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/sec2-bx-img2.webp" alt="Guy On Phone Call" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Speak To An Expert</h3>
+                            <p>Speak with an insurance specialist for personalized quotes and expert advice over the phone.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx">
-
-                    <img src="images/sec2-bx-img3.webp" alt="Girl Excited Hanging Out Car Window" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Get Up To 30% Savings</h3>
-
-                        <p>Take control of your budget with incredible savings of up to 30% on your <a href="medical-insurance.php<?= $queryParams ?>" alt="Medical Insurance Quotes">insurance premiums</a>.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/sec2-bx-img3.webp" alt="Girl Excited Hanging Out Car Window" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Get Up To 30% Savings</h3>
+                            <p>Take control of your budget with incredible savings of up to 30% on your <a href="medical-insurance.php<?= $queryParams ?>" alt="Medical Insurance Quotes">insurance premiums</a>.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>
@@ -362,23 +310,21 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
     <div class="sec3">
 
         <div class="container-xl">
+            <div class="row">
+                <div class="col-12">
 
-            <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
+                    <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
-            <div class="feefo_box">
-
-                <img src="images/feefo-logo.png" alt="Customer Reviews" class="feefo_log" width="366" height="84">
-
-                <div class="feefo_review">
-
-                    <img src="images/star.png" alt="5 Star Rating" width="228" height="40">
-
-                    <p>4.8/5 Based On 2000+ reviews</p>
+                    <div class="feefo_box">
+                        <img src="images/feefo-logo.png" alt="Customer Reviews" class="feefo_log" width="366" height="84">
+                        <div class="feefo_review">
+                            <img src="images/star.png" alt="5 Star Rating" width="228" height="40">
+                            <p>4.8/5 Based On 2000+ reviews</p>
+                        </div>
+                    </div>
 
                 </div>
-
             </div>
-
         </div>
 
 
@@ -559,10 +505,9 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
 
 
-            <div class="works_inr">
+            <div class="row g-3 works_inr">
 
-
-
+                <div class="col-lg-5">
                 <div class="works_box works_box1">
 
                     <div class="works_box_content">
@@ -596,9 +541,9 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <img src="images/work-box1-image.png" class="work-box1_image hideMob" alt="Go Quote Rocket Insurance Options" width="238" height="340">
 
                 </div>
+                </div>
 
-
-
+                <div class="col-lg-3">
                 <div class="works_box works_box2">
 
                     <div class="works_box_content">
@@ -614,9 +559,9 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <img src="images/work-box2-image.png" alt="Insurance Form Go Quote Rocket" class="work-box2_image" width="480" height="371">
 
                 </div>
+                </div>
 
-
-
+                <div class="col-lg-4">
                 <div class="works_box works_box3">
 
                     <div class="works_box_content">
@@ -632,17 +577,12 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                     <img src="images/work-box3-image.png" alt="Speak With An Insurance Expert" class="work-box3_image" width="480" height="371">
 
                 </div>
-
-
+                </div>
 
             </div>
 
-
-
             <div class="btn-bx">
-
                 <a href="car-insurance.php<?= $queryParams ?>" class="comn-btn" alt="Get Insurance Quotes">Get Started Today</a>
-
             </div>
 
         </div>
@@ -681,6 +621,8 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
     <div class="sec5">
 
         <div class="container-xl">
+            <div class="row">
+                <div class="col-12">
 
             <p class="heading">Partnering with<br class="showMob"> America's<br class="hideMob"> Leading Providers</p>
 
@@ -725,6 +667,8 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
             </div>
 
+                </div>
+            </div>
         </div>
 
     </div>
@@ -734,6 +678,8 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
     <div class="sec6">
 
         <div class="container-xl">
+            <div class="row">
+                <div class="col-12">
 
             <p class="heading">Where Go Quote Rocket<br class="showMob"> Helps You Save</p>
 
@@ -776,6 +722,8 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
             </div>
 
+                </div>
+            </div>
         </div>
 
     </div>
@@ -818,10 +766,10 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
     <div class="sec7">
 
         <div class="container-xl" id="faq-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
 
             <p class="heading">Frequently Asked Questions</p>
-
-
 
             <div class="faq-container" style="overflow:hidden;">
 
@@ -1009,6 +957,8 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
             </div>
 
+                </div>
+            </div>
         </div>
 
     </div>
@@ -1061,27 +1011,23 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
 
 
     <div class="blue_strip">
-
-        <div class="blue_strip_cont">
-
-            <h3>Ready to get started?</h3>
-
-            <p>Compare insurance quotes today!</p>
-
-        </div>
-
-
-
-        <div class="blue_strip_btn">
-
-            <div class="btn-bx">
-
-                <a href="car-insurance.php<?= $queryParams ?>" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
-
+        <div class="container-xl">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="blue_strip_cont">
+                        <h3>Ready to get started?</h3>
+                        <p>Compare insurance quotes today!</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="blue_strip_btn">
+                        <div class="btn-bx">
+                            <a href="car-insurance.php<?= $queryParams ?>" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-
     </div>
 
 
