@@ -364,8 +364,6 @@ ul.sec1-lst {
 }
 
 ul.sec1-lst li {
-  float: left;
-  width: 100%;
   padding: 25px 20px;
   border: 1px solid #3271c3;
   border-radius: 15px;
@@ -484,8 +482,8 @@ ul.btn-list li img {
 
 .sec1_phone {
   position: absolute;
-  right: 40%;
-  top: 280px;
+  left: 0;
+  bottom: 50px;
 }
 
 /* ===== Carrier Logos / Brand Strip ===== */
@@ -595,8 +593,6 @@ ul.scroll__brand__list li img.zestlife_logo {
 
 /* ===== Section 2: Why Choose Us ===== */
 .sec2 {
-  float: left;
-  width: 100%;
   padding: 60px 0 70px;
 }
 
@@ -654,8 +650,6 @@ ul.scroll__brand__list li img.zestlife_logo {
 
 /* ===== Section 3: Testimonials ===== */
 .sec3 {
-  float: left;
-  width: 100%;
   padding: 60px 0 70px;
   background: #f6fbff;
 }
@@ -761,8 +755,6 @@ ul.scroll__brand__list li img.zestlife_logo {
 
 /* ===== Section 4: How It Works ===== */
 .sec4 {
-  float: left;
-  width: 100%;
   padding: 60px 0 70px;
 }
 
@@ -854,8 +846,6 @@ ul.works_box1_lst li {
 
 /* ===== Section 5: Provider Logos ===== */
 .sec5 {
-  float: left;
-  width: 100%;
   padding: 60px 0 0;
   background: url(../images/sec5.webp) center top no-repeat #f6fbff;
   height: 750px;
@@ -983,8 +973,6 @@ ul.works_box1_lst li {
 
 /* ===== Section 6: Services Grid ===== */
 .sec6 {
-  float: left;
-  width: 100%;
   padding: 60px 0 70px;
 }
 
@@ -1040,8 +1028,6 @@ ul.sec6_lst li a {
 
 /* ===== Section 7: FAQ ===== */
 .sec7 {
-  float: left;
-  width: 100%;
   padding: 60px 0;
   background: #fff;
   position: relative;
@@ -1059,9 +1045,7 @@ ul.sec6_lst li a {
 }
 
 .faq-container {
-  display: inline-block;
-  vertical-align: top;
-  max-width: 970px;
+  display: block;
   width: 100%;
   margin: 10px 0 0;
   padding: 20px;
@@ -1128,8 +1112,6 @@ ul.acdn_list li {
   background: #002e6a;
   border-radius: 10px;
   padding: 30px 40px;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .blue_strip_cont {
@@ -1160,8 +1142,6 @@ ul.acdn_list li {
 
 /* ===== Footer ===== */
 .info-sec {
-  float: left;
-  width: 100%;
   background: #fff;
 }
 
