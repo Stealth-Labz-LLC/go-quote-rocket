@@ -1192,8 +1192,11 @@ ul.acdn_list li {
   margin-top: 20px;
 }
 
-.footer-trust-badges img {
-  max-width: 120px;
+.footer-trust-badges .trust_badge {
+  padding: 8px 14px;
+}
+.footer-trust-badges .trust_badge span {
+  font-size: 13px;
 }
 
 .footer-trust-text {
