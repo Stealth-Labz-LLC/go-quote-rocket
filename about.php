@@ -179,48 +179,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-        <div class="sec2_inr row g-3">
+        <div class="row g-3">
 
-        	<div class="sec2_inr_bx col-lg-4">
-
-            	<img src="images/sec2-bx-img1.jpg" alt="Girl On Phone" width="381" height="291">
-
-                <div class="sec2_bx_content">
-
-                    <h3>Do It Yourself</h3>
-
-                    <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected and secure.</p>
-
+            <div class="col-lg-4">
+                <div class="sec2_inr_bx">
+                    <img src="images/sec2-bx-img1.jpg" alt="Girl On Phone" width="381" height="291">
+                    <div class="sec2_bx_content">
+                        <h3>Do It Yourself</h3>
+                        <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected and secure.</p>
+                    </div>
                 </div>
-
             </div>
 
-            <div class="sec2_inr_bx col-lg-4">
-
-            	<img src="images/sec2-bx-img2.jpg" alt="Guy On Phone Call" width="381" height="291">
-
-                <div class="sec2_bx_content">
-
-                    <h3>Speak To An Expert</h3>
-
-                    <p>Speak with an insurance specialist for personalized quotes and expert advice over the phone.</p>
-
+            <div class="col-lg-4">
+                <div class="sec2_inr_bx">
+                    <img src="images/sec2-bx-img2.jpg" alt="Guy On Phone Call" width="381" height="291">
+                    <div class="sec2_bx_content">
+                        <h3>Speak To An Expert</h3>
+                        <p>Speak with an insurance specialist for personalized quotes and expert advice over the phone.</p>
+                    </div>
                 </div>
-
             </div>
 
-            <div class="sec2_inr_bx col-lg-4">
-
-            	<img src="images/sec2-bx-img3.jpg" alt="Girl Excited Hanging Out Car Window" width="381" height="291">
-
-                <div class="sec2_bx_content">
-
-                    <h3>Get Up To 30% Savings</h3>
-
-                    <p>Take control of your budget with incredible savings of up to 30% on your <a href="medical-insurance.php" alt="Medical Insurance Quotes">insurance premiums</a>.</p>
-
+            <div class="col-lg-4">
+                <div class="sec2_inr_bx">
+                    <img src="images/sec2-bx-img3.jpg" alt="Girl Excited Hanging Out Car Window" width="381" height="291">
+                    <div class="sec2_bx_content">
+                        <h3>Get Up To 30% Savings</h3>
+                        <p>Take control of your budget with incredible savings of up to 30% on your <a href="medical-insurance.php" alt="Medical Insurance Quotes">insurance premiums</a>.</p>
+                    </div>
                 </div>
-
             </div>
 
         </div>

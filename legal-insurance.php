@@ -376,48 +376,36 @@ $funnelId = "Legal";
 
 
 
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we’ll handle the rest to find the best legal cover for your needs.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we'll handle the rest to find the best legal cover for your needs.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.webp" alt="" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Legal Cover</h3>
-
-                        <p>We’ll instantly search and present the best legal insurance plans that match your personal circumstances and budget, ensuring you get the right coverage for peace of mind.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.webp" alt="" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Legal Cover</h3>
+                            <p>We'll instantly search and present the best legal insurance plans that match your personal circumstances and budget, ensuring you get the right coverage for peace of mind.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Experts Ready</h3>
-
-                        <p>Connect with a vetted, experienced legal insurance provider who will guide you through the process, giving you confidence in your protection against unexpected legal costs.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Experts Ready</h3>
+                            <p>Connect with a vetted, experienced legal insurance provider who will guide you through the process, giving you confidence in your protection against unexpected legal costs.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>

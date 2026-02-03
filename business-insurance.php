@@ -353,48 +353,36 @@ $funnelId = "Biz";
 
 
 
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="Guy Using Go Quote Rocket For Insurance Quotes" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we’ll handle the rest to find the best business insurance for your needs.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="Guy Using Go Quote Rocket For Insurance Quotes" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we'll handle the rest to find the best business insurance for your needs.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.webp" alt="Tailored Insurance Options" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Insurance Options</h3>
-
-                        <p>We’ll instantly search and present the best business insurance plans that match your company’s unique requirements and budget, ensuring your business gets the right protection for peace of mind.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.webp" alt="Tailored Insurance Options" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Insurance Options</h3>
+                            <p>We'll instantly search and present the best business insurance plans that match your company's unique requirements and budget, ensuring your business gets the right protection for peace of mind.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="Trusted Business Insurance Experts" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Providers Ready</h3>
-
-                        <p>Connect with a vetted, experienced business insurance provider who will guide you through the process, giving you confidence in your protection against unexpected risks and financial losses.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="Trusted Business Insurance Experts" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Providers Ready</h3>
+                            <p>Connect with a vetted, experienced business insurance provider who will guide you through the process, giving you confidence in your protection against unexpected risks and financial losses.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>

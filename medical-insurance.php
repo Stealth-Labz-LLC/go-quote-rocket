@@ -288,48 +288,36 @@ $funnelId = "Health";
 
 
 
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we do the hard work from there.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we do the hard work from there.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.webp" alt="Tailored Insurance Options" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Insurance Options</h3>
-
-                        <p>We’ll instantly search and present the best medical insurance plans that fit your personal needs and budget, ensuring you find the perfect match.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.webp" alt="Tailored Insurance Options" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Insurance Options</h3>
+                            <p>We'll instantly search and present the best medical insurance plans that fit your personal needs and budget, ensuring you find the perfect match.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="Trusted Medical Insurance Expert" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Experts Ready</h3>
-
-                        <p>Connect with a vetted, experienced insurance partner who will guide you through the process, giving you peace of mind and confidence in your coverage.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="Trusted Medical Insurance Expert" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Experts Ready</h3>
+                            <p>Connect with a vetted, experienced insurance partner who will guide you through the process, giving you peace of mind and confidence in your coverage.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>

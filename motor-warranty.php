@@ -459,48 +459,36 @@ $funnelId = "Warranty";
 
 
 
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Looking At Go Quote Rocket" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we’ll handle the rest to find the best motor warranty for your vehicle.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Looking At Go Quote Rocket" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we'll handle the rest to find the best motor warranty for your vehicle.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.jpg" alt="Motor Warranty Options Checklist" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Warranty Options</h3>
-
-                        <p>We’ll instantly search and present the best motor warranty plans that match your car’s needs and your budget, ensuring you get the perfect coverage for your peace of mind.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.jpg" alt="Motor Warranty Options Checklist" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Warranty Options</h3>
+                            <p>We'll instantly search and present the best motor warranty plans that match your car's needs and your budget, ensuring you get the perfect coverage for your peace of mind.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="Trusted Motor Warranty Expert" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Experts Ready</h3>
-
-                        <p>Connect with a vetted, experienced warranty provider who will guide you through the process, giving you confidence in your vehicle’s protection and long-term reliability.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="Trusted Motor Warranty Expert" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Experts Ready</h3>
+                            <p>Connect with a vetted, experienced warranty provider who will guide you through the process, giving you confidence in your vehicle's protection and long-term reliability.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>

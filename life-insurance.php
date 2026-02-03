@@ -323,48 +323,36 @@ $funnelId = "Life";
 
 
 
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>Fill out our secure, straightforward form in just 30 seconds. Your information is always protected, and we’ll handle the rest to find the best life insurance options for your needs.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>Fill out our secure, straightforward form in just 30 seconds. Your information is always protected, and we'll handle the rest to find the best life insurance options for your needs.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.webp" alt="" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Insurance Options</h3>
-
-                        <p>We’ll instantly match you with personalized life insurance plans that align with your budget and unique circumstances. Whether you’re looking for comprehensive coverage or a specific benefit, we ensure you get the right plan.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.webp" alt="" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Insurance Options</h3>
+                            <p>We'll instantly match you with personalized life insurance plans that align with your budget and unique circumstances. Whether you're looking for comprehensive coverage or a specific benefit, we ensure you get the right plan.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Providers Ready</h3>
-
-                        <p>Connect with vetted, experienced life insurance providers who will guide you through the process, giving you confidence and peace of mind that your family’s financial future is secure.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Providers Ready</h3>
+                            <p>Connect with vetted, experienced life insurance providers who will guide you through the process, giving you confidence and peace of mind that your family's financial future is secure.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>

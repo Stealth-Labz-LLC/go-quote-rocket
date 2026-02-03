@@ -357,48 +357,36 @@ $funnelId = "GPS";
 
             <p class="comn_text comn_text--center">We know searching for the right vehicle tracker can feel overwhelming. That’s why <a href="/" alt="Affordable Insurance Quotes">Go Quote Rocket</a> simplifies the process for you. In just a few steps, we’ll connect you with trusted providers, helping you secure the most reliable and affordable vehicle tracker, hassle-free.</p>
 
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we’ll handle the rest to find the best tracker for your needs.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we'll handle the rest to find the best tracker for your needs.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.webp" alt="Checklist of Tracking Device Options" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Tracker Options</h3>
-
-                        <p>We’ll instantly search and present the best vehicle tracking solutions that match your personal needs and budget, ensuring you find the perfect fit for your car and lifestyle.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.webp" alt="Checklist of Tracking Device Options" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Tracker Options</h3>
+                            <p>We'll instantly search and present the best vehicle tracking solutions that match your personal needs and budget, ensuring you find the perfect fit for your car and lifestyle.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="Trusted GPS Tracking Device Providers" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Providers Ready</h3>
-
-                        <p>Connect with a vetted, experienced vehicle tracker provider who will guide you through the process, giving you peace of mind and confidence in your vehicle’s security.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="Trusted GPS Tracking Device Providers" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Providers Ready</h3>
+                            <p>Connect with a vetted, experienced vehicle tracker provider who will guide you through the process, giving you peace of mind and confidence in your vehicle's security.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>
