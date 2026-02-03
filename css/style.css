@@ -78,8 +78,6 @@ p a {
 h1.sec1-hdg,
 h1.inner_sec1-hdg {
   margin: 0;
-  font-size: inherit;
-  font-weight: inherit;
 }
 
 .white {
