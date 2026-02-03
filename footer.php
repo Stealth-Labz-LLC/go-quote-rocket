@@ -54,8 +54,14 @@
             <div class="col-12 col-lg-2 footer-col footer-col--trust">
                 <p class="info-sec-links-hd">Trusted &amp; Secure</p>
                 <div class="footer-trust-badges">
-                    <img src="/images/secure.svg" alt="SSL Secure" width="120" height="40">
-                    <img src="/images/heart.svg" alt="Trusted Service" width="120" height="40">
+                    <div class="trust_badge">
+                        <img src="/images/secure.svg" alt="Secure" width="20" height="20">
+                        <span>SSL Secured</span>
+                    </div>
+                    <div class="trust_badge">
+                        <img src="/images/heart.svg" alt="Trusted" width="20" height="20">
+                        <span>Trusted Service</span>
+                    </div>
                 </div>
                 <p class="footer-trust-text">256-bit SSL encryption protects your data. We never sell your information to third parties.</p>
             </div>
