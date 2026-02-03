@@ -51,7 +51,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="inner_bnr inner_bnr--contact">
 
-        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-xl" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -63,7 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </span>
         </nav>
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <div class="inner_bnr_content">
 
@@ -83,7 +83,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="contact_sec1">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <div class="contact_sec1_inner">
 
@@ -135,39 +135,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                     <form method="post" name="feedback_form1" class="contact_form" id="feedback_form1">
 
-                        <div class="contact_form_input half fl">
-
-                            <label for="">First Name</label>
-
-                            <input type="text" name="firstName" id="" class="contact_form_field required" placeholder="First Name" data-error-message="Please enter your first name.">
-                            <div class="error_message text-left" style="display:none"></div>
-                        </div>
-
-                        <div class="contact_form_input half fr">
-
-                            <label for="">Last Name</label>
-
-                            <input type="text" name="lastName" id="" class="contact_form_field required" placeholder="Last Name" data-error-message="Please enter your last name.">
-                            <div class="error_message text-left" style="display:none"></div>
-                        </div>
-
-
-
-                        <div class="contact_form_input half fl">
-
-                            <label for="">Email</label>
-
-                            <input type="text" name="email" id="" class="contact_form_field required" placeholder="Email" data-error-message="Please enter your email.">
-                            <div class="error_message text-left" style="display:none"></div>
-                        </div>
-
-                        <div class="contact_form_input half fr">
-
-                            <label for="">Phone</label>
-
-                            <input type="tel" name="phone" id="" class="contact_form_field required" placeholder="Phone" data-error-message="Please enter your phone number." maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
-                            <div class="error_message text-left" style="display: none;" id="phone_prompt">
-                                <span>Please enter a valid 10-digit U.S. phone number.</span>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="contact_form_input">
+                                    <label for="">First Name</label>
+                                    <input type="text" name="firstName" id="" class="contact_form_field required" placeholder="First Name" data-error-message="Please enter your first name.">
+                                    <div class="error_message text-left" style="display:none"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact_form_input">
+                                    <label for="">Last Name</label>
+                                    <input type="text" name="lastName" id="" class="contact_form_field required" placeholder="Last Name" data-error-message="Please enter your last name.">
+                                    <div class="error_message text-left" style="display:none"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact_form_input">
+                                    <label for="">Email</label>
+                                    <input type="text" name="email" id="" class="contact_form_field required" placeholder="Email" data-error-message="Please enter your email.">
+                                    <div class="error_message text-left" style="display:none"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact_form_input">
+                                    <label for="">Phone</label>
+                                    <input type="tel" name="phone" id="" class="contact_form_field required" placeholder="Phone" data-error-message="Please enter your phone number." maxlength="10" onkeyup="javascript: this.value = this.value.replace(/[^0-9 + ]/g, '');">
+                                    <div class="error_message text-left" style="display: none;" id="phone_prompt">
+                                        <span>Please enter a valid 10-digit U.S. phone number.</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -179,7 +176,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </div>
                         </div>
 
-                        <div class="submit-sucs-msg fl" id="feedback_response_body" style="display:none">
+                        <div class="submit-sucs-msg" id="feedback_response_body" style="display:none">
                             <p>
                                 Thanks for submitting your message. Our team will review it and get in touch with you at our earliest convenience.
                             </p>
@@ -198,28 +195,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     <div class="blue_strip">
-
-        <div class="blue_strip_cont">
-
-            <h3>Ready to get started?</h3>
-
-            <p>Compare insurance quotes today!</p>
-
-        </div>
-
-
-
-        <div class="blue_strip_btn">
-
-            <div class="btn-bx">
-
-                <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
-
+    <div class="container-xl">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="blue_strip_cont">
+                    <h3>Ready to get started?</h3>
+                    <p>Compare insurance quotes today!</p>
+                </div>
             </div>
-
+            <div class="col-lg-5">
+                <div class="blue_strip_btn">
+                    <div class="btn-bx">
+                        <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
+</div>
     <!--<div id="error_handler_overlay" style="display: none;">
         <div class="error_handler_body"><a href="javascript:void(0);" id="error_handler_overlay_close">X</a>
             <p>Lead was detected as being a duplicate.</p>

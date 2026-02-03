@@ -167,7 +167,7 @@ $funnelId = "Pet";
 
     <div class="inner_sec1" id="choosePack">
 
-        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-xl" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -179,7 +179,7 @@ $funnelId = "Pet";
             </span>
         </nav>
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
@@ -308,7 +308,7 @@ $funnelId = "Pet";
 
     <div class="inner_sec2">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="heading">How We Make Finding<br> Pet Insurance Easy</p>
 
@@ -316,9 +316,9 @@ $funnelId = "Pet";
 
 
 
-            <div class="sec2_inr">
+            <div class="sec2_inr row g-3">
 
-                <div class="sec2_inr_bx">
+                <div class="sec2_inr_bx col-lg-4">
 
                     <img src="images/inner-sec2-img1.webp" alt="Guy Filling Put Form For Pet Insurance" width="381" height="291">
 
@@ -332,7 +332,7 @@ $funnelId = "Pet";
 
                 </div>
 
-                <div class="sec2_inr_bx">
+                <div class="sec2_inr_bx col-lg-4">
 
                     <img src="images/inner-sec2-img2.webp" alt="Options For Pet Insurance" width="381" height="291">
 
@@ -346,7 +346,7 @@ $funnelId = "Pet";
 
                 </div>
 
-                <div class="sec2_inr_bx">
+                <div class="sec2_inr_bx col-lg-4">
 
                     <img src="images/inner-sec2-img3.webp" alt="Expert Pet Insurance Provider" width="381" height="291">
 
@@ -370,7 +370,7 @@ $funnelId = "Pet";
 
     <div class="inner_sec3">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="heading">Compare & Save<br class="showDesk"> On Pet Insurance</p>
 
@@ -562,9 +562,9 @@ $funnelId = "Pet";
 
     <div class="why_choose">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
-            <div class="why_choose_left">
+            <div class="why_choose_left col-lg-5">
 
                 <p class="heading">Why Choose<br class="hideMob"> Go Quote Rocket</p>
 
@@ -572,7 +572,7 @@ $funnelId = "Pet";
 
             </div>
 
-            <div class="why_choose_right">
+            <div class="why_choose_right col-lg-7">
 
                 <ul class="why_choose_lst">
 
@@ -628,7 +628,7 @@ $funnelId = "Pet";
 
     <div class="inner_sec4">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="heading">Benefits of Pet Insurance<br> For Your Furbaby</p>
 
@@ -746,7 +746,7 @@ $funnelId = "Pet";
 
     <div class="sec3">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
@@ -935,7 +935,7 @@ $funnelId = "Pet";
 
     <div class="sec7">
 
-        <div class="container-fluid" id="faq-section">
+        <div class="container-xl" id="faq-section">
 
             <p class="heading">Frequently Asked Questions</p>
 
@@ -1126,32 +1126,25 @@ $funnelId = "Pet";
         </div>
 
     </div>
-
-
-
-    <div class="blue_strip">
-
-        <div class="blue_strip_cont">
-
-            <h3>Ready to get started?</h3>
-
-            <p>Compare insurance quotes today!</p>
-
-        </div>
-
-
-
-        <div class="blue_strip_btn">
-
-            <div class="btn-bx">
-
-                <a onclick="scrollToSection();" href="javascript:void(0)" class="comn-btn" alt="Pet Insurance Quotes">Get Quote Now</a>
-
+<div class="blue_strip">
+    <div class="container-xl">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="blue_strip_cont">
+                    <h3>Ready to get started?</h3>
+                    <p>Compare insurance quotes today!</p>
+                </div>
             </div>
-
+            <div class="col-lg-5">
+                <div class="blue_strip_btn">
+                    <div class="btn-bx">
+                        <a href="javascript:void(0)" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
+</div>
 
     <div id="error_handler_overlay" style="display: none;">
         <div class="error_handler_body"><a href="javascript:void(0);" id="error_handler_overlay_close">X</a>

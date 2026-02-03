@@ -72,7 +72,7 @@ $data = $_SESSION;
 
     <div class="thankyou_content">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="thankyou_heading">Congratulations!</p>
 
@@ -103,28 +103,24 @@ $data = $_SESSION;
 
 
     <div class="blue_strip">
-
-        <div class="blue_strip_cont">
-
-            <h3>Ready to get started?</h3>
-
-            <p>Compare insurance quotes today!</p>
-
-        </div>
-
-
-
-        <div class="blue_strip_btn">
-
-            <div class="btn-bx">
-
-                <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
-
+    <div class="container-xl">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="blue_strip_cont">
+                    <h3>Ready to get started?</h3>
+                    <p>Compare insurance quotes today!</p>
+                </div>
             </div>
-
+            <div class="col-lg-5">
+                <div class="blue_strip_btn">
+                    <div class="btn-bx">
+                        <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
+</div>
 
 
 

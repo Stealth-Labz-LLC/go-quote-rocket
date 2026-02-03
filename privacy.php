@@ -42,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="inner_sec1">
 
-        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-xl" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </span>
         </nav>
 
-    	<div class="container-fluid">
+    	<div class="container-xl">
 
         	<h1>Privacy Policy</h1>
 
@@ -66,7 +66,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="content">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p>We have taken reasonable steps to safeguard the privacy of information provided by you, but we do not make any representations or warranties that the information provided by you, whether personal information or otherwise, is absolutely safe and secure. We are committed to protecting your privacy. This policy applies to all the web pages related to the Website. The information gathered through details submitted to the online forms on the Website will not be used for anything other than that which is stated in these Terms. Such gathered personal information may be re-used and stored by us for a reasonable period in order to complete any of our related services, including marketing and advertising of products by ourselves. The Website may collect certain information about your visit, including but not limited to the name of the Internet service provider and the Internet Protocol (IP) address through which you access the Internet; the date and time you access the Website; the pages that you access while at the Website, and the Internet address of the website that linked you directly to the Website. This information is used, among other things, to help improve the Website, analyze trends, and administer the Website.
 
@@ -165,28 +165,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     <div class="blue_strip">
-
-        <div class="blue_strip_cont">
-
-            <h3>Ready to get started?</h3>
-
-            <p>Compare insurance quotes today!</p>
-
-        </div>
-
-
-
-        <div class="blue_strip_btn">
-
-            <div class="btn-bx">
-
-                <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
-
+    <div class="container-xl">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="blue_strip_cont">
+                    <h3>Ready to get started?</h3>
+                    <p>Compare insurance quotes today!</p>
+                </div>
             </div>
-
+            <div class="col-lg-5">
+                <div class="blue_strip_btn">
+                    <div class="btn-bx">
+                        <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-	</div>
+    </div>
+</div>
 
 
 

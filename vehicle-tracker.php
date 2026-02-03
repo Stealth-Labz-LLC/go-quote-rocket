@@ -176,7 +176,7 @@ $funnelId = "GPS";
 
     <div class="inner_sec1" id="choosePack">
 
-        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-xl" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -188,7 +188,7 @@ $funnelId = "GPS";
             </span>
         </nav>
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="inner_sec1-rat-txt"><img src="images/sec1-star.png" alt="Customer Reviews" width="148" height="26"> <span>4.8 stars</span> 2,000+ reviews</p>
 
@@ -351,15 +351,15 @@ $funnelId = "GPS";
 
     <div class="inner_sec2">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="heading">How We Make Getting a<br> Vehicle Tracker Easy</p>
 
             <p class="comn_text comn_text--center">We know searching for the right vehicle tracker can feel overwhelming. That’s why <a href="/" alt="Affordable Insurance Quotes">Go Quote Rocket</a> simplifies the process for you. In just a few steps, we’ll connect you with trusted providers, helping you secure the most reliable and affordable vehicle tracker, hassle-free.</p>
 
-            <div class="sec2_inr">
+            <div class="sec2_inr row g-3">
 
-                <div class="sec2_inr_bx">
+                <div class="sec2_inr_bx col-lg-4">
 
                     <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket" width="381" height="291">
 
@@ -373,7 +373,7 @@ $funnelId = "GPS";
 
                 </div>
 
-                <div class="sec2_inr_bx">
+                <div class="sec2_inr_bx col-lg-4">
 
                     <img src="images/inner-sec2-img2.webp" alt="Checklist of Tracking Device Options" width="381" height="291">
 
@@ -387,7 +387,7 @@ $funnelId = "GPS";
 
                 </div>
 
-                <div class="sec2_inr_bx">
+                <div class="sec2_inr_bx col-lg-4">
 
                     <img src="images/inner-sec2-img3.webp" alt="Trusted GPS Tracking Device Providers" width="381" height="291">
 
@@ -411,7 +411,7 @@ $funnelId = "GPS";
 
     <div class="inner_sec3">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="heading">Compare & Save On<br class="hideMob"> A<br class="showMob"> Vehicle Tracking Device</p>
 
@@ -594,16 +594,16 @@ $funnelId = "GPS";
 
     <div class="why_choose">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
-            <div class="why_choose_left">
+            <div class="why_choose_left col-lg-5">
 
                 <p class="heading">Why Choose<br class="hideMob"> Go Quote Rocket</p>
 
                 <p class="comn_text">Finding the right GPS tracking device can feel overwhelming, but we’re here to make it simple. At <a href="/" alt="Affordable Insurance Quotes the USA">Go Quote Rocket</a>, we connect you with a reliable, trusted provider who can guide you through the process of picking the right GPS tracking device. You'll be able to make the right choice for your needs and budget.</p>
             </div>
 
-            <div class="why_choose_right">
+            <div class="why_choose_right col-lg-7">
 
                 <ul class="why_choose_lst">
 
@@ -659,7 +659,7 @@ $funnelId = "GPS";
 
     <div class="inner_sec4">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="heading">Why Every the USAn<br> Driver Needs A Vehicle Tracker</p>
 
@@ -777,7 +777,7 @@ $funnelId = "GPS";
 
     <div class="sec3">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <p class="heading">Over 744 409<br class="showMob"> Americans Trust Us.</p>
 
@@ -963,7 +963,7 @@ $funnelId = "GPS";
 
     <div class="sec7">
 
-        <div class="container-fluid" id="faq-section">
+        <div class="container-xl" id="faq-section">
 
             <p class="heading">Frequently Asked Questions</p>
 
@@ -1154,32 +1154,25 @@ $funnelId = "GPS";
         </div>
 
     </div>
-
-
-
-    <div class="blue_strip">
-
-        <div class="blue_strip_cont">
-
-            <h3>Ready to get started?</h3>
-
-            <p>Compare insurance quotes today!</p>
-
-        </div>
-
-
-
-        <div class="blue_strip_btn">
-
-            <div class="btn-bx">
-
-                <a onclick="scrollToSection();" href="javascript:void(0)" class="comn-btn">Get Quote Now</a>
-
+<div class="blue_strip">
+    <div class="container-xl">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="blue_strip_cont">
+                    <h3>Ready to get started?</h3>
+                    <p>Compare insurance quotes today!</p>
+                </div>
             </div>
-
+            <div class="col-lg-5">
+                <div class="blue_strip_btn">
+                    <div class="btn-bx">
+                        <a href="javascript:void(0)" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
+</div>
 
     <div id="error_handler_overlay" style="display: none;">
         <div class="error_handler_body"><a href="javascript:void(0);" id="error_handler_overlay_close">X</a>

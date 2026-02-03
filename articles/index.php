@@ -6,6 +6,7 @@
     <title>Insurance Articles & Guides | Go Quote Rocket</title>
     <meta name="description" content="Expert guides on car insurance, health coverage, life insurance, and more. Learn how to save money and find the right coverage for your needs.">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -117,7 +118,7 @@
     ?>
 
     <div class="inner_bnr inner_bnr--articles">
-        <div class="container-fluid">
+        <div class="container-xl">
             <div class="inner_bnr_content">
                 <div>
                     <p class="inner_bnr_hdg">Insurance Guides & Articles</p>
@@ -128,7 +129,7 @@
     </div>
 
     <div class="articles-hub">
-        <div class="container-fluid">
+        <div class="container-xl">
             <div class="articles-grid">
 
                 <div class="article-card">

@@ -1313,8 +1313,6 @@ ul.brand_list li.brand_logo-4 img {
 
 /* ===== Inner Pages ===== */
 .inner_sec1 {
-  float: left;
-  width: 100%;
   background: url(../images/inner-sec1-car-insur.webp) center top no-repeat;
   background-size: cover;
   overflow-x: clip;
@@ -1570,21 +1568,16 @@ ul.form_lst li img {
 }
 
 .inner_sec2 {
-  float: left;
-  width: 100%;
   padding: 60px 0 70px;
 }
 
 .inner_sec3 {
-  float: left;
-  width: 100%;
   padding: 60px 0 70px;
   background: #f6fbff;
 }
 
 .inner_sec3_row {
-  display: inline-block;
-  vertical-align: top;
+  display: block;
   width: 100%;
   margin-top: 45px;
 }
@@ -1651,7 +1644,6 @@ ul.form_lst li img {
 }
 
 .inner_sec3_tab_content-box {
-  float: left;
   width: 100%;
   margin: 55px auto 20px;
   display: flex;
@@ -1719,26 +1711,23 @@ ul.form_lst li img {
 }
 
 .why_choose {
-  float: left;
-  width: 100%;
   padding: 50px 0 70px;
 }
 
+.why_choose > .container-xl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .why_choose_left {
-  float: left;
-  width: 43%;
   text-align: left;
   margin-top: 10px;
 }
 
 .why_choose_right {
-  float: right;
-  width: 45%;
 }
 
 ul.why_choose_lst {
-  float: left;
-  width: 100%;
 }
 
 ul.why_choose_lst li {
@@ -1773,8 +1762,6 @@ ul.why_choose_lst li p {
 }
 
 .inner_sec4 {
-  float: left;
-  width: 100%;
   padding: 60px 0 70px;
   background: #f6fbff;
 }
@@ -1868,8 +1855,6 @@ ul.inner_sec4_list li {
 }
 
 .inner_bnr {
-  float: left;
-  width: 100%;
 }
 
 .inner_bnr--about {
@@ -1904,20 +1889,15 @@ ul.inner_sec4_list li {
 }
 
 .about_sec1 {
-  float: left;
-  width: 100%;
   padding: 60px 0 70px;
 }
 
 .abt_sec1_img {
-  float: left;
   border-radius: 10px;
-  max-width: 41%;
+  max-width: 100%;
 }
 
 .about_sec1_content {
-  float: right;
-  width: 56%;
   text-align: left;
   padding-top: 30px;
 }
@@ -1951,8 +1931,6 @@ ul.inner_sec4_list li {
 }
 
 .abt-num_strip {
-  float: left;
-  width: 100%;
   background: #002e6a;
   padding: 50px 0 60px;
 }
@@ -2014,8 +1992,6 @@ ul.abt-num_strip_lst li p {
 }
 
 .contact_sec1 {
-  float: left;
-  width: 100%;
   padding: 80px 0 90px;
 }
 
@@ -2103,8 +2079,7 @@ ul.contact_info_lst li h3 {
 }
 
 .contact_form_input label {
-  float: left;
-  width: 100%;
+  display: block;
   font-size: 17px;
   line-height: 22px;
   color: #040404;
@@ -2112,7 +2087,7 @@ ul.contact_info_lst li h3 {
 }
 
 .contact_form_field {
-  float: left;
+  display: block;
   width: 100%;
   -webkit-appearance: none;
   outline: none;
@@ -2411,8 +2386,6 @@ textarea.contact_form_field {
 }
 
 .terms-privacy_page .content {
-  float: left;
-  width: 100%;
   padding: 40px 0 50px;
   font-family: 'DM Sans';
   margin: 0 auto;
@@ -2462,8 +2435,6 @@ textarea.contact_form_field {
 }
 
 .thankyou_content {
-  float: left;
-  width: 100%;
   padding: 80px 0 130px;
   border-top: 1px solid #d3d3d3;
 }
@@ -3233,10 +3204,6 @@ ul.trust_lst {
 
   .why_choose {
     padding: 40px 0 50px;
-  }
-
-  .why_choose_right {
-    width: 50%;
   }
 
   .inner_sec4 {
@@ -4066,12 +4033,6 @@ ul.trust_lst {
     padding: 25px 0 35px;
   }
 
-  .why_choose_left,
-  .why_choose_right {
-    width: 100%;
-    margin-top: 0;
-  }
-
   .why_choose_right {
     margin-top: 12px;
   }
@@ -4194,13 +4155,8 @@ ul.trust_lst {
   }
 
   .abt_sec1_img {
-    float: none;
     max-width: 280px;
     margin: 30px auto 25px;
-  }
-
-  .about_sec1_content {
-    width: 100%;
   }
 
   .abt-num_strip {

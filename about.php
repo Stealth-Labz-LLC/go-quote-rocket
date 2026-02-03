@@ -47,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="inner_bnr inner_bnr--about">
 
-	<nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
+	<nav class="breadcrumbs container-xl" itemscope itemtype="https://schema.org/BreadcrumbList">
 		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 			<a href="/" itemprop="item"><span itemprop="name">Home</span></a>
 			<meta itemprop="position" content="1">
@@ -59,7 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</span>
 	</nav>
 
-	<div class="container-fluid">
+	<div class="container-xl">
 
     	<div class="inner_bnr_content">
 
@@ -81,10 +81,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="about_sec1">
 
-	<div class="container-fluid">
-
-    	<img src="images/abt-sec1-img.jpg" alt="Go Quote Rocket Founder" class="abt_sec1_img hideMob" width="471" height="534">
-
+	<div class="container-xl">
+		<div class="row align-items-start">
+			<div class="col-lg-5">
+				<img src="images/abt-sec1-img.jpg" alt="Go Quote Rocket Founder" class="abt_sec1_img hideMob" width="471" height="534">
+			</div>
+			<div class="col-lg-7">
         <div class="about_sec1_content">
 
         	<p class="heading">The Go Quote Rocket Difference</p>
@@ -110,6 +112,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </ul>
 
         </div>
+			</div>
+		</div>
 
     </div>
 
@@ -119,7 +123,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="abt-num_strip">
 
-	<div class="container-fluid">
+	<div class="container-xl">
 
     	<p class="abt-num_strip_hdg">How We've Helped Customers</p>
 
@@ -167,7 +171,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="sec2">
 
-	<div class="container-fluid">
+	<div class="container-xl">
 
     	<p class="heading">Why Go Quote Rocket Is<br class="showDesk"> The Best Choice</p>
 
@@ -175,9 +179,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-        <div class="sec2_inr">
+        <div class="sec2_inr row g-3">
 
-        	<div class="sec2_inr_bx">
+        	<div class="sec2_inr_bx col-lg-4">
 
             	<img src="images/sec2-bx-img1.jpg" alt="Girl On Phone" width="381" height="291">
 
@@ -191,7 +195,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             </div>
 
-            <div class="sec2_inr_bx">
+            <div class="sec2_inr_bx col-lg-4">
 
             	<img src="images/sec2-bx-img2.jpg" alt="Guy On Phone Call" width="381" height="291">
 
@@ -205,7 +209,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             </div>
 
-            <div class="sec2_inr_bx">
+            <div class="sec2_inr_bx col-lg-4">
 
             	<img src="images/sec2-bx-img3.jpg" alt="Girl Excited Hanging Out Car Window" width="381" height="291">
 
@@ -228,27 +232,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <div class="blue_strip">
-
-    <div class="blue_strip_cont">
-
-        <h3>Ready to get started?</h3>
-
-        <p>Compare insurance quotes today!</p>
-
-    </div>
-
-
-
-    <div class="blue_strip_btn">
-
-        <div class="btn-bx">
-
-            <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
-
+    <div class="container-xl">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="blue_strip_cont">
+                    <h3>Ready to get started?</h3>
+                    <p>Compare insurance quotes today!</p>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="blue_strip_btn">
+                    <div class="btn-bx">
+                        <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
-
 </div>
 
 

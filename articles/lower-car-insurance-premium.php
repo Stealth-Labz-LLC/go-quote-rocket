@@ -6,6 +6,7 @@
     <title>How to Lower Your Car Insurance Premium in 2025 | Go Quote Rocket</title>
     <meta name="description" content="Finding affordable car insurance doesn't have to mean sacrificing coverage. Learn proven strategies to reduce your monthly premium while maintaining protection.">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
