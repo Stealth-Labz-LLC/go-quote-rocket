@@ -1001,8 +1001,14 @@ $queryParams = !empty($_SERVER['QUERY_STRING']) ? "&" . $_SERVER['QUERY_STRING']
                         </li>
                     </ul>
                     <div class="trust_badges">
-                        <img src="images/secure.svg" alt="Secure Website" width="120" height="40">
-                        <img src="images/heart.svg" alt="Trusted Service" width="120" height="40">
+                        <div class="trust_badge">
+                            <img src="images/secure.svg" alt="Secure" width="24" height="24">
+                            <span>SSL Secured</span>
+                        </div>
+                        <div class="trust_badge">
+                            <img src="images/heart.svg" alt="Trusted" width="24" height="24">
+                            <span>Trusted Service</span>
+                        </div>
                     </div>
                 </div>
             </div>
