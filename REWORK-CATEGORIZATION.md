@@ -4,18 +4,25 @@
 
 | Category | Count | % of Rework | % of All Commits |
 |----------|-------|-------------|------------------|
-| Git/Infra | 13 | 68.4% | 18.1% |
+| Git/Infra | 14 | 70.0% | 21.2% |
 | Integration | 0 | 0.0% | 0.0% |
-| Product Bug | 2 | 10.5% | 2.8% |
-| Cosmetic | 4 | 21.1% | 5.6% |
-| **Total Rework** | **19** | **100%** | **26.4%** |
+| Product Bug | 2 | 10.0% | 3.0% |
+| Cosmetic | 4 | 20.0% | 6.1% |
+| **Total Rework** | **20** | **100%** | **30.3%** |
 
 ### Adjusted Metrics
 
 | Metric | Value |
 |--------|-------|
-| Total commits | 72 |
-| Total rework commits | 19 |
-| Raw rework % | 26.4% |
+| Total commits (non-merge) | 66 |
+| Total rework commits | 20 |
+| Raw rework % | 30.3% |
 | **Actual product bugs** | **2** |
-| **Product bug %** | **2.8%** |
+| **Product bug %** | **3.0%** |
+
+### By Contributor
+
+| Author | Rework | Category Breakdown |
+|--------|--------|-------------------|
+| Keating | 16 | 10 Git/Infra, 4 Cosmetic, 2 Product Bug |
+| KEDAR KUMAR | 4 | 4 Git/Infra |
