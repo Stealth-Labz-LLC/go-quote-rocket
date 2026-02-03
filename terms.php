@@ -41,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="inner_sec1">
 
-        <nav class="breadcrumbs container-fluid" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <nav class="breadcrumbs container-xl" itemscope itemtype="https://schema.org/BreadcrumbList">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -53,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </span>
         </nav>
 
-    	<div class="container-fluid">
+    	<div class="container-xl">
 
         	<h1>Terms &amp; Conditions</h1>
 
@@ -65,7 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <div class="content">
 
-        <div class="container-fluid">
+        <div class="container-xl">
 
             <h3>1. INTRODUCTION</h3>
 
@@ -368,28 +368,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     <div class="blue_strip">
-
-        <div class="blue_strip_cont">
-
-            <h3>Ready to get started?</h3>
-
-            <p>Compare insurance quotes today!</p>
-
-        </div>
-
-
-
-        <div class="blue_strip_btn">
-
-            <div class="btn-bx">
-
-                <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
-
+        <div class="container-xl">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="blue_strip_cont">
+                        <h3>Ready to get started?</h3>
+                        <p>Compare insurance quotes today!</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="blue_strip_btn">
+                        <div class="btn-bx">
+                            <a href="/" class="comn-btn" alt="Get Insurance Quotes">Get Quote Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-
-	</div>
+    </div>
 
 
 

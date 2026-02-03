@@ -6,6 +6,7 @@
     <title>Final Expense Insurance: A Complete Guide to End-of-Life Coverage | Go Quote Rocket</title>
     <meta name="description" content="Final expense insurance helps cover end-of-life costs so your family isn't stuck with the bill. Here's everything you need to know about burial insurance.">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
