@@ -316,48 +316,36 @@ $funnelId = "Pet";
 
 
 
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="Guy Filling Put Form For Pet Insurance" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we’ll handle the rest to find the best insurance for your furry friend.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="Guy Filling Put Form For Pet Insurance" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>Fill out our secure, straightforward form in just 60 seconds. Your information is always protected, and we'll handle the rest to find the best insurance for your furry friend.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.webp" alt="Options For Pet Insurance" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Insurance</h3>
-
-                        <p>We’ll instantly search and present the best pet insurance plans that match your pet’s needs and your budget, ensuring you find the perfect coverage for their health and your peace of mind.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.webp" alt="Options For Pet Insurance" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Insurance</h3>
+                            <p>We'll instantly search and present the best pet insurance plans that match your pet's needs and your budget, ensuring you find the perfect coverage for their health and your peace of mind.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="Expert Pet Insurance Provider" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Experts Ready</h3>
-
-                        <p>Connect with a vetted, experienced pet insurance provider who will guide you through the process, giving you confidence that your pet is fully protected.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="Expert Pet Insurance Provider" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Experts Ready</h3>
+                            <p>Connect with a vetted, experienced pet insurance provider who will guide you through the process, giving you confidence that your pet is fully protected.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>

@@ -318,48 +318,36 @@ $funnelId = "Funeral";
 
 
 
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="Guy Using Go Quote Rocket on Computer for Funeral Cover" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>Complete our secure, straightforward form in just 60 seconds. Your information is always protected, and we’ll handle the rest to find the best funeral cover options for your needs.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="Guy Using Go Quote Rocket on Computer for Funeral Cover" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>Complete our secure, straightforward form in just 60 seconds. Your information is always protected, and we'll handle the rest to find the best funeral cover options for your needs.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.webp" alt="Options Available For Funeral Cover" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Cover Options</h3>
-
-                        <p>We’ll instantly search and present personalized funeral cover plans that fit your budget and unique requirements, ensuring you get the right coverage for your family’s peace of mind.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.webp" alt="Options Available For Funeral Cover" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Cover Options</h3>
+                            <p>We'll instantly search and present personalized funeral cover plans that fit your budget and unique requirements, ensuring you get the right coverage for your family's peace of mind.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="Trusted Funeral Cover Providers" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Providers Ready</h3>
-
-                        <p>Connect with vetted, experienced funeral cover providers who will guide you through the process, giving you confidence in your decision and financial security for your loved ones.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="Trusted Funeral Cover Providers" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Providers Ready</h3>
+                            <p>Connect with vetted, experienced funeral cover providers who will guide you through the process, giving you confidence in your decision and financial security for your loved ones.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>

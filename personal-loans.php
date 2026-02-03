@@ -314,48 +314,36 @@ $funnelId = "Loans";
 
 
 
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket for Personal Loans" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>We’ll instantly search and present the best personal loan offers that match your unique needs and budget, ensuring you find the perfect solution for your financial goals.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="Guy On Computer Using Go Quote Rocket for Personal Loans" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>We'll instantly search and present the best personal loan offers that match your unique needs and budget, ensuring you find the perfect solution for your financial goals.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.webp" alt="Personal Loan Options Available" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Loan Options</h3>
-
-                        <p>We’ll instantly search and present the best personal loan options that fit your personal needs and budget, ensuring you find the perfect match.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.webp" alt="Personal Loan Options Available" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Loan Options</h3>
+                            <p>We'll instantly search and present the best personal loan options that fit your personal needs and budget, ensuring you find the perfect match.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="Trusted Lending Partners" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Lending Partners</h3>
-
-                        <p>Connect with vetted, experienced lending partners who will guide you through the process, giving you peace of mind and confidence in your loan choice.</p>
-
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="Trusted Lending Partners" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Lending Partners</h3>
+                            <p>Connect with vetted, experienced lending partners who will guide you through the process, giving you peace of mind and confidence in your loan choice.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>

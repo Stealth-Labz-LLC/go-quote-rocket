@@ -401,6 +401,12 @@ ul.sec1-lst li p {
   margin-top: 30px;
 }
 
+.sec4 .btn-bx,
+.sec6 .btn-bx {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .comn-btn {
   width: 100%;
   background: #FF6100;

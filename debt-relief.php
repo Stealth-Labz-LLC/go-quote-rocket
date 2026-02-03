@@ -315,45 +315,36 @@ $funnelId = "Debt";
 
             <p class="comn_text">We understand that being in debt can feel overwhelming. That’s why Debt Rocket simplifies the path<br class="showDesk"> to financial freedom. In just a few steps, we’ll connect you with trusted debt counselors to help you<br class="showDesk"> regain control of your finances, stress-free.
             </p>
-            <div class="sec2_inr row g-3">
+            <div class="row g-3">
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img1.webp" alt="Guy Using Go Quote Rocket on Computer for Debt Relief" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>One Quick Form</h3>
-
-                        <p>Complete our secure and simple form in just 60 seconds. Your information is always protected, and we’ll take care of finding the best debt relief solutions for you.</p>
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img1.webp" alt="Guy Using Go Quote Rocket on Computer for Debt Relief" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>One Quick Form</h3>
+                            <p>Complete our secure and simple form in just 60 seconds. Your information is always protected, and we'll take care of finding the best debt relief solutions for you.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img2.webp" alt="Debt Relief And Consolidation Options" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Tailored Debt Relief Options</h3>
-
-                        <p>We’ll instantly assess your situation and present customized debt relief plans designed to fit your financial needs, helping you achieve long-term stability.</p>
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img2.webp" alt="Debt Relief And Consolidation Options" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Tailored Debt Relief Options</h3>
+                            <p>We'll instantly assess your situation and present customized debt relief plans designed to fit your financial needs, helping you achieve long-term stability.</p>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="sec2_inr_bx col-lg-4">
-
-                    <img src="images/inner-sec2-img3.webp" alt="Trust Debt Counselor" width="381" height="291">
-
-                    <div class="sec2_bx_content">
-
-                        <h3>Trusted Debt Counselors</h3>
-
-                        <p>Work with experienced, vetted professionals who will guide you through the debt relief process, giving you the confidence and support to rebuild your financial future.</p>
+                <div class="col-lg-4">
+                    <div class="sec2_inr_bx">
+                        <img src="images/inner-sec2-img3.webp" alt="Trust Debt Counselor" width="381" height="291">
+                        <div class="sec2_bx_content">
+                            <h3>Trusted Debt Counselors</h3>
+                            <p>Work with experienced, vetted professionals who will guide you through the debt relief process, giving you the confidence and support to rebuild your financial future.</p>
+                        </div>
                     </div>
-
                 </div>
 
             </div>
